@@ -34,19 +34,6 @@ socket.setdefaulttimeout(60) #1 minuto
 from multiprocessing import Lock, Process, Queue, current_process
 import multiprocessing
 
-#TODO
-#convert input.jpg -resize 800x600 -background black -compose Copy \ 
-#-gravity center -extent 800x600 -quality 92 output.jpg
-## -extent http://www.imagemagick.org/script/command-line-options.php
-#http://stackoverflow.com/questions/1787356/use-imagemagick-to-place-an-image-inside-a-larger-canvas
-##
-#http://stackoverflow.com/questions/8932247/imagemagick-reize-canvas-to-specifications-and-scale-image
-###
-#>>> http://stackoverflow.com/questions/1787356/use-imagemagick-to-place-an-image-inside-a-larger-canvas
-#>>> http://stackoverflow.com/a/2755225
-
-#good reference
-#http://www.imagemagick.org/script/command-line-processing.php?ImageMagick=1rnc6tt63po7h78brrfkh04b20#geometry
 
 def getTwitterAvatar(twitterUsername,size) :
 	timagelink = urllib.urlopen("https://api.twitter.com/1/users/profile_image?screen_name="+twitterUsername+"&size="+size) 
@@ -66,28 +53,6 @@ def getTwitterRealName(twitterUsername) :
 
 	return result
 
-#Threading maybe not necessary anymore since twitter api automaticly redirects the api to image url
-#def getTwitterCandidates(twitterUrl) :
-##	for tlink in allLinks:
-#	print tlink['href']
-#	tusername=re.sub(r'https?://(www\.)?twitter\.com/(\#\!/)?([A-Za-z0-9_-]+)/?.*',r'\3',tlink['href'])
-#	print tusername
-#	
-#	#if we don't have a explicit link to twitter profile but have a share we get it also ;) Ex: omelete.uol.com.br
-#	if tusername=="share":
-#		if tlink.get('data-via','')!='':
-#			tusername=tlink['data-via']
-#
-#	#TODO remove frequent diff keywords like ['jornal','site','revista','portal'] maybe reduce precision by doing that
-#	#TODO in urls permutate and remove to try to get the exact thing: blogs.ne10.uol = ne10.uol and blogs.ne10 or ne10 or uol ne10
-#	#TODO use facebook direct link an share/widget
-#	#TODO use twitter profile name to match also instead of just username
-#	#TODO maybe use twitter profile info link to give some confidence?  
-#	txtsimil=difflib.SequenceMatcher(lambda x: x in "-_ \t", getName(url), tusername).ratio()
-#	print txtsimil
-#	if (tusername!="share" and txtsimil>0.6):
-#		
-#	print
 
 facebookUsernameExcludeList = ['media','permalink.php','YOUR_USERNAME','photo.php','groups','sharer.php', 'notes']
 def facebookUsername(facebookPageUrl):
