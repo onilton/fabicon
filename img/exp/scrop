@@ -1,0 +1,24 @@
+#!/bin/bash
+maxsize=$(bash -c "`identify -format '[ %w -ge %h ] && echo %w || echo %h' $1`")
+
+width=$(bash -c "`identify -format 'echo %w ' $1`")
+height=$(bash -c "`identify -format 'echo %h' $1`")
+
+width1=`expr $width - 1`
+height1=`expr $height - 1`
+
+echo $width
+echo $height
+echo $width1
+echo $height1
+#echo $maxsize
+#echo "convert $1 -crop ${width1}x0+1+$height temp/right_$1"
+#echo "convert $1 -crop ${width1}x0+1+$height temp/right_$1"
+
+#convert $1 -crop ${width1}x0+1+$height\! temp/right_$1
+#convert $1 -crop 0x${width1}+$height+1\! temp/right_$1
+
+#right border
+convert $1 -crop 1x${height}+$width1+0\! temp/right_$1
+convert $1 -crop 1x${height}+0+0\! temp/left_$1
+
