@@ -536,7 +536,7 @@ def getFeeds(url, enableMetaTagSearch = True, seenUrls = [], deepLevel = 0, debu
 	print "ENDED getFeeds for",url
 	return feedUrls
 
-def getCandidateTags(url, debug=False) :
+def getCandidateTags(url, debug=False, staticHtml="") :
 	##reload(sys)
     	##sys.setdefaultencoding("utf-8")
 	#print "Download url..."
@@ -552,8 +552,15 @@ def getCandidateTags(url, debug=False) :
 	#if page.headers.get('content-encoding', '') == 'gzip':           
         #    htmlSource = gzip.GzipFile(fileobj=StringIO(htmlSource)).read()
 
+	if len(staticHtml)==0:
+		hops,page,htmlSource = getHopsAndSource(url)
 
-	hops,page,htmlSource = getHopsAndSource(url)
+		finalUrl=page.geturl()
+		print "FinalUrl:",finalUrl
+	else:
+		htmlSource = staticHtml
+		finalUrl=url
+		
 
 
 
@@ -565,8 +572,6 @@ def getCandidateTags(url, debug=False) :
 	soup = getSoupParser(htmlSource)
 	#soup = ICantBelieveItsBeautifulSoup(htmlSource)
 	
-	finalUrl=page.geturl()
-	print "FinalUrl:",finalUrl
 
 	
 	candidateTags = []
