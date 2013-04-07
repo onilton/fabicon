@@ -30,7 +30,7 @@ def fabicon_demo():
     for exampleUrl in exampleUrls:
 	    exampleSites.append({"url": exampleUrl, "urlencoded":urllib.quote(exampleUrl, ''), "name": fabicon.getName(exampleUrl) })
     urlencoded=urllib.quote(url, '')
-    output = template('skel', { "url" : url , "urlencoded" : urlencoded, "exampleSites" : exampleSites})
+    output = template('main', { "url" : url , "urlencoded" : urlencoded, "exampleSites" : exampleSites})
 
     return output
 
