@@ -12,7 +12,7 @@ os.chdir(os.path.dirname(__file__))
 #print "os.path",os.path.dirname(__file__)
 
 import bottle
-import todo
+import fabiconweb
 # ... build or import your bottle application here ...
 # Do NOT use bottle.run() with mod_wsgi
 application = bottle.default_app()

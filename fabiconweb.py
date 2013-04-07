@@ -18,7 +18,7 @@ def server_static(filepath):
 
 @route('/',method='GET', name='index')
 #@route('/todo')
-def todo_list():
+def fabicon_demo():
     url = request.GET.get('url', '').strip() 
 #    if url!="":
 #	re.
@@ -49,7 +49,7 @@ def todo_list():
     return output
 
 @route('/icons',method='GET', name="icons")
-def todo_list():
+def simple_request():
     url = request.GET.get('url', '').strip() 
     if url!="":
     #url="oiinter"
@@ -64,7 +64,7 @@ def todo_list():
 
 
 @route('/json',method='GET', name="json")
-def todo_list():
+def json_request():
     url = request.GET.get('url', '').strip() 
     if url!="":
     #url="oiinter"
@@ -83,7 +83,7 @@ def todo_list():
 
 
 @route('/feedsjson',method='GET', name="feedsjson")
-def todo_list():
+def feedjson_request():
     url = request.GET.get('url', '').strip() 
     if url!="":
 	    feedUrls=fabicon.getFeeds(url)
@@ -91,7 +91,7 @@ def todo_list():
     return output
 
 @route('/fbpagesjson',method='GET', name="fbpagesjson")
-def todo_list():
+def fbpagesjson_request():
     url = request.GET.get('url', '').strip() 
     if url!="":
     #url="oiinter"
