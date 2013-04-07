@@ -31,6 +31,8 @@ class TestKnownWebsites():
                      ("http://uol.com.br", "uol_com_br.txt",
     			[ genResEntry("image_src", "http://img.uol.com.br/image_src/uol.gif"),
     			  genResEntry("apple","http://h.imguol.com/icon-touch.png") ]),
+                     ("http://terra.com.br", "terra_com_br.txt",
+    			[ genResEntry("apple", "http://s1.trrsf.com.br/opera.jpg") ] ),
                      ("http://tudogostoso.uol.com.br", "tudogostoso_uol_com_br.txt",
     			[ genResEntry("facebook", "https://graph.facebook.com/tudogostoso/picture?type=normal"),
     			  genResEntry("facebook", "https://graph.facebook.com/tudogostoso/picture?width=150&height=150"),

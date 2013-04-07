@@ -1,0 +1,6181 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-br" xml:lang="pt-br">
+
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	
+	
+		
+		
+			<title>Terra - Notícias, esportes, coberturas ao vivo, diversão e estilo de vida</title>
+		
+	
+	
+	<meta name="description" content="Veja no Terra as últimas notícias e as melhores coberturas ao vivo do Brasil e do Mundo, Esportes, Diversão, Vida e Estilo, assista os melhores vídeos no TerraTV e ouça as melhores músicas no Sonora." />
+	<meta name="keywords" content="" />
+	
+		
+			<meta name="expires" content="never" />		
+		
+		
+			
+	<meta http-equiv="content-style-type" content="text/css" />
+
+	
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		
+			
+
+	
+	
+
+	<meta property="fb:admins" content="1640032884" /> 
+	<meta property="fb:app_id" content="319227784756907" /> 
+	<meta property="og:site_name" content="Terra" /> 
+		
+	<link rel="alternate" type="application/rss+xml" title="Terra - RSS - Home" href="/rss/Controller?channelid=20e07ef2795b2310VgnVCM3000009af154d0RCRD&ctName=atomo-noticia&lg=pt-br" />
+	<link rel="shortcut icon" type="image/x-icon" href="http://s1.trrsf.com.br/favicon.ico" />   	
+   	<link rel="apple-touch-icon" type="image/x-icon" href="http://s1.trrsf.com.br/opera.jpg" />
+   	
+   	 	
+	
+	<!-- STYLES // -->	
+	<link rel="stylesheet" type="text/css" media="screen" href="http://s1.trrsf.com.br/atm/3/core/_css/core.css" />
+	<link rel="stylesheet" type="text/css" media="print"  href="http://s1.trrsf.com.br/atm/3/core/_css/core-print.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="http://s1.trrsf.com.br/atm/3/core/apps/headerfooter/_css/styles.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="http://s2.trrsf.com.br/atm/3/core/apps/terratv/_css/skin-thumbs.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="http://s2.trrsf.com.br/atm/3/core/apps/sonora-radios/_css/skin-home.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="http://s1.trrsf.com.br/atm/3/core/apps/carousel/_css/skin-default.css" />			
+	<link rel="stylesheet" type="text/css" media="screen" href="http://s1.trrsf.com.br/atm/3/home/_css/context.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="http://s1.trrsf.com.br/transversais/qet/poll/themes/atm/_css/default.css" />
+
+	
+	
+	<link rel="stylesheet" type="text/css" href="http://s1.trrsf.com.br/atm/3/home/_css/viewport_tmp.css"/>
+	<!--// STYLES // -->
+    
+    
+	
+	
+	
+	
+		
+	
+	
+
+	<!-- METRICS //-->
+	<script type="text/javascript">
+		var tgmKey="br.homepage.home";
+		
+		var terra_info_channel = "br.portada.portada";
+var terra_info_channeldetail = "/";
+var terra_stats_idCrtfc = 300030;
+var terra_stats_uv_c="capa_n";
+var enableClick=true;
+		var terra_info_id= "home"; 
+		var terra_info_service  = "Pubv7";
+		var	terra_info_type  = "CAP";
+	</script><noscript><p>inclusão de arquivo javascript</p></noscript>
+	
+	
+	
+	
+		<script type="text/javascript" charset="UTF-8" src="http://s1.trrsf.com.br/metrics/js/br/capa.js"></script><noscript><p>inclusão de arquivo javascript</p></noscript>
+	
+	
+	
+	<!-- // METRICS //-->
+	<script type="text/javascript" charset="utf-8" src="http://s1.trrsf.com.br/atm/3/core/_js/jquery.js"></script><noscript><p>inclusão de arquivo javascript</p></noscript>	
+	<script type="text/javascript" charset="utf-8" src="http://s1.trrsf.com.br/atm/3/core/_js/core.modMan.js?20120725"></script><noscript><p>inclusão de arquivo javascript</p></noscript>
+	<script type="text/javascript" charset="utf-8" src="http://s1.trrsf.com.br/tagman/js/tagman.js"></script><noscript><p>inclusão de arquivo javascript</p></noscript>
+	<script type="text/javascript" charset="utf-8">modMan.tools.pubMan.load("default");</script><noscript><p>inclusão de arquivo javascript</p></noscript>
+	<script type="text/javascript" charset="utf-8" src="http://s1.trrsf.com.br/atm/3/core/_js/admanager.js"></script><noscript><p>inclusão de arquivo javascript</p></noscript>
+	<script type="text/javascript">
+		TrrAdManager.api.setPriorAd('top',5000);
+	</script><noscript><p>inclusão de arquivo javascript</p></noscript>
+	
+	
+
+
+	
+	
+</head>
+
+<body class="LNG_pt LNG_pt-BR RGN_BR" >
+	
+	
+	
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	<!-- ACCESSIBILITY //-->
+		
+
+<ul class="lst-accessibility">
+	<li><a href="#" accesskey="t">Ir ao topo da página</a></li>
+	<li><a href="#menu" accesskey="m">Ir ao menu</a></li>
+	<li><a href="#content" accesskey="c">Ir ao conteúdo</a></li>
+	<li><a href="#search" accesskey="s">Ir para busca</a></li>
+	<li><a href="#footer" accesskey="f">Ir para busca</a></li>
+</ul>
+
+	<!-- // ACCESSIBILITY //-->
+
+	<!-- SCTRUCTURE //-->
+	<div id="trr-ctn-general" class="trr-home">
+		
+
+		<!-- SSI TGM B1280 //-->
+		<script type="text/javascript"> 
+			if (document.body.clientWidth > 1155) {
+				document.body.className += ' tgm-1280';
+				document.write('<div id="tgm-button1280" class="ctn-tgm ctn-tgm-b1280"></div>');
+				document.write('<div id="tgm-bar1_1280" class="ctn-tgm ctn-tgm-b1280"></div>');
+				document.write('<div id="tgm-bar2_1280" class="ctn-tgm ctn-tgm-b1280"></div>');
+				TrrAdManager.api.create('bar1_1280','tgm-bar1_1280');
+				TrrAdManager.api.create('bar2_1280','tgm-bar2_1280');
+			}
+		</script><noscript><p>inclusão de arquivo javascript</p></noscript> 
+		<!-- // SSI TGM B1280 //-->
+	
+		<!-- HEADER //-->
+		<a name="menu"></a><a name="search"></a>		
+		<div id="mod-header" class="header-footer-loaded"><div class="ctn-adverising-bar"><h1 class="ttl-terra-home"><a href="http://www.terra.com.br/portal/">Terra</a></h1><div id="tgm-top" class="ctn-advertising ctn-advertising-home"><!-- --></div><div id="tgm-pagesponsor"><!-- --></div></div><div class="ctn-main-bar"><div class="ctn-date"><!-- --></div><div class="ctn-subscribe"><a href="http://acesso.terra.com.br/bandalarga/?ICID=BR_mi-banner_cp_acesso_acesso-botao-capa-cp-canais&utm_source=mi-banner_cp&utm_medium=mi-banner_cp_acesso_acesso-botao-capa-cp-canais&utm_campaign=acesso-botao-capa-cp-canais" target="_top" rel="" title="Subscribe">Subscribe</a></div><div class="ctn-search"><div class="lin-div-vertical"><!-- --></div><a name="search"><!-- --></a><form lang="atmors" target="_top" method="post" action="http://buscador.terra.com.br/default.aspx?source=Search"><fieldset><legend>Busca</legend><div class="ctn-search-ca"><span class="rdo-replace rdo-checked">Radio</span><input type="radio" checked="checked" class="chk-rdo-replace replaced" value="s" id="rdo-web-search" name="ca"/><label for="rdo-web-search">na Web</label><span class="rdo-replace">Radio</span><input type="radio" class="chk-rdo-replace replaced" value="l" id="rdo-terra-search" name="ca"/><label for="rdo-terra-search">no Terra</label></div><label for="fld-top-search">Busca</label><input type="text" class="fld-top-search" id="fld-top-search" value="Buscar" name="query"/><input type="submit" title="Buscar" id="btn-search" /></fieldset></form></div><div class="ctn-icons"><ul class="lst-icons"><li class="itm-ema"><span><a rel="140" target="_top" href="http://mail.terra.com.br" title="Email" >Email</a></span></li><li class="itm-hor"><span><a rel="141" target="_top" href="http://vidaeestilo.terra.com.br/horoscopo/" title="Hor&oacute;scopo" >Hor&oacute;scopo</a></span></li><li class="itm-wea"><span><a rel="142" target="_top" href="http://www.climatempo.com.br/" title="Tempo" >Tempo</a></span></li></ul></div><div class="ctn-services-links"><div class="ctn-services"><a target="_top" class="lnk-services" href="#">Assinaturas e servi?os</a></div></div></div><div class="ctn-navigation-bar"><div class="ctn-main-menu br BR"><div class="ctn-menu"><div class="ctn-first-menu"><ul><li class="bcr-not itm-layer"><span class="btn-menu"><a href="http://noticias.terra.com.br/"><span>Notícias</span><span class="spn-over">?</span></a></span></li><li class="bcr-eco itm-layer"><span class="btn-menu"><a href="http://economia.terra.com.br"><span>Economia</span><span class="spn-over">?</span></a></span></li><li class="bcr-esp itm-layer"><span class="btn-menu"><a href="http://esportes.terra.com.br/"><span>Esportes</span><span class="spn-over">?</span></a></span></li><li class="bcr-div itm-layer"><span class="btn-menu"><a href="http://diversao.terra.com.br/"><span>Diversão</span><span class="spn-over">?</span></a></span></li><li class="bcr-vida itm-layer"><span class="btn-menu"><a href="http://vidaeestilo.terra.com.br/"><span>Vida e Estilo</span><span class="spn-over">?</span></a></span></li><li class="bcr-trtv itm-layer"><span class="btn-menu"><a href="http://terratv.terra.com.br/"><span>Terra TV</span><span class="spn-over">?</span></a></span></li><li class="bcr-sutv itm-layer"><span class="btn-menu"><a href="http://sundaytv.terra.com.br/Web/"><span>Sunday Tv</span><span class="spn-over">?</span></a></span></li><li class="bcr-son itm-layer"><span class="btn-menu"><a href="http://sonora.terra.com.br/"><span>Sonora</span><span class="spn-over">?</span></a></span></li><li class="bcr-shop itm-layer"><span class="btn-menu"><a href="http://www.terraofertas.com.br/?id=id_pagina"><span>Ofertas</span><span class="spn-over">?</span></a></span></li><li class="bcr-vcre itm-layer"><span class="btn-menu"><a href="http://vcreporter.terra.com.br"><span>VC REPÓRTER</span><span class="spn-over">?</span></a></span></li></ul></div></div><div class="ctn-aidnavigation"><ul><li class="bcr-dia itm-layer"><span class="btn-menu"><a target="_top" href="#"><span>Dia-a-Dia</span><span class="spn-over">?</span></a></span></li><li class="bcr-chat itm-layer"><span class="btn-menu"><a target="_top" href="http://chat.terra.com.br/"><span>Chat</span><span class="spn-over">?</span></a></span></li><li class="bcr-vcr itm-layer"><span class="btn-menu"><a target="_top" href="http://vcreporter.terra.com.br"><span>VC Repórter</span><span class="spn-over">?</span></a></span></li></ul></div></div></div></div>
+		<!-- // HEADER //-->
+		
+		<script type="text/javascript">
+			var varPageLang = 'pt'; 
+var varPageCountry='BR'; 
+var jsonNavBar = 'http://s1.trrsf.com/navbar/js/json_1.js';
+		</script><noscript><p>inclusão de arquivo javascript</p></noscript>
+		
+		<script type="text/javascript">
+
+			if (typeof contextData == 'undefined') {
+			  var contextData = {};
+			}
+			
+			contextData.liveTicker = {
+				     idItemMenu: 'home'
+			};
+			
+			
+		</script><noscript><p>inclusão de arquivo javascript</p></noscript>
+					
+		<!-- BODY COMPOSITION //-->
+		
+		
+					
+		<div id="trr-ctn-content" class="clearfix">	
+			<!-- include TICKER -->
+                <div id="mod-580-live-ticker"></div>
+			<!-- // include TICKER -->
+			<div class="ctn-cols clearfix">					
+			<div class="ctn-zone clearfix" id="ctn-zone-viewport">
+			
+				
+			
+				
+				
+
+<!-- IMPORT - listContentComponent - IMPORT -->
+
+				<div class="ctn-zone" id="live-content-fn">
+					<div class="col-main bgr-col-2">						
+						
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+
+<!-- IMPORT - listLinks - IMPORT -->
+
+<div class="ctn-hotlinks">
+	<div class="ctn-bar">
+		<h2 class="ttl-ctn-hotlinks">
+			<strong>Destaques</strong>
+		</h2>
+		<ul>			
+			
+			
+								
+				<li  >				
+					<a href="http://esportes.terra.com.br/futebol/estaduais/">Estaduais</a>
+				</li>
+			
+								
+				<li  >				
+					<a href="http://noticias.terra.com.br/brasil/">Brasil</a>
+				</li>
+			
+								
+				<li  >				
+					<a href="http://esportes.terra.com.br/futebol/libertadores/">Libertadores</a>
+				</li>
+			
+								
+				<li  >				
+					<a href="http://noticias.terra.com.br/brasil/policia">Polícia</a>
+				</li>
+			
+								
+				<li  >				
+					<a href="http://www.terra.com.br/ao-vivo/">Programação ao vivo</a>
+				</li>
+			
+								
+				<li  >				
+					<a href="http://terramagazine.terra.com.br/">Terra Magazine</a>
+				</li>
+			
+				
+					
+								
+				<li class="last" >				
+					<a href="http://diversao.terra.com.br/tv/">TV</a>
+				</li>
+			
+		</ul>
+	</div>
+</div>
+
+	
+
+
+
+						
+						
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+	
+
+
+
+
+
+						
+						
+						
+
+
+
+
+<!-- IMPORT - listContentComponent - IMPORT -->
+
+	
+	
+	
+	
+		
+				
+				<div class="col-wide clearfix">			
+					
+											
+					
+					
+					
+
+
+<!-- IMPORT - listHeadlines - IMPORT -->
+
+
+
+
+	
+	
+	
+		
+			<div class="ctn-image single-line">
+				
+				
+					<a href="http://aovivoesportes.terra.com.br/vol/superliga/284-br/">						
+						<img src="http://p2.trrsf.com.br/image/get?src=http%3A%2F%2Fimages.terra.com%2F2013%2F04%2F07%2Fsheillabolamarcelopereira407.jpg&o=cf&w=407&h=305" height="305" width="407" title="Unilever e Sollys decidem, em São Paulo, o título da Superliga Feminina Foto: Marcelo Pereira / Terra" alt="Unilever e Sollys decidem, em São Paulo, o título da Superliga Feminina Foto: Marcelo Pereira / Terra" />
+						<span class="bgr"></span>
+						<span class="txt">
+								
+							<em class="minmin"><span>Minuto a Minuto</span></em>	
+												
+							Unilever e Sollys decidem final no tie-brake; siga														
+						</span>
+					</a>
+				
+			</div>
+			
+		<div class="lin-hor-dotted"><hr /></div>
+	
+	
+	
+	
+					
+	
+	
+	
+	
+		<!-- MOD 009 - EDITORIAL -->
+		
+			<strong class="kicker">
+				<a href="http://esportes.terra.com.br/">Esportes &gt;&gt;</a>
+			</strong>
+		
+		<h3 class="ttl-main clearfix">
+			<a href="http://esportes.terra.com.br/futebol/copa-das-confederacoes/investidor-da-fonte-nova-perde-bebida-na-copa-mas-quer-alcool-em-estaduais,1a04e89a54bdd310VgnCLD2000000ec6eb0aRCRD.html">
+				
+										
+				Investidor da Fonte Nova pede liberação da cerveja em estaduais
+				
+			</a>
+		</h3>		
+		
+			<p class="txt-claim">
+				Com publicidade da Copa das Confederações e da Copa 2014 garantida à concorrente, cervejaria nacional quer liberação de álcool no Estadual	
+			</p>
+		
+		
+	
+	
+	
+					
+	
+	
+	
+	
+	
+		
+	
+			
+								
+					<ul class="lst-headlines lst-bullet">				
+						<li>
+							<a href="http://esportes.terra.com.br/futebol/copa-das-confederacoes/cervejaria-que-investiu-na-fonte-nova-pretende-nomear-outras-arenas,c904e89a54bdd310VgnCLD2000000ec6eb0aRCRD.html">
+								
+														
+								Cervejaria que investiu na Fonte Nova pretende nomear outras arenas	
+								
+							</a>
+						</li>
+					</ul>									
+				
+				
+			
+					
+				
+	
+	
+					
+	
+	
+	
+	
+	
+		
+	
+			
+				
+				
+					<h4 class="ttl-single">
+						<a href="http://esportes.terra.com.br/futebol/internacional/liga-dos-campeoes/apos-gol-no-espanhol-kaka-nao-e-relacionado-para-pegar-galatasaray,5634e89a54bdd310VgnCLD2000000ec6eb0aRCRD.html">
+							
+							
+							Mourinho exclui Kaká de jogo decisivo do Real após meia marcar gol&nbsp;
+							
+						</a>
+					</h4>
+					
+				
+			
+					
+				
+	
+	
+					
+	
+	
+	
+	
+	
+		
+	
+			
+				
+				
+					<h4 class="ttl-single">
+						<a href="http://esportes.terra.com.br/santos/muricy-recebe-alta-de-hospital-e-segue-sob-acompanhamento-medico,3aebf4cc0afdd310VgnCLD2000009ccceb0aRCRD.html">
+							
+							
+							Muricy recebe alta de hospital e segue sob acompanhamento médico &nbsp;
+							
+						</a>
+					</h4>
+					
+				
+			
+					
+				
+	
+	
+					
+	
+
+				</div>
+			
+					
+				
+				
+			
+			
+		
+			
+			
+				<div class="col-skinny last">			
+				
+				
+				
+
+
+<!-- IMPORT - listHeadlines - IMPORT -->
+
+
+
+	
+		
+			
+				<div class="ctn-image">				
+					<a href="http://noticias.terra.com.br/brasil/politica/em-viagem-extraoficial-a-sp-dilma-comemora-aniversario-de-dona-marisa,d41d3263ff4ed310VgnVCM4000009bcceb0aRCRD.html">	
+						<img src="http://p2.trrsf.com.br/image/get?src=http%3A%2F%2Fimages.terra.com%2F2013%2F04%2F07%2Faniversariomarialeticiainstitulolula195.jpg&o=cf&w=195&h=146" height="146" width="195" title="Comemoração aconteceu em churrascaria da zona sul de São Paulo Foto: Ricardo Stuckert/Instituto Lula" alt="Comemoração aconteceu em churrascaria da zona sul de São Paulo Foto: Ricardo Stuckert/Instituto Lula" />		
+						<span class="bgr"></span>
+						<span class="txt">
+								
+								
+							
+								<strong>Brasil</strong>							
+												
+							Em viagem a SP, Dilma celebra aniversário de dona Marisa														
+						</span>
+					</a>
+				</div>
+			
+			
+		
+	
+	
+	
+	
+	
+	
+			
+		
+
+
+	
+	
+	
+
+					
+						
+							
+				
+					
+						<div class="lin-hor-dotted"><hr/></div>
+						
+							<strong class="kicker">
+								<a href="http://musica.terra.com.br/">Música &gt;&gt;</a>
+							</strong>	
+						
+						<h3 class="ttl-subtitle">
+							<a href="http://musica.terra.com.br/morre-o-musico-marku-ribas-que-lutava-contra-um-cancer,3c8d2c3f7c4ed310VgnVCM20000099cceb0aRCRD.html">
+								
+														
+								Morre o músico Marku Ribas, que lutava contra um câncer
+								
+							</a>
+						</h3>
+						
+					
+					
+				
+			
+		
+			
+	
+	
+	
+	
+			
+		
+
+
+	
+	
+	
+
+					
+						
+							
+				
+					
+						<div class="lin-hor-dotted"><hr/></div>
+						
+							<strong class="kicker">
+								<a href="http://noticias.terra.com.br/brasil/transito/">Trânsito &gt;&gt;</a>
+							</strong>	
+						
+						<h3 class="ttl-subtitle">
+							<a href="http://noticias.terra.com.br/brasil/transito/sp-acidente-deixa-quatro-mortos-na-presidente-dutra,eb85c9713c4ed310VgnVCM5000009ccceb0aRCRD.html">
+								
+														
+								SP: acidente deixa quatro mortos na rodovia Presidente Dutra
+								
+							</a>
+						</h3>
+						
+					
+					
+				
+			
+		
+			
+	
+	
+	
+	
+			
+		
+
+
+	
+	
+	
+
+					
+						
+							
+				
+					
+						<div class="lin-hor-dotted"><hr/></div>
+						
+							<strong class="kicker">
+								<a href="http://esportes.terra.com.br/">Esportes &gt;&gt;</a>
+							</strong>	
+						
+						<h3 class="ttl-subtitle">
+							<a href="http://esportes.terra.com.br/goias/atacante-do-goias-e-preso-por-desacato-apos-sofrer-acidente,2b0195799e4ed310VgnVCM5000009ccceb0aRCRD.html">
+								
+														
+								Atacante do Goiás é preso por desacato após sofrer acidente 
+								
+							</a>
+						</h3>
+						
+					
+					
+				
+			
+		
+			
+	
+	<ul class="ctn-metrics clearfix" id="2b0195799e4ed310VgnVCM5000009ccceb0aRCRD-1495e30dfa39a310VgnVCM20000099cceb0aRCRD"><li class="total"><a href="http://esportes.terra.com.br/goias/atacante-do-goias-e-preso-por-desacato-apos-sofrer-acidente,2b0195799e4ed310VgnVCM5000009ccceb0aRCRD.html#comments"><span>0</span> Comentários</a></li><li class="comment last"><a href="http://esportes.terra.com.br/goias/atacante-do-goias-e-preso-por-desacato-apos-sofrer-acidente,2b0195799e4ed310VgnVCM5000009ccceb0aRCRD.html#comments">Comentar</a></li></ul>
+	
+	
+			
+		
+
+
+	
+	
+	
+
+					
+						
+							
+				
+					
+					
+						<h4 class="ttl-single">
+							<a href="http://esportes.terra.com.br/futebol/internacional/italia/campeonato-italiano/milan-multa-balotelli-por-fumar-escondido-em-banheiro-de-trem,06291a24884ed310VgnVCM5000009ccceb0aRCRD.html">
+								
+								
+								Milan multa Balotelli por fumar escondido em banheiro de trem&nbsp;
+								
+							</a>
+						</h4>					
+					
+				
+			
+		
+			
+	
+	
+	
+	
+			
+		
+
+
+	
+	
+	
+
+					
+						
+							
+				
+					
+					
+						<h4 class="ttl-single">
+							<a href="http://esportes.terra.com.br/futebol/internacional/italia/campeonato-italiano/apos-jogo-torcedores-da-fiorentina-tentam-agredir-dirigente-do-milan,8235d2b834bdd310VgnCLD2000000dc6eb0aRCRD.html">
+								
+								
+								Torcedores da Fiorentina tentam agredir dirigente do Milan&nbsp;
+								
+							</a>
+						</h4>					
+					
+				
+			
+		
+			
+	
+	
+	
+	
+			
+		
+
+
+
+
+
+					
+				
+				
+			
+			
+				</div>									
+			
+	
+	
+
+						
+						<div class="lin-hor-dotted lin-hor-dotted-last"><hr /></div>
+					</div>
+				</div>
+					
+			</div>
+			
+			<!-- VIEWPORT BEHAVIOR CALLS // -->
+
+			
+			<script type="text/javascript" src="http://s1.trrsf.com.br/navbar/js/json_landing_1.js"></script><noscript><p>inclusão de arquivo javascript</p></noscript>
+			<script type="text/javascript" charset="utf-8" src="http://s1.trrsf.com.br/atm/3/home/_js/viewport-tmp.js"></script><noscript><p>inclusão de arquivo javascript</p></noscript>		
+			
+			<!-- // VIEWPORT BEHAVIOR CALLS -->
+
+			<div class="col-aside">
+
+				<div id="ctn-social" class="social" >
+					<span class="label">Siga Terra :</span>
+					<a href="http://twitter.com/TerraNoticiasBR" target="_blank" class="twitter">twitter</a>
+				</div>
+				
+				<div id="tgm-right" class="ctn-tgm ctn-tgm-right">
+					<script type="text/javascript">
+					    TrrAdManager.api.create('right','tgm-right');
+					</script><noscript><p>inclusão de arquivo javascript</p></noscript>
+				</div>
+				
+					<div id="tgm-right3"></div>
+					<script>
+					if (tgm.right3 === true) {
+					        var right3Container = document.getElementById('tgm-right3');
+					        right3Container.style.width = '300px';
+					        right3Container.style.height = '250px';
+					        right3Container.style.marginBottom = '20px';
+					        TrrAdManager.api.create({
+					          area : 'right3',
+					          placeholder : 'tgm-right3',
+					          format : 'right2'
+					        });
+					        setInterval(function () {
+					                TrrAdManager.api.reloadAd('tgm-right3');
+					        }, 180000);
+					}
+					</script><noscript><p>inclusão de arquivo javascript</p></noscript>
+				
+				<!-- MOD 010b - TERRA TV - SUNDAYTV//-->
+				
+					
+				 		<div id="mod-terratv" class="mod-terratv">
+							<h4><a href="http://terratv.terra.com.br"><span>Terra TV&amp;raquo;</span></a></h4>
+							<div class="spot"><a title="Clique para assistir no Terra TV" href="http://terratv.terra.com.br/Noticias/Istoe/4701-464654/Cidadao-duplo.htm"><img width="288" height="162" title="Clique para assistir no Terra TV" src="http://p2.trrsf.com.br/image/get?o=cf&amp;w=288&amp;h=162&amp;src=http://sdp.terra.com.br/Thumbox/free/cnt464654_h360_aNoChange_Cidadao-duplo_2013471009.jpg" alt="Márcio Garcia ganha respeito em Hollywood como produtor e diretor"><span class="play-video">&nbsp;</span><span class="footer"><em class="ico-hed ico-hed-video">V&iacute;deo:&nbsp;</em>Márcio Garcia ganha respeito em Hollywood como produtor e diretor</span></a></div><ul class="thumbs clearfix">
+<li class="active">
+<div class="ctn-image"><a title="Clique para assistir no Terra TV" href="http://terratv.terra.com.br/Noticias/Istoe/4701-464654/Cidadao-duplo.htm"><img width="89" height="50" title="Clique para assistir no Terra TV" src="http://p2.trrsf.com.br/image/get?o=cf&amp;w=89&amp;h=50&amp;src=http://sdp.terra.com.br/Thumbox/free/cnt464654_h360_aNoChange_Cidadao-duplo_2013471009.jpg" alt="Márcio Garcia ganha respeito em Hollywood como produtor e diretor"></a></div>
+<span class="arrow"></span>
+</li>
+<li>
+<div class="ctn-image"><a title="Clique para assistir no Terra TV" href="http://terratv.terra.com.br/Diversao/Celebridades/4936-464750/Luana-Piovani-se-exercita-com-o-marido-na-praia-veja.htm"><img width="89" height="50" title="Clique para assistir no Terra TV" src="http://p2.trrsf.com.br/image/get?o=cf&amp;w=89&amp;h=50&amp;src=http://sdp.terra.com.br/Thumbox/free/cnt464750_h360_aNoChange_Luana-Piovani-se-exercita-com-o-marido-na-praia-veja_20134712014.jpg" alt="Luana Piovani se exercita com o marido na praia"></a></div>
+<span class="arrow"></span>
+</li>
+<li class="last">
+<div class="ctn-image"><a title="Clique para assistir no Terra TV" href="http://terratv.terra.com.br/Noticias/Cultura-e-Entretenimento/5122-464671/Bruna-Marquezine-e-uma-atriz-fenomenal-diz-Vanessa-Gerbelli.htm"><img width="89" height="50" title="Clique para assistir no Terra TV" src="http://p2.trrsf.com.br/image/get?o=cf&amp;w=89&amp;h=50&amp;src=http://sdp.terra.com.br/Thumbox/free/cnt464671_h360_aNoChange_Bruna-Marquezine-e-uma-atriz-fenomenal-diz-Vanessa-Gerbelli_20134712014.jpg" alt="Vanessa Gerbelli elogia trabalho de Bruna Marquezine"></a></div>
+<span class="arrow"></span>
+</li>
+</ul>
+
+						</div>
+					
+										
+					
+										
+				<!-- // MOD 010b - TERRA TV - SUNDAYTV //-->
+				<div class="lin-hor-dotted"><hr /></div>
+				
+				
+				
+				<div id="tgm-ppi" class="ctn-tgm ctn-tgm-ppi"></div>
+				
+				
+				<!-- MOD 022 - POLL-->
+				
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+
+<script type="text/javascript" src="http://s1.trrsf.com.br/transversais/qet/poll/_js/trr_poll.js"></script><noscript><p>inclusão de arquivo javascript</p></noscript>
+
+<div class="lin-hor-dotted"><hr /></div>
+
+	
+	
+	
+		<div id="mod-022-poll" class="mod-poll">  
+      
+    <div class="mod-poll mod-poll-result hidden" id="mod-poll-result">  
+        <a class="close" href="#" id="mod-poll-result-close"></a>  
+        <h4 id="mod-poll-result-message-sucess">Obrigado pela sua participação</h4>  
+        <h4 id="mod-poll-result-message-error" class="error hidden">Você já votou nesta enquete</h4>  
+        <p id="mod-poll-result-title"></p>  
+        <ol type="A" id="mod-poll-choices">  
+        </ol>  
+        <div class="lin-hor-dotted"> </div>  
+        <dl>  
+            <dt>Total</dt>  
+            <dd><em id="mod-poll-result-total-votes"></em><span> votos</span></dd>  
+        </dl>  
+        <div id="mod-poll-result-related-links">  
+        </div>  
+        <div></div>  
+
+        <div id="mod-poll-result-choices-tpl" class="templates">  
+            <li><span class="question">{question}</span><span class="txt-bar"><em {pixelbar}> </em></span><span class="result-percent">{percent}%</span><em>{votes} <span> votos</span></em></li>  
+        </div>  
+        <div id="mod-poll-result-related-links-tpl" class="templates">  
+            <a href="{url}" class="lnk-more">{description} </a><br />  
+        </div>  
+        <div id="mod-poll-result-previous-poll" class="templates">  
+            <a class="previous-poll lnk-more" href="javascript:void(0);">Veja o resultado da enquete anterior </a>  
+        </div>  
+        <iframe class="ad-poll" id="mod-poll-result-ad" title="mod-poll-result-ad" frameborder="0" scrolling="no"> Sorry, your browser does not handle frames!<a href="http://www.terra.com.br/"> terra </a> </iframe> <noframes>Sorry, your browser does not handle frames!<a href="http://www.terra.com.br/"> terra </a></noframes> 
+    </div>  
+      
+    <div class="ctn-section">
+<h2 class="ttl-section">
+<span>Enquete</span>
+</h2>
+<div id="tgm-poll" class="ctn-tgm ctn-tgm-button-1"></div>
+</div>
+<form name="frm-poll" id="frm-poll" method="post" action="" target="this">
+<fieldset>
+<input name="poll-id" id="poll-id" type="hidden" value="2985"><input name="metric-id" id="metric-id" type="hidden" value="2928"><input name="allowMultipleVotes" id="allowMultipleVotes" type="hidden" value="N">
+<p>Prazo para entrega da declaração do Imposto de Renda termina no dia 30. Você já entregou a sua?</p>
+<ol>
+<li>
+<input type="radio" name="choice" id="rdo-poll-1" class="chk-rdo-replace" value="1"><label for="rdo-poll-1">Sim</label>
+</li>
+<li>
+<input type="radio" name="choice" id="rdo-poll-2" class="chk-rdo-replace" value="2"><label for="rdo-poll-2">Não</label>
+</li>
+</ol>
+<a href="javascript:void(0);" class="btn-general btn-vote-poll disable" title="" id="btn-vote-poll">Votar</a>
+</fieldset>
+</form>
+</div>
+
+	
+
+
+<script type="text/javascript">
+	var poll = new TrrPoll.PollInterface(); 	
+</script><noscript><p>inclusão de arquivo javascript</p></noscript>
+
+
+
+	
+
+
+
+				<!-- END MOD 022 - POLL-->
+				<!-- MOD 020C - MOBILE //-->
+				
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+
+
+<!-- IMPORT - listHeadlines - IMPORT -->
+
+
+	
+	
+
+		<div class="lin-hor-dotted  lin-spacer"></div>
+		<div class="mod-mobile mod-mobile-aside">	
+				
+					
+					<div class="ctn-section">
+						<h2 class="ttl-section ttl-mobile clearfix">				
+							<a href="http://celular.terra.com.br/noticias_sms_novo/capa.htm?ICID=Celular_SaibaMais">					
+								<span>Música</span>				
+							</a>								
+						</h2>
+					</div>		
+				
+					
+					<a href="http://celular.terra.com.br/noticias_sms_novo/capa.htm?ICID=Celular_SaibaMais" class="img">						
+						<img src="http://p2.trrsf.com.br/image/get?src=http%3A%2F%2Fimages.terra.com%2F2013%2F03%2F27%2Fcelularmusica.jpg&o=cf&w=74&h=117" height="117" width="74" title="Envie MUSICA para 83772 ou acesse o Terra no celular ou tablet para saber sobre artistas, bandas e shows Foto: Terra" alt="Envie MUSICA para 83772 ou acesse o Terra no celular ou tablet para saber sobre artistas, bandas e shows Foto: Terra" />
+					</a>
+				
+				<div class="txt">				
+					<h3>Música</h3>			
+					Envie MUSICA para 83772 ou acesse o Terra no celular ou tablet para saber sobre artistas, bandas e shows						
+				</div>
+				<a href="http://celular.terra.com.br/noticias_sms_novo/capa.htm?ICID=Celular_SaibaMais" class="btn-general btn-see-more">						
+					Saiba mais
+				</a>				
+						
+				
+		  		<p class="txt acess">Acesse do seu celular ou tablet: www.terra.com.br <strong>*Disponível para clientes Vivo
+</strong></p>  
+		  	  	
+		</div>
+
+	
+		
+
+
+
+
+	
+	
+
+	
+
+
+
+				<!-- // MOD 020C - MOBILE //-->
+				<div class="lin-hor-dotted"><hr /></div>
+				<!-- MOD 043_B - AUDIENCE PULSE //-->		
+				<div class="mod-audience-pulse-ver"><div class="ctn-section"><h3 class="ttl-section"><span>Mais vistos</span></h3><div id="tgm-audience-pulse-ver">&nbsp;</div></div><ul><li class="news clearfix"><a href="http://vidaeestilo.terra.com.br/homem/site-elege-as-50-mulheres-mais-sexy-do-mundo-veja-lista,bcc9d3d884ccd310VgnVCM5000009ccceb0aRCRD.html" ts.idz="mas_not_1" class="img"><img src="http://p2.trrsf.com.br/image/get?o=cf&amp;w=89&amp;h=67&amp;src=http://images.terra.com/2013/04/03/homemlistasexymontagem2div407.jpg" width="89" height="67" alt="Site elege as 50 mulheres mais sexy do mundo; veja lista"/><br/></a> <a href="http://vidaeestilo.terra.com.br/homem/site-elege-as-50-mulheres-mais-sexy-do-mundo-veja-lista,bcc9d3d884ccd310VgnVCM5000009ccceb0aRCRD.html" ts.idz="mas_not_1" class="txt"><span class="kicker">Notícia</span><br/><strong>Site elege as 50 mulheres mais sexy do mundo; veja lista</strong><br/><span class="counter"><big>2.472.679</big> visitas</span> </a> </li><li class="photos clearfix"><a href="http://diversao.terra.com.br/gente/fernanda-lima-rodrigo-hilbert-e-os-filhos-curtem-praia,05d475d2cf0ed310VgnVCM20000099cceb0aRCRD.html" ts.idz="mas_gal_1" class="img" onclick="if (window.validateGalleryLink) validateGalleryLink(event, this.href); else return false;"><img src="http://p2.trrsf.com.br/image/get?o=cf&amp;w=89&amp;h=67&amp;src=http://images.terra.com/2013/04/06/15-img1637.jpg" width="89" height="67" alt="Fernanda Lima, Rodrigo Hilbert e os filhos curtem praia"/><br/></a> <a href="http://diversao.terra.com.br/gente/fernanda-lima-rodrigo-hilbert-e-os-filhos-curtem-praia,05d475d2cf0ed310VgnVCM20000099cceb0aRCRD.html" ts.idz="mas_gal_1" onclick="if (window.validateGalleryLink) validateGalleryLink(event, this.href); else return false;" class="txt"><span class="kicker">Foto</span><br/><strong><em class="photo">Foto: </em>Fernanda Lima, Rodrigo Hilbert e os filhos curtem praia</strong><br/><span class="counter"><big>196.255</big> visitas</span> </a> </li><li class="videos clearfix"><a href="http://terratv.terra.com.br/esportes/futebol/4191-464755/aviao-com-jogadores-e-atingido-por-raios-assista.htm" ts.idz="mas_vid_1" class="img"><img src="http://p2.trrsf.com.br/image/get?o=cf&amp;w=89&amp;h=67&amp;src=http://sdp.terra.com.br/ThumBox/free/cnt464755_h90_w120_aviao-com-jogadores-e-atingido-por-raios-assista.jpg" width="89" height="67" alt="Avião com jogadores é atingido por raios; assista"/><span>&nbsp;</span><br/></a> <a href="http://terratv.terra.com.br/esportes/futebol/4191-464755/aviao-com-jogadores-e-atingido-por-raios-assista.htm" ts.idz="mas_vid_1" class="txt"><span class="kicker">Vídeo</span><br/><strong><em class="video">Vídeo: </em>Avião com jogadores é atingido por raios; assista</strong><br/><span class="counter"><big>48.986</big> visitas</span> </a> </li></ul></div>
+
+				<!-- // MOD 043_B - AUDIENCE PULSE //-->
+				
+				<div id="tgm-right-2" class="ctn-tgm ctn-tgm-right"></div>
+				
+				<div class="lin-hor-dotted"><hr /></div>
+				<!-- MOD Facebook Like-Box -->
+				<div class="ctn-fanpage"></div>
+				<!-- MOD Facebook Like-Box -->
+				
+				<div class="lin-hor-dotted"><hr /></div>
+				<!-- MOD 018_B - C2 - COMMUNITIES //-->
+	    		
+
+
+
+
+
+<div class="mod-community">
+<h2 class="ttl-section ttl-blogs clearfix"><a href="http://blog.terra.com.br"><span>Blogs</span></a></h2>
+<h3 class="clearfix"><a href="http://blog.terra.com.br">Crie o seu próprio blog. é grátis!</a></h3>
+<div class="box"><a href="http://leonardohorta.blog.terra.com.br"><strong>Novo site do Leo ! !! !!!<em> por leohorta</em></strong></a></div>
+<ul>
+<li>Veja também:</li>
+<li><a href="http://fotolog.terra.com.br">Fotologs</a></li>
+</ul>
+</div>
+ 
+					
+				<!-- // MOD 018_B - C2 - COMMUNITIES //-->
+				
+			
+			</div>
+			
+			<div class="col-main clearfix">					
+				
+				<!-- INCLUDE GEO-LOC //-->
+				
+				<!-- // INCLUDE GEO-LOC //-->
+				
+<!-- IMPORT - listContentComponent - IMPORT -->
+
+
+	
+	<div class="ctn-zone clearfix bgr-col-3 ctn-zone-live-content" id="feature_news_extented">
+		
+			
+				<div class="col-skinny">
+				
+				 <div class="ctn-tgm ctn-tgm-button-4" id="tgm-pbuttons1">
+				 <script type="text/javascript">TrrAdManager.api.create('pbuttons1','tgm-pbuttons1');</script><noscript><p>inclusão de arquivo javascript</p></noscript>
+				 </div>
+					
+				
+				
+				
+
+
+<!-- IMPORT - listHeadlines - IMPORT -->
+
+<!-- MOD 007 - CAPTIONED IMAGE -->
+
+			
+		<div class="ctn-image">
+				
+				<a href="http://diversao.terra.com.br/gente/xuxa-participa-de-passeata-por-direito-dos-autistas-no-rio,d57e17fe205ed310VgnVCM20000099cceb0aRCRD.html">
+								
+							
+					<img src="http://p2.trrsf.com.br/image/get?src=http%3A%2F%2Fimages.terra.com%2F2013%2F04%2F07%2Fxuxa-passeata-agnews-195.jpg&o=cf&w=195&h=146" height="146" width="195" title="A apresentadora Xuxa esteve na passeata Mundo Azul, que aconteceu neste domingo (7), no Leblon, Rio de Janeiro Foto: AgNews" alt="A apresentadora Xuxa esteve na passeata Mundo Azul, que aconteceu neste domingo (7), no Leblon, Rio de Janeiro Foto: AgNews" />		
+					<span class="bgr"></span>
+					<span class="txt">
+						<em class="photo"><span>photo</span></em>	
+							
+						
+							<strong>RJ</strong>							
+											
+						Xuxa participa de passeata por direito dos autistas; veja fotos														
+					</span>
+				</a>		
+			
+		</div>
+		
+		
+		
+
+<!-- END MOD 007 - CAPTIONED IMAGE -->
+
+
+
+				</div>			
+			
+					
+				
+									
+			
+				
+			
+					
+														
+		
+			
+					
+			
+				<div class="col-skinny">										
+				
+				
+				
+
+
+<!-- IMPORT - listHeadlines - IMPORT -->
+
+
+
+
+	
+<!-- MOD 123 - EDITORIAL // -->
+
+	
+
+			
+				<strong class="kicker">
+					<a href="http://noticias.terra.com.br/">Notícias &gt;&gt;</a>
+				</strong>	
+			
+			<h3 class="ttl-subtitle">
+				<a href="http://noticias.terra.com.br/brasil/politica/aliado-do-pt-partido-de-feliciano-tera-candidato-proprio-ao-planalto-em-2014,5d219f115ebdd310VgnVCM3000009acceb0aRCRD.html">
+					
+											
+					Aliado do PT, partido de Feliciano terá candidato próprio ao Planalto
+					
+				</a>
+			</h3>
+			
+			
+	
+	
+	
+	
+					
+	
+	
+
+	
+	
+
+		
+			
+			
+				<h4 class="ttl-single">
+					<a href="http://noticias.terra.com.br/brasil/politica/eleitores-de-16-municipios-escolhem-hoje-seus-prefeitos,1524e89a54bdd310VgnCLD2000000ec6eb0aRCRD.html">
+						
+						
+						Eleitores de 16 municípios escolhem hoje seus prefeitos&nbsp;
+						
+					</a>
+				</h4>
+				
+			
+		
+			
+	
+	
+	
+					
+	
+	
+
+	
+	
+
+		
+			
+			
+				<h4 class="ttl-single">
+					<a href="http://noticias.terra.com.br/mundo/america-latina/mujica-diz-que-nestor-kirchner-era-dificil-em-entrevista,59c4d2b834bdd310VgnCLD2000000dc6eb0aRCRD.html">
+						
+						
+						Em entrevista, Mujica diz que Néstor Kirchner era "difícil"&nbsp;
+						
+					</a>
+				</h4>
+				
+			
+		
+			
+	
+	
+	
+					
+	
+	
+
+	
+	
+
+		
+			
+			
+				<h4 class="ttl-single">
+					<a href="http://noticias.terra.com.br/mundo/oriente-medio/eua-se-diz-aberto-a-negociar-com-o-ira-mas-dialogo-nao-e-para-sempre,e0f4d2b834bdd310VgnCLD2000000dc6eb0aRCRD.html">
+						
+						
+						EUA quer negociar com Irã, mas avisa: 'diálogo não é para sempre'&nbsp;
+						
+					</a>
+				</h4>
+				
+			
+		
+			
+	
+	
+	
+					
+	
+	
+
+	
+	
+
+		
+			
+			
+				<h4 class="ttl-single">
+					<a href="http://noticias.terra.com.br/mundo/asia/japao-ativara-em-breve-protocolo-antimisseis-perante-ameaca-norte-coreana,9ca2e89a54bdd310VgnCLD2000000ec6eb0aRCRD.html">
+						
+						
+						Perante ameaça norte-coreana, Japão ativará protocolo antimísseis &nbsp;
+						
+					</a>
+				</h4>
+				
+			
+		
+			
+	
+	
+	
+					
+	
+	
+
+
+				</div>
+				
+									
+			
+				
+			
+					
+														
+		
+			
+					
+				
+									
+							
+				<div class="col-skinny last">
+								
+				<div class="ctn-tgm ctn-tgm-button-5" id="tgm-pbuttons2">
+				<script type="text/javascript">TrrAdManager.api.create('pbuttons2','tgm-pbuttons2');</script><noscript><p>inclusão de arquivo javascript</p></noscript>
+				</div>
+				
+				
+				
+				
+
+
+<!-- IMPORT - listHeadlines - IMPORT -->
+
+
+
+
+	
+<!-- MOD 123 - EDITORIAL // -->
+
+	
+
+			
+				<strong class="kicker">
+					<a href="http://esportes.terra.com.br/">Esportes &gt;&gt;</a>
+				</strong>	
+			
+			<h3 class="ttl-subtitle">
+				<a href="http://esportes.terra.com.br/futebol/internacional/inglaterra/campeonato-ingles/jornal-aponta-suarez-e-coutinho-como-batman-e-robin-do-liverpool,c53f6b84fa4ed310VgnVCM5000009ccceb0aRCRD.html">
+					
+											
+					Jornal aponta Suárez e ex-vascaíno como 'Batman e Robin' do Liverpool 
+					
+				</a>
+			</h3>
+			
+			
+	
+	
+	
+	
+					
+	
+	
+
+	
+	
+
+		
+			
+			
+				<h4 class="ttl-single">
+					<a href="http://esportes.terra.com.br/corinthians/pedido-de-perdao-pode-ajudar-adolescente-e-corintianos-presos,f2ff8d617f3ed310VgnVCM5000009ccceb0aRCRD.html">
+						
+						
+						Pedido de perdão pode ajudar adolescente e corintianos presos&nbsp;
+						
+					</a>
+				</h4>
+				
+			
+		
+			
+	
+	
+	
+					
+	
+	
+
+	
+	
+
+		
+			
+			
+				<h4 class="ttl-single">
+					<a href="http://esportes.terra.com.br/atletico-go/fa-de-fred-r-jesus-supera-problemas-e-celebra-boa-fase-no-atletico-go,de6d2ba0bb0ed310VgnVCM20000099cceb0aRCRD.html">
+						
+						
+						Fã de Fred, artilheiro de GO curte boa fase após problema na Rússia&nbsp;
+						
+					</a>
+				</h4>
+				
+			
+		
+			
+	
+	
+	
+					
+	
+	
+
+
+			
+				
+			
+					
+						
+				</div>
+				
+														
+			
+	</div>
+	
+	<div class="lin-hor-dotted"><hr /></div>
+
+
+
+
+
+<!--  area_feature_news_extended_home.jsp - Sun Apr 07 15:27:20 UTC 2013 -->
+
+				
+
+<!-- IMPORT - listContentComponent - IMPORT -->
+
+
+	<div class="ctn-zone clearfix">
+	
+	
+	
+		
+			
+			
+			
+
+<!-- IMPORT - listLinks - IMPORT -->
+
+<div class="mod-215b-video ctn-zone clearfix bgr-col-4 ">
+					
+	<div class="col-normal"><div class="ctn-captioned-image ctn-highlight bgr-lightgray clearfix">
+<a class="img" href="http://terratv.terra.com.br/Noticias/Brasil/4194-464767/Bope-simula-captura-de-terrorista-no-Corcovado-veja-como-foi.htm"><img height="162" width="290" src="http://p1.trrsf.com.br/image/fget/cf/290/162/sdp.terra.com.br/Thumbox/free/cnt464767_h360_aNoChange_Bope-simula-captura-de-terrorista-no-Corcovado-veja-como-foi_20134712014.jpg" title="Clique para assistir no Terra TV" alt="Bope simula captura de terrorista no Corcovado; veja como foi"><span class="play-video"></span></a> <a class="txt" href="http://terratv.terra.com.br/Noticias/Brasil/4194-464767/Bope-simula-captura-de-terrorista-no-Corcovado-veja-como-foi.htm"><em class="ico-hed ico-hed-video">V&iacute;deo&nbsp;</em><strong>Bope simula captura de terrorista no Corcovado; veja como foi</strong></a>
+</div></div>
+	
+
+	<div class="col-normal last">
+		<div class="ctn-captioned-image clearfix">
+<a class="img" href="http://terratv.terra.com.br/Noticias/Brasil/4194-464767/Bope-simula-captura-de-terrorista-no-Corcovado-veja-como-foi.htm" rel="331"><img width="89" height="50" src="http://p1.trrsf.com.br/image/fget/cf/89/50/sdp.terra.com.br/Thumbox/free/cnt464767_h360_aNoChange_Bope-simula-captura-de-terrorista-no-Corcovado-veja-como-foi_20134712014.jpg" title="Clique para assistir no Terra TV" alt="Bope simula captura de terrorista no Corcovado; veja como foi"><span class="ico-hed ico-hed-play"></span></a> <a href="http://terratv.terra.com.br/Noticias/Brasil/4194-464767/Bope-simula-captura-de-terrorista-no-Corcovado-veja-como-foi.htm" rel="331"><em class="ico-hed ico-hed-video">V&iacute;deo&nbsp;</em><strong>Bope simula captura de terrorista no Corcovado; veja como foi</strong></a>
+</div><div class="ctn-captioned-image clearfix">
+<a class="img" href="http://terratv.terra.com.br/Noticias/Brasil/4194-464198/Reacao-de-pai-a-assalto-termina-em-tragedia-em-Sao-Paulo.htm" rel="332"><img width="89" height="50" src="http://p1.trrsf.com.br/image/fget/cf/89/50/sdp.terra.com.br/Thumbox/free/cnt464198_h360_aNoChange_Reacao-de-pai-a-assalto-termina-em-tragedia-em-Sao-Paulo_20134712013.jpg" title="Clique para assistir no Terra TV" alt="Você viu? Pai atropela bandidos e filho é assassinado"><span class="ico-hed ico-hed-play"></span></a> <a href="http://terratv.terra.com.br/Noticias/Brasil/4194-464198/Reacao-de-pai-a-assalto-termina-em-tragedia-em-Sao-Paulo.htm" rel="332"><em class="ico-hed ico-hed-video">V&iacute;deo&nbsp;</em><strong>Você viu? Pai atropela bandidos e filho é assassinado</strong></a>
+</div><div class="ctn-captioned-image clearfix">
+<a class="img" href="http://terratv.terra.com.br/Esportes/Destaques-Esportes/4403-463849/Veja-pior-cobranca-de-falta-ensaiada-da-historia.htm" rel="333"><img width="89" height="50" src="http://p1.trrsf.com.br/image/fget/cf/89/50/sdp.terra.com.br/Thumbox/free/cnt463849_h360_aNoChange_Veja-pior-cobranca-de-falta-ensaiada-da-historia_20134712013.jpg" title="Clique para assistir no Terra TV" alt="Você viu? Veja pior cobrança de falta ensaiada da história"><span class="ico-hed ico-hed-play"></span></a> <a href="http://terratv.terra.com.br/Esportes/Destaques-Esportes/4403-463849/Veja-pior-cobranca-de-falta-ensaiada-da-historia.htm" rel="333"><em class="ico-hed ico-hed-video">V&iacute;deo&nbsp;</em><strong>Você viu? Veja pior cobrança de falta ensaiada da história</strong></a>
+</div>
+
+				
+		<ul class="ctn-more">
+			<li class="first">Mais vídeos:</li>
+			
+						
+				
+				<li class="more ">
+				<a href="http://terratv.terra.com.br/videos/Especiais/Hits-da-Web/4184/Hits-da-Web.htm">hits da web</a>
+				</li>
+						
+				
+				<li class="more ">
+				<a href="http://terratv.terra.com.br/videos/Esportes/Futebol/4191/Futebol.htm">futebol</a>
+				</li>
+						
+				
+									
+				
+				<li class="more last">
+				<a href="http://terratv.terra.com.br/videos/Esportes/5110/UFC.htm">ufc</a>
+				</li>
+					
+		</ul>
+	</div>
+</div>
+		
+		
+		
+		
+	</div>
+	<div class="lin-hor-dotted"><hr /></div>	
+							
+	
+				
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+
+<!-- IMPORT - listHeadlines - IMPORT -->
+
+
+
+	
+		
+		
+			
+
+<!-- IMPORT - listContentComponent - IMPORT -->
+
+
+
+
+	
+	
+	
+	
+	
+	<div class="ctn-zone clearfix bgr-col-3 ctn-zone-live-content" id="landing_sports">
+		
+					
+			
+				<div class="ctn-section clearfix">				
+				
+				
+				
+
+<!-- IMPORT - listLinks - IMPORT -->
+
+
+	
+	
+		
+			<h2 class="ttl-section ttl-dynamic-carrot">
+			
+			
+                <a href="http://esportes.terra.com.br/">
+                   <span style="background-image: url(http://p1.trrsf.com.br/image/klavika?e=u&c=shc&ca=t&t=Esportes);">Esportes&nbsp;&gt;</span>
+               </a>
+             
+             
+             
+			</h2>			
+		
+		
+	
+	
+
+			
+			
+					
+				
+					
+							
+			
+			
+						
+				
+				
+				
+										
+					
+			
+				
+			
+								
+							
+		
+					
+			
+					
+													
+				
+				
+				
+
+<!-- IMPORT - listLinks - IMPORT -->
+
+<div class="ctn-links">
+	<div class="ctn-bar">
+		<ul>						
+			
+			
+								
+				<li  >				
+					<a href="http://esportes.terra.com.br/basquete">Basquete</a>
+				</li>
+			
+								
+				<li  >				
+					<a href="http://esportes.terra.com.br/automobilismo/formula1">Fórmula 1</a>
+				</li>
+			
+								
+				<li  >				
+					<a href="http://esportes.terra.com.br/futebol/">Futebol</a>
+				</li>
+			
+								
+				<li  >				
+					<a href="http://esportes.terra.com.br/lutas/">Lutas</a>
+				</li>
+			
+								
+				<li  >				
+					<a href="http://esportes.terra.com.br/volei">Super Liga de Vôlei</a>
+				</li>
+			
+				
+					
+								
+				<li class="last" >				
+					<a href="http://esportes.terra.com.br/tenis/">Tênis</a>
+				</li>
+			
+		</ul>
+	</div>
+</div>
+
+				</div>
+				
+					
+							
+			
+			
+						
+				
+				
+				
+										
+					
+			
+				
+			
+								
+							
+		
+					
+			
+					
+				
+					
+							
+			
+			
+						
+				
+				
+							
+				
+					
+								
+						
+						
+						
+
+
+<!-- IMPORT - listHeadlines - IMPORT -->
+
+
+
+
+	
+	
+	
+	
+		
+			<!-- MOD 007 - EDITORIAL -->
+			<div class="col-skinny">
+				<div class="ctn-image">
+					<a href="http://terratv.terra.com.br/Esportes/Futebol/4191-464755/Aviao-com-jogadores-e-atingido-por-raios-assista.htm">	
+						<span class="img">					
+							<img src="http://p2.trrsf.com.br/image/get?src=http%3A%2F%2Fimages.terra.com%2F2013%2F04%2F07%2Faviaoraio407.jpg&o=cf&w=195&h=146" height="146" width="195" title="Aeronave que transportava o time do Málaga, da Espanha, teve que abortar aterrissagem por causa da forte chuva no aeroporto de Bilbao Foto: Reprodução" alt="Aeronave que transportava o time do Málaga, da Espanha, teve que abortar aterrissagem por causa da forte chuva no aeroporto de Bilbao Foto: Reprodução" />
+						</span>						
+						
+						<span class="bgr"></span>
+						<span class="txt">
+							<em class="video"><span>video</span></em>
+							
+							
+								<strong>Espanha</strong>							
+												
+							Avião com time do Málaga é atingido por raios; veja
+																				
+						</span>
+					</a>
+				</div>
+				
+				
+			</div>
+		
+		
+	
+	
+	
+					
+	
+	
+	
+	
+		
+		
+		<div class="col-skinny">
+		<!-- MOD 009 - EDITORIAL -->
+		
+			<h3 class="ttl-subtitle">
+				<a href="http://esportes.terra.com.br/automobilismo/formula1/apos-pegadinha-mulher-de-ex-piloto-lanca-livro-baseado-nos-bastidores-da-f1,f6e691f112dcd310VgnVCM3000009acceb0aRCRD.html">
+					
+											
+					Após "pegadinha", mulher de ex-piloto lança livro baseado em bastidor da F1
+					
+				</a>
+			</h3>
+			<p class="txt-claim"></p>
+			
+	
+	
+	
+					
+	
+	
+	
+	
+		
+	
+	
+		
+	
+			
+				
+				
+					<h4 class="ttl-single">
+						<a href="http://esportes.terra.com.br/flamengo/carlos-eduardo-sente-lesao-em-dez-minutos-e-segue-martirio-no-fla,7744d2b834bdd310VgnCLD2000000dc6eb0aRCRD.html">
+							<em class="photo"><span>photo</span></em>
+							
+							C. Eduardo sente lesão em dez minutos e segue "martírio" no Fla&nbsp;
+							
+						</a>
+					</h4>
+					
+				
+			
+					
+				
+	
+	
+					
+	
+	
+	
+	
+		
+	
+	
+		
+	
+			
+				
+				
+					<h4 class="ttl-single">
+						<a href="http://esportes.terra.com.br/futebol/internacional/partidas-futebol-europeu,a14291ed8c0b9310VgnVCM4000009bcceb0aRCRD.html?vgnextfmt=fmtSg2">
+							
+							<em class="ico-hed ico-hed-now"><span>now</span></em>
+							Siga Chelsea x Sunderland e mais partidas&nbsp;
+							
+						</a>
+					</h4>
+					
+				
+			
+					
+				
+	
+	
+					
+	
+	
+	
+	
+		
+	
+	
+		
+	
+			
+				
+				
+					<h4 class="ttl-single">
+						<a href="http://esportes.terra.com.br/futebol/libertadores/membro-da-conmebol-condena-violencia-argentina-em-mg-tem-que-acabar,ee73e89a54bdd310VgnCLD2000000ec6eb0aRCRD.html">
+							
+							
+							Membro da Conmebol condena violência argentina em MG&nbsp;
+							
+						</a>
+					</h4>
+					
+				
+			
+					
+				
+	
+	
+					
+	
+	
+	
+		<!-- END MOD 009 - EDITORIAL -->
+		</div>
+		<!-- END MOD 007 - EDITORIAL -->
+	
+
+	
+					
+					
+				
+										
+					
+			
+				
+			
+								
+							
+		
+					
+			
+					
+				
+					
+							
+			
+			
+						
+				
+				
+				
+										
+							
+				
+					
+						
+						<div class="ctn-news col-skinny last">		
+							
+							
+							
+
+ 	
+<!-- IMPORT - listHeadlines - IMPORT -->
+
+<!-- COMPONENTE 53 //-->
+
+	
+	
+		<div class="ctn-captioned-image clearfix">
+			
+				<a href="http://esportes.terra.com.br/sao-paulo/rivais-ironizam-frango-de-ceni-e-drama-do-sao-paulo-veja-memes,c3416b6772add310VgnVCM20000099cceb0aRCRD.html" class="img">
+										
+					<img src="http://p2.trrsf.com.br/image/get?src=http%3A%2F%2Fimages.terra.com%2F2013%2F04%2F05%2Fmemecenicocoricofacebool.jpg&o=cf&w=89&h=67" height="67" width="89" title=" Foto: Facebook / Reprodução" alt=" Foto: Facebook / Reprodução" />			
+				</a>	
+				<a href="http://esportes.terra.com.br/sao-paulo/rivais-ironizam-frango-de-ceni-e-drama-do-sao-paulo-veja-memes,c3416b6772add310VgnVCM20000099cceb0aRCRD.html">	
+					<span class="txt">									
+						<strong>
+							<em class="photo"><span>photo</span></em>
+							
+							Você viu? Rivais ironizam "frango" de Ceni e drama do São Paulo&nbsp;
+								
+						</strong>
+					</span>		
+				</a>
+																									
+		</div>
+		<div class="lin-hor-dotted"></div>				
+	
+					
+	
+	
+	
+		
+		
+				
+
+	
+	
+					
+	
+		<h4 class="ttl-single">
+			<a href="http://esportes.terra.com.br/futebol/estaduais/campeonato-gaucho/gremio-x-ceramica,4fe1b6adf12ed310VgnVCM4000009bcceb0aRCRD.html">
+				<em class="photo"><span>photo</span></em>
+										
+				Grêmio vence Cerâmica, se classifica e dorme na liderança	
+				
+			</a>
+		</h4>
+		
+	
+	
+	
+		
+	
+		
+
+
+
+	
+	
+		
+			
+			
+			
+			
+			
+		
+			
+			
+		
+		
+		
+			<div class="ctn-tgm ctn-tgm-button-1" id="tgm-sbuttonsports"></div>
+		
+				
+	
+	
+	
+	
+
+		
+				
+
+<!-- COMPONENTE 53 //-->
+						</div>	
+					
+					
+					
+			
+				
+			
+								
+							
+		
+					
+			
+					
+				
+					
+							
+			
+			
+						
+				
+				
+				
+										
+					
+			
+			
+				
+					
+						</div>
+						
+						
+						
+
+
+<!-- IMPORT - listHeadlines - IMPORT -->
+
+<div class="ctn-zone clearfix bgr-col-3 mod-553-videos">
+<div class="ctn-section"><span class="ttl-section">Videos</span></div>
+<div class="col-skinny"><div class="ctn-captioned-image clearfix">
+<a class="img" href="http://terratv.terra.com.br/Esportes/Futebol/Times/Corinthians/5161-464681/Tite-entra-em-choque-ao-relembrar-Tolima-veja.htm"><img width="89" height="50" title="Clique para assistir no Terra TV" src="http://p1.trrsf.com.br/image/fget/cf/89/50/sdp.terra.com.br/Thumbox/freew/cnt464681_h90_aNoChange_Tite-entra-em-choque-ao-relembrar-Tolima-veja_201347153114.jpg" alt='Tite entra em "choque" ao relembrar Tolima; veja'><span class="ico-hed ico-hed-play"></span></a> <a class="txt" href="http://terratv.terra.com.br/Esportes/Futebol/Times/Corinthians/5161-464681/Tite-entra-em-choque-ao-relembrar-Tolima-veja.htm"><em class="ico-hed ico-hed-video">Video&nbsp;</em><strong>Tite entra em "choque" ao relembrar Tolima; assista</strong></a>
+</div></div>
+<div class="col-skinny"><div class="ctn-captioned-image clearfix">
+<a class="img" href="http://terratv.terra.com.br/Esportes/Futebol/Estaduais/Paulista/Paulista-A2/4343-464771/Veja-gols-da-virada-da-Portuguesa-sobre-Catanduvense.htm"><img width="89" height="50" title="Clique para assistir no Terra TV" src="http://p1.trrsf.com.br/image/fget/cf/89/50/sdp.terra.com.br/Thumbox/freew/cnt464771_h90_aNoChange_Veja-gols-da-virada-da-Portuguesa-sobre-Catanduvense_201347153114.jpg" alt="Veja gols da virada da Portuguesa sobre Catanduvense"><span class="ico-hed ico-hed-play"></span></a> <a class="txt" href="http://terratv.terra.com.br/Esportes/Futebol/Estaduais/Paulista/Paulista-A2/4343-464771/Veja-gols-da-virada-da-Portuguesa-sobre-Catanduvense.htm"><em class="ico-hed ico-hed-video">Video&nbsp;</em><strong>Portuguesa vence de virada com gol de argentino; veja</strong></a>
+</div></div>
+<div class="ctn-news col-skinny last"><div class="ctn-captioned-image clearfix">
+<a class="img" href="http://terratv.terra.com.br/Esportes/Futebol/Estaduais/Mineiro/4340-463847/Juiz-foge-de-jogadores-e-faz-o-inesperado-em-jogo-do-Cruzeiro.htm"><img width="89" height="50" title="Clique para assistir no Terra TV" src="http://p1.trrsf.com.br/image/fget/cf/89/50/sdp.terra.com.br/Thumbox/freew/cnt463847_h90_aNoChange_Juiz-foge-de-jogadores-e-faz-o-inesperado-em-jogo-do-Cruzeiro_201347153114.jpg" alt="Juiz foge de jogadores e faz o inesperado em jogo do Cruzeiro"><span class="ico-hed ico-hed-play"></span></a> <a class="txt" href="http://terratv.terra.com.br/Esportes/Futebol/Estaduais/Mineiro/4340-463847/Juiz-foge-de-jogadores-e-faz-o-inesperado-em-jogo-do-Cruzeiro.htm"><em class="ico-hed ico-hed-video">Video&nbsp;</em><strong>Você viu? Juiz foge de jogadores e faz o inesperado</strong></a>
+</div></div>
+</div>
+
+					
+					
+												
+				
+			
+								
+							
+		
+
+
+
+	
+	
+	
+
+	
+
+	
+	
+	
+
+	
+
+	
+	
+	
+
+	
+
+	
+	
+	
+
+	
+
+	
+	
+	
+
+	
+
+	
+	
+	
+
+	
+		
+		
+		
+
+
+
+
+
+	<!-- MOD SPORTSCLUBSGUIDE // -->
+	<script type="text/javascript">
+		var contextData = contextData || {};
+		contextData.apps = contextData.apps || {};
+		
+	</script><noscript><p>inclusão de arquivo javascript</p></noscript>
+	<!-- // MOD SPORTSCLUBSGUIDE // -->
+	
+	﻿<div class="mod-064c-soccer-guide reset-bg-white clearfix" id="mod-064c-soccer-guide">
+	<span style="background-image: url(&quot;http://p1.trrsf.com.br/image/klavika?c=tlc&amp;t=acompanhe%20seu%20time:&quot;);" class="ttl">acompanhe seu time:</span>
+	<!-- ABAS -->
+		<ul class="tabs">
+			<li class="first selected">
+	<a style="background-image: url(&quot;http://p1.trrsf.com.br/image/klavika?c=tlc&amp;t=s%E9rie%20a&quot;);"
+				href="#first">Série a</a><span>&nbsp;</span>
+	
+			</li>
+			<li class="second last">
+	<a style="background-image: url(&quot;http://p1.trrsf.com.br/image/klavika?c=tlc&amp;t=s%E9rie%20b&quot;);"
+				href="#second">Série b</a><span>&nbsp;</span>
+	
+			</li>
+		</ul>
+		<div class="teams">
+			<!-- ABA #1 (serie a) -->
+			<ul id="first">
+				<li><a class="p16" title="Atlético-MG (Galo)" href="http://esportes.terra.com.br/atletico-mg">Atlético-MG (Galo)</a></li>
+				<li><a class="p15" title="Atlético-PR (Furacão)" href="http://esportes.terra.com.br/atletico-pr">Atlético-PR (Furacão)</a></li>
+				<li><a class="p13" title="Bahia (Tricolor, Esquadrão de aço)" href="http://esportes.terra.com.br/bahia">Bahia (Tricolor, Esquadrão de aço)</a></li>
+				<li><a class="p12" title="Botafogo (Fogão)" href="http://esportes.terra.com.br/botafogo">Botafogo (Fogão)</a></li>
+				<li><a class="p10" title="Corinthians (Timão)" href="http://esportes.terra.com.br/corinthians">Corinthians (Timão)</a></li>
+				<li><a class="p19" title="Coritiba (Coxa)" href="http://esportes.terra.com.br/coritiba">Coritiba (Coxa)</a></li>
+				<li><a class="p25" title="Criciúma (Tigre)" href="http://esportes.terra.com.br/criciuma">Criciúma (Tigre)</a></li>
+				<li><a class="p9" title="Cruzeiro (Raposa, Celeste)" href="http://esportes.terra.com.br/cruzeiro">Cruzeiro (Raposa, Celeste)</a></li>
+				<li><a class="p7" title="Flamengo (Fla, Mengão, Rubro-negro)" href="http://esportes.terra.com.br/flamengo">Flamengo (Fla, Mengão, Rubro-negro)</a></li>
+				<li><a class="p6" title="Fluminense (Tricolor, Pó-de-arroz)" href="http://esportes.terra.com.br/fluminense">Fluminense (Tricolor, Pó-de-arroz)</a></li>
+				<li><a class="p26" title="Goiás (Verdão)" href="http://esportes.terra.com.br/goias">Goiás (Verdão)</a></li>
+				<li><a class="p5" title="Grêmio (Tricolor)" href="http://esportes.terra.com.br/gremio">Grêmio (Tricolor)</a></li>
+				<li><a class="p4" title="Internacional (Inter, Colorado)" href="http://esportes.terra.com.br/internacional">Internacional (Inter, Colorado)</a></li>
+				<li><a class="p23" title="Náutico" href="http://esportes.terra.com.br/nautico">Náutico</a></li>
+				<li><a class="p21" title="Ponte Preta (Macaca)" href="http://esportes.terra.com.br/ponte-preta">Ponte Preta (Macaca)</a></li>
+				<li><a class="p24" title="Portuguesa (Lusa)" href="http://esportes.terra.com.br/portuguesa">Portuguesa (Lusa)</a></li>
+				<li><a class="p2" title="Santos (Peixe, Alvinegro)" href="http://esportes.terra.com.br/santos">Santos (Peixe, Alvinegro)</a></li>
+				<li><a class="p1" title="São Paulo (Tricolor)" href="http://esportes.terra.com.br/sao-paulo">São Paulo (Tricolor)</a></li>
+				<li><a class="p20" title="Vasco (Gigante da Colina)" href="http://esportes.terra.com.br/vasco">Vasco (Gigante da Colina)</a></li>
+				<li class="last"><a class="p27" title="Vitória (Leão)" href="http://esportes.terra.com.br/vitoria">Vitória (Leão)</a></li>			
+			</ul>
+			<!-- ABA #2 (serie b) -->
+			<ul class="hide" id="second">
+				<li><a class="p19" title="ABC (O mais Querido)" href="http://esportes.terra.com.br/abc">ABC (O mais Querido)</a></li>
+				<li><a class="p21" title="América-MG (Coelho)" href="http://esportes.terra.com.br/america-mg">América-MG (Coelho)</a></li>
+				<li><a class="p22" title="América-RN" href="http://esportes.terra.com.br/america-rn">América-RN</a></li>
+				<li><a class="p16" title="ASA (Alvinegro)" href="http://esportes.terra.com.br/asa">ASA (Alvinegro)</a></li>
+				<li><a class="p30" title="Atlético-GO (Dragão)" href="http://esportes.terra.com.br/atletico-go">Atlético-GO (Dragão)</a></li>
+				<li><a class="p25" title="Avaí (Leão da Ilha)" href="http://esportes.terra.com.br/avai">Avaí (Leão da Ilha)</a></li>
+				<li><a class="p1" title="BOA Esporte Clube (Tricolor da Fazendinha)" href="http://esportes.terra.com.br/boa-ec">BOA Esporte Clube (Tricolor da Fazendinha)</a></li>
+				<li><a class="p15" title="Bragantino (Braga)" href="http://esportes.terra.com.br/bragantino">Bragantino (Braga)</a></li>
+				<li><a class="p26" title="Ceará (Vovô)" href="http://esportes.terra.com.br/ceara">Ceará (Vovô)</a></li>
+				<li><a class="p31" title="Chapecoense (Verdão)" href="http://esportes.terra.com.br/chapecoense">Chapecoense (Verdão)</a></li>
+				<li><a class="p32" title="Figueirense (Figueira)" href="http://esportes.terra.com.br/figueirense">Figueirense (Figueira)</a></li>
+				<li><a class="p23" title="Guaratinguetá" href="http://esportes.terra.com.br/guaratingueta">Guaratinguetá</a></li>
+				<li><a class="p33" title="Icasa (Verdão do Cariri)" href="http://esportes.terra.com.br/icasa">Icasa (Verdão do Cariri)</a></li>
+				<li><a class="p29" title="Joinville" href="http://esportes.terra.com.br/joinville">Joinville</a></li>
+				<li><a class="p34" title="Oeste (Rubrão)" href="http://esportes.terra.com.br/oeste">Oeste (Rubrão)</a></li>
+				<li><a class="p35" title="Palmeiras (Verdão, Porco, Alviverde)" href="http://esportes.terra.com.br/palmeiras">Palmeiras (Verdão, Porco, Alviverde)</a></li>
+				<li><a class="p10" title="Paraná Clube (Tricolor da Vila)" href="http://esportes.terra.com.br/parana">Paraná Clube (Tricolor da Vila)</a></li>
+				<li><a class="p36" title="Paysandu (Papão da Curuzu)" href="http://esportes.terra.com.br/paysandu">Paysandu (Papão da Curuzu)</a></li>
+				<li><a class="p7" title="São Caetano (Azulão)" href="http://esportes.terra.com.br/sao-caetano">São Caetano (Azulão)</a></li>
+				<li class="last"><a class="p6" title="Sport (Leão, Rubro-negro)" href="http://esportes.terra.com.br/sport">Sport (Leão, Rubro-negro)</a></li>
+			</ul>
+		</div>
+</div>
+
+
+	
+
+
+<div class="lin-hor-dotted"><hr /></div>
+	
+
+		
+	
+
+
+
+	
+		
+		
+			
+
+<!-- IMPORT - listContentComponent - IMPORT -->
+
+
+
+
+	
+	
+	
+	
+	
+	<div class="ctn-zone clearfix bgr-col-3 ctn-zone-live-content" id="landing_worldcup">
+		
+					
+			
+				<div class="ctn-section clearfix">				
+				
+				
+				
+
+<!-- IMPORT - listLinks - IMPORT -->
+
+
+	
+	
+		
+			<h2 class="ttl-section ttl-dynamic-carrot">
+			
+			
+                <a href="http://esportes.terra.com.br/futebol/copa-das-confederacoes/">
+                   <span style="background-image: url(http://p1.trrsf.com.br/image/klavika?e=u&c=shc&ca=t&t=Copa+das+Confedera%C3%A7%C3%B5es);">Copa das Confederações&nbsp;&gt;</span>
+               </a>
+             
+             
+             
+			</h2>			
+		
+		
+	
+	
+
+			
+			
+					
+				
+					
+							
+			
+			
+						
+				
+				
+				
+										
+					
+			
+				
+			
+								
+							
+		
+					
+			
+					
+													
+				
+				
+				
+
+<!-- IMPORT - listLinks - IMPORT -->
+
+<div class="ctn-links">
+	<div class="ctn-bar">
+		<ul>						
+			
+			
+								
+				<li  >				
+					<a href="http://esportes.terra.com.br/futebol/copa-2014/eliminatorias/">Eliminatórias da Copa</a>
+				</li>
+			
+				
+					
+								
+				<li class="last" >				
+					<a href="http://esportes.terra.com.br/futebol/copa-2014/">Copa 2014</a>
+				</li>
+			
+		</ul>
+	</div>
+</div>
+
+				</div>
+				
+					
+							
+			
+			
+						
+				
+				
+				
+										
+					
+			
+				
+			
+								
+							
+		
+					
+			
+					
+				
+					
+							
+			
+			
+						
+				
+				
+							
+				
+					
+								
+						
+						
+						
+
+
+<!-- IMPORT - listHeadlines - IMPORT -->
+
+
+
+
+	
+	
+	
+	
+		
+			<!-- MOD 007 - EDITORIAL -->
+			<div class="col-skinny">
+				<div class="ctn-image">
+					<a href="http://esportes.terra.com.br/bahia/fonte-nova-tem-ultimos-ajustes-e-pichacao-a-chorao-antes-de-reabrir,2ef4c4c1734ed310VgnVCM5000009ccceb0aRCRD.html">	
+						<span class="img">					
+							<img src="http://p2.trrsf.com.br/image/get?src=http%3A%2F%2Fimages.terra.com%2F2013%2F04%2F07%2Finternas01.jpg&o=cf&w=195&h=146" height="146" width="195" title="Arena Fonte Nova reabre neste domingo com clássico Bahia x Vitória; veja bastidores do estádio da Copa Foto: Ricardo Matsukawa / Terra" alt="Arena Fonte Nova reabre neste domingo com clássico Bahia x Vitória; veja bastidores do estádio da Copa Foto: Ricardo Matsukawa / Terra" />
+						</span>						
+						
+						<span class="bgr"></span>
+						<span class="txt">
+							<em class="photo"><span>photo</span></em>
+							
+							
+								<strong>BA</strong>							
+												
+							Fonte Nova tem ajustes e pichação a Chorão antes de reabrir
+																				
+						</span>
+					</a>
+				</div>
+				
+				
+			</div>
+		
+		
+	
+	
+	
+					
+	
+	
+	
+	
+		
+		
+		<div class="col-skinny">
+		<!-- MOD 009 - EDITORIAL -->
+		
+			<h3 class="ttl-subtitle">
+				<a href="http://esportes.terra.com.br/futebol/copa-das-confederacoes/jean-em-alta-pato-em-baixa-veja-termometro-da-selecao-apos-bolivia,b4daf959f04ed310VgnVCM5000009ccceb0aRCRD.html">
+					
+											
+					Jean em alta, Pato em baixa; veja termômetro da Seleção após Bolívia
+					
+				</a>
+			</h3>
+			<p class="txt-claim"></p>
+			<ul class="ctn-metrics clearfix" id="b4daf959f04ed310VgnVCM5000009ccceb0aRCRD-0d40361429fb9310VgnVCM4000009bcceb0aRCRD"><li class="total"><a href="http://esportes.terra.com.br/futebol/copa-das-confederacoes/jean-em-alta-pato-em-baixa-veja-termometro-da-selecao-apos-bolivia,b4daf959f04ed310VgnVCM5000009ccceb0aRCRD.html#comments"><span>0</span> Comentários</a></li><li class="comment last"><a href="http://esportes.terra.com.br/futebol/copa-das-confederacoes/jean-em-alta-pato-em-baixa-veja-termometro-da-selecao-apos-bolivia,b4daf959f04ed310VgnVCM5000009ccceb0aRCRD.html#comments">Comentar</a></li></ul>
+	
+	
+	
+					
+	
+	
+	
+	
+		
+	
+	
+		
+	
+			
+								
+					<ul class="lst-headlines lst-bullet">				
+						<li>
+							<a href="http://esportes.terra.com.br/futebol/copa-das-confederacoes/catalaes-destacam-atuacoes-de-craque-neymar-e-ovacionado-ronaldinho,49b75372a64ed310VgnVCM5000009ccceb0aRCRD.html">
+								
+														
+								Catalães destacam atuações de "craque" Neymar e Ronaldinho	
+								
+							</a>
+						</li>
+					</ul>									
+				
+				
+			
+					
+				
+	
+	
+					
+	
+	
+	
+	
+		
+	
+	
+		
+	
+			
+								
+					<ul class="lst-headlines lst-bullet">				
+						<li>
+							<a href="http://esportes.terra.com.br/futebol/copa-das-confederacoes/elogiado-ronaldinho-exalta-felipao-vencer-ao-lado-dele-e-muito-legal,bb835a3c102ed310VgnVCM4000009bcceb0aRCRD.html">
+								
+														
+								Elogiado, Ronaldinho exalta Felipão: "vencer ao lado dele é muito legal"	
+								
+							</a>
+						</li>
+					</ul>									
+				
+				
+			
+					
+				
+	
+	
+					
+	
+	
+	
+	
+		
+	
+	
+		
+	
+			
+								
+					<ul class="lst-headlines lst-bullet">				
+						<li>
+							<a href="http://esportes.terra.com.br/futebol/copa-das-confederacoes/satisfeito-felipao-diz-ja-ter-15-ou-16-para-copa-das-confederacoes,c9cdab8cda1ed310VgnVCM20000099cceb0aRCRD.html">
+								
+														
+								Satisfeito, Felipão diz já ter "15 ou 16 para Copa das Confederações"	
+								
+							</a>
+						</li>
+					</ul>									
+				
+				
+			
+					
+				
+	
+	
+					
+	
+	
+	
+		<!-- END MOD 009 - EDITORIAL -->
+		</div>
+		<!-- END MOD 007 - EDITORIAL -->
+	
+
+	
+					
+					
+				
+										
+					
+			
+				
+			
+								
+							
+		
+					
+			
+					
+				
+					
+							
+			
+			
+						
+				
+				
+				
+										
+							
+				
+					
+						
+						<div class="ctn-news col-skinny last">		
+							
+							
+							
+
+ 	
+<!-- IMPORT - listHeadlines - IMPORT -->
+
+<!-- COMPONENTE 53 //-->
+
+	
+	
+		<div class="ctn-captioned-image clearfix">
+			
+				<a href="http://esportes.terra.com.br/futebol/copa-2014/neymar-faz-2-brasil-bate-fragil-bolivia-e-vence-a-1-com-felipao,b0091925051ed310VgnVCM4000009bcceb0aRCRD.html" class="img">
+										
+					<img src="http://p2.trrsf.com.br/image/get?src=http%3A%2F%2Fimages.terra.com%2F2013%2F04%2F06%2Fneymardedobocart.jpg&o=cf&w=89&h=67" height="67" width="89" title="p Foto: Reuters" alt="p Foto: Reuters" />			
+				</a>	
+				<a href="http://esportes.terra.com.br/futebol/copa-2014/neymar-faz-2-brasil-bate-fragil-bolivia-e-vence-a-1-com-felipao,b0091925051ed310VgnVCM4000009bcceb0aRCRD.html">	
+					<span class="txt">									
+						<strong>
+							<em class="photo"><span>photo</span></em>
+							
+							Neymar faz 2, Brasil bate frágil Bolívia e vence a 1ª com Felipão&nbsp;
+								
+						</strong>
+					</span>		
+				</a>
+																									
+		</div>
+		<div class="lin-hor-dotted"></div>				
+	
+					
+	
+	
+	
+		
+		
+				
+
+	
+	
+					
+	
+		<h4 class="ttl-single">
+			<a href="http://esportes.terra.com.br/futebol/copa-das-confederacoes/preservado-por-felipao-neymar-admite-quando-vejo-maldade-saio-fora,d1cc99982a1ed310VgnVCM4000009bcceb0aRCRD.html">
+				
+										
+				Preservado, Neymar admite: "quando vejo maldade, saio fora"	
+				
+			</a>
+		</h4>
+		
+	
+	
+	
+		
+	
+		
+
+
+
+	
+	
+		
+			
+			
+			
+			
+			
+		
+			
+			
+		
+		
+		
+			<div class="ctn-tgm ctn-tgm-button-1" id="tgm-specialsponsor2"></div>
+		
+				
+	
+	
+	
+	
+
+		
+				
+
+<!-- COMPONENTE 53 //-->
+						</div>	
+					
+					
+					
+			
+				
+			
+								
+							
+		
+			
+	</div>
+
+
+
+	
+	
+	
+
+	
+
+	
+	
+	
+
+	
+
+	
+	
+	
+
+	
+
+	
+	
+	
+
+	
+
+
+<div class="lin-hor-dotted"><hr /></div>
+	
+
+		
+	
+
+
+
+	
+		
+		
+			
+
+<!-- IMPORT - listContentComponent - IMPORT -->
+
+
+
+
+	
+	
+	
+	
+	
+	<div class="ctn-zone clearfix bgr-col-3 ctn-zone-live-content" id="landing_news">
+		
+					
+			
+				<div class="ctn-section clearfix">				
+				
+				
+				
+
+<!-- IMPORT - listLinks - IMPORT -->
+
+
+	
+	
+		
+			<h2 class="ttl-section ttl-dynamic-carrot">
+			
+			
+                <a href="http://noticias.terra.com.br/">
+                   <span style="background-image: url(http://p1.trrsf.com.br/image/klavika?e=u&c=shc&ca=t&t=Not%C3%ADcias);">Notícias&nbsp;&gt;</span>
+               </a>
+             
+             
+             
+			</h2>			
+		
+		
+	
+	
+
+			
+			
+					
+				
+					
+							
+			
+			
+						
+				
+				
+				
+										
+					
+			
+				
+			
+								
+							
+		
+					
+			
+					
+													
+				
+				
+				
+
+<!-- IMPORT - listLinks - IMPORT -->
+
+<div class="ctn-links">
+	<div class="ctn-bar">
+		<ul>						
+			
+			
+								
+				<li  >				
+					<a href="http://noticias.terra.com.br/brasil/">Brasil</a>
+				</li>
+			
+								
+				<li  >				
+					<a href="http://noticias.terra.com.br/ciencia/">Ciência</a>
+				</li>
+			
+								
+				<li  >				
+					<a href="http://noticias.terra.com.br/educacao/">Educação</a>
+				</li>
+			
+								
+				<li  >				
+					<a href="http://noticias.terra.com.br/mundo/">Mundo</a>
+				</li>
+			
+								
+				<li  >				
+					<a href="http://tecnologia.terra.com.br/">Tecnologia</a>
+				</li>
+			
+				
+					
+								
+				<li class="last" >				
+					<a href="http://wm.terra.com.br/wikipedia/">Wikipédia</a>
+				</li>
+			
+		</ul>
+	</div>
+</div>
+
+				</div>
+				
+					
+							
+			
+			
+						
+				
+				
+				
+										
+					
+			
+				
+			
+								
+							
+		
+					
+			
+					
+				
+					
+							
+			
+			
+						
+				
+				
+							
+				
+					
+								
+						
+						
+						
+
+
+<!-- IMPORT - listHeadlines - IMPORT -->
+
+
+
+
+
+	
+	
+	
+		
+			<!-- MOD 007 - EDITORIAL -->
+			<div class="col-skinny">
+				<div class="ctn-image">
+					<a href="http://noticias.terra.com.br/mundo/europa/israel-judeus-lembram-6-milhoes-de-mortos-no-holocausto,1e31c757494ed310VgnVCM5000009ccceb0aRCRD.html">	
+						<span class="img">
+							<img src="http://p2.trrsf.com.br/image/fget/cf/195/146/images.terra.com/2013/04/07/mideastisraelholocaustterra1071811.jpg" width="195" height="146" title="Pessoas visitam memorial sobre o Holocausto. Bandeiras nazistas foram colocadas no local Foto: " alt="Pessoas visitam memorial sobre o Holocausto. Bandeiras nazistas foram colocadas no local Foto: " />
+						</span>
+						
+						<span class="bgr"></span>
+						<span class="txt">
+							<em class="photo"><span>photo</span></em>
+							
+							
+								<strong>Israel</strong>
+							
+							Judeus lembram 6 milhões de mortos no Holocausto
+							
+						</span>
+					</a>
+				</div>
+								
+				
+			</div>
+		
+	
+	
+	
+	
+	
+	
+					
+	
+	
+	
+	
+	
+	
+		
+		<div class="col-skinny ctn-news">
+		<!-- MOD 009 - EDITORIAL -->
+		
+			<h3 class="ttl-subtitle">
+				<a href="http://noticias.terra.com.br/loterias/interna/0,,OI6543360-EI386,00-MegaSena+acumula+e+pode+pagar+R+milhoes+na+quartafeira.html">
+					
+											
+					Mega-Sena acumula e pode pagar R$ 13 mi na 4ª; veja dezenas sorteadas
+					
+				</a>
+			</h3>
+			<p class="txt-claim"></p>
+	
+	
+	
+	
+					
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+			
+				
+				
+					<h4 class="ttl-single">
+						<a href="http://noticias.terra.com.br/mundo/disturbios-no-mundo-arabe/na-turquia-kerry-pede-saida-de-assad-e-transicao-na-siria,e474d2b834bdd310VgnCLD2000000dc6eb0aRCRD.html">
+							
+							
+							Na Turquia, Kerry pede saída de Assad e transição na Síria&nbsp;
+							
+						</a>
+					</h4>
+				
+			
+					
+		
+	
+	
+	
+					
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+			
+				
+				
+					<h4 class="ttl-single">
+						<a href="http://noticias.terra.com.br/mundo/asia/hong-kong-entra-em-alerta-por-causa-de-propagacao-de-virus-na-china,ca73d2b834bdd310VgnCLD2000000dc6eb0aRCRD.html">
+							
+							
+							Hong Kong entra em alerta por causa da gripe aviária &nbsp;
+							
+						</a>
+					</h4>
+				
+			
+					
+		
+	
+	
+	
+					
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+			
+				
+				
+					<h4 class="ttl-single">
+						<a href="http://noticias.terra.com.br/mundo/asia/explosao-mata-diplomata-e-soldados-norte-americanos-no-afeganistao,2825d2b834bdd310VgnCLD2000000dc6eb0aRCRD.html">
+							
+							
+							Explosão mata diplomata e soldados dos EUA no Afeganistão&nbsp;
+							
+						</a>
+					</h4>
+				
+			
+					
+		
+	
+	
+	
+					
+	
+	
+			
+	
+			<div class="ctn-tgm ctn-tgm-button-1" id="tgm-rumosponsor"></div>				
+		</div>
+		<!-- END MOD 007 - EDITORIAL -->
+		
+	
+
+	
+					
+					
+				
+										
+					
+			
+				
+			
+								
+							
+		
+					
+			
+					
+				
+					
+							
+			
+			
+						
+				
+				
+				
+										
+							
+				
+					
+						
+						<div class="ctn-news col-skinny last">		
+							
+							
+							
+
+ 	
+<!-- IMPORT - listHeadlines - IMPORT -->
+
+<!-- COMPONENTE 53 //-->
+
+	
+	
+		<div class="ctn-captioned-image clearfix">
+			
+				<a href="http://tecnologia.terra.com.br/celular/zuckerberg-anuncia-app-que-transforma-android-em-celular-do-facebook,79b949d6b26dd310VgnVCM20000099cceb0aRCRD.html" class="img">
+										
+					<img src="http://p2.trrsf.com.br/image/get?src=http%3A%2F%2Fimages.terra.com%2F2013%2F04%2F07%2Fzuckerberganunciaappandroidrep89.jpg&o=cf&w=89&h=67" height="67" width="89" title="Mark Zuckerberg disse que o anúncio permitirá ao usuário transformar o telefone em um dispositivo ótimo, simples e social Foto: Reprodução" alt="Mark Zuckerberg disse que o anúncio permitirá ao usuário transformar o telefone em um dispositivo ótimo, simples e social Foto: Reprodução" />			
+				</a>	
+				<a href="http://tecnologia.terra.com.br/celular/zuckerberg-anuncia-app-que-transforma-android-em-celular-do-facebook,79b949d6b26dd310VgnVCM20000099cceb0aRCRD.html">	
+					<span class="txt">									
+						<strong>
+							<em class="photo"><span>photo</span></em>
+							
+							Você viu? Anúncio de app que transforma Android em celular do Facebook&nbsp;
+								
+						</strong>
+					</span>		
+				</a>
+																									
+		</div>
+		<div class="lin-hor-dotted"></div>				
+	
+					
+	
+	
+	
+		
+		
+				
+
+	
+	
+					
+	
+		<h4 class="ttl-single">
+			<a href="http://noticias.terra.com.br/mundo/europa/papa-pede-que-pessoas-nao-tenham-medo-de-ser-e-viver-como-cristaos,8344d2b834bdd310VgnCLD2000000dc6eb0aRCRD.html">
+				
+										
+				Papa: "pessoas não devem ter medo de viver como cristãos"	
+				
+			</a>
+		</h4>
+		
+	
+	
+	
+		
+	
+		
+
+
+
+	
+	
+		
+			
+			
+			
+			
+			
+		
+			
+			
+		
+		
+		
+			<div class="ctn-tgm ctn-tgm-button-1" id="tgm-sbuttonnews"></div>
+		
+				
+	
+	
+	
+	
+
+		
+				
+
+<!-- COMPONENTE 53 //-->
+						</div>	
+					
+					
+					
+			
+				
+			
+								
+							
+		
+					
+			
+					
+				
+					
+							
+			
+			
+						
+				
+				
+				
+										
+					
+			
+			
+				
+					
+						</div>
+						
+						
+						
+
+
+<!-- IMPORT - listHeadlines - IMPORT -->
+
+<div class="ctn-zone clearfix bgr-col-3 mod-553-videos">
+<div class="ctn-section"><span class="ttl-section">Videos</span></div>
+<div class="col-skinny"><div class="ctn-captioned-image clearfix">
+<a class="img" href="http://terratv.terra.com.br/Noticias/Mundo/4201-464766/Diplomata-dos-EUA-morre-em-ataque-no-Afeganistao.htm"><img width="89" height="50" title="Clique para assistir no Terra TV" src="http://p1.trrsf.com.br/image/fget/cf/89/50/sdp.terra.com.br/Thumbox/freew/cnt464766_h90_aNoChange_Diplomata-dos-EUA-morre-em-ataque-no-Afeganistao_201347153129.jpg" alt="Diplomata dos EUA morre em ataque no Afeganistão"><span class="ico-hed ico-hed-play"></span></a> <a class="txt" href="http://terratv.terra.com.br/Noticias/Mundo/4201-464766/Diplomata-dos-EUA-morre-em-ataque-no-Afeganistao.htm"><em class="ico-hed ico-hed-video">Video&nbsp;</em><strong>Diplomata dos EUA morre em ataque no Afeganistão</strong></a>
+</div></div>
+<div class="col-skinny"><div class="ctn-captioned-image clearfix">
+<a class="img" href="http://terratv.terra.com.br/Noticias/Mundo/4201-464663/Movel-inteligente-cresce-quando-aquecido.htm"><img width="89" height="50" title="Clique para assistir no Terra TV" src="http://p1.trrsf.com.br/image/fget/cf/89/50/sdp.terra.com.br/Thumbox/freew/cnt464663_h90_aNoChange_Movel-inteligente-cresce-quando-aquecido_201347153129.jpg" alt="Móvel 'inteligente' cresce quando aquecido"><span class="ico-hed ico-hed-play"></span></a> <a class="txt" href="http://terratv.terra.com.br/Noticias/Mundo/4201-464663/Movel-inteligente-cresce-quando-aquecido.htm"><em class="ico-hed ico-hed-video">Video&nbsp;</em><strong>Móvel 'inteligente' cresce quando aquecido</strong></a>
+</div></div>
+<div class="ctn-news col-skinny last"><div class="ctn-captioned-image clearfix">
+<a class="img" href="http://terratv.terra.com.br/Noticias/Mundo/4201-463956/Ladrao-nao-ve-porta-de-vidro-e-sofre-grave-acidente-em-fuga.htm"><img width="89" height="50" title="Clique para assistir no Terra TV" src="http://p1.trrsf.com.br/image/fget/cf/89/50/sdp.terra.com.br/Thumbox/freew/cnt463956_h90_aNoChange_Ladrao-nao-ve-porta-de-vidro-e-sofre-grave-acidente-em-fuga_201347153129.jpg" alt="Ladrão não vê porta de vidro e sofre grave acidente em fuga"><span class="ico-hed ico-hed-play"></span></a> <a class="txt" href="http://terratv.terra.com.br/Noticias/Mundo/4201-463956/Ladrao-nao-ve-porta-de-vidro-e-sofre-grave-acidente-em-fuga.htm"><em class="ico-hed ico-hed-video">Video&nbsp;</em><strong>Você viu? Ladrão não vê porta e se dá mal</strong></a>
+</div></div>
+</div>
+
+					
+					
+												
+				
+			
+								
+							
+		
+
+
+
+	
+	
+	
+
+	
+
+	
+	
+	
+
+	
+
+	
+	
+	
+
+	
+
+	
+	
+	
+
+	
+
+	
+	
+	
+
+	
+
+
+<div class="lin-hor-dotted"><hr /></div>
+	
+
+		
+	
+
+
+
+	
+		
+		
+			
+
+<!-- IMPORT - listContentComponent - IMPORT -->
+
+
+
+
+	
+	
+	
+	
+	
+	<div class="ctn-zone clearfix bgr-col-3 ctn-zone-live-content" id="landing_economy">
+		
+					
+			
+				<div class="ctn-section clearfix">				
+				
+				
+				
+
+<!-- IMPORT - listLinks - IMPORT -->
+
+
+	
+	
+		
+			<h2 class="ttl-section ttl-dynamic-carrot">
+			
+			
+                <a href="http://economia.terra.com.br/">
+                   <span style="background-image: url(http://p1.trrsf.com.br/image/klavika?e=u&c=shc&ca=t&t=economia);">economia&nbsp;&gt;</span>
+               </a>
+             
+             
+             
+			</h2>			
+		
+		
+	
+	
+
+			
+			
+					
+				
+					
+							
+			
+			
+						
+				
+				
+				
+										
+					
+			
+				
+			
+								
+							
+		
+					
+			
+					
+													
+				
+				
+				
+
+<!-- IMPORT - listLinks - IMPORT -->
+
+<div class="ctn-links">
+	<div class="ctn-bar">
+		<ul>						
+			
+			
+								
+				<li  >				
+					<a href="http://economia.terra.com.br/mercados/divisas/">Câmbio</a>
+				</li>
+			
+								
+				<li  >				
+					<a href="http://www.concursos.correioweb.com.br/index_frame.php?http://terra.concursos.correioweb.com.br">Concursos</a>
+				</li>
+			
+								
+				<li  >				
+					<a href="http://invertia.terra.com.br/sustentabilidade/">Sustentabilidade</a>
+				</li>
+			
+								
+				<li  >				
+					<a href="http://economia.terra.com.br/terra-da-diversidade">Terra da Diversidade</a>
+				</li>
+			
+				
+					
+								
+				<li class="last" >				
+					<a href="http://economia.terra.com.br/carros-motos/">Veículos</a>
+				</li>
+			
+		</ul>
+	</div>
+</div>
+
+				</div>
+				
+					
+							
+			
+			
+						
+				
+				
+				
+										
+					
+			
+				
+			
+								
+							
+		
+					
+			
+					
+				
+					
+							
+			
+			
+						
+				
+				
+							
+				
+					
+								
+						
+						
+						
+
+
+<!-- IMPORT - listHeadlines - IMPORT -->
+
+
+
+
+	
+	
+	
+	
+		
+			<!-- MOD 007 - EDITORIAL -->
+			<div class="col-skinny">
+				<div class="ctn-image">
+					<a href="http://economia.terra.com.br/noticias/noticia.aspx?idNoticia=201304070352_EFE_82128892">	
+						<span class="img">					
+							<img src="http://p2.trrsf.com.br/image/get?src=http%3A%2F%2Fimages.terra.com%2F2013%2F04%2F07%2Fchinaforumeconomiaap195.jpg&o=cf&w=195&h=146" height="146" width="195" title=" Foto: AP" alt=" Foto: AP" />
+						</span>						
+						
+						<span class="bgr"></span>
+						<span class="txt">
+							
+							
+							
+								<strong>Ásia</strong>							
+												
+							Em fórum, presidente da China destaca investimento em turismo 
+																				
+						</span>
+					</a>
+				</div>
+				
+				
+			</div>
+		
+		
+	
+	
+	
+					
+	
+	
+	
+	
+		
+		
+		<div class="col-skinny">
+		<!-- MOD 009 - EDITORIAL -->
+		
+			<h3 class="ttl-subtitle">
+				<a href="http://economia.terra.com.br/imposto-de-renda/saiba-quando-declarar-dividas-e-emprestimos-no-imposto-de-renda,f18960fce6bdd310VgnVCM5000009ccceb0aRCRD.html">
+					
+											
+					Saiba quando declarar dívidas e empréstimos no Imposto de Renda
+					
+				</a>
+			</h3>
+			<p class="txt-claim"></p>
+			
+	
+	
+	
+					
+	
+	
+	
+	
+		
+	
+	
+		
+	
+			
+				
+				
+					<h4 class="ttl-single">
+						<a href="http://www.mba60.com/video/sustentabilidade-e-muito-mais-do-que-cuidar-de-arvores-e-florestas">
+							<em class="video"><span>video</span></em>
+							
+							MBA60: sustentabilidade é muito mais que cuidar de árvores &nbsp;
+							
+						</a>
+					</h4>
+					
+				
+			
+					
+				
+	
+	
+					
+	
+	
+	
+	
+		
+	
+	
+		
+	
+			
+				
+				
+					<h4 class="ttl-single">
+						<a href="http://www.istoedinheiro.com.br/noticias/116046_KARMANNGHIA+VOLTA+AS+ORIGENS">
+							
+							
+							IstoÉ Dinheiro: Karmann-Ghia pode voltar às ruas no Brasil&nbsp;
+							
+						</a>
+					</h4>
+					
+				
+			
+					
+				
+	
+	
+					
+	
+	
+	
+	
+		
+	
+	
+		
+	
+			
+				
+				
+					<h4 class="ttl-single">
+						<a href="http://www.terra.com.br/economia/infograficos/mais-ricos-2013/">
+							<em class="infographic"><span>infographic</span></em>
+							
+							Especial: saiba quem são as pessoas mais ricas do mundo &nbsp;
+							
+						</a>
+					</h4>
+					
+				
+			
+					
+				
+	
+	
+					
+	
+	
+	
+		<!-- END MOD 009 - EDITORIAL -->
+		</div>
+		<!-- END MOD 007 - EDITORIAL -->
+	
+
+	
+					
+					
+				
+										
+					
+			
+				
+			
+								
+							
+		
+					
+			
+					
+				
+					
+							
+			
+			
+						
+				
+				
+				
+										
+							
+				
+					
+						
+						<div class="ctn-news col-skinny last">		
+							
+							
+							
+
+ 	
+<!-- IMPORT - listHeadlines - IMPORT -->
+
+<!-- COMPONENTE 53 //-->
+
+	
+	
+		<div class="ctn-captioned-image clearfix">
+			
+				<a href="http://economia.terra.com.br/carros-motos/citron-mostra-como-sera-o-novo-c4-picasso-confira,032b64b58cacd310VgnVCM3000009acceb0aRCRD.html" class="img">
+										
+					<img src="http://p2.trrsf.com.br/image/get?src=http%3A%2F%2Fimages.terra.com%2F2013%2F04%2F02%2Fcitroenc4picassodiv-7.jpg&o=cf&w=89&h=67" height="67" width="89" title="Novo Citroën C4 Picasso Foto: Divulgação" alt="Novo Citroën C4 Picasso Foto: Divulgação" />			
+				</a>	
+				<a href="http://economia.terra.com.br/carros-motos/citron-mostra-como-sera-o-novo-c4-picasso-confira,032b64b58cacd310VgnVCM3000009acceb0aRCRD.html">	
+					<span class="txt">									
+						<strong>
+							<em class="photo"><span>photo</span></em>
+							
+							Você viu? Citroën mostra como será o novo C4 Picasso; confira&nbsp;
+								
+						</strong>
+					</span>		
+				</a>
+																									
+		</div>
+		<div class="lin-hor-dotted"></div>				
+	
+					
+	
+	
+	
+		
+		
+				
+
+	
+	
+					
+	
+		<h4 class="ttl-single">
+			<a href=" http://www.terra.com.br/economia/infograficos/manutencao-delta/">
+				<em class="infographic"><span>infographic</span></em>
+										
+				Saiba como é a manutenção da maior frota de aviões do mundo	
+				
+			</a>
+		</h4>
+		
+	
+	
+	
+		
+	
+		
+
+
+
+	
+	
+		
+			
+			
+			
+			
+			
+		
+			
+			
+		
+		
+		
+			<div class="ctn-tgm ctn-tgm-button-1" id="tgm-sbuttoneconomy"></div>
+		
+				
+	
+	
+	
+	
+
+		
+				
+
+<!-- COMPONENTE 53 //-->
+						</div>	
+					
+					
+					
+			
+				
+			
+								
+							
+		
+			
+	</div>
+
+
+
+	
+	
+	
+
+	
+
+	
+	
+	
+
+	
+
+	
+	
+	
+
+	
+
+	
+	
+	
+
+	
+
+
+<div class="lin-hor-dotted"><hr /></div>
+	
+
+		
+	
+
+
+
+	
+		
+		
+			
+
+<!-- IMPORT - listContentComponent - IMPORT -->
+
+
+
+
+	
+	
+	
+	
+	
+	<div class="ctn-zone clearfix bgr-col-3 ctn-zone-live-content" id="landing_entertainment">
+		
+					
+			
+				<div class="ctn-section clearfix">				
+				
+				
+				
+
+<!-- IMPORT - listLinks - IMPORT -->
+
+
+	
+	
+		
+			<h2 class="ttl-section ttl-dynamic-carrot">
+			
+			
+                <a href="http://diversao.terra.com.br/">
+                   <span style="background-image: url(http://p1.trrsf.com.br/image/klavika?e=u&c=shc&ca=t&t=Divers%C3%A3o);">Diversão&nbsp;&gt;</span>
+               </a>
+             
+             
+             
+			</h2>			
+		
+		
+	
+	
+
+			
+			
+					
+				
+					
+							
+			
+			
+						
+				
+				
+				
+										
+					
+			
+				
+			
+								
+							
+		
+					
+			
+					
+													
+				
+				
+				
+
+<!-- IMPORT - listLinks - IMPORT -->
+
+<div class="ctn-links">
+	<div class="ctn-bar">
+		<ul>						
+			
+			
+								
+				<li  >				
+					<a href="http://diversao.terra.com.br/arte-e-cultura">Arte e Cultura</a>
+				</li>
+			
+								
+				<li  >				
+					<a href="http://cinema.terra.com.br/">Cinema</a>
+				</li>
+			
+								
+				<li  >				
+					<a href="http://games.terra.com.br/">Games</a>
+				</li>
+			
+								
+				<li  >				
+					<a href="http://diversao.terra.com.br/gente/">Gente</a>
+				</li>
+			
+								
+				<li  >				
+					<a href="http://musica.terra.com.br/">Música</a>
+				</li>
+			
+								
+				<li  >				
+					<a href="http://diversao.terra.com.br/tv/novelas">Novelas</a>
+				</li>
+			
+				
+					
+								
+				<li class="last" >				
+					<a href="http://diversao.terra.com.br/tv/">TV</a>
+				</li>
+			
+		</ul>
+	</div>
+</div>
+
+				</div>
+				
+					
+							
+			
+			
+						
+				
+				
+				
+										
+					
+			
+				
+			
+								
+							
+		
+					
+			
+					
+				
+					
+							
+			
+			
+						
+				
+				
+							
+				
+					
+								
+						
+						
+						
+
+
+<!-- IMPORT - listHeadlines - IMPORT -->
+
+
+
+
+	
+	
+	
+	
+		
+			<!-- MOD 007 - EDITORIAL -->
+			<div class="col-skinny">
+				<div class="ctn-image">
+					<a href="http://diversao.terra.com.br/gente/karine-camargo-toma-sol-e-mostra-boa-forma-no-rio-de-janeiro,5fda2cc8074ed310VgnVCM20000099cceb0aRCRD.html">	
+						<span class="img">					
+							<img src="http://p2.trrsf.com.br/image/get?src=http%3A%2F%2Fimages.terra.com%2F2013%2F04%2F07%2Fkarinecamargopraia-agnews-195.jpg&o=cf&w=195&h=146" height="146" width="195" title="Karine Camargo, conhecida por interpretar a personagem &quot;Morena da Laje&quot;, do humorístico Zorra Total, aproveitou o sol do último sábado na praia da Barra da Tijuca, no Rio de Janeiro Foto: AgNews" alt="Karine Camargo, conhecida por interpretar a personagem &quot;Morena da Laje&quot;, do humorístico Zorra Total, aproveitou o sol do último sábado na praia da Barra da Tijuca, no Rio de Janeiro Foto: AgNews" />
+						</span>						
+						
+						<span class="bgr"></span>
+						<span class="txt">
+							<em class="photo"><span>photo</span></em>
+							
+							
+								<strong>Gente</strong>							
+												
+							Karine Camargo toma sol e mostra boa forma no RJ; veja fotos
+																				
+						</span>
+					</a>
+				</div>
+				
+				
+			</div>
+		
+		
+	
+	
+	
+					
+	
+	
+	
+	
+		
+		
+		<div class="col-skinny">
+		<!-- MOD 009 - EDITORIAL -->
+		
+			<h3 class="ttl-subtitle">
+				<a href="http://diversao.terra.com.br/gente/mussum-dos-trapalhoes-completaria-72-anos-neste-domingo,5106f2da154dd310VgnCLD20000099cceb0aRCRD.html">
+					<em class="photo"><span>photo</span></em>
+											
+					Mussum, dos Trapalhões, completaria 72 anos neste domingo
+					
+				</a>
+			</h3>
+			<p class="txt-claim"></p>
+			
+	
+	
+	
+					
+	
+	
+	
+	
+		
+	
+	
+		
+	
+			
+								
+					<ul class="lst-headlines lst-bullet">				
+						<li>
+							<a href="http://diversao.terra.com.br/gente/relembre-momentos-marcantes-da-carreira-de-mussum,a3e7399ae915a310VgnCLD200000bbcceb0aRCRD.html">
+								<em class="photo"><span>photo</span></em>
+														
+								Relembre momentos marcantes da carreira do humorista	
+								
+							</a>
+						</li>
+					</ul>									
+				
+				
+			
+					
+				
+	
+	
+					
+	
+	
+	
+	
+		
+	
+	
+		
+	
+			
+				
+				
+					<h4 class="ttl-single">
+						<a href="http://ofuxico.terra.com.br/noticias-sobre-famosos/daniela-mercury-revela-que-ja-teve-outros-romances-com-mulheres/2013/04/07-168056.html">
+							
+							
+							D. Mercury conta que já teve outros romances com mulheres&nbsp;
+							
+						</a>
+					</h4>
+					
+				
+			
+					
+				
+	
+	
+					
+	
+	
+	
+	
+		
+	
+	
+		
+	
+			
+				
+				
+					<h4 class="ttl-single">
+						<a href="http://diversao.terra.com.br/tv/novelas/salve-jorge/salve-jorge-erica-surta-ao-descobrir-sobre-theo-e-livia,4a7b1c35ea4ed310VgnVCM20000099cceb0aRCRD.html">
+							
+							
+							'Salve Jorge': Érica surta ao descobrir sobre Théo e Lívia &nbsp;
+							
+						</a>
+					</h4>
+					
+				
+			
+					
+				
+	
+	
+					
+	
+	
+	
+		<!-- END MOD 009 - EDITORIAL -->
+		</div>
+		<!-- END MOD 007 - EDITORIAL -->
+	
+
+	
+					
+					
+				
+										
+					
+			
+				
+			
+								
+							
+		
+					
+			
+					
+				
+					
+							
+			
+			
+						
+				
+				
+				
+										
+							
+				
+					
+						
+						<div class="ctn-news col-skinny last">		
+							
+							
+							
+
+ 	
+<!-- IMPORT - listHeadlines - IMPORT -->
+
+<!-- COMPONENTE 53 //-->
+
+	
+	
+		<div class="ctn-captioned-image clearfix">
+			
+				<a href="http://cinema.terra.com.br/jennifer-lawrence-exibe-decote-ousado-e-quase-mostra-demais-em-set,a763b33086fcd310VgnVCM20000099cceb0aRCRD.html" class="img">
+										
+					<img src="http://p2.trrsf.com.br/image/get?src=http%3A%2F%2Fimages.terra.com%2F2013%2F04%2F03%2Fjenniferldecotegrosby195.jpg&o=cf&w=89&h=67" height="67" width="89" title="Jennifer Lawrence circulou com um vestido decotado no set de seu novo filme, The Ends of The Earth, e quase mostrou demais ao sair de uma van. Foto: The Grosby Group" alt="Jennifer Lawrence circulou com um vestido decotado no set de seu novo filme, The Ends of The Earth, e quase mostrou demais ao sair de uma van. Foto: The Grosby Group" />			
+				</a>	
+				<a href="http://cinema.terra.com.br/jennifer-lawrence-exibe-decote-ousado-e-quase-mostra-demais-em-set,a763b33086fcd310VgnVCM20000099cceb0aRCRD.html">	
+					<span class="txt">									
+						<strong>
+							<em class="photo"><span>photo</span></em>
+							
+							Você viu? Jennifer Lawrence exibe decote ousado e quase mostra demais&nbsp;
+								
+						</strong>
+					</span>		
+				</a>
+																									
+		</div>
+		<div class="lin-hor-dotted"></div>				
+	
+					
+	
+	
+	
+		
+		
+				
+
+	
+	
+					
+	
+		<h4 class="ttl-single">
+			<a href="http://musica.terra.com.br/lollapalooza/publico-se-diverte-no-lollapalooza-chile-veja-fotos,3835f2da154dd310VgnCLD20000099cceb0aRCRD.html">
+				<em class="photo"><span>photo</span></em>
+										
+				Público se diverte no Lollapalooza Chile; veja fotos	
+				
+			</a>
+		</h4>
+		
+	
+	
+	
+		
+	
+		
+
+
+
+	
+	
+		
+			
+			
+			
+			
+			
+		
+			
+			
+		
+		
+		
+			<div class="ctn-tgm ctn-tgm-button-1" id="tgm-sbuttonentertainment"></div>
+		
+				
+	
+	
+	
+	
+
+		
+				
+
+<!-- COMPONENTE 53 //-->
+						</div>	
+					
+					
+					
+			
+				
+			
+								
+							
+		
+			
+	</div>
+
+
+
+	
+	
+	
+
+	
+
+	
+	
+	
+
+	
+
+	
+	
+	
+
+	
+
+	
+	
+	
+
+	
+
+
+<div class="lin-hor-dotted"><hr /></div>
+	
+
+		
+	
+
+
+
+	
+		
+		
+			
+
+<!-- IMPORT - listContentComponent - IMPORT -->
+
+
+
+
+	
+	
+	
+	
+	
+	<div class="ctn-zone clearfix bgr-col-3 ctn-zone-live-content" id="landing_lifestyle">
+		
+					
+			
+				<div class="ctn-section clearfix">				
+				
+				
+				
+
+<!-- IMPORT - listLinks - IMPORT -->
+
+
+	
+	
+		
+			<h2 class="ttl-section ttl-dynamic-carrot">
+			
+			
+                <a href="http://vidaeestilo.terra.com.br/">
+                   <span style="background-image: url(http://p1.trrsf.com.br/image/klavika?e=u&c=shc&ca=t&t=Vida+e+Estilo);">Vida e Estilo&nbsp;&gt;</span>
+               </a>
+             
+             
+             
+			</h2>			
+		
+		
+	
+	
+
+			
+			
+					
+				
+					
+							
+			
+			
+						
+				
+				
+				
+										
+					
+			
+				
+			
+								
+							
+		
+					
+			
+					
+													
+				
+				
+				
+
+<!-- IMPORT - listLinks - IMPORT -->
+
+<div class="ctn-links">
+	<div class="ctn-bar">
+		<ul>						
+			
+			
+								
+				<li  >				
+					<a href="http://beleza.terra.com.br/">Beleza</a>
+				</li>
+			
+								
+				<li  >				
+					<a href="http://culinaria.terra.com.br/">Culinária</a>
+				</li>
+			
+								
+				<li  >				
+					<a href="http://vidaeestilo.terra.com.br/casa-e-decoracao/">Decoração</a>
+				</li>
+			
+								
+				<li  >				
+					<a href="http://vidaeestilo.terra.com.br/horoscopo">Horóscopo</a>
+				</li>
+			
+								
+				<li  >				
+					<a href="http://moda.terra.com.br/">Moda</a>
+				</li>
+			
+								
+				<li  >				
+					<a href="http://mulher.terra.com.br/">Mulher</a>
+				</li>
+			
+				
+					
+								
+				<li class="last" >				
+					<a href="http://vidaeestilo.terra.com.br/turismo/">Turismo</a>
+				</li>
+			
+		</ul>
+	</div>
+</div>
+
+				</div>
+				
+					
+							
+			
+			
+						
+				
+				
+				
+										
+					
+			
+				
+			
+								
+							
+		
+					
+			
+					
+				
+					
+							
+			
+			
+						
+				
+				
+							
+				
+					
+								
+						
+						
+						
+
+
+<!-- IMPORT - listHeadlines - IMPORT -->
+
+
+
+
+	
+	
+	
+	
+		
+			<!-- MOD 007 - EDITORIAL -->
+			<div class="col-skinny">
+				<div class="ctn-image">
+					<a href="http://beleza.terra.com.br/corpo-em-forma/maria-melilo-e-carol-narizinho-participam-de-concurso-de-beleza,224e12e53dbdd310VgnCLD2000009bcceb0aRCRD.html">	
+						<span class="img">					
+							<img src="http://p2.trrsf.com.br/image/get?src=http%3A%2F%2Fimages.terra.com%2F2013%2F04%2F07%2Fbelezamariamelilobeladapraiadiv195.jpg&o=cf&w=195&h=146" height="146" width="195" title=" Foto: Divulgação" alt=" Foto: Divulgação" />
+						</span>						
+						
+						<span class="bgr"></span>
+						<span class="txt">
+							<em class="photo"><span>photo</span></em>
+							
+							
+								<strong>SC</strong>							
+												
+							Maria Melilo e Narizinho participam de concurso de beleza
+																				
+						</span>
+					</a>
+				</div>
+				
+				
+			</div>
+		
+		
+	
+	
+	
+					
+	
+	
+	
+	
+		
+		
+		<div class="col-skinny">
+		<!-- MOD 009 - EDITORIAL -->
+		
+			<h3 class="ttl-subtitle">
+				<a href="http://mulher.terra.com.br/larissa-riquelme-causa-tumulto-na-erotika-fair-2013,00cffc6a384ed310VgnVCM4000009bcceb0aRCRD.html">
+					<em class="photo"><span>photo</span></em>
+											
+					Com celular, Larissa Riquelme diverte público em feira erótica; veja
+					
+				</a>
+			</h3>
+			<p class="txt-claim"></p>
+			
+	
+	
+	
+					
+	
+	
+	
+	
+		
+	
+	
+		
+	
+			
+				
+				
+					<h4 class="ttl-single">
+						<a href="http://culinaria.terra.com.br/receitas/cozinha/sp-feirinha-gastronomica-reune-comida-boa-e-barata-neste-domingo,da116fed39add310VgnVCM3000009acceb0aRCRD.html">
+							
+							
+							Feira tem comida boa e barata na Vila Madalena até 19h de hoje&nbsp;
+							
+						</a>
+					</h4>
+					
+				
+			
+					
+				
+	
+	
+					
+	
+	
+	
+	
+		
+	
+	
+		
+	
+			
+				
+				
+					<h4 class="ttl-single">
+						<a href="http://www.terra.com.br/moda/infograficos/famosas/">
+							<em class="infographic"><span>infographic</span></em>
+							
+							Você usaria? Ex-BBB Anamara ousa com vestido superjusto; veja&nbsp;
+							
+						</a>
+					</h4>
+					
+				
+			
+					
+				
+	
+	
+					
+	
+	
+	
+	
+		
+	
+	
+		
+	
+			
+				
+				
+					<h4 class="ttl-single">
+						<a href="http://moda.terra.com.br/marc-jacobs-vai-a-praia-de-ipanema-com-namorado-brasileiro,08fc352e905ed310VgnVCM4000009bcceb0aRCRD.html">
+							<em class="photo"><span>photo</span></em>
+							
+							Marc Jacobs vai à praia de Ipanema com namorado brasileiro&nbsp;
+							
+						</a>
+					</h4>
+					
+				
+			
+					
+				
+	
+	
+					
+	
+	
+	
+		<!-- END MOD 009 - EDITORIAL -->
+		</div>
+		<!-- END MOD 007 - EDITORIAL -->
+	
+
+	
+					
+					
+				
+										
+					
+			
+				
+			
+								
+							
+		
+					
+			
+					
+				
+					
+							
+			
+			
+						
+				
+				
+				
+										
+							
+				
+					
+						
+						<div class="ctn-news col-skinny last">		
+							
+							
+							
+
+ 	
+<!-- IMPORT - listHeadlines - IMPORT -->
+
+<!-- COMPONENTE 53 //-->
+
+	
+	
+		<div class="ctn-captioned-image clearfix">
+			
+				<a href="http://mulher.terra.com.br/comportamento/50-tons-alavanca-produtos-eroticos-veja-os-mais-vendidos,40ec50f8657dd310VgnVCM3000009acceb0aRCRD.html" class="img">
+										
+					<img src="http://p2.trrsf.com.br/image/get?src=http%3A%2F%2Fimages.terra.com%2F2013%2F04%2F04%2F04042013erotikafair118014.jpg&o=cf&w=89&h=67" height="67" width="89" title=" Foto: Bruno Santos / Terra" alt=" Foto: Bruno Santos / Terra" />			
+				</a>	
+				<a href="http://mulher.terra.com.br/comportamento/50-tons-alavanca-produtos-eroticos-veja-os-mais-vendidos,40ec50f8657dd310VgnVCM3000009acceb0aRCRD.html">	
+					<span class="txt">									
+						<strong>
+							<em class="photo"><span>photo</span></em>
+							
+							Você viu? '50 Tons' alavanca produtos eróticos; veja destaques&nbsp;
+								
+						</strong>
+					</span>		
+				</a>
+																									
+		</div>
+		<div class="lin-hor-dotted"></div>				
+	
+					
+	
+	
+	
+		
+		
+				
+
+	
+	
+					
+	
+		<h4 class="ttl-single">
+			<a href="http://vidaeestilo.terra.com.br/turismo/cruzeiros/conheca-as-celebridades-que-viraram-madrinhas-de-cruzeiros,7d4a6174c50dd310VgnVCM3000009acceb0aRCRD.html">
+				<em class="photo"><span>photo</span></em>
+										
+				De Sharon Stone a Xuxa, veja madrinhas de cruzeiros famosas 	
+				
+			</a>
+		</h4>
+		
+	
+	
+	
+		
+	
+		
+
+
+
+	
+	
+		
+			
+			
+			
+			
+			
+		
+			
+			
+		
+		
+		
+			<div class="ctn-tgm ctn-tgm-button-1" id="tgm-sbuttonlifestyle"></div>
+		
+				
+	
+	
+	
+	
+
+		
+				
+
+<!-- COMPONENTE 53 //-->
+						</div>	
+					
+					
+					
+			
+				
+			
+								
+							
+		
+			
+	</div>
+
+
+
+	
+	
+	
+
+	
+
+	
+	
+	
+
+	
+
+	
+	
+	
+
+	
+
+	
+	
+	
+
+	
+
+
+<div class="lin-hor-dotted"><hr /></div>
+	
+
+		
+	
+
+
+
+
+	
+
+
+												
+				
+				
+					
+					
+						
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+
+
+<!-- IMPORT - listHeadlines - IMPORT -->
+<div id="mod-578-blogs-carousel" class="mod-carousel">
+	<div class="ctn-section clearfix">
+		<h3 class="ttl-section ttl-dynamic">
+			<span style="background-image: url(&quot;http://p1.trrsf.com.br/image/klavika?c=shc&amp;t=blogs&quot;);">blogs</span>
+		</h3>
+		<ul class="pagination"></ul>
+	</div>
+	<div class="carousel-container clearfix bgr-lightgray">
+		<a class="button previous" title="Anterior"><span class="arrow">Anterior</span></a> <a class="button next" title="Próxima"><span class="arrow">Próxima</span></a>
+		<ul class="carousel">
+			
+				<li>
+					<div class="ctn-image">
+						
+							<a href="http://terramagazine.terra.com.br/blogdoruidaher/blog/2013/04/07/domino-de-bote…s-de-sao-paulo/" class="img">
+								<img src="http://p2.trrsf.com.br/image/get?src=http%3A%2F%2Fimages.terra.com%2F2012%2F12%2F06%2Fabril9ruidaher.jpg&o=cf&w=89&h=99" height="99" width="89" title="Rui Daher Foto: Divulgação" alt="Rui Daher Foto: Divulgação" />
+							</a>
+						
+					</div>
+					<div class="blog-info">
+						<a href="http://terramagazine.terra.com.br/blogdoruidaher/blog/" class="author">
+							Rui Daher
+						</a>
+						<p>
+							<a href="http://terramagazine.terra.com.br/blogdoruidaher/blog/2013/04/07/domino-de-bote…s-de-sao-paulo/">
+								<em class="ico-hed ico-hed-blog"></em>Fundos musicais de bares e restaurantes em São Paulo 
+							</a>
+							
+						</p>
+					</div>
+				</li>
+			
+				<li>
+					<div class="ctn-image">
+						
+							<a href="http://esportes.terra.com.br/blog-do-sormani/blog/2013/04/06/lakers-e-utah-seguem-na-briga-pelos-playoffs-a-noite-final-four-da-ncaa-e-o-destaque/" class="img">
+								<img src="http://p2.trrsf.com.br/image/get?src=http%3A%2F%2Fimages.terra.com%2F2013%2F03%2F04%2Fsormani040389x99.jpg&o=cf&w=89&h=99" height="99" width="89" title="Fábio Sormani Foto: Terra" alt="Fábio Sormani Foto: Terra" />
+							</a>
+						
+					</div>
+					<div class="blog-info">
+						<a href="http://esportes.terra.com.br/blog-do-sormani/blog/" class="author">
+							Fábio Sormani
+						</a>
+						<p>
+							<a href="http://esportes.terra.com.br/blog-do-sormani/blog/2013/04/06/lakers-e-utah-seguem-na-briga-pelos-playoffs-a-noite-final-four-da-ncaa-e-o-destaque/">
+								<em class="ico-hed ico-hed-blog"></em>NBA: Lakers e Jazz seguem na briga pelo playoff no Oeste
+							</a>
+							
+						</p>
+					</div>
+				</li>
+			
+				<li>
+					<div class="ctn-image">
+						
+							<a href="http://www.istoe.com.br/colunas-e-blogs/colunista/41_GISELE+VITORIA " class="img">
+								<img src="http://p2.trrsf.com.br/image/get?src=http%3A%2F%2Fimages.terra.com%2F2012%2F12%2F06%2Fgiselevitoria89x99.jpg&o=cf&w=89&h=99" height="99" width="89" title="Gisele Vitória Foto: IstoÉ" alt="Gisele Vitória Foto: IstoÉ" />
+							</a>
+						
+					</div>
+					<div class="blog-info">
+						<a href="http://www.istoe.com.br/colunas-e-blogs/colunista/41_GISELE+VITORIA" class="author">
+							Gisele Vitória
+						</a>
+						<p>
+							<a href="http://www.istoe.com.br/colunas-e-blogs/colunista/41_GISELE+VITORIA ">
+								<em class="ico-hed ico-hed-blog"></em>Luiz Oswaldo Pastore compra beijo na boca de Kate Moss por US$ 50 mil
+							</a>
+							
+						</p>
+					</div>
+				</li>
+			
+				<li>
+					<div class="ctn-image">
+						
+							<a href="http://terramagazine.terra.com.br/silviomeira/blog/2013/04/06/as-leis-os-gatos-as-complicaes-os-custos-e-o-longo-prazo/" class="img">
+								<img src="http://p2.trrsf.com.br/image/get?src=http%3A%2F%2Fimages.terra.com%2F2012%2F12%2F06%2Fabril9silviomeira.jpg&o=cf&w=89&h=99" height="99" width="89" title="Silvio Meira Foto: Divulgação" alt="Silvio Meira Foto: Divulgação" />
+							</a>
+						
+					</div>
+					<div class="blog-info">
+						<a href="http://terramagazine.terra.com.br/silviomeira/blog/" class="author">
+							Silvio Meira
+						</a>
+						<p>
+							<a href="http://terramagazine.terra.com.br/silviomeira/blog/2013/04/06/as-leis-os-gatos-as-complicaes-os-custos-e-o-longo-prazo/">
+								<em class="ico-hed ico-hed-blog"></em>"Gatos" previstos na Lei aumentam o "custo Brasil" sem chamar atenção  
+							</a>
+							
+						</p>
+					</div>
+				</li>
+			
+				<li>
+					<div class="ctn-image">
+						
+							<a href="http://terramagazine.terra.com.br/zagueiro/blog/2013/04/05/um-brasil-sem-madames/" class="img">
+								<img src="http://p2.trrsf.com.br/image/get?src=http%3A%2F%2Fimages.terra.com%2F2012%2F12%2F06%2Fabril9marcelocarneirocunha.jpg&o=cf&w=89&h=99" height="99" width="89" title="Marcelo Cunha Foto: Divulgação" alt="Marcelo Cunha Foto: Divulgação" />
+							</a>
+						
+					</div>
+					<div class="blog-info">
+						<a href="http://terramagazine.terra.com.br/zagueiro/blog/" class="author">
+							Marcelo Cunha
+						</a>
+						<p>
+							<a href="http://terramagazine.terra.com.br/zagueiro/blog/2013/04/05/um-brasil-sem-madames/">
+								<em class="ico-hed ico-hed-blog"></em>O fim das domesticas vai ser o fim das madames
+							</a>
+							
+						</p>
+					</div>
+				</li>
+			
+				<li>
+					<div class="ctn-image">
+						
+							<a href="http://terramagazine.terra.com.br/mmamanoamano/blog/2013/04/06/ate-quando-ufc/" class="img">
+								<img src="http://p2.trrsf.com.br/image/get?src=http%3A%2F%2Fimages.terra.com%2F2013%2F02%2F19%2Feduardo-cruz-mano-a-mano.jpg&o=cf&w=89&h=99" height="99" width="89" title=" Foto: Eduardo Cruz" alt=" Foto: Eduardo Cruz" />
+							</a>
+						
+					</div>
+					<div class="blog-info">
+						
+							<b>Eduardo Cruz</b>
+						
+						<p>
+							<a href="http://terramagazine.terra.com.br/mmamanoamano/blog/2013/04/06/ate-quando-ufc/">
+								<em class="ico-hed ico-hed-blog"></em>Até quando, UFC? 
+							</a>
+							
+						</p>
+					</div>
+				</li>
+			
+				<li>
+					<div class="ctn-image">
+						
+							<a href="http://wanderleynogueira.blog.terra.com.br/2013/04/05/mania-de-forcar-aposentadoria-de-atletas/" class="img">
+								<img src="http://p2.trrsf.com.br/image/get?src=http%3A%2F%2Fimages.terra.com%2F2012%2F12%2F06%2Fwanderleynogueira89x99.jpg&o=cf&w=89&h=99" height="99" width="89" title="Wanderley Nogueira Foto: Divulgação" alt="Wanderley Nogueira Foto: Divulgação" />
+							</a>
+						
+					</div>
+					<div class="blog-info">
+						<a href="http://wanderleynogueira.blog.terra.com.br/2012/" class="author">
+							Wanderley Nogueira
+						</a>
+						<p>
+							<a href="http://wanderleynogueira.blog.terra.com.br/2013/04/05/mania-de-forcar-aposentadoria-de-atletas/">
+								<em class="ico-hed ico-hed-blog"></em>Ceni tem reflexos, é diferenciado e não deve se aposentar
+							</a>
+							
+						</p>
+					</div>
+				</li>
+			
+				<li>
+					<div class="ctn-image">
+						
+							<a href="http://terramagazine.terra.com.br/bobfernandes/blog/2013/04/05/eduardo-campos-pede-nova-agenda-para-economia-a-crise-esta-chegando-ao-brasil/" class="img">
+								<img src="http://p2.trrsf.com.br/image/get?src=http%3A%2F%2Fimages.terra.com%2F2012%2F12%2F06%2Fabril9bob-fernandes99.jpg&o=cf&w=89&h=99" height="99" width="89" title="Bob Fernandes Foto: Terra" alt="Bob Fernandes Foto: Terra" />
+							</a>
+						
+					</div>
+					<div class="blog-info">
+						<a href="http://terramagazine.terra.com.br/bobfernandes/blog/" class="author">
+							Bob Fernandes
+						</a>
+						<p>
+							<a href="http://terramagazine.terra.com.br/bobfernandes/blog/2013/04/05/eduardo-campos-pede-nova-agenda-para-economia-a-crise-esta-chegando-ao-brasil/">
+								<em class="ico-hed ico-hed-blog"></em>Eduardo Campos pede "nova agenda" para economia: "crise está chegando ao Brasil"
+							</a>
+							
+						</p>
+					</div>
+				</li>
+			
+				<li>
+					<div class="ctn-image">
+						
+							<a href="http://blogdotas.terra.com.br/2013/04/05/qual-e-o-seu-maior-problema/" class="img">
+								<img src="http://p2.trrsf.com.br/image/get?src=http%3A%2F%2Fimages.terra.com%2F2012%2F12%2F06%2Fmarcelo-tas.jpg&o=cf&w=89&h=99" height="99" width="89" title="Marcelo Tas Foto: Terra" alt="Marcelo Tas Foto: Terra" />
+							</a>
+						
+					</div>
+					<div class="blog-info">
+						<a href="http://blogdotas.terra.com.br/" class="author">
+							Blog do Tas
+						</a>
+						<p>
+							<a href="http://blogdotas.terra.com.br/2013/04/05/qual-e-o-seu-maior-problema/">
+								<em class="ico-hed ico-hed-blog"></em>Qual o maior problema do mundo? Veja a resposta em 56 países diferentes
+							</a>
+							
+						</p>
+					</div>
+				</li>
+			
+				<li>
+					<div class="ctn-image">
+						
+							<a href="http://mauren.terra.com.br/destaque/veja-como-usar-jeans-na-decoracao/http://mauren.terra.com.br/destaque/veja-como-usar-jeans-na-decoracao/" class="img">
+								<img src="http://p2.trrsf.com.br/image/get?src=http%3A%2F%2Fimages.terra.com%2F2012%2F12%2F06%2Fmaurenmotta-89x99.jpg&o=cf&w=89&h=99" height="99" width="89" title="Mauren Motta Foto: Divulgação" alt="Mauren Motta Foto: Divulgação" />
+							</a>
+						
+					</div>
+					<div class="blog-info">
+						<a href="http://mauren.terra.com.br/" class="author">
+							Mauren Motta
+						</a>
+						<p>
+							<a href="http://mauren.terra.com.br/destaque/veja-como-usar-jeans-na-decoracao/http://mauren.terra.com.br/destaque/veja-como-usar-jeans-na-decoracao/">
+								<em class="ico-hed ico-hed-blog"></em>Veja como usar jeans na decoração
+							</a>
+							
+						</p>
+					</div>
+				</li>
+			
+				<li>
+					<div class="ctn-image">
+						
+							<a href="http://terramagazine.terra.com.br/blogdoboleiro/blog/2013/04/05/para-evitar-discriminacao-bolivianos-de-sao-paulo-dao-apoio-aos-12-de-oruro/" class="img">
+								<img src="http://p2.trrsf.com.br/image/get?src=http%3A%2F%2Fimages.terra.com%2F2012%2F10%2F11%2Fluciano-barros.jpg&o=cf&w=89&h=99" height="99" width="89" title="Luciano Borges Foto: Terra" alt="Luciano Borges Foto: Terra" />
+							</a>
+						
+					</div>
+					<div class="blog-info">
+						<a href="http://terramagazine.terra.com.br/blogdoboleiro/blog/2013/03/23/muricy-ramalho-critica-quem-mistura-namoro-com-o-futebol-de-neymar-e-diz-o-cara-esta-apaixonado/" class="author">
+							Luciano Borges
+						</a>
+						<p>
+							<a href="http://terramagazine.terra.com.br/blogdoboleiro/blog/2013/04/05/para-evitar-discriminacao-bolivianos-de-sao-paulo-dao-apoio-aos-12-de-oruro/">
+								<em class="ico-hed ico-hed-blog"></em>Para evitar discriminação, bolivianos de São Paulo dão apoio aos 12 de Oruro
+							</a>
+							
+						</p>
+					</div>
+				</li>
+			
+				<li>
+					<div class="ctn-image">
+						
+							<a href="http://patchworkcultural.blogs.terra.com/2013/04/05/a-festa-do-teatro-soteropolitano-2/" class="img">
+								<img src="http://p2.trrsf.com.br/image/get?src=http%3A%2F%2Fimages.terra.com%2F2013%2F03%2F29%2Fdeolindavilhena89x99b.jpg&o=cf&w=89&h=99" height="99" width="89" title=" Foto: Reprodução" alt=" Foto: Reprodução" />
+							</a>
+						
+					</div>
+					<div class="blog-info">
+						
+							<b>Deolinda Vilhena</b>
+						
+						<p>
+							<a href="http://patchworkcultural.blogs.terra.com/2013/04/05/a-festa-do-teatro-soteropolitano-2/">
+								<em class="ico-hed ico-hed-blog"></em>A festa do teatro soteropolitano (parte 2)
+							</a>
+							
+						</p>
+					</div>
+				</li>
+			
+				<li>
+					<div class="ctn-image">
+						
+							<a href="http://terramagazine.terra.com.br/blogdotessler/blog/2013/04/05/a-italia-e-o-brasil-amanha/" class="img">
+								<img src="http://p2.trrsf.com.br/image/get?src=http%3A%2F%2Fimages.terra.com%2F2012%2F12%2F06%2Fabril9eduardotessler.jpg&o=cf&w=89&h=99" height="99" width="89" title="Eduardo Tessler Foto: Divulgação" alt="Eduardo Tessler Foto: Divulgação" />
+							</a>
+						
+					</div>
+					<div class="blog-info">
+						<a href="http://terramagazine.terra.com.br/blogdotessler/blog/" class="author">
+							Eduardo Tessler
+						</a>
+						<p>
+							<a href="http://terramagazine.terra.com.br/blogdotessler/blog/2013/04/05/a-italia-e-o-brasil-amanha/">
+								<em class="ico-hed ico-hed-blog"></em>Beppe Grillo é o novo na Itália que parece ser o Brasil de amanhã 
+							</a>
+							
+						</p>
+					</div>
+				</li>
+			
+				<li>
+					<div class="ctn-image">
+						
+							<a href="http://esportes.terra.com.br/automobilismo/formula1/f1-onboard/blog/2013/04/05/homem-de-gelo-nao-e-tao-frio-assim-diz-familia-de-raikkonen/" class="img">
+								<img src="http://p2.trrsf.com.br/image/get?src=http%3A%2F%2Fimages.terra.com%2F2013%2F02%2F04%2Fmarcoschavarria89x119.jpg&o=cf&w=89&h=99" height="99" width="89" title="Marcos Chavarria Foto: Terra" alt="Marcos Chavarria Foto: Terra" />
+							</a>
+						
+					</div>
+					<div class="blog-info">
+						<a href="http://esportes.terra.com.br/automobilismo/formula1/f1-onboard/blog" class="author">
+							<b>Marcos Chavarria</b>
+						</a>
+						<p>
+							<a href="http://esportes.terra.com.br/automobilismo/formula1/f1-onboard/blog/2013/04/05/homem-de-gelo-nao-e-tao-frio-assim-diz-familia-de-raikkonen/">
+								<em class="ico-hed ico-hed-blog"></em>'Homem de gelo' não é tão frio assim, diz família de Raikkonen 
+							</a>
+							
+						</p>
+					</div>
+				</li>
+			
+				<li>
+					<div class="ctn-image">
+						
+							<a href="http://terramagazine.terra.com.br/jogodenegocios/blog/2013/04/04/o-nome-do-mundo-do-esporte-nos-eua-agora-e-jay-z/" class="img">
+								<img src="http://p2.trrsf.com.br/image/get?src=http%3A%2F%2Fimages.terra.com%2F2012%2F12%2F06%2Fabril9fabiokadow.jpg&o=cf&w=89&h=99" height="99" width="89" title="Fábio Kadow Foto: Divulgação" alt="Fábio Kadow Foto: Divulgação" />
+							</a>
+						
+					</div>
+					<div class="blog-info">
+						<a href="http://terramagazine.terra.com.br/jogodenegocios/blog/" class="author">
+							Fábio Kadow
+						</a>
+						<p>
+							<a href="http://terramagazine.terra.com.br/jogodenegocios/blog/2013/04/04/o-nome-do-mundo-do-esporte-nos-eua-agora-e-jay-z/">
+								<em class="ico-hed ico-hed-blog"></em>O nome do mundo do esporte nos EUA agora é Jay-Z
+							</a>
+							
+						</p>
+					</div>
+				</li>
+			
+				<li>
+					<div class="ctn-image">
+						
+							<a href="http://blogdoschaun.blogs.terra.com/2013/04/04/maluf-ironiza-na-tv-lugar-de-bandido-e-na-cadeia/" class="img">
+								<img src="http://p2.trrsf.com.br/image/get?src=http%3A%2F%2Fimages.terra.com%2F2012%2F12%2F06%2Fabril9diegoschaun.jpg&o=cf&w=89&h=99" height="99" width="89" title="Diego Schaun Foto: Divulgação" alt="Diego Schaun Foto: Divulgação" />
+							</a>
+						
+					</div>
+					<div class="blog-info">
+						<a href="http://terramagazine.terra.com.br/blogdoschaun/blog/" class="author">
+							Diego Schaun
+						</a>
+						<p>
+							<a href="http://blogdoschaun.blogs.terra.com/2013/04/04/maluf-ironiza-na-tv-lugar-de-bandido-e-na-cadeia/">
+								<em class="ico-hed ico-hed-blog"></em>Maluf ironiza na TV: lugar de bandido é na cadeia
+							</a>
+							
+						</p>
+					</div>
+				</li>
+			
+				<li>
+					<div class="ctn-image">
+						
+							<a href="http://oscarfilho.terra.com.br/2013/04/meteoros-asteroides-e-cometas/" class="img">
+								<img src="http://p2.trrsf.com.br/image/get?src=http%3A%2F%2Fimages.terra.com%2F2013%2F02%2F18%2Foscarfilhoblogterra.jpg&o=cf&w=89&h=99" height="99" width="89" title="Oscar Filho Foto: Divulgação" alt="Oscar Filho Foto: Divulgação" />
+							</a>
+						
+					</div>
+					<div class="blog-info">
+						<a href="http://oscarfilho.terra.com.br/" class="author">
+							Oscar Filho
+						</a>
+						<p>
+							<a href="http://oscarfilho.terra.com.br/2013/04/meteoros-asteroides-e-cometas/">
+								<em class="ico-hed ico-hed-blog"></em>Os meteoros, meteoritos, cometas e asteróides mais famosos da história  
+							</a>
+							
+						</p>
+					</div>
+				</li>
+			
+				<li>
+					<div class="ctn-image">
+						
+							<a href="http://terramagazine.terra.com.br/blogdomarcelosemer/blog/2013/04/03/reacao-a-pec-das-domesticas-e-a-luta-pelo-pais-do-passado/" class="img">
+								<img src="http://p2.trrsf.com.br/image/get?src=http%3A%2F%2Fimages.terra.com%2F2012%2F12%2F06%2Fabril9marcelosemer.jpg&o=cf&w=89&h=99" height="99" width="89" title="Marcelo Semer Foto: Divulgação" alt="Marcelo Semer Foto: Divulgação" />
+							</a>
+						
+					</div>
+					<div class="blog-info">
+						<a href="http://terramagazine.terra.com.br/blogdomarcelosemer/blog/" class="author">
+							Marcelo Semer
+						</a>
+						<p>
+							<a href="http://terramagazine.terra.com.br/blogdomarcelosemer/blog/2013/04/03/reacao-a-pec-das-domesticas-e-a-luta-pelo-pais-do-passado/">
+								<em class="ico-hed ico-hed-blog"></em>Reação à PEC das Domésticas é a luta pelo país do passado
+							</a>
+							
+						</p>
+					</div>
+				</li>
+			
+				<li>
+					<div class="ctn-image">
+						
+							<a href="http://musica.terra.com.br/independencia-ou-morte/blog/2013/04/05/um-clipe-famous-do-black-drawing-chalks/" class="img">
+								<img src="http://p2.trrsf.com.br/image/get?src=http%3A%2F%2Fimages.terra.com%2F2013%2F01%2F09%2Fosmarportilho89x99.jpg&o=cf&w=89&h=99" height="99" width="89" title="Osmar Portilho Foto: Terra" alt="Osmar Portilho Foto: Terra" />
+							</a>
+						
+					</div>
+					<div class="blog-info">
+						<a href="http://musica.terra.com.br/independencia-ou-morte/blog" class="author">
+							<b>Osmar Portilho</b>
+						</a>
+						<p>
+							<a href="http://musica.terra.com.br/independencia-ou-morte/blog/2013/04/05/um-clipe-famous-do-black-drawing-chalks/">
+								<em class="ico-hed ico-hed-blog"></em>Um clipe: 'Famous', do Black Drawing Chalks
+							</a>
+							
+						</p>
+					</div>
+				</li>
+			
+				<li>
+					<div class="ctn-image">
+						
+							<a href="http://blogdaamazonia.blogs.terra.com/2013/04/02/ro-greve-de-25-mil-operarios-interrompe-obras-de-hidreletricas/" class="img">
+								<img src="http://p2.trrsf.com.br/image/get?src=http%3A%2F%2Fimages.terra.com%2F2013%2F01%2F12%2Fabril9altino-machado-blog-da-amazonia.jpg&o=cf&w=89&h=99" height="99" width="89" title=" Foto: Terra" alt=" Foto: Terra" />
+							</a>
+						
+					</div>
+					<div class="blog-info">
+						<a href="http://terramagazine.terra.com.br/blogdaamazonia/blog" class="author">
+							<b>Altino Machado</b>
+						</a>
+						<p>
+							<a href="http://blogdaamazonia.blogs.terra.com/2013/04/02/ro-greve-de-25-mil-operarios-interrompe-obras-de-hidreletricas/">
+								<em class="ico-hed ico-hed-blog"></em>RO: greve de 25 mil operários interrompe obras de hidrelétricas
+							</a>
+							
+						</p>
+					</div>
+				</li>
+			
+				<li>
+					<div class="ctn-image">
+						
+							<a href="http://invertia.terra.com.br/sustentabilidade/economiaverde/blog" class="img">
+								<img src="http://p2.trrsf.com.br/image/get?src=http%3A%2F%2Fimages.terra.com%2F2012%2F12%2F06%2Fxicograzianoterramagazine.jpg&o=cf&w=89&h=99" height="99" width="89" title="Xico Graziano Foto: Divulgação" alt="Xico Graziano Foto: Divulgação" />
+							</a>
+						
+					</div>
+					<div class="blog-info">
+						<a href="http://invertia.terra.com.br/sustentabilidade/economiaverde/blog/" class="author">
+							Xico Graziano
+						</a>
+						<p>
+							<a href="http://invertia.terra.com.br/sustentabilidade/economiaverde/blog">
+								<em class="ico-hed ico-hed-blog"></em>Turismo ecológico esbarra na falta de estrutura nas áreas públicas
+							</a>
+							
+						</p>
+					</div>
+				</li>
+			
+				<li>
+					<div class="ctn-image">
+						
+							<a href="http://esportes.terra.com.br/futebol/entrando-no-jogo/blog/2013/04/03/se-ganso-nao-quer-atacar-que-o-facam-recuar-2/" class="img">
+								<img src="http://p2.trrsf.com.br/image/get?src=http%3A%2F%2Fp2.trrsf.com.br%2Fimage%2Fget%3Fo%3Dc%26w%3D1255%26h%3D1672%26x%3D148%26y%3D276%26src%3Dhttp%253A%252F%252Fimages.terra.com%252F2013%252F04%252F03%252Fleandromiranda02.jpg&o=cf&w=89&h=99" height="99" width="89" title="Apaixonado por futebol, assiste a todo tipo de jogo e gosta de prestar atenção nos detalhes.  Foto: Terra" alt="Apaixonado por futebol, assiste a todo tipo de jogo e gosta de prestar atenção nos detalhes.  Foto: Terra" />
+							</a>
+						
+					</div>
+					<div class="blog-info">
+						<a href="http://esportes.terra.com.br/futebol/entrando-no-jogo/blog" class="author">
+							Leandro Miranda
+						</a>
+						<p>
+							<a href="http://esportes.terra.com.br/futebol/entrando-no-jogo/blog/2013/04/03/se-ganso-nao-quer-atacar-que-o-facam-recuar-2/">
+								<em class="ico-hed ico-hed-blog"></em>Se Ganso não quer atacar, que o façam recuar
+							</a>
+							
+						</p>
+					</div>
+				</li>
+			
+				<li>
+					<div class="ctn-image">
+						
+							<a href="http://www.istoe.com.br/colunas-e-blogs/colunista/48_PAULO+MOREIRA+LEITE" class="img">
+								<img src="http://p2.trrsf.com.br/image/get?src=http%3A%2F%2Fimages.terra.com%2F2013%2F01%2F21%2Fpaulomoreiraleite99x89istoe.jpg&o=cf&w=89&h=99" height="99" width="89" title=" Foto: IstoÉ" alt=" Foto: IstoÉ" />
+							</a>
+						
+					</div>
+					<div class="blog-info">
+						<a href="http://www.istoe.com.br/colunas-e-blogs/colunista/48_PAULO+MOREIRA+LEITE" class="author">
+							<b>Paulo Moreira Leite</b>
+						</a>
+						<p>
+							<a href="http://www.istoe.com.br/colunas-e-blogs/colunista/48_PAULO+MOREIRA+LEITE">
+								<em class="ico-hed ico-hed-blog"></em>Lições da vida de Eloá, a babá
+							</a>
+							
+						</p>
+					</div>
+				</li>
+			
+				<li>
+					<div class="ctn-image">
+						
+							<a href="http://terramagazine.terra.com.br/entremez/blog/2013/04/03/a-viagem-dos-livros/" class="img">
+								<img src="http://p2.trrsf.com.br/image/get?src=http%3A%2F%2Fimages.terra.com%2F2012%2F12%2F06%2Fabril9ronaldocorreiabrito.jpg&o=cf&w=89&h=99" height="99" width="89" title="Ronaldo Correia Brito Foto: Divulgação" alt="Ronaldo Correia Brito Foto: Divulgação" />
+							</a>
+						
+					</div>
+					<div class="blog-info">
+						<a href="http://entremez.blogs.terra.com/" class="author">
+							Ronaldo Correia Brito
+						</a>
+						<p>
+							<a href="http://terramagazine.terra.com.br/entremez/blog/2013/04/03/a-viagem-dos-livros/">
+								<em class="ico-hed ico-hed-blog"></em>Há uma expectativa no exterior por literatura com cor e cheiro de Brasil
+							</a>
+							
+						</p>
+					</div>
+				</li>
+			
+				<li>
+					<div class="ctn-image">
+						
+							<a href="http://esportes.terra.com.br/futebol/prata-da-casa/blog/2013/04/03/com-marin-ressabiado-brasil-sub-17-tenta-confirmar-nova-geracao-de-ouro/" class="img">
+								<img src="http://p2.trrsf.com.br/image/get?src=http%3A%2F%2Fimages.terra.com%2F2013%2F01%2F18%2Fdasslermarques89x99.jpg&o=cf&w=89&h=99" height="99" width="89" title="Dassler Marques Foto: Terra" alt="Dassler Marques Foto: Terra" />
+							</a>
+						
+					</div>
+					<div class="blog-info">
+						<a href="http://esportes.terra.com.br/futebol/prata-da-casa/blog/" class="author">
+							Dassler Marques
+						</a>
+						<p>
+							<a href="http://esportes.terra.com.br/futebol/prata-da-casa/blog/2013/04/03/com-marin-ressabiado-brasil-sub-17-tenta-confirmar-nova-geracao-de-ouro/">
+								<em class="ico-hed ico-hed-blog"></em>Com Marin ressabiado, Seleção Sub-17 tenta nova geração de ouro
+							</a>
+							
+						</p>
+					</div>
+				</li>
+			
+				<li>
+					<div class="ctn-image">
+						
+							<a href="http://terramagazine.terra.com.br/blogdoandresetaro/blog/2013/04/02/mostras-essenciais-de-howard-hawks-e-samuel-fuller-em-algumas-capitais-do-pais/" class="img">
+								<img src="http://p2.trrsf.com.br/image/get?src=http%3A%2F%2Fimages.terra.com%2F2012%2F12%2F06%2Fabril9andreserato.jpg&o=cf&w=89&h=99" height="99" width="89" title="André Setaro Foto: Divulgação" alt="André Setaro Foto: Divulgação" />
+							</a>
+						
+					</div>
+					<div class="blog-info">
+						<a href="http://terramagazine.terra.com.br/blogdoandresetaro/blog/" class="author">
+							André Setaro
+						</a>
+						<p>
+							<a href="http://terramagazine.terra.com.br/blogdoandresetaro/blog/2013/04/02/mostras-essenciais-de-howard-hawks-e-samuel-fuller-em-algumas-capitais-do-pais/">
+								<em class="ico-hed ico-hed-blog"></em>Cinema: Rio, Brasília e BH exibem mostras de Hawks e Fuller
+							</a>
+							
+						</p>
+					</div>
+				</li>
+			
+				<li>
+					<div class="ctn-image">
+						
+							<a href="http://terramagazine.terra.com.br/blogdoclaudiolembo/blog/2013/04/01/a-realidade-supera-o-sonho/" class="img">
+								<img src="http://p2.trrsf.com.br/image/get?src=http%3A%2F%2Fimages.terra.com%2F2012%2F12%2F06%2Fabril9claudiolembo.jpg&o=cf&w=89&h=99" height="99" width="89" title="Cláudio Lembo Foto: Divulgação" alt="Cláudio Lembo Foto: Divulgação" />
+							</a>
+						
+					</div>
+					<div class="blog-info">
+						<a href="http://terramagazine.terra.com.br/blogdoclaudiolembo/blog/" class="author">
+							Cláudio Lembo
+						</a>
+						<p>
+							<a href="http://terramagazine.terra.com.br/blogdoclaudiolembo/blog/2013/04/01/a-realidade-supera-o-sonho/">
+								<em class="ico-hed ico-hed-blog"></em>Constituição defasada amplia a área de atuação do judiciário 
+							</a>
+							
+						</p>
+					</div>
+				</li>
+			
+				<li>
+					<div class="ctn-image">
+						
+							<a href="http://saude.terra.com.br/blog-do-cyro-masci/blog/2013/04/01/sensivel-a-qualquer-ruido-cuidado-voce-pode-estar-estressada-demais/" class="img">
+								<img src="http://p2.trrsf.com.br/image/get?src=http%3A%2F%2Fimages.terra.com%2F2012%2F12%2F06%2Fcyromascisaude89x99.jpg&o=cf&w=89&h=99" height="99" width="89" title="Cyro Masci Foto: Divulgação" alt="Cyro Masci Foto: Divulgação" />
+							</a>
+						
+					</div>
+					<div class="blog-info">
+						<a href="http://saude.terra.com.br/blog-do-cyro-masci/blog/" class="author">
+							Cyro Masci
+						</a>
+						<p>
+							<a href="http://saude.terra.com.br/blog-do-cyro-masci/blog/2013/04/01/sensivel-a-qualquer-ruido-cuidado-voce-pode-estar-estressada-demais/">
+								<em class="ico-hed ico-hed-blog"></em>Sensibilidade excessiva a barulhos pode ser sinal de estresse; entenda 
+							</a>
+							
+						</p>
+					</div>
+				</li>
+			
+				<li>
+					<div class="ctn-image">
+						
+							<a href="http://noticias.terra.com.br/mundo/brazil-no-radar/blog/2013/04/01/dilma-e-incluida-em-enquete-de-100-mais-influentes-da-revista-time/ " class="img">
+								<img src="http://p2.trrsf.com.br/image/get?src=http%3A%2F%2Fimages.terra.com%2F2012%2F12%2F06%2Fdanielbuarqueblog-brazil.jpg&o=cf&w=89&h=99" height="99" width="89" title=" Foto: Terra" alt=" Foto: Terra" />
+							</a>
+						
+					</div>
+					<div class="blog-info">
+						<a href="http://noticias.terra.com.br/mundo/brazil-no-radar/blog/" class="author">
+							Daniel Buarque
+						</a>
+						<p>
+							<a href="http://noticias.terra.com.br/mundo/brazil-no-radar/blog/2013/04/01/dilma-e-incluida-em-enquete-de-100-mais-influentes-da-revista-time/ ">
+								<em class="ico-hed ico-hed-blog"></em>Dilma é incluída em enquete de 100 mais influentes da revista Time
+							</a>
+							
+						</p>
+					</div>
+				</li>
+			
+				<li>
+					<div class="ctn-image">
+						
+							<a href="http://terramagazine.terra.com.br/blogdovitorhugosoares/blog/2013/03/31/dilma-em-salvador-arena-fonte-nova-metro-e-sucessao/" class="img">
+								<img src="http://p2.trrsf.com.br/image/get?src=http%3A%2F%2Fimages.terra.com%2F2012%2F12%2F06%2Fabril9vitorhugosoares.jpg&o=cf&w=89&h=99" height="99" width="89" title="Vitor Hugo Soares Foto: Divulgação" alt="Vitor Hugo Soares Foto: Divulgação" />
+							</a>
+						
+					</div>
+					<div class="blog-info">
+						<a href="http://terramagazine.terra.com.br/blogdovitorhugosoares/blog/" class="author">
+							Vitor Hugo Soares
+						</a>
+						<p>
+							<a href="http://terramagazine.terra.com.br/blogdovitorhugosoares/blog/2013/03/31/dilma-em-salvador-arena-fonte-nova-metro-e-sucessao/">
+								<em class="ico-hed ico-hed-blog"></em>Arena Fonte Nova e obras do metrô estão na agenda de Dilma em Salvador
+							</a>
+							
+						</p>
+					</div>
+				</li>
+			
+				<li>
+					<div class="ctn-image">
+						
+							<a href="http://terramagazine.terra.com.br/blogdorizzattonunes/blog/2013/04/01/trogloditas-barbaros-sadicos-e-outros-tipos-de-estudantes-de-nossa-sociedade-capitalista/" class="img">
+								<img src="http://p2.trrsf.com.br/image/get?src=http%3A%2F%2Fimages.terra.com%2F2012%2F12%2F06%2Fabril9rizzatonunes.jpg&o=cf&w=89&h=99" height="99" width="89" title="Rizzatto Nunes Foto: Divulgação" alt="Rizzatto Nunes Foto: Divulgação" />
+							</a>
+						
+					</div>
+					<div class="blog-info">
+						<a href="http://terramagazine.terra.com.br/blogdorizzattonunes/blog/" class="author">
+							Rizzatto Nunes
+						</a>
+						<p>
+							<a href="http://terramagazine.terra.com.br/blogdorizzattonunes/blog/2013/04/01/trogloditas-barbaros-sadicos-e-outros-tipos-de-estudantes-de-nossa-sociedade-capitalista/">
+								<em class="ico-hed ico-hed-blog"></em>Trote Universitários: quais direitos dos calouros são violados?
+							</a>
+							
+						</p>
+					</div>
+				</li>
+			
+				<li>
+					<div class="ctn-image">
+						
+							<a href="http://moda.terra.com.br/blogdarosangelaespinossi/blog/2013/03/28/clo-orozco-emocoes-a-portas-fechadas/" class="img">
+								<img src="http://p2.trrsf.com.br/image/get?src=http%3A%2F%2Fimages.terra.com%2F2013%2F03%2F19%2Frosangelaespinossiblog.jpg&o=cf&w=89&h=99" height="99" width="89" title="Rosângela Espinossi Foto: Divulgação" alt="Rosângela Espinossi Foto: Divulgação" />
+							</a>
+						
+					</div>
+					<div class="blog-info">
+						<a href="http://moda.terra.com.br/blogdarosangelaespinossi/blog" class="author">
+							Rosângela Espinossi
+						</a>
+						<p>
+							<a href="http://moda.terra.com.br/blogdarosangelaespinossi/blog/2013/03/28/clo-orozco-emocoes-a-portas-fechadas/">
+								<em class="ico-hed ico-hed-blog"></em>Clô Orozco: emoções a portas fechadas 
+							</a>
+							
+						</p>
+					</div>
+				</li>
+			
+				<li>
+					<div class="ctn-image">
+						
+							<a href="http://terramagazine.terra.com.br/emersondamasceno/blog/2013/03/26/o-marco-infeliz/" class="img">
+								<img src="http://p2.trrsf.com.br/image/get?src=http%3A%2F%2Fimages.terra.com%2F2012%2F12%2F06%2Fjunho26emersondamasceno.jpg&o=cf&w=89&h=99" height="99" width="89" title="E. Damasceno Foto: Divulgação" alt="E. Damasceno Foto: Divulgação" />
+							</a>
+						
+					</div>
+					<div class="blog-info">
+						<a href="http://terramagazine.terra.com.br/emersondamasceno/blog/" class="author">
+							Emerson Damasceno
+						</a>
+						<p>
+							<a href="http://terramagazine.terra.com.br/emersondamasceno/blog/2013/03/26/o-marco-infeliz/">
+								<em class="ico-hed ico-hed-blog"></em>Mesmo sem renunciar, Marco Feliciano não preside mais os Direitos Humanos
+							</a>
+							
+						</p>
+					</div>
+				</li>
+			
+				<li>
+					<div class="ctn-image">
+						
+							<a href="http://blogdaisabellafiorentino.blogs.terra.com/2013/03/25/teca-vestidos-fluidos-e-estampas-de-porcelanas-antigas/" class="img">
+								<img src="http://p2.trrsf.com.br/image/get?src=http%3A%2F%2Fimages.terra.com%2F2013%2F03%2F20%2Fisabellablog89x99.jpg&o=cf&w=89&h=99" height="99" width="89" title="Isabella Fiorentino Foto: Divulgação" alt="Isabella Fiorentino Foto: Divulgação" />
+							</a>
+						
+					</div>
+					<div class="blog-info">
+						<a href="http://blogdaisabellafiorentino.blogs.terra.com/" class="author">
+							Isabella Fiorentino
+						</a>
+						<p>
+							<a href="http://blogdaisabellafiorentino.blogs.terra.com/2013/03/25/teca-vestidos-fluidos-e-estampas-de-porcelanas-antigas/">
+								<em class="ico-hed ico-hed-blog"></em>Têca: vestidos fluidos e estampas de porcelanas antigas
+							</a>
+							
+						</p>
+					</div>
+				</li>
+			
+				<li>
+					<div class="ctn-image">
+						
+							<a href="http://mulher.terra.com.br/vida-a-dois/amores-imperfeitos/blog/2013/03/25/as-fantasias-sexuais/" class="img">
+								<img src="http://p2.trrsf.com.br/image/get?src=http%3A%2F%2Fimages.terra.com%2F2013%2F03%2F15%2Fmarcelopuglia99.jpg&o=cf&w=89&h=99" height="99" width="89" title="Marcelo Puglia Foto: Marcelo Puglia / Reprodução" alt="Marcelo Puglia Foto: Marcelo Puglia / Reprodução" />
+							</a>
+						
+					</div>
+					<div class="blog-info">
+						<a href="http://mulher.terra.com.br/vida-a-dois/amores-imperfeitos/blog" class="author">
+							<b>Marcelo Puglia</b>
+						</a>
+						<p>
+							<a href="http://mulher.terra.com.br/vida-a-dois/amores-imperfeitos/blog/2013/03/25/as-fantasias-sexuais/">
+								<em class="ico-hed ico-hed-blog"></em>Veja diferença entre as fantasias sexuais dos homens e das mulheres
+							</a>
+							
+						</p>
+					</div>
+				</li>
+			
+				<li>
+					<div class="ctn-image">
+						
+							<a href="http://terramagazine.terra.com.br/blogdosirio/blog/2013/03/28/de-volta-ao-enem/" class="img">
+								<img src="http://p2.trrsf.com.br/image/get?src=http%3A%2F%2Fimages.terra.com%2F2012%2F10%2F11%2Fsirio-possenti.jpg&o=cf&w=89&h=99" height="99" width="89" title=" Foto: Terra" alt=" Foto: Terra" />
+							</a>
+						
+					</div>
+					<div class="blog-info">
+						<a href="http://terramagazine.terra.com.br/blogdosirio/blog/2012/10/11/confirmando/" class="author">
+							Sírio Possenti
+						</a>
+						<p>
+							<a href="http://terramagazine.terra.com.br/blogdosirio/blog/2013/03/28/de-volta-ao-enem/">
+								<em class="ico-hed ico-hed-blog"></em>Que mania de seriedade com o Enem!
+							</a>
+							
+						</p>
+					</div>
+				</li>
+			
+				<li>
+					<div class="ctn-image">
+						
+							<a href="http://terramagazine.terra.com.br/blogdopaulocostalima/blog/2013/03/28/50-tons-de-arte-e-pornografia/" class="img">
+								<img src="http://p2.trrsf.com.br/image/get?src=http%3A%2F%2Fimages.terra.com%2F2012%2F12%2F06%2Fabril9paulocostalima.jpg&o=cf&w=89&h=99" height="99" width="89" title="Paulo Costa Lima Foto: Divulgação" alt="Paulo Costa Lima Foto: Divulgação" />
+							</a>
+						
+					</div>
+					<div class="blog-info">
+						<a href="http://terramagazine.terra.com.br/blogdopaulocostalima/blog/" class="author">
+							Paulo Costa Lima
+						</a>
+						<p>
+							<a href="http://terramagazine.terra.com.br/blogdopaulocostalima/blog/2013/03/28/50-tons-de-arte-e-pornografia/">
+								<em class="ico-hed ico-hed-blog"></em>"50 tons de cinza" leva escritores a "tentar a mão" com erótico explícito
+							</a>
+							
+						</p>
+					</div>
+				</li>
+			
+				<li>
+					<div class="ctn-image">
+						
+							<a href="http://terramagazine.terra.com.br/jequietcong/blog/2013/03/27/please-please-me-cinquentao/" class="img">
+								<img src="http://p2.trrsf.com.br/image/get?src=http%3A%2F%2Fimages.terra.com%2F2012%2F12%2F06%2Fabril9paquito.jpg&o=cf&w=89&h=99" height="99" width="89" title="Paquito Foto: Terra" alt="Paquito Foto: Terra" />
+							</a>
+						
+					</div>
+					<div class="blog-info">
+						<a href="http://terramagazine.terra.com.br/jequietcong/blog/" class="author">
+							Paquito
+						</a>
+						<p>
+							<a href="http://terramagazine.terra.com.br/jequietcong/blog/2013/03/27/please-please-me-cinquentao/">
+								<em class="ico-hed ico-hed-blog"></em>'Please please me', primeiro LP dos Beatles faz cinquenta anos
+							</a>
+							
+						</p>
+					</div>
+				</li>
+			
+				<li>
+					<div class="ctn-image">
+						
+							<a href="http://terramagazine.terra.com.br/blogdaamaliasafatle/blog/2013/03/20/pec-das-domesticas-a-mudanca-e-mais-profunda-do-que-parece/" class="img">
+								<img src="http://p2.trrsf.com.br/image/get?src=http%3A%2F%2Fimages.terra.com%2F2012%2F12%2F06%2Fabril9amaliasafate.jpg&o=cf&w=89&h=99" height="99" width="89" title="Amália Safatle Foto: Divulgação" alt="Amália Safatle Foto: Divulgação" />
+							</a>
+						
+					</div>
+					<div class="blog-info">
+						<a href="http://terramagazine.terra.com.br/blogdaamaliasafatle/blog/" class="author">
+							Amália Safatle
+						</a>
+						<p>
+							<a href="http://terramagazine.terra.com.br/blogdaamaliasafatle/blog/2013/03/20/pec-das-domesticas-a-mudanca-e-mais-profunda-do-que-parece/">
+								<em class="ico-hed ico-hed-blog"></em>PEC das Domésticas: a mudança é mais profunda do que parece 
+							</a>
+							
+						</p>
+					</div>
+				</li>
+			
+				<li>
+					<div class="ctn-image">
+						
+							<a href="http://economia.terra.com.br/renatomeirelles/blog/2013/03/20/otimismo-em-alta-para-a-nova-classe-media/" class="img">
+								<img src="http://p2.trrsf.com.br/image/get?src=http%3A%2F%2Fimages.terra.com%2F2013%2F03%2F20%2Frenatomeireleseconomia89x99.jpg&o=cf&w=89&h=99" height="99" width="89" title="Renato Meirelles Foto: Patrícia Cruz" alt="Renato Meirelles Foto: Patrícia Cruz" />
+							</a>
+						
+					</div>
+					<div class="blog-info">
+						<a href="http://economia.terra.com.br/renatomeirelles/blog/" class="author">
+							Renato Meirelles
+						</a>
+						<p>
+							<a href="http://economia.terra.com.br/renatomeirelles/blog/2013/03/20/otimismo-em-alta-para-a-nova-classe-media/">
+								<em class="ico-hed ico-hed-blog"></em>Otimismo em alta para a Nova Classe Média
+							</a>
+							
+						</p>
+					</div>
+				</li>
+			
+				<li>
+					<div class="ctn-image">
+						
+							<a href="http://cinema.terra.com.br/blogdoariel/blog/2013/03/20/fui-no-sao-paulo-fashion-week/" class="img">
+								<img src="http://p2.trrsf.com.br/image/get?src=http%3A%2F%2Fimages.terra.com%2F2013%2F02%2F21%2Farielgoldenbergblog89x99.jpg&o=cf&w=89&h=99" height="99" width="89" title="Ariel Goldenberg Foto: Divulgação" alt="Ariel Goldenberg Foto: Divulgação" />
+							</a>
+						
+					</div>
+					<div class="blog-info">
+						
+							<b>Ariel Goldenberg</b>
+						
+						<p>
+							<a href="http://cinema.terra.com.br/blogdoariel/blog/2013/03/20/fui-no-sao-paulo-fashion-week/">
+								<em class="ico-hed ico-hed-blog"></em>Fui ao São Paulo Fashion Week!
+							</a>
+							
+						</p>
+					</div>
+				</li>
+			
+				<li>
+					<div class="ctn-image">
+						
+							<a href="http://musica.terra.com.br/sxsw/blog/2013/03/11/a-musica-nos-filmes-de-danny-boyle-e-a-venda-da-rede-de-tv-de-al-gore-para-a-al-jazeera/" class="img">
+								<img src="http://p2.trrsf.com.br/image/get?src=http%3A%2F%2Fimages.terra.com%2F2013%2F03%2F08%2Fperfilsxsw.jpg&o=cf&w=89&h=99" height="99" width="89" title="SXSW 2013. Foto: Divulgação" alt="SXSW 2013. Foto: Divulgação" />
+							</a>
+						
+					</div>
+					<div class="blog-info">
+						
+							<b>SXSW 2013</b>
+						
+						<p>
+							<a href="http://musica.terra.com.br/sxsw/blog/2013/03/11/a-musica-nos-filmes-de-danny-boyle-e-a-venda-da-rede-de-tv-de-al-gore-para-a-al-jazeera/">
+								<em class="ico-hed ico-hed-blog"></em>A música nos filmes de Danny Boyle e a venda da TV de Al Gore para a Al Jazeera
+							</a>
+							
+						</p>
+					</div>
+				</li>
+			
+				<li>
+					<div class="ctn-image">
+						
+							<a href="http://terramagazine.terra.com.br/blogdonelsonpretto/blog/2013/02/16/meteoros-meteoritos-e-o-nosso-bedengo/" class="img">
+								<img src="http://p2.trrsf.com.br/image/get?src=http%3A%2F%2Fimages.terra.com%2F2012%2F12%2F06%2Fabril9nelsonpretto.jpg&o=cf&w=89&h=99" height="99" width="89" title="Nelson Pretto Foto: Divulgação" alt="Nelson Pretto Foto: Divulgação" />
+							</a>
+						
+					</div>
+					<div class="blog-info">
+						<a href="http://terramagazine.terra.com.br/blogdonelsonpretto/blog/" class="author">
+							Nelson Pretto
+						</a>
+						<p>
+							<a href="http://terramagazine.terra.com.br/blogdonelsonpretto/blog/2013/02/16/meteoros-meteoritos-e-o-nosso-bedengo/">
+								<em class="ico-hed ico-hed-blog"></em>Meteoros, meteoritos e o nosso Bedengó
+							</a>
+							
+						</p>
+					</div>
+				</li>
+			
+				<li>
+					<div class="ctn-image">
+						
+							<a href="http://www.istoedinheiro.com.br/blogs-e-colunas/coluna/21_SUZANA+BARELLI" class="img">
+								<img src="http://p2.trrsf.com.br/image/get?src=http%3A%2F%2Fimages.terra.com%2F2013%2F01%2F16%2Fsuzanabarelliistoe99x89.jpg&o=cf&w=89&h=99" height="99" width="89" title="Suzana Barelli Foto: IstoÉ" alt="Suzana Barelli Foto: IstoÉ" />
+							</a>
+						
+					</div>
+					<div class="blog-info">
+						<a href="http://www.istoedinheiro.com.br/blogs-e-colunas/coluna/21_SUZANA+BARELLI" class="author">
+							<b>Suzana Barelli</b>
+						</a>
+						<p>
+							<a href="http://www.istoedinheiro.com.br/blogs-e-colunas/coluna/21_SUZANA+BARELLI">
+								<em class="ico-hed ico-hed-blog"></em>Vinícola gaúcha é escolhida pela Fifa para elaborar brancos e tintos oficiais da Copa
+							</a>
+							
+						</p>
+					</div>
+				</li>
+			
+				<li>
+					<div class="ctn-image">
+						
+							<a href="http://terramagazine.terra.com.br/blogdalecticiacavalcanti/blog/2013/02/14/ameijoas-a-bulhao-pato/" class="img">
+								<img src="http://p2.trrsf.com.br/image/get?src=http%3A%2F%2Fimages.terra.com%2F2012%2F12%2F06%2Fabril9lecticiacavalcanti.jpg&o=cf&w=89&h=99" height="99" width="89" title="Lecticia Cavalcanti Foto: Divulgação" alt="Lecticia Cavalcanti Foto: Divulgação" />
+							</a>
+						
+					</div>
+					<div class="blog-info">
+						<a href="http://terramagazine.terra.com.br/blogdalecticiacavalcanti/blog/2012/11/25/a-polemica-origem-da-maionese/" class="author">
+							Lecticia Cavalcanti
+						</a>
+						<p>
+							<a href="http://terramagazine.terra.com.br/blogdalecticiacavalcanti/blog/2013/02/14/ameijoas-a-bulhao-pato/">
+								<em class="ico-hed ico-hed-blog"></em>Amêijoas à Bulhão Pato
+							</a>
+							
+						</p>
+					</div>
+				</li>
+			
+				<li>
+					<div class="ctn-image">
+						
+							<a href="http://economia.terra.com.br/blog-carreiras/blog/2013/02/19/afaste-as-distracoes-e-seja-mais-produtivo/" class="img">
+								<img src="http://p2.trrsf.com.br/image/get?src=http%3A%2F%2Fimages.terra.com%2F2012%2F12%2F06%2Fjoserobertomarques89x99.jpg&o=cf&w=89&h=99" height="99" width="89" title="José Roberto Marques Foto: Divulgação" alt="José Roberto Marques Foto: Divulgação" />
+							</a>
+						
+					</div>
+					<div class="blog-info">
+						<a href="http://economia.terra.com.br/blog-carreiras/blog/" class="author">
+							José Roberto Marques
+						</a>
+						<p>
+							<a href="http://economia.terra.com.br/blog-carreiras/blog/2013/02/19/afaste-as-distracoes-e-seja-mais-produtivo/">
+								<em class="ico-hed ico-hed-blog"></em>Afaste as distrações e seja mais produtivo
+							</a>
+							
+						</p>
+					</div>
+				</li>
+			
+				<li>
+					<div class="ctn-image">
+						
+							<a href="http://terramagazine.terra.com.br/blogdotagliari/blog/2013/03/09/karl-marx-130-anos-de-morte-do-defensor-dos-vinhateiros/" class="img">
+								<img src="http://p2.trrsf.com.br/image/get?src=http%3A%2F%2Fimages.terra.com%2F2012%2F12%2F06%2Fabril9mauriciotagliari.jpg&o=cf&w=89&h=99" height="99" width="89" title="Mauricio Tagliari Foto: Divulgação" alt="Mauricio Tagliari Foto: Divulgação" />
+							</a>
+						
+					</div>
+					<div class="blog-info">
+						<a href="http://terramagazine.terra.com.br/blogdotagliari/blog/" class="author">
+							Mauricio Tagliari
+						</a>
+						<p>
+							<a href="http://terramagazine.terra.com.br/blogdotagliari/blog/2013/03/09/karl-marx-130-anos-de-morte-do-defensor-dos-vinhateiros/">
+								<em class="ico-hed ico-hed-blog"></em>Karl Marx: 130 anos de morte do defensor dos vinhateiros
+							</a>
+							
+						</p>
+					</div>
+				</li>
+			
+		</ul>
+	</div>
+</div>
+<div class="lin-hor-dotted  lin-hor-dotted-last">
+	<hr />
+</div>
+
+	
+
+
+
+					
+				
+				
+
+<!-- IMPORT - listContentComponent - IMPORT -->
+
+
+
+	
+	<div class="ctn-zone clearfix">		
+					
+							
+				
+				
+				<div class="ctn-section clearfix">
+					
+
+<!-- IMPORT - listLinks - IMPORT -->
+
+
+	
+	
+		
+			<h2 class="ttl-section ttl-dynamic-carrot">
+			
+			
+                <a href="http://www.terra.com.br/portal/fotos/">
+                   <span style="background-image: url(http://p1.trrsf.com.br/image/klavika?e=u&c=shc&ca=t&t=Fotos);">Fotos&nbsp;&gt;</span>
+               </a>
+             
+             
+             
+			</h2>			
+		
+		
+	
+	
+
+
+			
+					
+					
+					
+			
+				
+				
+				
+				
+				
+
+<!-- IMPORT - listLinks - IMPORT -->
+
+<div class="ctn-links">
+	<div class="ctn-bar">
+		<ul>						
+			
+			
+								
+				<li  >				
+					<a href="http://economia.terra.com.br/carros-motos/fotos/">Carros e motos</a>
+				</li>
+			
+								
+				<li  >				
+					<a href="http://diversao.terra.com.br/gente/fotos/">Famosos</a>
+				</li>
+			
+								
+				<li  >				
+					<a href="http://esportes.terra.com.br/automobilismo/fotos/">Fórmula 1</a>
+				</li>
+			
+								
+				<li  >				
+					<a href="http://esportes.terra.com.br/futebol/fotos/">Futebol</a>
+				</li>
+			
+				
+					
+								
+				<li class="last" >				
+					<a href="http://esportes.terra.com.br/lutas/fotos/">Lutas</a>
+				</li>
+			
+		</ul>
+	</div>
+</div>
+
+				
+					<div id="tgm-fphotos" class="ctn-tgm ctn-tgm-button-3"></div>
+					</div>
+				
+					
+					
+					
+			
+					
+							
+				
+				
+				
+
+<!-- IMPORT - listPhotosFeaturedPhotosPrioritization - IMPORT -->
+
+<ul class="mod-featuredphotos">		
+				
+		<li class="itm-thumb1">				
+			
+			
+			
+			
+			
+			<a class="lnk-thumb"  href="http://diversao.terra.com.br/gente/wanessa-vai-a-aniversario-de-filha-de-ronaldo-com-bia-antony,4531f393b01ed310VgnVCM5000009ccceb0aRCRD.html" >
+				
+										
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+									
+				
+																				
+				
+				<img src="http://p2.trrsf.com.br/image/get?src=http%3A%2F%2Fimages.terra.com%2F2013%2F04%2F06%2Fwanessa.JPG&o=cf&w=195&h=195" title="Wanessa vai a aniversário de filha de Ronaldo com Bia Antony. Foto: Francisco Cepeda" alt="Wanessa vai a aniversário de filha de Ronaldo com Bia Antony. Foto: Francisco Cepeda" width="195" height="195" />
+				
+			</a>
+		</li>			
+				
+		<li class="itm-thumb2">				
+			
+			
+			
+			
+			
+			<a class="lnk-thumb"  href="http://beleza.terra.com.br/famosos-marcam-presenca-em-feira-de-beleza-em-sp,934e742b551ed310VgnVCM3000009acceb0aRCRD.html" >
+				
+										
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+									
+				
+																				
+				
+				<img src="http://p2.trrsf.com.br/image/get?src=http%3A%2F%2Fimages.terra.com%2F2013%2F04%2F06%2Fimg2713-001.JPG&o=cf&w=195&h=146" title="Famosos marcam presença em feira de beleza em SP. Foto: Léo Franco" alt="Famosos marcam presença em feira de beleza em SP. Foto: Léo Franco" width="195" height="146" />
+				
+			</a>
+		</li>			
+				
+		<li class="itm-thumb3">				
+			
+			
+			
+			
+			
+			<a class="lnk-thumb"  href="http://musica.terra.com.br/famosos-prestigiam-show-do-the-cure-em-sao-paulo,fee33dfd5e1ed310VgnVCM20000099cceb0aRCRD.html" >
+				
+										
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+									
+				
+																				
+				
+				<img src="http://p2.trrsf.com.br/image/get?src=http%3A%2F%2Fimages.terra.com%2F2013%2F04%2F07%2Falicinha-cavalcanti-4.jpg&o=cf&w=89&h=67" title="Famosos prestigiam show do The Cure em São Paulo. Foto: Caio Duran" alt="Famosos prestigiam show do The Cure em São Paulo. Foto: Caio Duran" width="89" height="67" />
+				
+			</a>
+		</li>			
+				
+		<li class="itm-thumb4">				
+			
+			
+			
+			
+			
+			<a class="lnk-thumb"  href="http://diversao.terra.com.br/ana-paula-araujo-vai-a-festa-de-aniversario-de-nivea-stelmann,413ae89c854ed310VgnVCM20000099cceb0aRCRD.html" >
+				
+										
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+									
+				
+																				
+				
+				<img src="http://p2.trrsf.com.br/image/get?src=http%3A%2F%2Fimages.terra.com%2F2013%2F04%2F07%2Fmg0826.JPG&o=cf&w=67&h=89" title="Ana Paula Araújo vai a festa de aniversário de Nívea Stelmann. Foto: Roberto Filho" alt="Ana Paula Araújo vai a festa de aniversário de Nívea Stelmann. Foto: Roberto Filho" width="67" height="89" />
+				
+			</a>
+		</li>			
+				
+		<li class="itm-thumb5">				
+			
+			
+			
+			
+			
+			<a class="lnk-thumb"  href="http://diversao.terra.com.br/gente/marcio-garcia-e-romario-batem-bola-em-praia-carioca,7e1cf835281ed310VgnVCM5000009ccceb0aRCRD.html" >
+				
+										
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+									
+				
+																				
+				
+				<img src="http://p2.trrsf.com.br/image/get?src=http%3A%2F%2Fimages.terra.com%2F2013%2F04%2F06%2F1-img8909.JPG&o=cf&w=89&h=67" title="Márcio Garcia e Romário batem bola em praia carioca. Foto: Gabriel Rangel" alt="Márcio Garcia e Romário batem bola em praia carioca. Foto: Gabriel Rangel" width="89" height="67" />
+				
+			</a>
+		</li>			
+				
+		<li class="itm-thumb6">				
+			
+			
+			
+			
+			
+			<a class="lnk-thumb"  href="http://musica.terra.com.br/veja-fotos-do-primeiro-dia-do-lollapalooza-no-chile,d5656b36932ed310VgnVCM20000099cceb0aRCRD.html" >
+				
+										
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+									
+				
+																				
+				
+				<img src="http://p2.trrsf.com.br/image/get?src=http%3A%2F%2Fimages.terra.com%2F2013%2F04%2F07%2Fspg8725.jpg&o=cf&w=89&h=89" title="Veja fotos do primeiro dia do Lollapalooza no Chile. Foto: Sergio Piña / Terra" alt="Veja fotos do primeiro dia do Lollapalooza no Chile. Foto: Sergio Piña / Terra" width="89" height="89" />
+				
+			</a>
+		</li>			
+				
+		<li class="itm-thumb7">				
+			
+			
+			
+			
+			
+			<a class="lnk-thumb"  href="http://esportes.terra.com.br/fluminense/atacante-desencanta-apos-jejum-de-83-jogos-fluminense-vence-e-elimina-fla,7d4e12ac1b1ed310VgnVCM4000009bcceb0aRCRD.html" >
+				
+										
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+									
+				
+																				
+				
+				<img src="http://p2.trrsf.com.br/image/get?src=http%3A%2F%2Fimages.terra.com%2F2013%2F04%2F06%2Frhaynercomemora2photocamera.jpg&o=cf&w=89&h=67" title="Atacante desencanta após jejum de 83 jogos, Fluminense vence e elimina Fla. Foto: Photocamera" alt="Atacante desencanta após jejum de 83 jogos, Fluminense vence e elimina Fla. Foto: Photocamera" width="89" height="67" />
+				
+			</a>
+		</li>			
+				
+		<li class="itm-thumb8">				
+			
+			
+			
+			
+			
+			<a class="lnk-thumb"  href="http://esportes.terra.com.br/basquete/apos-fratura-exposta-jogador-de-basquete-e-apoiado-em-ginasio,b7ded33f842ed310VgnVCM4000009bcceb0aRCRD.html" >
+				
+										
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+									
+				
+																				
+				
+				<img src="http://p2.trrsf.com.br/image/get?src=http%3A%2F%2Fimages.terra.com%2F2013%2F04%2F07%2Fcamisakevinwarelouisvillert.jpg&o=cf&w=67&h=89" title="Após fratura exposta, jogador de basquete é apoiado em ginásio." alt="Após fratura exposta, jogador de basquete é apoiado em ginásio." width="67" height="89" />
+				
+			</a>
+		</li>			
+				
+		<li class="itm-thumb9">				
+			
+			
+			
+			
+			
+			<a class="lnk-thumb"  href="http://esportes.terra.com.br/futebol/estaduais/campeonato-gaucho/gremio-vence-ceramica-se-classifica-e-dorme-na-lideranca-do-grupo-a,f8b62259932ed310VgnVCM4000009bcceb0aRCRD.html" >
+				
+										
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+									
+				
+																				
+				
+				<img src="http://p2.trrsf.com.br/image/get?src=http%3A%2F%2Fimages.terra.com%2F2013%2F04%2F07%2Ffernandofestejaeduandradefatopressgazeta.jpg&o=cf&w=89&h=67" title="Grêmio vence Cerâmica, se classifica e dorme na liderança do Grupo A. Foto: Lucas Uebel / Grêmio FBPA" alt="Grêmio vence Cerâmica, se classifica e dorme na liderança do Grupo A. Foto: Lucas Uebel / Grêmio FBPA" width="89" height="67" />
+				
+			</a>
+		</li>			
+				
+		<li class="itm-thumb10">				
+			
+			
+			
+			
+			
+			<a class="lnk-thumb"  href="http://diversao.terra.com.br/gente/fernanda-lima-rodrigo-hilbert-e-os-filhos-curtem-praia,05d475d2cf0ed310VgnVCM20000099cceb0aRCRD.html" >
+				
+										
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+									
+				
+																				
+				
+				<img src="http://p2.trrsf.com.br/image/get?src=http%3A%2F%2Fimages.terra.com%2F2013%2F04%2F06%2F15-img1637.jpg&o=cf&w=89&h=89" title="Fernanda Lima, Rodrigo Hilbert e os filhos curtem praia. Foto: J. Humberto" alt="Fernanda Lima, Rodrigo Hilbert e os filhos curtem praia. Foto: J. Humberto" width="89" height="89" />
+				
+			</a>
+		</li>			
+				
+</ul>
+
+
+					
+			
+	</div>
+	
+		<div class="lin-hor-dotted"><hr /></div>
+		
+		
+
+				
+
+
+<!-- IMPORT - listContentComponent - IMPORT -->
+
+	
+
+		
+	
+	
+	
+	
+	
+	
+	
+	<!-- mod070:   -->
+	
+
+	<div class="ctn-zone clearfix bgr-col-2">
+	
+								
+			
+				
+					<div class="ctn-section clearfix">
+						<h3 class="ttl-section ttl-last-news">
+							<a href="http://www.terra.com.br/portal/ultimas/"><span>Últimas</span></a>
+						</h3>				
+						
+						
+						
+
+<!-- IMPORT - listLinks - IMPORT -->
+
+<div class="ctn-links">
+	<div class="ctn-bar">
+		<ul>						
+			
+			
+								
+				<li  >				
+					<a href="http://www.terra.com.br/rss/Controller?channelid=20e07ef2795b2310VgnVCM3000009af154d0RCRD&ctName=atomo-noticia&lg=pt-br">Assine o RSS</a>
+				</li>
+			
+								
+				<li  >				
+					<a href="http://celular.terra.com.br/noticias_sms_novo/capa.htm">Receba via SMS</a>
+				</li>
+			
+				
+					
+								
+				<li class="last" >				
+					<a href="http://twitter.terra.com.br/">Terra no Twitter</a>
+				</li>
+			
+		</ul>
+	</div>
+</div>
+	
+						<div class="ctn-tgm ctn-tgm-button-3"></div>
+					</div>		
+				
+				
+					
+										
+						
+				
+					
+				
+			
+			
+				
+								
+								
+			
+				
+				
+				
+					<div class="col-wide">						
+						
+						
+						
+
+
+			
+			
+
+
+<!-- IMPORT - latestNews - IMPORT -->
+
+
+
+
+	
+		
+	
+	
+
+
+<!-- MOD 027B - LATEST NEWS -->
+<div class="ctn-tabs">
+	<div class="tabs clearfix">
+		<ul>
+			<li class="selected"><a class="clearfix" href="#mod-morenews-tab-1"><span class="l"><!-- // --></span><span class="text">Notícias</span><span class="r"><!-- // --></span></a></li>
+			
+				<li><a class="clearfix" href="#mod-morenews-tab-2"><span class="l"><!-- // --></span><span class="text">Vídeos</span><span class="r"><!-- // --></span></a></li>
+			
+		</ul>
+	</div>		
+	<div id="mod-morenews-tab-1" class="content">
+		<table>
+			<tbody>				
+						
+							
+						<tr>
+							<th>12h28</th>							
+							<td><a href="http://noticias.terra.com.br/mundo/oriente-medio/sri-lanka-ira-investigar-vala-comum-com-mais-de-150-mortos,73d4e89a54bdd310VgnCLD2000000ec6eb0aRCRD.html" title="Sri Lanka irá investigar vala comum com mais de 150 mortos"><strong>Sri Lanka irá investigar vala comum com mais de 150 mortos</strong></a></td>
+						</tr>			
+							
+						<tr>
+							<th>12h26</th>							
+							<td><a href="http://esportes.terra.com.br/futsal/em-casa-erechim-marca-na-prorrogacao-e-leva-taca-brasil-de-futsal,b1d4e89a54bdd310VgnCLD2000000ec6eb0aRCRD.html" title="Em casa, Erechim marca na prorrogação e leva Taça Brasil de Futsal"><strong>Em casa, Erechim marca na prorrogação e leva Taça Brasil...</strong></a></td>
+						</tr>			
+							
+						<tr>
+							<th>12h19</th>							
+							<td><a href="http://noticias.terra.com.br/brasil/policial-morre-baleado-em-assalto-na-zona-leste-de-sao-paulo,0985d2b834bdd310VgnCLD2000000dc6eb0aRCRD.html" title="Policial morre baleado em assalto na zona leste de São Paulo"><strong>Policial morre baleado em assalto na zona leste de São Paulo</strong></a></td>
+						</tr>			
+							
+						<tr>
+							<th>12h10</th>							
+							<td><a href="http://moda.terra.com.br/marc-jacobs-vai-a-praia-de-ipanema-com-namorado-brasileiro,08fc352e905ed310VgnVCM4000009bcceb0aRCRD.html" title="Marc Jacobs vai à praia de Ipanema com namorado brasileiro"><strong>Marc Jacobs vai à praia de Ipanema com namorado brasileiro</strong></a></td>
+						</tr>			
+							
+						<tr>
+							<th>12h10</th>							
+							<td><a href="http://noticias.terra.com.br/mundo/america-latina/farc-confirmam-chegada-a-cuba-de-pablo-catatumbo-e-outros-guerrilheiros,fc65d2b834bdd310VgnCLD2000000dc6eb0aRCRD.html" title="Farc confirmam chegada a Cuba de &quot;Pablo Catatumbo&quot; e outros guerrilheiros"><strong>Farc confirmam chegada a Cuba de "Pablo Catatumbo" e...</strong></a></td>
+						</tr>			
+							
+						<tr>
+							<th>12h10</th>							
+							<td><a href="http://esportes.terra.com.br/futebol/tottenham-tropeca-no-everton-e-permite-aproximacao-de-rivais-londrinos,e994e89a54bdd310VgnCLD2000000ec6eb0aRCRD.html" title="Tottenham tropeça no Everton e permite aproximação de rivais londrinos"><strong>Tottenham tropeça no Everton e permite aproximação de...</strong></a></td>
+						</tr>			
+					
+				
+			</tbody>
+		</table>			
+		<p class="more"><a href="http://www.terra.com.br/portal/ultimas/">mais notícias</a></p>
+	</div>
+	
+	
+			
+			
+			
+				<div id="mod-morenews-tab-2" class="content hide">
+<table><tbody>
+<tr>
+<th>12h01</th>
+<td><a href="http://terratv.terra.com.br/Noticias/Mundo/4201-464794/Fa-de-Star-Wars-surpreende-em-pedido-de-casamento.htm" title="Fã de Star Wars surpreende em pedido de casamento"><em class="video">Galeria de vídeos:</em>Fã de Star Wars surpreende em pedido de casamento</a></td>
+</tr>
+<tr>
+<th>11h56</th>
+<td><a href="http://terratv.terra.com.br/Noticias/Mundo/4201-464793/Peixe-viaja-8-mil-km-em-barco-arrastado-por-tsunami-em-2011.htm" title="Peixe viaja 8 mil km em barco arrastado por tsunami em 2011"><em class="video">Galeria de vídeos:</em>Peixe viaja 8 mil km em barco arrastado por tsunami em 2011</a></td>
+</tr>
+<tr>
+<th>11h56</th>
+<td><a href="http://terratv.terra.com.br/Noticias/Mundo/4201-464795/Clientes-podem-ter-contraido-hepatite-A-em-restaurante.htm" title="Clientes podem ter contraído hepatite A em restaurante"><em class="video">Galeria de vídeos:</em>Clientes podem ter contraído hepatite A em restaurante</a></td>
+</tr>
+<tr>
+<th>11h25</th>
+<td><a href="http://terratv.terra.com.br/Noticias/Climatempo/4866-464787/Previsao--Brasil.htm" title="Previsão Brasil"><em class="video">Galeria de vídeos:</em>Previsão Brasil</a></td>
+</tr>
+<tr>
+<th>11h25</th>
+<td><a href="http://terratv.terra.com.br/Noticias/Climatempo/4866-464786/Previsao-Centro-Oeste.htm" title="Previsão Centro-Oeste"><em class="video">Galeria de vídeos:</em>Previsão Centro-Oeste</a></td>
+</tr>
+<tr>
+<th>11h25</th>
+<td><a href="http://terratv.terra.com.br/Noticias/Climatempo/4866-464785/Previsao-Grande-Sao-Paulo.htm" title="Previsão Grande São Paulo"><em class="video">Galeria de vídeos:</em>Previsão Grande São Paulo</a></td>
+</tr>
+</tbody></table>
+<p class="more"><a href="http://terratv.terra.com.br/">mais vídeos</a></p>
+</div>
+
+			
+			
+	
+	
+</div>
+<!-- END MOD 027B - LATEST NEWS -->
+					</div>
+					<hr />	
+					
+										
+						
+				
+					
+				
+			
+			
+				
+								
+								
+			
+				
+				
+					
+										
+					
+					<div class="col-skinny last">								
+						
+						
+						
+
+
+<!-- IMPORT - listHeadlines - IMPORT -->
+
+<div class="mod-mobile mod-mobile-inner col-skinny last">
+
+
+	
+	
+		<strong class="kicker">
+			<a href="http://discovirtual.terra.com.br/vdmain.shtml?ICID=BR_mi-banner_cp_discovirt_discovirt-cp-rodape-capa-0204&utm_source=mi-banner_cp&utm_medium=mi-banner_cp_discovirt_discovirt-cp-rodape-capa-0204&utm_campaign=discovirt-cp-rodape-capa-0204">Sonora &gt;&gt;</a>
+		</strong>
+		
+	
+		
+		<a href="http://sonora.terra.com.br/login?ICID=BR_mi-banner_cp_sonora_sonora-cp-rodape-capa-303103&utm_source=mi-banner_cp&utm_medium=mi-banner_cp_sonora_sonora-cp-rodape-capa-303103&utm_campaign=sonora-cp-rodape-capa-303103" class="img">						
+			<img src="http://p2.trrsf.com.br/image/get?src=http%3A%2F%2Fimages.terra.com%2F2013%2F03%2F30%2Fsonora-cp-rodape-capa.JPG&o=cf&w=74&h=117" height="117" width="74" title="Agite seu final de semana com as melhores músicas. Aproveite 7 dias Gratis! Foto: Terra" alt="Agite seu final de semana com as melhores músicas. Aproveite 7 dias Gratis! Foto: Terra" />
+		</a>
+	
+
+	<br />
+	
+	<a href="http://sonora.terra.com.br/login?ICID=BR_mi-banner_cp_sonora_sonora-cp-rodape-capa-303103&utm_source=mi-banner_cp&utm_medium=mi-banner_cp_sonora_sonora-cp-rodape-capa-303103&utm_campaign=sonora-cp-rodape-capa-303103" class="txt">						
+		<strong>Agite seu final de semana com as melhores músicas. Aproveite 7 dias Gratis!</strong>
+	</a>
+	
+
+	<a href="http://sonora.terra.com.br/login?ICID=BR_mi-banner_cp_sonora_sonora-cp-rodape-capa-303103&utm_source=mi-banner_cp&utm_medium=mi-banner_cp_sonora_sonora-cp-rodape-capa-303103&utm_campaign=sonora-cp-rodape-capa-303103" class="btn-general btn-see-more">						
+		Saiba mais
+	</a>
+	
+	<p class="txt"></p>
+	
+
+
+	
+</div>
+
+
+
+
+
+	
+						
+						</div>						
+						
+						
+				
+					
+				
+			
+			
+				
+								
+		
+		
+	</div>
+	
+								
+				
+
+
+
+			</div>		
+			
+		</div>	
+		<!-- // BODY COMPOSITION //-->
+		
+		</div>
+		<!-- FOOTER //-->
+		<a name="footer"></a>
+		<div id="mod-footer" class="header-footer-loaded"><a name="footer"/><div><ul class="lst-main-menu"><li><a target="_top" href="http://www.terra.com.br/portal/">Capa</a></li><li><a target="_top" href="http://noticias.terra.com.br/">Notícias</a></li><li><a target="_top" href="http://economia.terra.com.br">Economia</a></li><li><a target="_top" href="http://esportes.terra.com.br/">Esportes</a></li><li><a target="_top" href="http://diversao.terra.com.br/">Diversão</a></li><li><a target="_top" href="http://vidaeestilo.terra.com.br/">Vida e Estilo</a></li><li><a target="_top" href="http://terratv.terra.com.br/">Terra TV</a></li><li><a target="_top" href="http://sundaytv.terra.com.br/Web/">Sunday Tv</a></li><li><a target="_top" href="http://sonora.terra.com.br/">Sonora</a></li><li><a target="_top" href="http://www.terraofertas.com.br/?id=id_pagina">Ofertas</a></li><li class="itm-last"><a target="_top" href="http://vcreporter.terra.com.br">VC REPÓRTER</a></li></ul><ul class="lst-aid-menu"><li class="itm-last"><a target="_top" href="http://chat.terra.com.br/">Chat</a></li></ul><ul class="lst-second-menu"><li><a target="_top" href="http://www.terra.com.br/indice">Mapa do site</a></li><li><a target="_top" href="http://centraldoassinante.terra.com.br/">Central do Assinante</a></li><li><a target="_top" href="http://www.terra.com.br/fale/">Fale Conosco</a></li><li><a target="_top" href="https://terra.mua.hrdepartment.com/ats/">Trabalhe no Terra</a></li><li><a target="_top" href="http://www.terra.com.br/avisolegal.htm">Aviso Legal e Privacidade</a></li><li><a target="_top" href="https://vendasonline.terra.com.br/controller.php?action=4008&ICID=BR_mi-banner_had_lojaassine_assine-loja-rodapeportal&utm_source=mi-banner_had&utm_medium=mi-banner_had_lojaassine_assine-loja-rodapeportal&utm_campaign=assine-loja-rodapeportal">Assine Terra</a></li><li><a target="_top" href="http://www.terra.com.br/publicidade/">Anuncie</a></li><li><a target="_top" href="http://www.terra.com.br/rss/">RSS</a></li><li><a target="_top" href="http://twitter.terra.com.br/">Twitter</a></li><li class="itm-countries"><span><a target="_top" href="#">Terra em outros pa?ses</a></span></li></ul></div><div class="ctn-copyright">© Copyright 2013, Terra Networks Brasil S.A.</div></div>
+		<!-- // FOOTER //-->
+		
+		
+	</div>
+	<!-- // SCTRUCTURE //-->
+
+	
+		<!-- TBAR //-->
+		<div id="trr-root"></div>
+		<div id="fb-root"></div>
+		<!-- TBAR //-->	
+	
+	
+	<!-- SCRIPTS // -->
+	<script type="text/javascript" charset="utf-8" src="http://s1.trrsf.com.br/atm/3/home/_js/common.js"></script><noscript><p>inclusão de arquivo javascript</p></noscript>
+	<script type="text/javascript" charset="utf-8" src="http://s1.trrsf.com.br/atm/3/home/_js/context.js"></script><noscript><p>inclusão de arquivo javascript</p></noscript>
+	<script type="text/javascript" charset="utf-8" src="http://s1.trrsf.com.br/atm/3/core/apps/featured-photos/_js/modman.plugin.special-ad.js"></script><noscript><p>inclusão de arquivo javascript</p></noscript>
+	
+	
+	
+	  
+		<script type="text/javascript">
+		var trrConstantData = {
+			sonoraRadios : {
+				requestUrl: 'http://s1.trrsf.com.br/bcg/pt-br_sonora_ranking.js'
+            }
+      	};
+		</script><noscript><p>inclusão de arquivo javascript</p></noscript>
+		
+	<!-- // SCRIPTS -->
+	<script type="text/javascript">terra_stats_metrics();</script><noscript><p>inclusão de arquivo javascript</p></noscript>
+	
+	
+	
+</body>
+</html>
