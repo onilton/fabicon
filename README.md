@@ -41,6 +41,7 @@ Forget about those small ugly .ico files.
 
 ## Tests
 Just run
+
 	nosetests
 
 
