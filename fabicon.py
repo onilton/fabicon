@@ -54,7 +54,7 @@ def getTwitterRealName(twitterUsername) :
 	return result
 
 
-facebookUsernameExcludeList = ['media','permalink.php','YOUR_USERNAME','photo.php','groups','sharer.php', 'notes']
+facebookUsernameExcludeList = ['media','permalink.php','YOUR_USERNAME','photo.php','groups','sharer.php', 'notes', 'badges']
 def facebookUsername(facebookPageUrl):
 	fUsername = re.sub(r'.*(https?:)?//(www\.)?facebook\.com/(pages/[^/]+/|profile\.php\?id=)?([A-Za-z_0-9-.]+).*',r'\4', facebookPageUrl) 
 	return fUsername
