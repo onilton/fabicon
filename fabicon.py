@@ -56,7 +56,7 @@ def getTwitterRealName(twitterUsername) :
 
 facebookUsernameExcludeList = ['media','permalink.php','YOUR_USERNAME','photo.php','groups','sharer.php', 'notes', 'badges']
 def facebookUsername(facebookPageUrl):
-	fUsername = re.sub(r'.*(https?:)?//(www\.)?facebook\.com/(pages/[^/]+/|profile\.php\?id=)?([A-Za-z_0-9-.]+).*',r'\4', facebookPageUrl) 
+	fUsername = re.sub(r'.*(https?:)?//(www\.)?facebook\.com/(pages/[^/]+/|profile\.php\?id=|people/[^/]+/)?([A-Za-z_0-9-.]+).*',r'\4', facebookPageUrl) 
 	return fUsername
 
 def removeRepeated(listWithRepeatedItems):
@@ -654,7 +654,7 @@ def getCandidateTags(url, debug=False, staticHtml="") :
 		#facebookUrlHref = re.sub(r'.*javascript:window\.open\(\'([^\']*)\'\).*',r'\1', facebookUrl['href'])  
 		#facebookUrlHref = re.sub(r'.*javascript:window\.open\(\"([^"]*)\"\).*',r'\1', facebookUrlHref)  
 		facebookUrlHref = re.sub(r'facebook\.com/home\.php\?#(%21|!)?/pages/',r'facebook.com/pages/', facebookUrlHref) # fix http://colunas.globorural.globo.com/planetabicho
-		facebookUrlHref = re.sub(r'.*(https?://(www\.|[^/]+\.)?facebook\.com/(pages/[^/]+/|profile\.php\?id=)?[A-Za-z_0-9-.]+).*',r'\1', facebookUrlHref) #fix g1
+		facebookUrlHref = re.sub(r'.*(https?://(www\.|[^/]+\.)?facebook\.com/(pages/[^/]+/|profile\.php\?id=|people/[^/]+/)?[A-Za-z_0-9-.]+).*',r'\1', facebookUrlHref) #fix g1
 		#print "facebookUrlHref-->",facebookUrlHref
 		#print "facebookUsername facebookUrlHref-->",facebookUsername(facebookUrlHref)
 		#facebookaUrl = re.sub(r"javascript:window\.open",r'aaa', facebookUrl)  
