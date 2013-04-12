@@ -42,6 +42,15 @@ class TestKnownWebsites():
                 genResEntry("facebook", "https://graph.facebook.com/205963512747817/picture?width=500"),
                 genResEntry("twitter", "https://api.twitter.com/1/users/profile_image?screen_name=blogdasaude&size=original"),
                 genResEntry("twitter", "https://api.twitter.com/1/users/profile_image?screen_name=blogdasaude&size=bigger") ]),
+                     ("http://gamesreflexoes.blogspot.com.br", "gamesreflexoes_blogspot_com_br.txt",
+                [ genResEntry("facebook", "https://graph.facebook.com/212611295424933/picture?type=normal"),
+                genResEntry("facebook", "https://graph.facebook.com/212611295424933/picture?width=150&height=150"),
+                genResEntry("facebook", "https://graph.facebook.com/212611295424933/picture?width=500"),
+                genResEntry("facebook", "https://graph.facebook.com/100000343727632/picture?type=normal"),
+                genResEntry("facebook", "https://graph.facebook.com/100000343727632/picture?width=150&height=150"),
+                genResEntry("facebook", "https://graph.facebook.com/100000343727632/picture?width=500"),
+                genResEntry("twitter", "https://api.twitter.com/1/users/profile_image?screen_name=gamesreflexoes&size=original"),
+                genResEntry("twitter", "https://api.twitter.com/1/users/profile_image?screen_name=gamesreflexoes&size=bigger") ]),
                      ("http://terra.com.br", "terra_com_br.txt",
     			[ genResEntry("apple", "http://s1.trrsf.com.br/opera.jpg") ] ),
                      ("http://tudogostoso.uol.com.br", "tudogostoso_uol_com_br.txt",
@@ -73,6 +82,11 @@ class TestKnownWebsites():
     	    candidateTags = getCandidateTags(url,staticHtml=staticHtml)
 
     	    yield resultsAreEqual, url, candidateTags, expectedResult
+
+    #def testBadFormatedHtml(self):
+          # Tuple to treat really bad html (crazy comments like <!- ->) (regular expression, replacement function)
+          # Examples
+          # www.zupi.com.br has <!– fim da id logo –> --> it is not - it is –
     
 
 
