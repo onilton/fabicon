@@ -58,7 +58,7 @@ facebookUsernameExcludeList = ['media', 'permalink.php', 'YOUR_USERNAME', 'photo
 
 
 def facebookUsername(facebookPageUrl):
-    fUsername = re.sub(r'.*(https?:)?//(www\.)?facebook\.com/(pages/[^/]+/|profile\.php\?id=|people/[^/]+/)?([A-Za-z_0-9-.]+).*', r'\4', facebookPageUrl)
+    fUsername = re.sub(r'.*(https?:)?//(www\.|[^/]+\.)?facebook\.com/(pages/[^/]+/|profile\.php\?id=|people/[^/]+/)?([A-Za-z_0-9-.]+).*', r'\4', facebookPageUrl)
     return fUsername
 
 
