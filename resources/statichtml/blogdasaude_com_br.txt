@@ -1,0 +1,915 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR" >
+<head profile="http://gmpg.org/xfn/11" >
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="distribution" content="global" />
+<meta name="robots" content="follow, all" />
+<meta name="language" content="en" />
+
+<title>Blog da Saúde</title>
+<meta name="generator" content="WordPress 3.5.1" />
+<link rel="Shortcut Icon" href="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/favicon.ico" type="image/x-icon" />
+<link rel="apple-touch-icon" href="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/icone_blog_ipad.png" type="image/x-icon" />
+
+<link rel="stylesheet" href="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/style.css?version=winter1.0" type="text/css" media="screen" />
+<link rel="alternate" type="application/rss+xml" title="Blog da Saúde RSS Feed" href="http://www.blogdasaude.com.br/feed/" />
+<link rel="alternate" type="application/atom+xml" title="Blog da Saúde Atom Feed" href="http://www.blogdasaude.com.br/feed/atom/" />
+<link rel="pingback" href="http://www.blogdasaude.com.br/xmlrpc.php" />
+
+<script type="text/javascript" src="http://www.blogdasaude.com.br/clickheat/js/clickheat.js"></script>
+<script type="text/javascript"><!--
+clickHeatSite = 'blogdasaude';clickHeatGroup = 'index';clickHeatServer = 'http://www.blogdasaude.com.br/clickheat/click.php';initClickHeat(); //-->
+</script>
+
+<!-- 
+<script type="text/javascript">
+	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+	try {
+		var pageTracker = _gat._getTracker("UA-4034518-6");
+		pageTracker._trackPageview();
+	} catch(err) {}
+</script> 
+-->
+
+<link rel='stylesheet' id='tubepress-css'  href='http://www.blogdasaude.com.br/wp-content/plugins/tubepress/src/main/web/css/tubepress.css?ver=3.5.1' type='text/css' media='all' />
+<link rel='stylesheet' id='NextGEN-css'  href='http://www.blogdasaude.com.br/wp-content/plugins/nextgen-gallery/css/nggallery.css?ver=1.0.0' type='text/css' media='screen' />
+<link rel='stylesheet' id='shutter-css'  href='http://www.blogdasaude.com.br/wp-content/plugins/nextgen-gallery/shutter/shutter-reloaded.css?ver=1.3.4' type='text/css' media='screen' />
+<link rel='stylesheet' id='wp-email-css'  href='http://www.blogdasaude.com.br/wp-content/plugins/wp-email/email-css.css?ver=2.60' type='text/css' media='all' />
+<link rel='stylesheet' id='comfeed-css'  href='http://www.blogdasaude.com.br/wp-content/plugins/sexybookmarks/css/comfeed.css?ver=5.0.0.4' type='text/css' media='all' />
+<script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/prototype/1.7.1.0/prototype.js?ver=1.7.1'></script>
+<script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/scriptaculous/1.9.0/scriptaculous.js?ver=1.9.0'></script>
+<script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/scriptaculous/1.9.0/effects.js?ver=1.9.0'></script>
+<script type='text/javascript' src='http://www.blogdasaude.com.br/wp-content/plugins/lightbox-2/lightbox.js?ver=1.8'></script>
+<script type='text/javascript' src='http://www.blogdasaude.com.br/wp-includes/js/swfobject.js?ver=2.2-20120417'></script>
+<script type='text/javascript' src='http://www.blogdasaude.com.br/wp-includes/js/jquery/jquery.js?ver=1.8.3'></script>
+<script type='text/javascript' src='http://www.blogdasaude.com.br/wp-content/plugins/tubepress/src/main/web/js/tubepress.js?ver=3.5.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var shutterSettings = {"msgLoading":"L O A D I N G","msgClose":"Click to Close","imageCount":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.blogdasaude.com.br/wp-content/plugins/nextgen-gallery/shutter/shutter-reloaded.js?ver=1.3.3'></script>
+<script type='text/javascript' src='http://www.blogdasaude.com.br/wp-content/plugins/nextgen-gallery/js/jquery.cycle.all.min.js?ver=2.9995'></script>
+<script type='text/javascript' src='http://www.blogdasaude.com.br/wp-content/plugins/nextgen-gallery/js/ngg.slideshow.min.js?ver=1.06'></script>
+<script type='text/javascript' src='http://www.blogdasaude.com.br/wp-content/plugins/podcasting/player/audio-player-noswfobject.js?ver=2.0'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.blogdasaude.com.br/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.blogdasaude.com.br/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 3.5.1" />
+<link rel='shortlink' href='http://wp.me/vKaV' />
+
+<!-- All in One SEO Pack 1.6.15.3 by Michael Torbert of Semper Fi Web Design[422,430] -->
+<meta name="description" content="Bem vindo ao Blog da Saúde. Muita informação sobre saúde, bem estar e planos de saúde." />
+<meta name="keywords" content="saúde financeira,unhas, doenças, sinais,saúde física,imóvel aluguel ou próprio?, comprar ou alugar imóvel?, comprar ou alugar apartamento?,receitas talos de legumes, receitas talos de verduras, receitas casca de fruta, reaproveitar legumes, reaproveitar verduras, reaproveitar casca de fruta,saúde ambiental,lixo, multa, sujeira, rua, espaço público, dia mundial do mal de parkinson , parkinson, tremor, ,anti-inflamatório, alimentos, prevenção,conservar alimentos na geladeira, como armazenar alimentos, alimento na geladeira,saúde cultural,ans, planos de saúde, plano de saúde, planos online, planos on-line,planos de saúde,entupimento de artérias, nature medicine, carne vermelha faz mal, carne vermelha no corpo, carne vermelha causa, carnitina, óxido de trimetilamina,changemakers,últimas notícias,câncer de próstata, homem, gene,saúde do homem,hospital albert einstein, atendimento humanizado, planetree, visita de cachorro hospital,saúde social,amamentar, aleitamento, como amamentar, amamentação, cuidados amamentar, cuidados amamentação,aplicativo da vez,cigarro, fumantes, tabagismo, tratamento,anvisa, repelentes, regulamentação,proteína,os riscos da automedicação, automedicação" />
+<link rel="canonical" href="http://www.blogdasaude.com.br/" />
+<!-- /all in one seo pack -->
+
+<!-- Start Of Script Generated By cforms v11.1 [Oliver Seidel | www.deliciousdays.com] -->
+<link rel="stylesheet" type="text/css" href="http://www.blogdasaude.com.br/wp-content/plugins/cforms/styling/cforms.css" />
+<script type="text/javascript" src="http://www.blogdasaude.com.br/wp-content/plugins/cforms/js/cforms.js"></script>
+<!-- End Of Script Generated By cforms -->
+
+
+	<!-- Added by EventCalendar plugin. Version 3.1.4 -->
+	<script type='text/javascript' src='http://www.blogdasaude.com.br/wp-content/plugins/event-calendar/xmlhttprequest.js'></script>
+	<script type='text/javascript' src='http://www.blogdasaude.com.br/wp-content/plugins/event-calendar/ec3.js'></script>
+	<script type='text/javascript'><!--
+	ec3.start_of_week=1;
+	ec3.month_of_year=new Array('janeiro','fevereiro','março','abril','maio','junho','julho','agosto','setembro','outubro','novembro','dezembro');
+	ec3.month_abbrev=new Array('jan','fev','mar','abr','mai','jun','jul','ago','set','out','nov','dez');
+	ec3.myfiles='http://www.blogdasaude.com.br/wp-content/plugins/event-calendar';
+	ec3.home='http://www.blogdasaude.com.br';
+	ec3.hide_logo=1;
+	ec3.viewpostsfor="Ver posts de %1$s %2$s";
+	// --></script>
+
+<style type='text/css' media='screen'>
+@import url(http://www.blogdasaude.com.br/wp-content/plugins/event-calendar/ec3.css);
+.ec3_ec {
+ background-image:url(http://www.blogdasaude.com.br/wp-content/plugins/event-calendar/ec.png) !IMPORTANT;
+ background-image:none;
+ filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://www.blogdasaude.com.br/wp-content/plugins/event-calendar/ec.png');
+}
+#ec3_shadow0 {
+ background-image:url(http://www.blogdasaude.com.br/wp-content/plugins/event-calendar/shadow0.png) !IMPORTANT;
+ background-image:none;
+}
+#ec3_shadow0 div {
+ filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://www.blogdasaude.com.br/wp-content/plugins/event-calendar/shadow0.png',sizingMethod='scale');
+}
+#ec3_shadow1 {
+ background-image:url(http://www.blogdasaude.com.br/wp-content/plugins/event-calendar/shadow1.png) !IMPORTANT;
+ background-image:none;
+ filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://www.blogdasaude.com.br/wp-content/plugins/event-calendar/shadow1.png',sizingMethod='crop');
+}
+#ec3_shadow2 {
+ background-image:url(http://www.blogdasaude.com.br/wp-content/plugins/event-calendar/shadow2.png) !IMPORTANT;
+ background-image:none;
+}
+#ec3_shadow2 div {
+ filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://www.blogdasaude.com.br/wp-content/plugins/event-calendar/shadow2.png',sizingMethod='scale');
+}
+</style>
+
+
+	<!-- begin lightbox scripts -->
+	<script type="text/javascript">
+    //<![CDATA[
+    document.write('<link rel="stylesheet" href="http://www.blogdasaude.com.br/wp-content/plugins/lightbox-2/Themes/Black/lightbox.css" type="text/css" media="screen" />');
+    //]]>
+    </script>
+	<!-- end lightbox scripts -->
+<!-- <meta name="NextGEN" version="1.9.6" /> -->
+		<!-- Podcasting 2.3.11: http://podcastingplugin.com/ -->
+		<script type="text/javascript">
+			AudioPlayer.setup("http://www.blogdasaude.com.br/wp-content/plugins/podcasting/player/player.swf", {  
+				width: 290			});
+		</script>
+		<!-- Meta tags added by Robots Meta: http://yoast.com/wordpress/meta-robots-wordpress-plugin/ -->
+<meta name="robots" content="noodp,noydir,noarchive" />
+<meta name="google-site-verification" content="RjMJ-T03pcgBpsQtYZM_nTgikZU96zzsxO0fGqNKbY8" />
+<meta name="y_key" content="5302686c495aa850" />
+<meta name="msvalidate.01" content="C3FA8F847CD5F54D765F1E41ED9048E8" />
+
+
+<!-- Start SHR Open Graph Tags -->
+
+	<!-- Shareaholic Notice: There is no featured image set -->
+
+<!-- END SHR Open Graph Tags -->
+
+<link rel="stylesheet" href="http://www.blogdasaude.com.br/wp-content/plugins/stream-video-player/responsive.css?ver=" type="text/css" media="all" /><script type="text/javascript">TubePressGlobalJsConfig = { baseUrl : "http://www.blogdasaude.com.br/wp-content/plugins/tubepress", https : false };</script>
+
+<script src="http://www.blogdasaude.com.br/wp-content/plugins/wp-chgfontsize/wp-chgfontsize.js" type="text/javascript"></script>
+
+<!-- WP-SWFObject 2.4 by unijimpe -->
+<script src="http://www.blogdasaude.com.br/wp-content/plugins/wp-swfobject/2.0/swfobject.js" type="text/javascript"></script>
+<link id='MediaRSS' rel='alternate' type='application/rss+xml' title='NextGEN Gallery RSS Feed' href='http://www.blogdasaude.com.br/wp-content/plugins/nextgen-gallery/xml/media-rss.php' />
+	<link rel="alternate" type="application/rss+xml" title="Podcast: Blog da Sa&uacute;de" href="http://www.blogdasaude.com.br/feed/podcast/" />
+
+<meta name="google-site-verification" content="NQwLuKsIrvGTPeGaPIabcxovLvmaDDDYjv5SADMgLDc" />
+
+<script src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/javascript/jquery.tooltip.min.js" type="text/javascript"></script>
+<script src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/javascript/combos.js" type="text/javascript"></script>
+
+
+<link rel="stylesheet" type="text/css" href="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/midiakit/slidedeck.skin.css" media="screen" />
+<script type="text/javascript" src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/midiakit/slidedeck.jquery.lite.pack.js"></script>
+        
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.5.3/jquery-ui.min.js" ></script>  
+<script type="text/javascript">
+	jQuery(document).ready(function(){
+		jQuery("#featured > ul").tabs({fx:{opacity: "toggle"}}).tabs("rotate", 10000, true);
+	});
+	jQuery('.slidedeck').slidedeck();
+</script>
+
+<link rel="stylesheet" href="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/javascript/jquery.tooltip.css" />
+
+</head>
+
+<body>
+	
+		
+	<div id="upnavbar">
+	<table width="980px" align="center">
+    	<tr>
+        	<td width="150px"> 
+            	<a href="http://www.orkut.com.br/Main#Profile?uid=4291654411014087921" title="Orkut" class="toltips" target="_blank">
+                <img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/icone_orkut_off.jpg" alt="" onmouseover="mudaImg(this,'http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/icone_orkut_on.jpg')" onmouseout="mudaImg(this,'http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/icone_orkut_off.jpg')" border="0" />
+                </a>
+                <a href="http://twitter.com/blogdasaude" target="_blank" title="Twitter" class="toltips">
+                <img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/icone_twitter_off.jpg" alt="" onmouseover="mudaImg(this,'http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/icone_twitter_on.jpg')" onmouseout="mudaImg(this,'http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/icone_twitter_off.jpg')" border="0" />
+                </a>
+                <a href="http://www.facebook.com/pages/Blog-da-Sa%C3%BAde/205963512747817" target="_blank" title="Facebook" class="toltips">
+                <img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/icone_facebook_off.jpg" alt="" onmouseover="mudaImg(this,'http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/icone_facebook_on.jpg')" onmouseout="mudaImg(this,'http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/icone_facebook_off.jpg')" border="0" />
+                </a>
+                <a href="http://www.blogdasaude.com.br/feed/rss/" target="_blank" title="Rss" class="toltips">
+                <img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/icone_rss_off.jpg" alt="" onmouseover="mudaImg(this,'http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/icone_rss_on.jpg')" onmouseout="mudaImg(this,'http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/icone_rss_off.jpg')" border="0" />
+                </a>
+                <a href="javascript: void()" title="Mobile Phone" class="toltips" onclick="fadePhone();">
+                <img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/icone_iphone_off.jpg" alt="" onmouseover="mudaImg(this,'http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/icone_iphone_on.jpg')" onmouseout="mudaImg(this,'http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/icone_iphone_off.jpg')" border="0" />
+                </a>
+                
+                <div style="display: none">
+                <a href="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/midiakit/example.html" target="_blank" title="M&iacute;dia Kit">
+                <img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/icone_midiakit_off.jpg" alt="" onmouseover="mudaImg(this,'http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/icone_midiakit_on.jpg')" onmouseout="mudaImg(this,'http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/icone_midiakit_off.jpg')" border="0" />
+                </a>
+                </div>
+            </td>
+            <td align="right">
+            	<img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/diminui.png" alt="" onclick="javascript:decreaseFontSize();" class="toltips" title="Diminuir Fonte" /> <img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/aumentar.png" alt="" onclick="javascript:increaseFontSize();" class="toltips" title="Aumentar Fonte" />
+            </td>
+                    </tr>
+    </table>
+</div>
+			<div id="bannerphone">
+    	<img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/closelabel.gif" align="right" style="cursor: pointer" alt=""  onclick="fecharPhone();" />
+    	<img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/banner_iphone.jpg" alt="" />
+    </div>
+    
+	    	
+	
+	<div id="wrap" style="float:left;">
+
+	<div id="topo">
+    	<div style="position: absolute; right: 5px;">
+            <img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/icone_ocultar.png" id="ocultar" alt="Ocultar" style="cursor: pointer;" />
+            <img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/icone_mostrar.png" id="mostrar" alt="Mostrar" style="cursor: pointer; display:none;" />
+        </div>
+        <div id="logo">
+            <input type="image" src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/logo.png" alt="Blog da Saúde" title="Blog da Saúde" onclick="location.href='/'" />
+            
+        </div>
+        <div id="adstop">
+            <div class="right"><a href="http://www.blogdasaude.com.br/wp-content/plugins/adrotate/adrotate-out.php?track=MzUsMCwwLGh0dHA6Ly93d3cucGxhbm9zb25saW5lLmNvbS5icg=" target="_blank"><img src="http://www.blogdasaude.com.br/wp-content/uploads/2012/04/banner_468x60.jpg" alt="" /></a></div>
+        </div>
+	</div>
+    
+    <div id="navbar">
+    
+        <div id="navbarleft">
+            <ul id="nav">
+                <li><a href="http://www.blogdasaude.com.br">Home</a></li>
+                <!-- <li><a href="/categorias/ultimas-noticias/">Not&iacute;cias</a></li> -->
+                <li class="page_item page-item-3"><a href="http://www.blogdasaude.com.br/sobre-o-blog-da-saude/">Sobre o Blog da Saúde</a></li>
+<li class="page_item page-item-20"><a href="http://www.blogdasaude.com.br/arquivo/">Arquivo</a></li>
+<li class="page_item page-item-18"><a href="http://www.blogdasaude.com.br/fale-conosco/">Fale Conosco</a></li>
+            </ul>
+        </div>
+        
+        <div id="navbarright">
+            <form id="searchform" method="get" action="/index.php">
+            <input type="text" value="Pesquisar neste site..." name="s" id="searchbox" onfocus="if (this.value == 'Pesquisar neste site...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Pesquisar neste site...';}" />
+            <input type="submit" id="searchbutton" value="Buscar" /></form>
+        </div>
+        
+    </div>
+  	<div id="blockpag"></div>
+    
+    
+    
+﻿	<div id="featured" >
+	    <ul class="ui-tabs-nav">
+    			    <li class="ui-tabs-nav-item ui-tabs-selected" id="nav-fragment-1">
+            	        		<a href="#fragment-1"><img src="http://www.blogdasaude.com.br/wp-content/uploads/2013/03/panico_pq.jpg" alt="" /></a>
+                	        </li>
+	   			    <li class="ui-tabs-nav-item ui-tabs-selected" id="nav-fragment-2">
+            	        		<a href="#fragment-2"><img src="http://www.blogdasaude.com.br/wp-content/uploads/2013/03/pensamentonegativo_pq.jpg" alt="" /></a>
+                	        </li>
+	   			    <li class="ui-tabs-nav-item ui-tabs-selected" id="nav-fragment-3">
+            	        		<a href="#fragment-3"><img src="http://www.blogdasaude.com.br/wp-content/uploads/2013/03/medicamentos_pq.jpg" alt="" /></a>
+                	        </li>
+	   			    <li class="ui-tabs-nav-item ui-tabs-selected" id="nav-fragment-4">
+            	        		<a href="#fragment-4"><img src="http://www.blogdasaude.com.br/wp-content/uploads/2013/03/sono_pq.jpg" alt="" /></a>
+                	        </li>
+	   			</ul>
+        <!-- Content -->
+                <div id="fragment-1" class="ui-tabs-panel" style="">
+	        <a href="http://www.blogdasaude.com.br/saude-mental/2013/02/27/sindrome-do-panico-um-curto-circuito-psiquico/" >
+			<img src="http://www.blogdasaude.com.br/wp-content/uploads/2013/03/panico_gr.jpg" alt="" border="0" />
+            </a>
+            <!--
+			<div class="info" >
+			<h2><a href="http://www.blogdasaude.com.br/saude-mental/2013/02/27/sindrome-do-panico-um-curto-circuito-psiquico/" >Síndrome do Pânico</a></h2>
+			</div>
+            -->
+		</div>
+                <div id="fragment-2" class="ui-tabs-panel" style="">
+	        <a href="http://www.blogdasaude.com.br/saude-espiritual/2013/02/26/livre-se-dos-pensamentos-negativos/" >
+			<img src="http://www.blogdasaude.com.br/wp-content/uploads/2013/03/pensamentonegativo_gr.jpg" alt="" border="0" />
+            </a>
+            <!--
+			<div class="info" >
+			<h2><a href="http://www.blogdasaude.com.br/saude-espiritual/2013/02/26/livre-se-dos-pensamentos-negativos/" >Livre-se dos pensamentos negativos</a></h2>
+			</div>
+            -->
+		</div>
+                <div id="fragment-3" class="ui-tabs-panel" style="">
+	        <a href="http://www.blogdasaude.com.br/saude-social/2013/02/18/5-medicamentos-proibidos-la-fora-e-comercializados-no-brasil/" >
+			<img src="http://www.blogdasaude.com.br/wp-content/uploads/2013/03/medicamentos_gr.jpg" alt="" border="0" />
+            </a>
+            <!--
+			<div class="info" >
+			<h2><a href="http://www.blogdasaude.com.br/saude-social/2013/02/18/5-medicamentos-proibidos-la-fora-e-comercializados-no-brasil/" >Liberados no Brasil</a></h2>
+			</div>
+            -->
+		</div>
+                <div id="fragment-4" class="ui-tabs-panel" style="">
+	        <a href="http://www.blogdasaude.com.br/saude-mental/2013/02/14/pouco-sono-pouca-memoria/" >
+			<img src="http://www.blogdasaude.com.br/wp-content/uploads/2013/03/sono_gr.jpg" alt="" border="0" />
+            </a>
+            <!--
+			<div class="info" >
+			<h2><a href="http://www.blogdasaude.com.br/saude-mental/2013/02/14/pouco-sono-pouca-memoria/" >Pouco sono, pouca memória</a></h2>
+			</div>
+            -->
+		</div>
+        	</div>
+
+	<!--
+    <div id="header"></div>
+    -->
+    
+    <div id="video" >
+    
+        <div style="margin-left: 5px;">
+        <img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/star.jpg" alt="V&iacute;deo Destaque" title="V&iacute;deo Destaque" width="18" style="vertical-align:middle" /> V&iacute;deo Destaque 
+        </div>
+        
+        <div id="video_flash">
+            <div align="center" style="margin-top: 5px;">
+            <iframe width="270" height="350" src="http://www.youtube.com/embed/45DUBN_9AEI?list=PLB_rcPiqiMPzi2X2K3ckTzaOB8dGYbpn_" frameborder="0" allowfullscreen></iframe>
+            </div>
+        
+        </div>
+    </div>
+    
+    
+
+<div style="clear:both;"></div>
+
+<div id="subnavbar">
+
+	<ul id="subnav">
+		        <li>
+        	<a href="/categorias/saude-fisica/"><img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/btn_saude_fisica.jpg" alt="" /></a>
+        </li>
+        <li>
+        	<a href="/categorias/saude-corporativa/"><img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/btn_saude_profissional.jpg" alt="" /></a>
+        </li>
+        <li>
+        	<a href="/categorias/saude-mental/"><img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/btn_saude_mental.jpg" alt="" /></a>
+        </li>
+        <li>
+        	<a href="/categorias/saude-financeira/"><img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/btn_saude_financeira.jpg" alt="" /></a>
+        </li>
+        <li>
+        	<a href="/categorias/saude-ambiental/"><img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/btn_saude_ambiental.jpg" alt="" /></a>
+        </li>
+        <li>
+        	<a href="/categorias/saude-espiritual/"><img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/btn_saude_espiritual.jpg" alt="" /></a>
+        </li>
+        <li>
+        	<a href="/categorias/saude-cultural/"><img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/btn_saude_cultural.jpg" alt="" /></a>
+        </li>
+        <li>
+        	<a href="/categorias/saude-social/"><img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/btn_saude_social.jpg" alt="" /></a>
+        </li>
+	</ul>
+</div>
+
+<div style="margin: 0 0 5px; text-align: center"> 
+<!-- Error, Ad (ID: 39) is not available at this time due to schedule restrictions or does not exist! --></div>
+<div id="content">
+	<div id="homepage">
+    
+			<div class="hpbottom">
+			
+				<h3>&Uacute;ltimas Not&iacute;cias</h3>
+								                <div class="newsnoticias">
+                    <div class="thumbzinhos">
+                                            <a href="http://www.blogdasaude.com.br/saude-financeira/2013/04/12/saiba-como-economizar-na-compra-do-mercado-sustentabilidade/" rel="bookmark">
+                       
+                        <img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/timthumb.php?src=http://www.blogdasaude.com.br/wp-content/uploads/2013/04/supermercado.jpg&amp;h=90&amp;w=90&amp;zc=1" alt="Saiba como economizar na compra do mercado #Sustentabilidade" title="Saiba como economizar na compra do mercado #Sustentabilidade" width="90" height="90" /></a>
+                        
+                    			
+                    </div>
+                    
+                    <b style="color:#0081c2; font-size: 16px;"><a href="http://www.blogdasaude.com.br/saude-financeira/2013/04/12/saiba-como-economizar-na-compra-do-mercado-sustentabilidade/" rel="bookmark">Saiba como economizar na compra do mercado #Sustentabilidade</a></b>
+                    <p>Dicas verdes para consumir melhor – parte III</p>
+                    <div class="bar_news" style="background:  ">
+                    	<img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/date.jpg" style="vertical-align:middle;margin-left: 10px;" alt="Data" /> 12 de abril de 2013                        <img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/categories.jpg" style="vertical-align:middle;margin-left: 10px;" alt="Categoria"/> <a href="http://www.blogdasaude.com.br/categorias/saude-financeira/" title="Ver todos os posts em Saúde Financeira" rel="category tag">Saúde Financeira</a> 
+                        <img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/submit.jpg" style="vertical-align:middle;margin-left: 10px;" alt="Coment&aacute;rios" /> <a href="http://www.blogdasaude.com.br/saude-financeira/2013/04/12/saiba-como-economizar-na-compra-do-mercado-sustentabilidade/#respond" rel="nofollow" title="Comentário para Saiba como economizar na compra do mercado #Sustentabilidade"><span class='IDCommentsReplace' style='display:none'>38150</span>Nenhum Coment&aacute;rio<span style='display:none' id='IDCommentPostInfoPermalink38150'>http%3A%2F%2Fwww.blogdasaude.com.br%2Fsaude-financeira%2F2013%2F04%2F12%2Fsaiba-como-economizar-na-compra-do-mercado-sustentabilidade%2F</span><span style='display:none' id='IDCommentPostInfoTitle38150'>Saiba+como+economizar+na+compra+do+mercado+%23Sustentabilidade</span><span style='display:none' id='IDCommentPostInfoTime38150'>2013-04-12+19%3A38%3A03</span><span style='display:none' id='IDCommentPostInfoAuthor38150'>Cec%C3%ADlia+Della+Flor</span><span style='display:none' id='IDCommentPostInfoGuid38150'>http%3A%2F%2Fwww.blogdasaude.com.br%2F%3Fp%3D38150</span></a>                        <a href="http://www.blogdasaude.com.br/saude-financeira/2013/04/12/saiba-como-economizar-na-compra-do-mercado-sustentabilidade/"><img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/btn_leiamais.jpg" style="vertical-align:middle;margin-left: 10px;" alt="Leia Mais" title="Leia Mais" /></a>
+                    </div>
+				</div>
+				                <div class="newsnoticias">
+                    <div class="thumbzinhos">
+                                            <a href="http://www.blogdasaude.com.br/saude-fisica/2013/04/12/unha-fraca-pode-ser-sinal-de-anemia-hipotireoidismo-e-ma-circulacao/" rel="bookmark">
+                       
+                        <img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/timthumb.php?src=http://www.blogdasaude.com.br/wp-content/uploads/2013/04/unha_bem-estar.jpg&amp;h=90&amp;w=90&amp;zc=1" alt="Unha fraca pode ser sinal de anemia, hipotireoidismo e má circulação" title="Unha fraca pode ser sinal de anemia, hipotireoidismo e má circulação" width="90" height="90" /></a>
+                        
+                    			
+                    </div>
+                    
+                    <b style="color:#0081c2; font-size: 16px;"><a href="http://www.blogdasaude.com.br/saude-fisica/2013/04/12/unha-fraca-pode-ser-sinal-de-anemia-hipotireoidismo-e-ma-circulacao/" rel="bookmark">Unha fraca pode ser sinal de anemia, hipotireoidismo e má circulação</a></b>
+                    <p>Fazer dietas radicais e perder peso rápido também pode fazer mal às unhas. Deixá-las sem esmalte e hidratá-las são hábitos que as mantêm saudáveis</p>
+                    <div class="bar_news" style="background:  ">
+                    	<img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/date.jpg" style="vertical-align:middle;margin-left: 10px;" alt="Data" /> 12 de abril de 2013                        <img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/categories.jpg" style="vertical-align:middle;margin-left: 10px;" alt="Categoria"/> <a href="http://www.blogdasaude.com.br/categorias/saude-fisica/" title="Ver todos os posts em Saúde Física" rel="category tag">Saúde Física</a> 
+                        <img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/submit.jpg" style="vertical-align:middle;margin-left: 10px;" alt="Coment&aacute;rios" /> <a href="http://www.blogdasaude.com.br/saude-fisica/2013/04/12/unha-fraca-pode-ser-sinal-de-anemia-hipotireoidismo-e-ma-circulacao/#respond" rel="nofollow" title="Comentário para Unha fraca pode ser sinal de anemia, hipotireoidismo e má circulação"><span class='IDCommentsReplace' style='display:none'>38143</span>Nenhum Coment&aacute;rio<span style='display:none' id='IDCommentPostInfoPermalink38143'>http%3A%2F%2Fwww.blogdasaude.com.br%2Fsaude-fisica%2F2013%2F04%2F12%2Funha-fraca-pode-ser-sinal-de-anemia-hipotireoidismo-e-ma-circulacao%2F</span><span style='display:none' id='IDCommentPostInfoTitle38143'>Unha+fraca+pode+ser+sinal+de+anemia%2C+hipotireoidismo+e+m%C3%A1+circula%C3%A7%C3%A3o</span><span style='display:none' id='IDCommentPostInfoTime38143'>2013-04-12+18%3A51%3A32</span><span style='display:none' id='IDCommentPostInfoAuthor38143'>Reda%C3%A7%C3%A3o</span><span style='display:none' id='IDCommentPostInfoGuid38143'>http%3A%2F%2Fwww.blogdasaude.com.br%2F%3Fp%3D38143</span></a>                        <a href="http://www.blogdasaude.com.br/saude-fisica/2013/04/12/unha-fraca-pode-ser-sinal-de-anemia-hipotireoidismo-e-ma-circulacao/"><img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/btn_leiamais.jpg" style="vertical-align:middle;margin-left: 10px;" alt="Leia Mais" title="Leia Mais" /></a>
+                    </div>
+				</div>
+				                <div class="newsnoticias">
+                    <div class="thumbzinhos">
+                                            <a href="http://www.blogdasaude.com.br/saude-financeira/2013/04/12/permanecer-no-aluguel-ou-financiar/" rel="bookmark">
+                       
+                        <img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/timthumb.php?src=http://www.blogdasaude.com.br/wp-content/uploads/2013/04/casa_nova.jpg&amp;h=90&amp;w=90&amp;zc=1" alt="Permanecer no aluguel ou financiar?" title="Permanecer no aluguel ou financiar?" width="90" height="90" /></a>
+                        
+                    			
+                    </div>
+                    
+                    <b style="color:#0081c2; font-size: 16px;"><a href="http://www.blogdasaude.com.br/saude-financeira/2013/04/12/permanecer-no-aluguel-ou-financiar/" rel="bookmark">Permanecer no aluguel ou financiar?</a></b>
+                    <p>A resposta para esta pergunta depende de vários fatores: Valor a ser financiado, Valor do imóvel, Valor da renda familiar, Tempo do financiamento e Idade do participante mais velho do financiamento.</p>
+                    <div class="bar_news" style="background:  ">
+                    	<img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/date.jpg" style="vertical-align:middle;margin-left: 10px;" alt="Data" /> 12 de abril de 2013                        <img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/categories.jpg" style="vertical-align:middle;margin-left: 10px;" alt="Categoria"/> <a href="http://www.blogdasaude.com.br/categorias/saude-financeira/" title="Ver todos os posts em Saúde Financeira" rel="category tag">Saúde Financeira</a> 
+                        <img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/submit.jpg" style="vertical-align:middle;margin-left: 10px;" alt="Coment&aacute;rios" /> <a href="http://www.blogdasaude.com.br/saude-financeira/2013/04/12/permanecer-no-aluguel-ou-financiar/#respond" rel="nofollow" title="Comentário para Permanecer no aluguel ou financiar?"><span class='IDCommentsReplace' style='display:none'>38135</span>Nenhum Coment&aacute;rio<span style='display:none' id='IDCommentPostInfoPermalink38135'>http%3A%2F%2Fwww.blogdasaude.com.br%2Fsaude-financeira%2F2013%2F04%2F12%2Fpermanecer-no-aluguel-ou-financiar%2F</span><span style='display:none' id='IDCommentPostInfoTitle38135'>Permanecer+no+aluguel+ou+financiar%3F</span><span style='display:none' id='IDCommentPostInfoTime38135'>2013-04-12+17%3A54%3A19</span><span style='display:none' id='IDCommentPostInfoAuthor38135'>Reda%C3%A7%C3%A3o</span><span style='display:none' id='IDCommentPostInfoGuid38135'>http%3A%2F%2Fwww.blogdasaude.com.br%2F%3Fp%3D38135</span></a>                        <a href="http://www.blogdasaude.com.br/saude-financeira/2013/04/12/permanecer-no-aluguel-ou-financiar/"><img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/btn_leiamais.jpg" style="vertical-align:middle;margin-left: 10px;" alt="Leia Mais" title="Leia Mais" /></a>
+                    </div>
+				</div>
+				                <div class="newsnoticias">
+                    <div class="thumbzinhos">
+                                            <a href="http://www.blogdasaude.com.br/saude-ambiental/2013/04/12/tudo-se-reaproveita-saiba-o-que-fazer-com-talos-folhas-e-cascas-de-frutas-verduras-e-legumes/" rel="bookmark">
+                       
+                        <img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/timthumb.php?src=http://www.blogdasaude.com.br/wp-content/uploads/2013/04/DicasVerdes01_logo.jpg&amp;h=90&amp;w=90&amp;zc=1" alt="Tudo se reaproveita: saiba o que fazer com talos, folhas e cascas de frutas, verduras e legumes" title="Tudo se reaproveita: saiba o que fazer com talos, folhas e cascas de frutas, verduras e legumes" width="90" height="90" /></a>
+                        
+                    			
+                    </div>
+                    
+                    <b style="color:#0081c2; font-size: 16px;"><a href="http://www.blogdasaude.com.br/saude-ambiental/2013/04/12/tudo-se-reaproveita-saiba-o-que-fazer-com-talos-folhas-e-cascas-de-frutas-verduras-e-legumes/" rel="bookmark">Tudo se reaproveita: saiba o que fazer com talos, folhas e cascas de frutas, verduras e legumes</a></b>
+                    <p>Dicas verdes para consumir melhor – parte II</p>
+                    <div class="bar_news" style="background:  ">
+                    	<img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/date.jpg" style="vertical-align:middle;margin-left: 10px;" alt="Data" /> 12 de abril de 2013                        <img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/categories.jpg" style="vertical-align:middle;margin-left: 10px;" alt="Categoria"/> <a href="http://www.blogdasaude.com.br/categorias/saude-ambiental/" title="Ver todos os posts em Saúde Ambiental" rel="category tag">Saúde Ambiental</a> 
+                        <img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/submit.jpg" style="vertical-align:middle;margin-left: 10px;" alt="Coment&aacute;rios" /> <a href="http://www.blogdasaude.com.br/saude-ambiental/2013/04/12/tudo-se-reaproveita-saiba-o-que-fazer-com-talos-folhas-e-cascas-de-frutas-verduras-e-legumes/#respond" rel="nofollow" title="Comentário para Tudo se reaproveita: saiba o que fazer com talos, folhas e cascas de frutas, verduras e legumes"><span class='IDCommentsReplace' style='display:none'>38128</span>Nenhum Coment&aacute;rio<span style='display:none' id='IDCommentPostInfoPermalink38128'>http%3A%2F%2Fwww.blogdasaude.com.br%2Fsaude-ambiental%2F2013%2F04%2F12%2Ftudo-se-reaproveita-saiba-o-que-fazer-com-talos-folhas-e-cascas-de-frutas-verduras-e-legumes%2F</span><span style='display:none' id='IDCommentPostInfoTitle38128'>Tudo+se+reaproveita%3A+saiba+o+que+fazer+com+talos%2C+folhas+e+cascas+de+frutas%2C+verduras+e+legumes</span><span style='display:none' id='IDCommentPostInfoTime38128'>2013-04-12+12%3A36%3A38</span><span style='display:none' id='IDCommentPostInfoAuthor38128'>Cec%C3%ADlia+Della+Flor</span><span style='display:none' id='IDCommentPostInfoGuid38128'>http%3A%2F%2Fwww.blogdasaude.com.br%2F%3Fp%3D38128</span></a>                        <a href="http://www.blogdasaude.com.br/saude-ambiental/2013/04/12/tudo-se-reaproveita-saiba-o-que-fazer-com-talos-folhas-e-cascas-de-frutas-verduras-e-legumes/"><img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/btn_leiamais.jpg" style="vertical-align:middle;margin-left: 10px;" alt="Leia Mais" title="Leia Mais" /></a>
+                    </div>
+				</div>
+				                <div class="newsnoticias">
+                    <div class="thumbzinhos">
+                                            <a href="http://www.blogdasaude.com.br/saude-ambiental/2013/04/11/no-rio-de-janeiro-multa-para-quem-jogar-lixo-no-chao/" rel="bookmark">
+                       
+                        <img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/timthumb.php?src=http://www.blogdasaude.com.br/wp-content/uploads/2013/04/destino-certo-Abre.jpg&amp;h=90&amp;w=90&amp;zc=1" alt="No Rio de Janeiro: multa para quem jogar lixo no chão" title="No Rio de Janeiro: multa para quem jogar lixo no chão" width="90" height="90" /></a>
+                        
+                    			
+                    </div>
+                    
+                    <b style="color:#0081c2; font-size: 16px;"><a href="http://www.blogdasaude.com.br/saude-ambiental/2013/04/11/no-rio-de-janeiro-multa-para-quem-jogar-lixo-no-chao/" rel="bookmark">No Rio de Janeiro: multa para quem jogar lixo no chão</a></b>
+                    <p>O Rio de Janeiro é considerado um dos dez pontos turísticos mais sujos do mundo. Para deixar a cidade mais limpa, a prefeitura promete multar quem é flagrado jogando lixo no chão</p>
+                    <div class="bar_news" style="background:  ">
+                    	<img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/date.jpg" style="vertical-align:middle;margin-left: 10px;" alt="Data" /> 11 de abril de 2013                        <img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/categories.jpg" style="vertical-align:middle;margin-left: 10px;" alt="Categoria"/> <a href="http://www.blogdasaude.com.br/categorias/saude-ambiental/" title="Ver todos os posts em Saúde Ambiental" rel="category tag">Saúde Ambiental</a> 
+                        <img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/submit.jpg" style="vertical-align:middle;margin-left: 10px;" alt="Coment&aacute;rios" /> <a href="http://www.blogdasaude.com.br/saude-ambiental/2013/04/11/no-rio-de-janeiro-multa-para-quem-jogar-lixo-no-chao/#respond" rel="nofollow" title="Comentário para No Rio de Janeiro: multa para quem jogar lixo no chão"><span class='IDCommentsReplace' style='display:none'>38120</span>Nenhum Coment&aacute;rio<span style='display:none' id='IDCommentPostInfoPermalink38120'>http%3A%2F%2Fwww.blogdasaude.com.br%2Fsaude-ambiental%2F2013%2F04%2F11%2Fno-rio-de-janeiro-multa-para-quem-jogar-lixo-no-chao%2F</span><span style='display:none' id='IDCommentPostInfoTitle38120'>No+Rio+de+Janeiro%3A+multa+para+quem+jogar+lixo+no+ch%C3%A3o</span><span style='display:none' id='IDCommentPostInfoTime38120'>2013-04-11+20%3A21%3A44</span><span style='display:none' id='IDCommentPostInfoAuthor38120'>Reda%C3%A7%C3%A3o</span><span style='display:none' id='IDCommentPostInfoGuid38120'>http%3A%2F%2Fwww.blogdasaude.com.br%2F%3Fp%3D38120</span></a>                        <a href="http://www.blogdasaude.com.br/saude-ambiental/2013/04/11/no-rio-de-janeiro-multa-para-quem-jogar-lixo-no-chao/"><img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/btn_leiamais.jpg" style="vertical-align:middle;margin-left: 10px;" alt="Leia Mais" title="Leia Mais" /></a>
+                    </div>
+				</div>
+				                <div class="newsnoticias">
+                    <div class="thumbzinhos">
+                                            <a href="http://www.blogdasaude.com.br/saude-fisica/2013/04/11/dia-mundial-do-mal-de-parkinson/" rel="bookmark">
+                       
+                        <img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/timthumb.php?src=http://www.blogdasaude.com.br/wp-content/uploads/2013/04/stk99203cor.jpg&amp;h=90&amp;w=90&amp;zc=1" alt="Dia Mundial do Mal de Parkinson" title="Dia Mundial do Mal de Parkinson" width="90" height="90" /></a>
+                        
+                    			
+                    </div>
+                    
+                    <b style="color:#0081c2; font-size: 16px;"><a href="http://www.blogdasaude.com.br/saude-fisica/2013/04/11/dia-mundial-do-mal-de-parkinson/" rel="bookmark">Dia Mundial do Mal de Parkinson</a></b>
+                    <p>Doença atinge mais de 200 mil brasileiros e não tem cura</p>
+                    <div class="bar_news" style="background:  ">
+                    	<img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/date.jpg" style="vertical-align:middle;margin-left: 10px;" alt="Data" /> 11 de abril de 2013                        <img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/categories.jpg" style="vertical-align:middle;margin-left: 10px;" alt="Categoria"/> <a href="http://www.blogdasaude.com.br/categorias/saude-fisica/" title="Ver todos os posts em Saúde Física" rel="category tag">Saúde Física</a> 
+                        <img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/submit.jpg" style="vertical-align:middle;margin-left: 10px;" alt="Coment&aacute;rios" /> <a href="http://www.blogdasaude.com.br/saude-fisica/2013/04/11/dia-mundial-do-mal-de-parkinson/#comments" rel="nofollow" title="Comentário para Dia Mundial do Mal de Parkinson"><span class='IDCommentsReplace' style='display:none'>38108</span>1 Coment&aacute;rio<span style='display:none' id='IDCommentPostInfoPermalink38108'>http%3A%2F%2Fwww.blogdasaude.com.br%2Fsaude-fisica%2F2013%2F04%2F11%2Fdia-mundial-do-mal-de-parkinson%2F</span><span style='display:none' id='IDCommentPostInfoTitle38108'>+Dia+Mundial+do+Mal+de+Parkinson+</span><span style='display:none' id='IDCommentPostInfoTime38108'>2013-04-11+17%3A26%3A12</span><span style='display:none' id='IDCommentPostInfoAuthor38108'>Nayara</span><span style='display:none' id='IDCommentPostInfoGuid38108'>http%3A%2F%2Fwww.blogdasaude.com.br%2F%3Fp%3D38108</span></a>                        <a href="http://www.blogdasaude.com.br/saude-fisica/2013/04/11/dia-mundial-do-mal-de-parkinson/"><img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/btn_leiamais.jpg" style="vertical-align:middle;margin-left: 10px;" alt="Leia Mais" title="Leia Mais" /></a>
+                    </div>
+				</div>
+				                <div class="newsnoticias">
+                    <div class="thumbzinhos">
+                                            <a href="http://www.blogdasaude.com.br/saude-fisica/2013/04/11/anti-inflamatorios-naturais/" rel="bookmark">
+                       
+                        <img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/timthumb.php?src=http://www.blogdasaude.com.br/wp-content/uploads/2013/04/anti-flamatorios-naturais_abre-.jpg&amp;h=90&amp;w=90&amp;zc=1" alt="Anti-inflamatórios naturais" title="Anti-inflamatórios naturais" width="90" height="90" /></a>
+                        
+                    			
+                    </div>
+                    
+                    <b style="color:#0081c2; font-size: 16px;"><a href="http://www.blogdasaude.com.br/saude-fisica/2013/04/11/anti-inflamatorios-naturais/" rel="bookmark">Anti-inflamatórios naturais</a></b>
+                    <p>Se o organismo não dá conta de vencer um processo inflamatório, uma coisa é certa: lá vem doença. Mas tem um jeito fácil e gostoso de torná-lo uma fortaleza contra os mais diversos males – comendo! Conheça os alimentos campeões da boa mesa</p>
+                    <div class="bar_news" style="background:  ">
+                    	<img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/date.jpg" style="vertical-align:middle;margin-left: 10px;" alt="Data" /> 11 de abril de 2013                        <img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/categories.jpg" style="vertical-align:middle;margin-left: 10px;" alt="Categoria"/> <a href="http://www.blogdasaude.com.br/categorias/saude-fisica/" title="Ver todos os posts em Saúde Física" rel="category tag">Saúde Física</a> 
+                        <img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/submit.jpg" style="vertical-align:middle;margin-left: 10px;" alt="Coment&aacute;rios" /> <a href="http://www.blogdasaude.com.br/saude-fisica/2013/04/11/anti-inflamatorios-naturais/#respond" rel="nofollow" title="Comentário para Anti-inflamatórios naturais"><span class='IDCommentsReplace' style='display:none'>38099</span>Nenhum Coment&aacute;rio<span style='display:none' id='IDCommentPostInfoPermalink38099'>http%3A%2F%2Fwww.blogdasaude.com.br%2Fsaude-fisica%2F2013%2F04%2F11%2Fanti-inflamatorios-naturais%2F</span><span style='display:none' id='IDCommentPostInfoTitle38099'>Anti-inflamat%C3%B3rios+naturais</span><span style='display:none' id='IDCommentPostInfoTime38099'>2013-04-11+16%3A36%3A40</span><span style='display:none' id='IDCommentPostInfoAuthor38099'>Reda%C3%A7%C3%A3o</span><span style='display:none' id='IDCommentPostInfoGuid38099'>http%3A%2F%2Fwww.blogdasaude.com.br%2F%3Fp%3D38099</span></a>                        <a href="http://www.blogdasaude.com.br/saude-fisica/2013/04/11/anti-inflamatorios-naturais/"><img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/btn_leiamais.jpg" style="vertical-align:middle;margin-left: 10px;" alt="Leia Mais" title="Leia Mais" /></a>
+                    </div>
+				</div>
+				                <div class="newsnoticias">
+                    <div class="thumbzinhos">
+                                            <a href="http://www.blogdasaude.com.br/saude-cultural/2013/04/11/dicas-para-os-alimentos-durarem-mais-na-geladeira/" rel="bookmark">
+                       
+                        <img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/timthumb.php?src=http://www.blogdasaude.com.br/wp-content/uploads/2013/04/DicasVerdes02.jpg&amp;h=90&amp;w=90&amp;zc=1" alt="Dicas para os alimentos durarem mais na geladeira" title="Dicas para os alimentos durarem mais na geladeira" width="90" height="90" /></a>
+                        
+                    			
+                    </div>
+                    
+                    <b style="color:#0081c2; font-size: 16px;"><a href="http://www.blogdasaude.com.br/saude-cultural/2013/04/11/dicas-para-os-alimentos-durarem-mais-na-geladeira/" rel="bookmark">Dicas para os alimentos durarem mais na geladeira</a></b>
+                    <p>Dicas verdes para consumir melhor &#8211; parte I</p>
+                    <div class="bar_news" style="background:  ">
+                    	<img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/date.jpg" style="vertical-align:middle;margin-left: 10px;" alt="Data" /> 11 de abril de 2013                        <img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/categories.jpg" style="vertical-align:middle;margin-left: 10px;" alt="Categoria"/> <a href="http://www.blogdasaude.com.br/categorias/saude-cultural/" title="Ver todos os posts em Saúde Cultural" rel="category tag">Saúde Cultural</a> 
+                        <img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/submit.jpg" style="vertical-align:middle;margin-left: 10px;" alt="Coment&aacute;rios" /> <a href="http://www.blogdasaude.com.br/saude-cultural/2013/04/11/dicas-para-os-alimentos-durarem-mais-na-geladeira/#respond" rel="nofollow" title="Comentário para Dicas para os alimentos durarem mais na geladeira"><span class='IDCommentsReplace' style='display:none'>38093</span>Nenhum Coment&aacute;rio<span style='display:none' id='IDCommentPostInfoPermalink38093'>http%3A%2F%2Fwww.blogdasaude.com.br%2Fsaude-cultural%2F2013%2F04%2F11%2Fdicas-para-os-alimentos-durarem-mais-na-geladeira%2F</span><span style='display:none' id='IDCommentPostInfoTitle38093'>Dicas+para+os+alimentos+durarem+mais+na+geladeira</span><span style='display:none' id='IDCommentPostInfoTime38093'>2013-04-11+15%3A18%3A10</span><span style='display:none' id='IDCommentPostInfoAuthor38093'>Cec%C3%ADlia+Della+Flor</span><span style='display:none' id='IDCommentPostInfoGuid38093'>http%3A%2F%2Fwww.blogdasaude.com.br%2F%3Fp%3D38093</span></a>                        <a href="http://www.blogdasaude.com.br/saude-cultural/2013/04/11/dicas-para-os-alimentos-durarem-mais-na-geladeira/"><img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/btn_leiamais.jpg" style="vertical-align:middle;margin-left: 10px;" alt="Leia Mais" title="Leia Mais" /></a>
+                    </div>
+				</div>
+				                <div class="newsnoticias">
+                    <div class="thumbzinhos">
+                                            <a href="http://www.blogdasaude.com.br/saude-corporativa/planos-de-saude/2013/04/11/foco-da-ans-nao-e-multar-planos-de-saude/" rel="bookmark">
+                       
+                        <img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/timthumb.php?src=http://www.blogdasaude.com.br/wp-content/uploads/2012/08/ANS2.jpg&amp;h=90&amp;w=90&amp;zc=1" alt="Foco da ANS não é multar planos de saúde" title="Foco da ANS não é multar planos de saúde" width="90" height="90" /></a>
+                        
+                    			
+                    </div>
+                    
+                    <b style="color:#0081c2; font-size: 16px;"><a href="http://www.blogdasaude.com.br/saude-corporativa/planos-de-saude/2013/04/11/foco-da-ans-nao-e-multar-planos-de-saude/" rel="bookmark">Foco da ANS não é multar planos de saúde</a></b>
+                    <p>O índice de arrecadação de multa da ANS não chega a 2% do valor das multas aplicadas. </p>
+                    <div class="bar_news" style="background:  ">
+                    	<img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/date.jpg" style="vertical-align:middle;margin-left: 10px;" alt="Data" /> 11 de abril de 2013                        <img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/categories.jpg" style="vertical-align:middle;margin-left: 10px;" alt="Categoria"/> <a href="http://www.blogdasaude.com.br/categorias/saude-corporativa/planos-de-saude/" title="Ver todos os posts em Planos de Saúde" rel="category tag">Planos de Saúde</a> 
+                        <img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/submit.jpg" style="vertical-align:middle;margin-left: 10px;" alt="Coment&aacute;rios" /> <a href="http://www.blogdasaude.com.br/saude-corporativa/planos-de-saude/2013/04/11/foco-da-ans-nao-e-multar-planos-de-saude/#respond" rel="nofollow" title="Comentário para Foco da ANS não é multar planos de saúde"><span class='IDCommentsReplace' style='display:none'>38089</span>Nenhum Coment&aacute;rio<span style='display:none' id='IDCommentPostInfoPermalink38089'>http%3A%2F%2Fwww.blogdasaude.com.br%2Fsaude-corporativa%2Fplanos-de-saude%2F2013%2F04%2F11%2Ffoco-da-ans-nao-e-multar-planos-de-saude%2F</span><span style='display:none' id='IDCommentPostInfoTitle38089'>Foco+da+ANS+n%C3%A3o+%C3%A9+multar+planos+de+sa%C3%BAde</span><span style='display:none' id='IDCommentPostInfoTime38089'>2013-04-11+14%3A58%3A24</span><span style='display:none' id='IDCommentPostInfoAuthor38089'>Reda%C3%A7%C3%A3o</span><span style='display:none' id='IDCommentPostInfoGuid38089'>http%3A%2F%2Fwww.blogdasaude.com.br%2F%3Fp%3D38089</span></a>                        <a href="http://www.blogdasaude.com.br/saude-corporativa/planos-de-saude/2013/04/11/foco-da-ans-nao-e-multar-planos-de-saude/"><img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/btn_leiamais.jpg" style="vertical-align:middle;margin-left: 10px;" alt="Leia Mais" title="Leia Mais" /></a>
+                    </div>
+				</div>
+				                <div class="newsnoticias">
+                    <div class="thumbzinhos">
+                                            <a href="http://www.blogdasaude.com.br/saude-fisica/2013/04/11/bacterias-sao-culpadas-por-associacao-entre-carne-vermelha-e-doencas-cardiacas/" rel="bookmark">
+                       
+                        <img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/timthumb.php?src=http://www.blogdasaude.com.br/wp-content/uploads/2013/04/carne.jpg&amp;h=90&amp;w=90&amp;zc=1" alt="Bactérias são &#8216;culpadas&#8217; por associação entre carne vermelha e doenças cardíacas" title="Bactérias são &#8216;culpadas&#8217; por associação entre carne vermelha e doenças cardíacas" width="90" height="90" /></a>
+                        
+                    			
+                    </div>
+                    
+                    <b style="color:#0081c2; font-size: 16px;"><a href="http://www.blogdasaude.com.br/saude-fisica/2013/04/11/bacterias-sao-culpadas-por-associacao-entre-carne-vermelha-e-doencas-cardiacas/" rel="bookmark">Bactérias são &#8216;culpadas&#8217; por associação entre carne vermelha e doenças cardíacas</a></b>
+                    <p>Corpo humano metaboliza um composto que acaba desenvolvendo a doença que causa entupimento de artérias. Entenda o estudo na Nature Medicine.</p>
+                    <div class="bar_news" style="background:  ">
+                    	<img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/date.jpg" style="vertical-align:middle;margin-left: 10px;" alt="Data" /> 11 de abril de 2013                        <img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/categories.jpg" style="vertical-align:middle;margin-left: 10px;" alt="Categoria"/> <a href="http://www.blogdasaude.com.br/categorias/saude-fisica/" title="Ver todos os posts em Saúde Física" rel="category tag">Saúde Física</a> 
+                        <img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/submit.jpg" style="vertical-align:middle;margin-left: 10px;" alt="Coment&aacute;rios" /> <a href="http://www.blogdasaude.com.br/saude-fisica/2013/04/11/bacterias-sao-culpadas-por-associacao-entre-carne-vermelha-e-doencas-cardiacas/#respond" rel="nofollow" title="Comentário para Bactérias são &#8216;culpadas&#8217; por associação entre carne vermelha e doenças cardíacas"><span class='IDCommentsReplace' style='display:none'>38083</span>Nenhum Coment&aacute;rio<span style='display:none' id='IDCommentPostInfoPermalink38083'>http%3A%2F%2Fwww.blogdasaude.com.br%2Fsaude-fisica%2F2013%2F04%2F11%2Fbacterias-sao-culpadas-por-associacao-entre-carne-vermelha-e-doencas-cardiacas%2F</span><span style='display:none' id='IDCommentPostInfoTitle38083'>Bact%C3%A9rias+s%C3%A3o+%27culpadas%27+por+associa%C3%A7%C3%A3o+entre+carne+vermelha+e+doen%C3%A7as+card%C3%ADacas</span><span style='display:none' id='IDCommentPostInfoTime38083'>2013-04-11+13%3A01%3A03</span><span style='display:none' id='IDCommentPostInfoAuthor38083'>Reda%C3%A7%C3%A3o</span><span style='display:none' id='IDCommentPostInfoGuid38083'>http%3A%2F%2Fwww.blogdasaude.com.br%2F%3Fp%3D38083</span></a>                        <a href="http://www.blogdasaude.com.br/saude-fisica/2013/04/11/bacterias-sao-culpadas-por-associacao-entre-carne-vermelha-e-doencas-cardiacas/"><img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/btn_leiamais.jpg" style="vertical-align:middle;margin-left: 10px;" alt="Leia Mais" title="Leia Mais" /></a>
+                    </div>
+				</div>
+				                <div class="newsnoticias">
+                    <div class="thumbzinhos">
+                                            <a href="http://www.blogdasaude.com.br/ultimas-noticias/2013/04/10/inscricoes-para-concurso-mundial-na-area-da-saude-encerram-se-hoje-as-19h/" rel="bookmark">
+                       
+                        <img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/timthumb.php?src=http://www.blogdasaude.com.br/wp-content/uploads/2013/04/concurso1_1.png&amp;h=90&amp;w=90&amp;zc=1" alt="Inscrições para concurso mundial na área da saúde encerram-se hoje, às 19h" title="Inscrições para concurso mundial na área da saúde encerram-se hoje, às 19h" width="90" height="90" /></a>
+                        
+                    			
+                    </div>
+                    
+                    <b style="color:#0081c2; font-size: 16px;"><a href="http://www.blogdasaude.com.br/ultimas-noticias/2013/04/10/inscricoes-para-concurso-mundial-na-area-da-saude-encerram-se-hoje-as-19h/" rel="bookmark">Inscrições para concurso mundial na área da saúde encerram-se hoje, às 19h</a></b>
+                    <p>2ª edição do desafio “Transformar Sistemas de Saúde: Modelos de Negócios Inovadores”</p>
+                    <div class="bar_news" style="background:  ">
+                    	<img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/date.jpg" style="vertical-align:middle;margin-left: 10px;" alt="Data" /> 10 de abril de 2013                        <img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/categories.jpg" style="vertical-align:middle;margin-left: 10px;" alt="Categoria"/> <a href="http://www.blogdasaude.com.br/categorias/ultimas-noticias/" title="Ver todos os posts em Últimas Notícias" rel="category tag">Últimas Notícias</a> 
+                        <img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/submit.jpg" style="vertical-align:middle;margin-left: 10px;" alt="Coment&aacute;rios" /> <a href="http://www.blogdasaude.com.br/ultimas-noticias/2013/04/10/inscricoes-para-concurso-mundial-na-area-da-saude-encerram-se-hoje-as-19h/#respond" rel="nofollow" title="Comentário para Inscrições para concurso mundial na área da saúde encerram-se hoje, às 19h"><span class='IDCommentsReplace' style='display:none'>38075</span>Nenhum Coment&aacute;rio<span style='display:none' id='IDCommentPostInfoPermalink38075'>http%3A%2F%2Fwww.blogdasaude.com.br%2Fultimas-noticias%2F2013%2F04%2F10%2Finscricoes-para-concurso-mundial-na-area-da-saude-encerram-se-hoje-as-19h%2F</span><span style='display:none' id='IDCommentPostInfoTitle38075'>Inscri%C3%A7%C3%B5es+para+concurso+mundial+na+%C3%A1rea+da+sa%C3%BAde+encerram-se+hoje%2C+%C3%A0s+19h</span><span style='display:none' id='IDCommentPostInfoTime38075'>2013-04-10+19%3A21%3A07</span><span style='display:none' id='IDCommentPostInfoAuthor38075'>Cec%C3%ADlia+Della+Flor</span><span style='display:none' id='IDCommentPostInfoGuid38075'>http%3A%2F%2Fwww.blogdasaude.com.br%2F%3Fp%3D38075</span></a>                        <a href="http://www.blogdasaude.com.br/ultimas-noticias/2013/04/10/inscricoes-para-concurso-mundial-na-area-da-saude-encerram-se-hoje-as-19h/"><img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/btn_leiamais.jpg" style="vertical-align:middle;margin-left: 10px;" alt="Leia Mais" title="Leia Mais" /></a>
+                    </div>
+				</div>
+				                <div class="newsnoticias">
+                    <div class="thumbzinhos">
+                                            <a href="http://www.blogdasaude.com.br/saude-do-homem-2/2013/04/10/cientistas-descobrem-gene-por-tras-de-cancer-de-prostata/" rel="bookmark">
+                       
+                        <img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/timthumb.php?src=http://www.blogdasaude.com.br/wp-content/uploads/2012/11/NovembroAzultoque.jpg&amp;h=90&amp;w=90&amp;zc=1" alt="Cientistas descobrem gene por trás de câncer de próstata" title="Cientistas descobrem gene por trás de câncer de próstata" width="90" height="90" /></a>
+                        
+                    			
+                    </div>
+                    
+                    <b style="color:#0081c2; font-size: 16px;"><a href="http://www.blogdasaude.com.br/saude-do-homem-2/2013/04/10/cientistas-descobrem-gene-por-tras-de-cancer-de-prostata/" rel="bookmark">Cientistas descobrem gene por trás de câncer de próstata</a></b>
+                    <p>O gene BRCA2 está geralmente relacionado a formas hereditárias de câncer de mama, próstata e ovário</p>
+                    <div class="bar_news" style="background:  ">
+                    	<img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/date.jpg" style="vertical-align:middle;margin-left: 10px;" alt="Data" /> 10 de abril de 2013                        <img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/categories.jpg" style="vertical-align:middle;margin-left: 10px;" alt="Categoria"/> <a href="http://www.blogdasaude.com.br/categorias/saude-do-homem-2/" title="Ver todos os posts em Saúde do Homem" rel="category tag">Saúde do Homem</a> 
+                        <img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/submit.jpg" style="vertical-align:middle;margin-left: 10px;" alt="Coment&aacute;rios" /> <a href="http://www.blogdasaude.com.br/saude-do-homem-2/2013/04/10/cientistas-descobrem-gene-por-tras-de-cancer-de-prostata/#respond" rel="nofollow" title="Comentário para Cientistas descobrem gene por trás de câncer de próstata"><span class='IDCommentsReplace' style='display:none'>38070</span>Nenhum Coment&aacute;rio<span style='display:none' id='IDCommentPostInfoPermalink38070'>http%3A%2F%2Fwww.blogdasaude.com.br%2Fsaude-do-homem-2%2F2013%2F04%2F10%2Fcientistas-descobrem-gene-por-tras-de-cancer-de-prostata%2F</span><span style='display:none' id='IDCommentPostInfoTitle38070'>Cientistas+descobrem+gene+por+tr%C3%A1s+de+c%C3%A2ncer+de+pr%C3%B3stata</span><span style='display:none' id='IDCommentPostInfoTime38070'>2013-04-10+17%3A23%3A42</span><span style='display:none' id='IDCommentPostInfoAuthor38070'>Reda%C3%A7%C3%A3o</span><span style='display:none' id='IDCommentPostInfoGuid38070'>http%3A%2F%2Fwww.blogdasaude.com.br%2F%3Fp%3D38070</span></a>                        <a href="http://www.blogdasaude.com.br/saude-do-homem-2/2013/04/10/cientistas-descobrem-gene-por-tras-de-cancer-de-prostata/"><img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/btn_leiamais.jpg" style="vertical-align:middle;margin-left: 10px;" alt="Leia Mais" title="Leia Mais" /></a>
+                    </div>
+				</div>
+				                <div class="newsnoticias">
+                    <div class="thumbzinhos">
+                                            <a href="http://www.blogdasaude.com.br/saude-social/2013/04/10/hospital-aceita-visita-de-animais-para-ajudar-na-recuperacao-de-pacientes-atendimentohumanizado-hosp_einstein/" rel="bookmark">
+                       
+                        <img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/timthumb.php?src=http://www.blogdasaude.com.br/wp-content/uploads/2013/04/cachorro02.jpg&amp;h=90&amp;w=90&amp;zc=1" alt="Hospital aceita visita de animais para ajudar na recuperação de pacientes [vídeos]" title="Hospital aceita visita de animais para ajudar na recuperação de pacientes [vídeos]" width="90" height="90" /></a>
+                        
+                    			
+                    </div>
+                    
+                    <b style="color:#0081c2; font-size: 16px;"><a href="http://www.blogdasaude.com.br/saude-social/2013/04/10/hospital-aceita-visita-de-animais-para-ajudar-na-recuperacao-de-pacientes-atendimentohumanizado-hosp_einstein/" rel="bookmark">Hospital aceita visita de animais para ajudar na recuperação de pacientes [vídeos]</a></b>
+                    <p>Programas de atendimento humanizado: atenção e respeito às pessoas que passam por um momento difícil de tratamento e cura. Veja o vídeo com a visita do cachorrinho Nick =)</p>
+                    <div class="bar_news" style="background:  ">
+                    	<img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/date.jpg" style="vertical-align:middle;margin-left: 10px;" alt="Data" /> 10 de abril de 2013                        <img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/categories.jpg" style="vertical-align:middle;margin-left: 10px;" alt="Categoria"/> <a href="http://www.blogdasaude.com.br/categorias/saude-social/" title="Ver todos os posts em Saúde Social" rel="category tag">Saúde Social</a> 
+                        <img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/submit.jpg" style="vertical-align:middle;margin-left: 10px;" alt="Coment&aacute;rios" /> <a href="http://www.blogdasaude.com.br/saude-social/2013/04/10/hospital-aceita-visita-de-animais-para-ajudar-na-recuperacao-de-pacientes-atendimentohumanizado-hosp_einstein/#respond" rel="nofollow" title="Comentário para Hospital aceita visita de animais para ajudar na recuperação de pacientes [vídeos]"><span class='IDCommentsReplace' style='display:none'>38058</span>Nenhum Coment&aacute;rio<span style='display:none' id='IDCommentPostInfoPermalink38058'>http%3A%2F%2Fwww.blogdasaude.com.br%2Fsaude-social%2F2013%2F04%2F10%2Fhospital-aceita-visita-de-animais-para-ajudar-na-recuperacao-de-pacientes-atendimentohumanizado-hosp_einstein%2F</span><span style='display:none' id='IDCommentPostInfoTitle38058'>Hospital+aceita+visita+de+animais+para+ajudar+na+recupera%C3%A7%C3%A3o+de+pacientes+%5Bv%C3%ADdeos%5D</span><span style='display:none' id='IDCommentPostInfoTime38058'>2013-04-10+14%3A10%3A17</span><span style='display:none' id='IDCommentPostInfoAuthor38058'>Cec%C3%ADlia+Della+Flor</span><span style='display:none' id='IDCommentPostInfoGuid38058'>http%3A%2F%2Fwww.blogdasaude.com.br%2F%3Fp%3D38058</span></a>                        <a href="http://www.blogdasaude.com.br/saude-social/2013/04/10/hospital-aceita-visita-de-animais-para-ajudar-na-recuperacao-de-pacientes-atendimentohumanizado-hosp_einstein/"><img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/btn_leiamais.jpg" style="vertical-align:middle;margin-left: 10px;" alt="Leia Mais" title="Leia Mais" /></a>
+                    </div>
+				</div>
+				                <div class="newsnoticias">
+                    <div class="thumbzinhos">
+                                            <a href="http://www.blogdasaude.com.br/aplicativo-da-vez-2/2013/04/09/aplicativo-auxilia-mamaes-no-aleitamento/" rel="bookmark">
+                       
+                        <img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/timthumb.php?src=http://www.blogdasaude.com.br/wp-content/uploads/2013/04/aleitamento_app2.jpg&amp;h=90&amp;w=90&amp;zc=1" alt="Aplicativo auxilia mamães no aleitamento" title="Aplicativo auxilia mamães no aleitamento" width="90" height="90" /></a>
+                        
+                    			
+                    </div>
+                    
+                    <b style="color:#0081c2; font-size: 16px;"><a href="http://www.blogdasaude.com.br/aplicativo-da-vez-2/2013/04/09/aplicativo-auxilia-mamaes-no-aleitamento/" rel="bookmark">Aplicativo auxilia mamães no aleitamento</a></b>
+                    <p>Além de dicas para o desenvolvimento de cada mês do bebê, desde a gestação, esse app traz um cronômetro para registrar o tempo da mamada em cada peito (ou nos dois em caso de gêmeos), com a possibilidade de gravar os dados para ter um histórico apurado da amamentação.</p>
+                    <div class="bar_news" style="background:  ">
+                    	<img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/date.jpg" style="vertical-align:middle;margin-left: 10px;" alt="Data" /> 9 de abril de 2013                        <img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/categories.jpg" style="vertical-align:middle;margin-left: 10px;" alt="Categoria"/> <a href="http://www.blogdasaude.com.br/categorias/aplicativo-da-vez-2/" title="Ver todos os posts em Aplicativo da vez" rel="category tag">Aplicativo da vez</a> 
+                        <img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/submit.jpg" style="vertical-align:middle;margin-left: 10px;" alt="Coment&aacute;rios" /> <a href="http://www.blogdasaude.com.br/aplicativo-da-vez-2/2013/04/09/aplicativo-auxilia-mamaes-no-aleitamento/#comments" rel="nofollow" title="Comentário para Aplicativo auxilia mamães no aleitamento"><span class='IDCommentsReplace' style='display:none'>38048</span>1 Coment&aacute;rio<span style='display:none' id='IDCommentPostInfoPermalink38048'>http%3A%2F%2Fwww.blogdasaude.com.br%2Faplicativo-da-vez-2%2F2013%2F04%2F09%2Faplicativo-auxilia-mamaes-no-aleitamento%2F</span><span style='display:none' id='IDCommentPostInfoTitle38048'>Aplicativo+auxilia+mam%C3%A3es+no+aleitamento+</span><span style='display:none' id='IDCommentPostInfoTime38048'>2013-04-09+18%3A51%3A58</span><span style='display:none' id='IDCommentPostInfoAuthor38048'>Cec%C3%ADlia+Della+Flor</span><span style='display:none' id='IDCommentPostInfoGuid38048'>http%3A%2F%2Fwww.blogdasaude.com.br%2F%3Fp%3D38048</span></a>                        <a href="http://www.blogdasaude.com.br/aplicativo-da-vez-2/2013/04/09/aplicativo-auxilia-mamaes-no-aleitamento/"><img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/btn_leiamais.jpg" style="vertical-align:middle;margin-left: 10px;" alt="Leia Mais" title="Leia Mais" /></a>
+                    </div>
+				</div>
+				                <div class="newsnoticias">
+                    <div class="thumbzinhos">
+                                            <a href="http://www.blogdasaude.com.br/saude-social/2013/04/09/que-tal-parar-de-fumar-ministerio-da-saude-amplia-atendimento-em-unidades-que-podem-te-ajudar/" rel="bookmark">
+                       
+                        <img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/timthumb.php?src=http://www.blogdasaude.com.br/wp-content/uploads/2013/04/581490_30334111.jpg&amp;h=90&amp;w=90&amp;zc=1" alt="Que tal parar de fumar? Ministério da Saúde amplia atendimento em unidades que podem te ajudar!" title="Que tal parar de fumar? Ministério da Saúde amplia atendimento em unidades que podem te ajudar!" width="90" height="90" /></a>
+                        
+                    			
+                    </div>
+                    
+                    <b style="color:#0081c2; font-size: 16px;"><a href="http://www.blogdasaude.com.br/saude-social/2013/04/09/que-tal-parar-de-fumar-ministerio-da-saude-amplia-atendimento-em-unidades-que-podem-te-ajudar/" rel="bookmark">Que tal parar de fumar? Ministério da Saúde amplia atendimento em unidades que podem te ajudar!</a></b>
+                    <p>O ministro da Saúde, Alexandre Padilha, assinou neste domingo (7) portaria que amplia o acesso de pessoas tabagistas ao tratamento contra o fumo</p>
+                    <div class="bar_news" style="background:  ">
+                    	<img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/date.jpg" style="vertical-align:middle;margin-left: 10px;" alt="Data" /> 9 de abril de 2013                        <img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/categories.jpg" style="vertical-align:middle;margin-left: 10px;" alt="Categoria"/> <a href="http://www.blogdasaude.com.br/categorias/saude-social/" title="Ver todos os posts em Saúde Social" rel="category tag">Saúde Social</a> 
+                        <img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/submit.jpg" style="vertical-align:middle;margin-left: 10px;" alt="Coment&aacute;rios" /> <a href="http://www.blogdasaude.com.br/saude-social/2013/04/09/que-tal-parar-de-fumar-ministerio-da-saude-amplia-atendimento-em-unidades-que-podem-te-ajudar/#respond" rel="nofollow" title="Comentário para Que tal parar de fumar? Ministério da Saúde amplia atendimento em unidades que podem te ajudar!"><span class='IDCommentsReplace' style='display:none'>38042</span>Nenhum Coment&aacute;rio<span style='display:none' id='IDCommentPostInfoPermalink38042'>http%3A%2F%2Fwww.blogdasaude.com.br%2Fsaude-social%2F2013%2F04%2F09%2Fque-tal-parar-de-fumar-ministerio-da-saude-amplia-atendimento-em-unidades-que-podem-te-ajudar%2F</span><span style='display:none' id='IDCommentPostInfoTitle38042'>Que+tal+parar+de+fumar%3F+Minist%C3%A9rio+da+Sa%C3%BAde+amplia+atendimento+em+unidades+que+podem+te+ajudar%21</span><span style='display:none' id='IDCommentPostInfoTime38042'>2013-04-09+17%3A52%3A59</span><span style='display:none' id='IDCommentPostInfoAuthor38042'>Nayara</span><span style='display:none' id='IDCommentPostInfoGuid38042'>http%3A%2F%2Fwww.blogdasaude.com.br%2F%3Fp%3D38042</span></a>                        <a href="http://www.blogdasaude.com.br/saude-social/2013/04/09/que-tal-parar-de-fumar-ministerio-da-saude-amplia-atendimento-em-unidades-que-podem-te-ajudar/"><img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/btn_leiamais.jpg" style="vertical-align:middle;margin-left: 10px;" alt="Leia Mais" title="Leia Mais" /></a>
+                    </div>
+				</div>
+				                <div class="newsnoticias">
+                    <div class="thumbzinhos">
+                                            <a href="http://www.blogdasaude.com.br/saude-social/2013/04/09/anvisa-aprova-novos-requisitos-para-repelentes-de-insetos/" rel="bookmark">
+                       
+                        <img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/timthumb.php?src=http://www.blogdasaude.com.br/wp-content/uploads/2013/04/repelente.jpg&amp;h=90&amp;w=90&amp;zc=1" alt="Anvisa aprova novos requisitos para repelentes de insetos" title="Anvisa aprova novos requisitos para repelentes de insetos" width="90" height="90" /></a>
+                        
+                    			
+                    </div>
+                    
+                    <b style="color:#0081c2; font-size: 16px;"><a href="http://www.blogdasaude.com.br/saude-social/2013/04/09/anvisa-aprova-novos-requisitos-para-repelentes-de-insetos/" rel="bookmark">Anvisa aprova novos requisitos para repelentes de insetos</a></b>
+                    <p>Utilizados na pele para afastar insetos, os produtos terão um regulamento específico e rótulos mais claros para o consumidor</p>
+                    <div class="bar_news" style="background:  ">
+                    	<img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/date.jpg" style="vertical-align:middle;margin-left: 10px;" alt="Data" /> 9 de abril de 2013                        <img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/categories.jpg" style="vertical-align:middle;margin-left: 10px;" alt="Categoria"/> <a href="http://www.blogdasaude.com.br/categorias/saude-social/" title="Ver todos os posts em Saúde Social" rel="category tag">Saúde Social</a> 
+                        <img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/submit.jpg" style="vertical-align:middle;margin-left: 10px;" alt="Coment&aacute;rios" /> <a href="http://www.blogdasaude.com.br/saude-social/2013/04/09/anvisa-aprova-novos-requisitos-para-repelentes-de-insetos/#respond" rel="nofollow" title="Comentário para Anvisa aprova novos requisitos para repelentes de insetos"><span class='IDCommentsReplace' style='display:none'>38037</span>Nenhum Coment&aacute;rio<span style='display:none' id='IDCommentPostInfoPermalink38037'>http%3A%2F%2Fwww.blogdasaude.com.br%2Fsaude-social%2F2013%2F04%2F09%2Fanvisa-aprova-novos-requisitos-para-repelentes-de-insetos%2F</span><span style='display:none' id='IDCommentPostInfoTitle38037'>Anvisa+aprova+novos+requisitos+para+repelentes+de+insetos</span><span style='display:none' id='IDCommentPostInfoTime38037'>2013-04-09+16%3A38%3A26</span><span style='display:none' id='IDCommentPostInfoAuthor38037'>Nayara</span><span style='display:none' id='IDCommentPostInfoGuid38037'>http%3A%2F%2Fwww.blogdasaude.com.br%2F%3Fp%3D38037</span></a>                        <a href="http://www.blogdasaude.com.br/saude-social/2013/04/09/anvisa-aprova-novos-requisitos-para-repelentes-de-insetos/"><img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/btn_leiamais.jpg" style="vertical-align:middle;margin-left: 10px;" alt="Leia Mais" title="Leia Mais" /></a>
+                    </div>
+				</div>
+				                <div class="newsnoticias">
+                    <div class="thumbzinhos">
+                                            <a href="http://www.blogdasaude.com.br/saude-fisica/2013/04/09/proteina-em-excesso-causa-riscos-a-saude/" rel="bookmark">
+                       
+                        <img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/timthumb.php?src=http://www.blogdasaude.com.br/wp-content/uploads/2013/04/proteina01.jpg&amp;h=90&amp;w=90&amp;zc=1" alt="Proteína em excesso causa riscos à saúde" title="Proteína em excesso causa riscos à saúde" width="90" height="90" /></a>
+                        
+                    			
+                    </div>
+                    
+                    <b style="color:#0081c2; font-size: 16px;"><a href="http://www.blogdasaude.com.br/saude-fisica/2013/04/09/proteina-em-excesso-causa-riscos-a-saude/" rel="bookmark">Proteína em excesso causa riscos à saúde</a></b>
+                    <p>Ingerir proteína é fundamental para manter o corpo funcionando, mas é preciso muito cuidado com o excesso.</p>
+                    <div class="bar_news" style="background:  ">
+                    	<img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/date.jpg" style="vertical-align:middle;margin-left: 10px;" alt="Data" /> 9 de abril de 2013                        <img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/categories.jpg" style="vertical-align:middle;margin-left: 10px;" alt="Categoria"/> <a href="http://www.blogdasaude.com.br/categorias/saude-fisica/" title="Ver todos os posts em Saúde Física" rel="category tag">Saúde Física</a> 
+                        <img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/submit.jpg" style="vertical-align:middle;margin-left: 10px;" alt="Coment&aacute;rios" /> <a href="http://www.blogdasaude.com.br/saude-fisica/2013/04/09/proteina-em-excesso-causa-riscos-a-saude/#respond" rel="nofollow" title="Comentário para Proteína em excesso causa riscos à saúde"><span class='IDCommentsReplace' style='display:none'>38030</span>Nenhum Coment&aacute;rio<span style='display:none' id='IDCommentPostInfoPermalink38030'>http%3A%2F%2Fwww.blogdasaude.com.br%2Fsaude-fisica%2F2013%2F04%2F09%2Fproteina-em-excesso-causa-riscos-a-saude%2F</span><span style='display:none' id='IDCommentPostInfoTitle38030'>Prote%C3%ADna+em+excesso+causa+riscos+%C3%A0+sa%C3%BAde</span><span style='display:none' id='IDCommentPostInfoTime38030'>2013-04-09+14%3A56%3A02</span><span style='display:none' id='IDCommentPostInfoAuthor38030'>Reda%C3%A7%C3%A3o</span><span style='display:none' id='IDCommentPostInfoGuid38030'>http%3A%2F%2Fwww.blogdasaude.com.br%2F%3Fp%3D38030</span></a>                        <a href="http://www.blogdasaude.com.br/saude-fisica/2013/04/09/proteina-em-excesso-causa-riscos-a-saude/"><img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/btn_leiamais.jpg" style="vertical-align:middle;margin-left: 10px;" alt="Leia Mais" title="Leia Mais" /></a>
+                    </div>
+				</div>
+				                <div class="newsnoticias">
+                    <div class="thumbzinhos">
+                                            <a href="http://www.blogdasaude.com.br/saude-social/2013/04/09/os-riscos-da-automedicacao/" rel="bookmark">
+                       
+                        <img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/timthumb.php?src=http://www.blogdasaude.com.br/wp-content/uploads/2013/04/Dica_Saude_automedicacao.jpg&amp;h=90&amp;w=90&amp;zc=1" alt="Os riscos da automedicação" title="Os riscos da automedicação" width="90" height="90" /></a>
+                        
+                    			
+                    </div>
+                    
+                    <b style="color:#0081c2; font-size: 16px;"><a href="http://www.blogdasaude.com.br/saude-social/2013/04/09/os-riscos-da-automedicacao/" rel="bookmark">Os riscos da automedicação</a></b>
+                    <p>O uso inadequado de medicamentos pode mascarar alguns sintomas de uma doença mais grave.</p>
+                    <div class="bar_news" style="background:  ">
+                    	<img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/date.jpg" style="vertical-align:middle;margin-left: 10px;" alt="Data" /> 9 de abril de 2013                        <img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/categories.jpg" style="vertical-align:middle;margin-left: 10px;" alt="Categoria"/> <a href="http://www.blogdasaude.com.br/categorias/saude-social/" title="Ver todos os posts em Saúde Social" rel="category tag">Saúde Social</a> 
+                        <img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/submit.jpg" style="vertical-align:middle;margin-left: 10px;" alt="Coment&aacute;rios" /> <a href="http://www.blogdasaude.com.br/saude-social/2013/04/09/os-riscos-da-automedicacao/#respond" rel="nofollow" title="Comentário para Os riscos da automedicação"><span class='IDCommentsReplace' style='display:none'>38025</span>Nenhum Coment&aacute;rio<span style='display:none' id='IDCommentPostInfoPermalink38025'>http%3A%2F%2Fwww.blogdasaude.com.br%2Fsaude-social%2F2013%2F04%2F09%2Fos-riscos-da-automedicacao%2F</span><span style='display:none' id='IDCommentPostInfoTitle38025'>Os+riscos+da+automedica%C3%A7%C3%A3o</span><span style='display:none' id='IDCommentPostInfoTime38025'>2013-04-09+12%3A40%3A59</span><span style='display:none' id='IDCommentPostInfoAuthor38025'>Cec%C3%ADlia+Della+Flor</span><span style='display:none' id='IDCommentPostInfoGuid38025'>http%3A%2F%2Fwww.blogdasaude.com.br%2F%3Fp%3D38025</span></a>                        <a href="http://www.blogdasaude.com.br/saude-social/2013/04/09/os-riscos-da-automedicacao/"><img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/btn_leiamais.jpg" style="vertical-align:middle;margin-left: 10px;" alt="Leia Mais" title="Leia Mais" /></a>
+                    </div>
+				</div>
+								
+				<p><a href="http://www.blogdasaude.com.br/page/2/" ><img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/btn_anterior.jpg" alt="Pr&oacute;xima" style="margin: 0 5px;" /></a></p>
+			</div>
+        	
+	</div>
+	
+<div id="sidebar">
+
+	<div class="newsletter">	
+		<!--To enable the eNews &amp; Upates feature, go to your WP dashboard and go to Appearance -> Revolution Lifestyle Options and enter your Feedburner ID.-->
+		<h2>Not&iacute;cias</h2>
+		<h4 class="clique_cadastro"><a href="/cadastre-se" target="_self">Clique aqui e cadastre-se para receber Artigos e &Uacute;ltimas not&iacute;cias do Blog da Sa&uacute;de em seu e-mail.</a></h4>
+		
+		 <!--<form id="subscribe" action="http://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=BlogdaSaude', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true"><input type="text" value="Insira aqui seu email..." id="subbox" onfocus="if (this.value == 'Insira aqui seu email...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Insira aqui seu email...';}" name="email"/><input type="hidden" value="BlogdaSaude" name="uri"/><input type="hidden" name="loc" value="pt_BR"/><input type="submit" value="Ok" id="subbutton" /></form>-->	
+	</div>
+	
+	
+	
+	<div id="sidesbarss">
+    
+	<ul id="sidebarwidgeted">
+	
+	<li id="text-441927754" class="widget widget_text">			<div class="textwidget"><div align="center">
+<a href='http://www.blogdasaude.com.br/wp-content/plugins/adrotate/adrotate-out.php?track=MzMsMCwwLGh0dHA6Ly93d3cucGxhbm9zb25saW5lLmNvbS5icg%3D&preview=true' target='_blank'><img src='http://www.blogdasaude.com.br/wp-content/uploads/2012/03/banner_melhor_planosonline.gif' border='0' /></a> 
+</div></div>
+		</li>
+<li id="text-441927751" class="widget widget_text"><h2 class="widgettitle">PREMIAÇÕES</h2>
+			<div class="textwidget"><div align="center">
+
+<a href='http://selo.topblog.com.br/adserver/selo/logClickRedireciona.php?cod=0a7446e3f5_185776' target='_blank'><img src='http://www.topblog.com.br/2012/images/selos/selo_5802_5802_185776.gif' border='0' /></a>
+
+<img src='http://www.blogdasaude.com.br/wp-content/uploads/2012/03/premios_blog.jpg' border='0' style='margin-top: 10px;' /></a>
+
+</div></div>
+		</li>
+<li id="wordtwit_twitter_widget-3" class="widget widget_wordtwit_twitter_widget"><h2>Recent Tweets</h2>
+<ul class="wordtwit-recent-tweets">
+			<li>Saiba como economizar na compra do mercado <a target='_blank' rel='nofollow' href="http://search.twitter.com/search?q=%23Sustentabilidade" title="#Sustentabilidade" class=" ">#Sustentabilidade</a> - <a target='_blank' rel='nofollow' href="http://t.co/svQuROND71">http://t.co/svQuROND71</a> [<a target="_blank" rel="nofollow" href="http://twitter.com/blogdasaude/statuses/322796489850097665">#</a>]</li>
+			<li>Unha fraca pode ser sinal de anemia, hipotireoidismo e má circulação - <a target='_blank' rel='nofollow' href="http://t.co/5k3WGOS22t">http://t.co/5k3WGOS22t</a> [<a target="_blank" rel="nofollow" href="http://twitter.com/blogdasaude/statuses/322784078166360064">#</a>]</li>
+			<li>Permanecer no aluguel ou financiar? - <a target='_blank' rel='nofollow' href="http://t.co/MtOF9LkYj2">http://t.co/MtOF9LkYj2</a> [<a target="_blank" rel="nofollow" href="http://twitter.com/blogdasaude/statuses/322769671159963648">#</a>]</li>
+			<li>Tudo se reaproveita: saiba o que fazer com talos, folhas e cascas de frutas, verduras e legumes - <a target='_blank' rel='nofollow' href="http://t.co/MWx4JhSSj3">http://t.co/MWx4JhSSj3</a> [<a target="_blank" rel="nofollow" href="http://twitter.com/blogdasaude/statuses/322689725519503360">#</a>]</li>
+			<li>Bom dia, gente! Quais as expectativas para o fim de semana? [<a target="_blank" rel="nofollow" href="http://twitter.com/blogdasaude/statuses/322684779319422978">#</a>]</li>
+	</ul></li>
+<iframe scrolling="no" frameborder="0" width="320" height="250" src="http://www.facebook.com/connect/connect.php?id=205963512747817&amp;connections=10&amp;stream=false&amp;header=false&amp;locale="></iframe><li id="text-441927756" class="widget widget_text"><h2 class="widgettitle">Dica Blog da Saúde</h2>
+			<div class="textwidget"><div align="center">
+<a href="http://www.blogdasaude.com.br/wp-content/plugins/adrotate/adrotate-out.php?track=MTAsMCwwLGh0dHA6Ly93d3cuY2xpcHBpbmd2aWN0b3J5LmNvbS5ici8" target="_blank"><img src="http://www.blogdasaude.com.br/wp-content/banners/banner_clipping.jpg" alt="" /></a>
+</div></div>
+		</li>
+<li id="text-441927757" class="widget widget_text">			<div class="textwidget"><a href='http://www.blogdasaude.com.br/wp-content/plugins/adrotate/adrotate-out.php?track=32%2C0%2C0&preview=true' target='_blank'><img src='http://www.blogdasaude.com.br/wp-content/uploads/2011/09/selo_projetonaveia.jpg' border='0' /></a></div>
+		</li>
+<li id="text-441927758" class="widget widget_text">			<div class="textwidget"><h2><a href="/categorias/campanhas-interessantes/">Campanhas Interessantes</a></h2>
+
+<h2><a href="/categorias/saude-da-mulher-2/">Saúde da Mulher</a></h2>
+
+<h2><a href="/categorias/saude-do-homem-2/">Saúde do Homem</a></h2>
+
+<h2><a href="/categorias/calendario-2/">Calendário de Eventos</a></h2>
+
+<h2><a href="/categorias/aplicativo-da-vez-2/">Aplicativo da vez</a></h2>
+
+<h2><a href="/categorias/novidades-ans/">Novidades ANS</a></h2>
+</div>
+		</li>
+	
+	</ul>
+	</div>
+    
+	<div class="pesquisa">	
+		<h2>Recomenda&ccedil;&otilde;es</h2>
+        <div id="links">
+        <ul>
+            <li><a href="http://www.blogdasaude.com.br/wp-content/plugins/adrotate/adrotate-out.php?track=MTEsMCwwLGh0dHA6Ly93d3cuYmFuY29kZXNhdWRlLmNvbS5ici8&#038;preview=true" title="Dedicado a oferecer informações de confiança em saúde e qualidade de vida" target="_blank"><img src="http://www.blogdasaude.com.br/wp-content/uploads/2010/05/img_bancodesaude.jpg"  alt="Banco da Saúde"  title="Dedicado a oferecer informações de confiança em saúde e qualidade de vida" /></a></li>
+<li><a href="http://www.blogdasaude.com.br/wp-content/plugins/adrotate/adrotate-out.php?track=MjYsMCwwLGh0dHA6Ly93d3cuZHNvcC5jb20uYnI&#038;preview=true" title="Educação financeira ensina como obter controle e planejamento financeiro"><img src="http://www.blogdasaude.com.br/wp-content/banners/img_dsop.jpg"  alt="Dsop"  title="Educação financeira ensina como obter controle e planejamento financeiro" /></a></li>
+<li><a href="http://www.blogdasaude.com.br/wp-content/plugins/adrotate/adrotate-out.php?track=MTIsMCwwLGh0dHA6Ly93d3cuaGVscHNhdWRlLmNvbS8&#038;preview=true" title="Encontre profissionais de saúde em todo o Brasil" target="_blank"><img src="http://www.blogdasaude.com.br/wp-content/uploads/2010/05/img_helpsaude.jpg"  alt="Help Saúde"  title="Encontre profissionais de saúde em todo o Brasil" /></a></li>
+<li><a href="http://www.blogdasaude.com.br/wp-content/plugins/adrotate/adrotate-out.php?track=MTMsMCwwLGh0dHA6Ly93d3cuaWx1bWluYWxtYS5jb20v&#038;preview=true" title="Palavras de incentivo para iluminar seu dia-a-dia!" target="_blank"><img src="http://www.blogdasaude.com.br/wp-content/uploads/2010/05/img_iluminaalma.jpg"  alt="Iluminalma.com.br"  title="Palavras de incentivo para iluminar seu dia-a-dia!" /></a></li>
+<li><a href="http://www.blogdasaude.com.br/wp-content/plugins/adrotate/adrotate-out.php?track=MTUsMCwwLGh0dHA6Ly93d3cucGxhbm9zb25saW5lLmNvbS5icg%3D&#038;preview=true" title="Melhor site de busca de planos de saúde" target="_blank"><img src="http://www.blogdasaude.com.br/wp-content/uploads/2012/03/planos_novo.jpg"  alt="Planos Online &#8211; Busca de Planos de Saúde"  title="Melhor site de busca de planos de saúde" /></a></li>
+<li><a href="http://www.blogdasaude.com.br/wp-content/plugins/adrotate/adrotate-out.php?track=MTYsMCwwLGh0dHA6Ly93d3cucGxheWluZ2ZvcmNoYW5nZS5jb20v&#038;preview=true" target="_blank"><img src="http://www.blogdasaude.com.br/wp-content/uploads/2010/05/img_playingforchange.jpg"  alt="Playing for Change &#8211; Paz através da Música"  /></a></li>
+<li><a href="http://www.blogdasaude.com.br/wp-content/plugins/adrotate/adrotate-out.php?track=MTcsMCwwLGh0dHA6Ly93d3cucmVtZWRpb2NlcnRvLmNvbS5icg%3D&#038;preview=true" title="Informação atualizada e de qualidade sobre medicamentos" target="_blank"><img src="http://www.blogdasaude.com.br/wp-content/uploads/2010/05/img_remediocerto.jpg"  alt="Remédio Certo"  title="Informação atualizada e de qualidade sobre medicamentos" /></a></li>
+        </ul>
+        </div>
+    </div>
+    
+		
+		
+</div>
+
+<!-- end sidebar -->		
+</div>
+<!-- The main column ends  -->
+
+		<script type="text/javascript">
+		/* <![CDATA[ */
+		(function() {
+		var s = document.createElement("script"); s.type = "text/javascript"; s.src = "http://intensedebate.com/js/wordpressTemplateLinkWrapper2.php?acct=bb3dde4a4cc733aaade028aee5cdddb8"; document.getElementsByTagName("head")[0].appendChild(s);
+		}());
+		/* ]]> */
+		</script>
+<!-- begin footer -->
+
+<div class="saudess">
+	<!-- Sa�de F�sica -->
+	<div class="widgest_8_saudes">
+    	<img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/top_saudefisica.jpg" style="vertical-align: middle;margin-bottom:5px;" alt="" />
+		        	            <a href="http://www.blogdasaude.com.br/saude-fisica/2013/04/12/unha-fraca-pode-ser-sinal-de-anemia-hipotireoidismo-e-ma-circulacao/" rel="bookmark">
+                <img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/timthumb.php?src=http://www.blogdasaude.com.br/wp-content/uploads/2013/04/unha_bem-estar.jpg&amp;h=80&amp;w=80&amp;zc=1" alt="Unha fraca pode ser sinal de anemia, hipotireoidismo e má circulação" width="80" height="80" class="imgs" />
+            </a>
+                        <br />
+            <a href="http://www.blogdasaude.com.br/saude-fisica/2013/04/12/unha-fraca-pode-ser-sinal-de-anemia-hipotireoidismo-e-ma-circulacao/" rel="bookmark">
+                <span style="font-size: 12px;">Unhas fracas? Pode ser um sinal!                </span>
+            </a>
+            </div>
+    <img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/barra_saudes.jpg" alt="" style="float: left;" />
+    
+    <!-- Sa�de Profissional -->
+    <div class="widgest_8_saudes">
+    	<img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/top_saudeprofissional.jpg" style="vertical-align: middle;margin-bottom:5px;" alt="" />
+		                        <a href="http://www.blogdasaude.com.br/saude-corporativa/planos-de-saude/2013/04/11/foco-da-ans-nao-e-multar-planos-de-saude/" rel="bookmark">
+                <img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/timthumb.php?src=http://www.blogdasaude.com.br/wp-content/uploads/2012/08/ANS2.jpg&amp;h=80&amp;w=80&amp;zc=1" alt="Foco da ANS não é multar planos de saúde" width="80" height="80" class="imgs" />
+            </a>
+                        <br />
+            <a href="http://www.blogdasaude.com.br/saude-corporativa/planos-de-saude/2013/04/11/foco-da-ans-nao-e-multar-planos-de-saude/" rel="bookmark">
+                <span style="font-size: 12px;">Planos: foco da ANS não é multar            </a>
+            </div>
+    <img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/barra_saudes.jpg" alt="" style="float: left;" />
+    
+    <!-- Sa�de Mental --> 
+    <div class="widgest_8_saudes">
+    	<img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/top_saudemental.jpg" style="vertical-align: middle;margin-bottom:5px;" alt="" />
+		                        <a href="http://www.blogdasaude.com.br/saude-mental/2013/04/03/depressao-fique-de-olho/" rel="bookmark">
+                <img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/timthumb.php?src=http://www.blogdasaude.com.br/wp-content/uploads/2013/04/718808_17009395.jpg&amp;h=80&amp;w=80&amp;zc=1" alt="Depressão: fique de olho!" width="80" height="80" class="imgs" />
+            </a>
+                        <br />
+            <a href="http://www.blogdasaude.com.br/saude-mental/2013/04/03/depressao-fique-de-olho/" rel="bookmark">
+                <span style="font-size: 12px;">Leve a depressão a sério            </a>
+            </div>
+    <img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/barra_saudes.jpg" alt="" style="float: left;" />
+      
+    <!-- Sa�de Financeira -->
+    <div class="widgest_8_saudes">
+    	<img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/top_saudefinanceira.jpg" style="vertical-align: middle;margin-bottom:5px;" alt="" />
+		                        <a href="http://www.blogdasaude.com.br/saude-financeira/2013/04/12/saiba-como-economizar-na-compra-do-mercado-sustentabilidade/" rel="bookmark">
+                <img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/timthumb.php?src=http://www.blogdasaude.com.br/wp-content/uploads/2013/04/supermercado.jpg&amp;h=80&amp;w=80&amp;zc=1" alt="Saiba como economizar na compra do mercado #Sustentabilidade" width="80" height="80" class="imgs" />
+            </a>
+                        <br />
+            <a href="http://www.blogdasaude.com.br/saude-financeira/2013/04/12/saiba-como-economizar-na-compra-do-mercado-sustentabilidade/" rel="bookmark">
+                <span style="font-size: 12px;">Economia no mercado            </a>
+            </div>
+    <img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/barra_saudes.jpg" alt="" style="float: left;" />
+    
+    <!-- Sa�de Ambiental --> 
+	<div class="widgest_8_saudes">
+    	<img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/top_saudeambiental.jpg" style="vertical-align: middle;margin-bottom:5px;" alt="" />
+		                        <a href="http://www.blogdasaude.com.br/saude-ambiental/2013/04/12/tudo-se-reaproveita-saiba-o-que-fazer-com-talos-folhas-e-cascas-de-frutas-verduras-e-legumes/" rel="bookmark">
+                <img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/timthumb.php?src=http://www.blogdasaude.com.br/wp-content/uploads/2013/04/DicasVerdes01_logo.jpg&amp;h=80&amp;w=80&amp;zc=1" alt="Tudo se reaproveita: saiba o que fazer com talos, folhas e cascas de frutas, verduras e legumes" width="80" height="80" class="imgs" />
+            </a>
+                        <br />
+            <a href="http://www.blogdasaude.com.br/saude-ambiental/2013/04/12/tudo-se-reaproveita-saiba-o-que-fazer-com-talos-folhas-e-cascas-de-frutas-verduras-e-legumes/" rel="bookmark">
+                <span style="font-size: 12px;">Reaproveite talos, cascas e folhas            </a>
+            </div>
+    <img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/barra_saudes.jpg" alt="" style="float: left;" />
+    
+    <!-- Sa�de Espiritual --> 
+	<div class="widgest_8_saudes">
+    	<img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/top_saudeespiritural.jpg" style="vertical-align: middle;margin-bottom:5px;" alt="" />
+		                        <a href="http://www.blogdasaude.com.br/saude-espiritual/2013/04/04/voluntariado-faz-bem-a-alma-e-ao-coracao-literalmente/" rel="bookmark">
+                <img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/timthumb.php?src=http://www.blogdasaude.com.br/wp-content/uploads/2013/04/Doutores-da-Alegria_IMG_Lana-Pinho.jpg&amp;h=80&amp;w=80&amp;zc=1" alt="Voluntariado faz bem à alma e ao coração, literalmente" width="80" height="80" class="imgs" />
+            </a>
+                        <br />
+            <a href="http://www.blogdasaude.com.br/saude-espiritual/2013/04/04/voluntariado-faz-bem-a-alma-e-ao-coracao-literalmente/" rel="bookmark">
+                <span style="font-size: 12px;">Voluntariado: bem à alma e ao coração            </a>
+            </div>
+    <img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/barra_saudes.jpg" alt="" style="float: left;" />
+     
+    <!-- Sa�de Cultural --> 
+	<div class="widgest_8_saudes">
+    	<img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/top_saudecultural.jpg" style="vertical-align: middle;margin-bottom:5px;" alt="" />
+		                        <a href="http://www.blogdasaude.com.br/saude-cultural/2013/04/11/dicas-para-os-alimentos-durarem-mais-na-geladeira/" rel="bookmark">
+                <img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/timthumb.php?src=http://www.blogdasaude.com.br/wp-content/uploads/2013/04/DicasVerdes02.jpg&amp;h=80&amp;w=80&amp;zc=1" alt="Dicas para os alimentos durarem mais na geladeira" width="80" height="80" class="imgs" />
+            </a>
+                        <br />
+            <a href="http://www.blogdasaude.com.br/saude-cultural/2013/04/11/dicas-para-os-alimentos-durarem-mais-na-geladeira/" rel="bookmark">
+                <span style="font-size: 12px;">Alimentos: vida longa na geladeira            </a>
+            </div>
+    <img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/barra_saudes.jpg" alt="" style="float: left;" />
+    
+    <!-- Sa�de Social --> 
+    <div class="widgest_8_saudes">
+    	<img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/top_saudesocial.jpg" style="vertical-align: middle;margin-bottom:5px;" alt="" />
+		                        <a href="http://www.blogdasaude.com.br/saude-social/2013/04/10/hospital-aceita-visita-de-animais-para-ajudar-na-recuperacao-de-pacientes-atendimentohumanizado-hosp_einstein/" rel="bookmark">
+                <img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/timthumb.php?src=http://www.blogdasaude.com.br/wp-content/uploads/2013/04/cachorro02.jpg&amp;h=80&amp;w=80&amp;zc=1" alt="Hospital aceita visita de animais para ajudar na recuperação de pacientes [vídeos]" width="80" height="80" class="imgs" />
+            </a>
+                        <br />
+            <a href="http://www.blogdasaude.com.br/saude-social/2013/04/10/hospital-aceita-visita-de-animais-para-ajudar-na-recuperacao-de-pacientes-atendimentohumanizado-hosp_einstein/" rel="bookmark">
+                <span style="font-size: 12px;">Cães visitam pacientes            </a>
+            </div>
+    
+</div>
+
+<div style="clear:both;"></div>
+
+<div id="footer">
+
+	<p>Blog da Sa&uacute;de &copy; 2009 - 2013 | Todos os direitos reservados. | <a href="http://www.victorysaude.com.br/" target="_blank" ><img src="http://www.blogdasaude.com.br/wp-content/themes/blogdasaude/images/logo_victory_rodape.jpg" style="vertical-align: middle;" alt="Victory Sa&uacute;de" border="0" /></a> 
+    <!-- | Design por <a href="http://www.ohdcomunicacao.com.br/" target="_blank"><img align="absmiddle" src="/images/logo_ohd_rodape.jpg" alt="OHD Comunica&ccedil;&atilde;o" border="0" /></a> --></p>
+	
+
+</div>
+
+</div>
+
+<script type="text/javascript">var SHRSB_Settings = [];</script>
+<!-- tracker added by Ultimate Google Analytics plugin v1.6.0: http://www.oratransplant.nl/uga -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-9079259-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+<!-- begin visitor maps  -->
+<script type="text/javascript">
+//<![CDATA[
+function wo_map_console(url) {
+  window.open(url,"wo_map_console","height=650,width=800,toolbar=no,statusbar=no,scrollbars=yes").focus();
+}
+//]]>
+</script>
+<!-- end visitor maps -->
+<script type='text/javascript' src='http://lite.piclens.com/current/piclens_optimized.js?ver=3.5.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var emailL10n = {"ajax_url":"http:\/\/www.blogdasaude.com.br\/wp-admin\/admin-ajax.php","max_allowed":"5","text_error":"The Following Error Occurs:","text_name_invalid":"- Your Name is empty\/invalid","text_email_invalid":"- Your Email is empty\/invalid","text_remarks_invalid":"- Your Remarks is invalid","text_friend_names_empty":"- Friend Name(s) is empty","text_friend_name_invalid":"- Friend Name is empty\/invalid: ","text_max_friend_names_allowed":"- Maximum 5 Friend Names allowed","text_friend_emails_empty":"- Friend Email(s) is empty","text_friend_email_invalid":"- Friend Email is invalid: ","text_max_friend_emails_allowed":"- Maximum 5 Friend Emails allowed","text_friends_tally":"- Friend Name(s) count does not tally with Friend Email(s) count","text_image_verify_empty":"- Image Verification is empty"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.blogdasaude.com.br/wp-content/plugins/wp-email/email-js.js?ver=2.60'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var SHRSB_Globals = {"src":"http:\/\/www.blogdasaude.com.br\/wp-content\/uploads\/shareaholic\/spritegen","perfoption":"1","twitter_template":"%24%7Btitle%7D+-+%24%7Bshort_link%7D","locale":"0","shortener":"none","shortener_key":"","pubGaSocial":"1","pubGaKey":"UA-9079259-1"};
+var SHRSB_Globals = {"src":"http:\/\/www.blogdasaude.com.br\/wp-content\/uploads\/shareaholic\/spritegen","perfoption":"1","twitter_template":"%24%7Btitle%7D+-+%24%7Bshort_link%7D","locale":"0","shortener":"none","shortener_key":"","pubGaSocial":"1","pubGaKey":"UA-9079259-1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.blogdasaude.com.br/wp-content/uploads/shareaholic/spritegen/jquery.shareaholic-publishers-sb.min.js?ver=5.0.0.4'></script>
+<!--stats_footer_test--><script src="http://stats.wordpress.com/e-201315.js" type="text/javascript"></script>
+<script type="text/javascript">
+st_go({blog:'7565669',v:'ext',post:'0'});
+var load_cmc = function(){linktracker_init(7565669,0,2);};
+if ( typeof addLoadEvent != 'undefined' ) addLoadEvent(load_cmc);
+else load_cmc();
+</script>
+
+</body>
+
+</html>
