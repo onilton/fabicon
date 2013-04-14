@@ -3,15 +3,13 @@
 import urllib
 from urllib import FancyURLopener
 import urlparse
-from BeautifulSoup import BeautifulSoup, MinimalSoup, ICantBelieveItsBeautifulSoup
+from BeautifulSoup import BeautifulSoup
 import sys
 import re
 import difflib
 import gzip
-import string
 import json
 from StringIO import StringIO
-# from threading import Thread
 
 import copy
 
@@ -31,15 +29,13 @@ import socket
 socket.setdefaulttimeout(60)  # 1 minuto
 
 # multiprocess stuff
-from multiprocessing import Lock, Process, Queue, current_process
+from multiprocessing import Process, Queue, current_process
 import multiprocessing
 
 
 def getTwitterAvatar(twitterUsername, size):
     timagelink = urllib.urlopen("https://api.twitter.com/1/users/profile_image?screen_name="+twitterUsername+"&size="+size)
     result = {"url": timagelink.geturl(), "kind": "twitter"}
-    # candidateTags.append()
-    # print str(timagelink.geturl())
     timagelink.close()
 
     return result
@@ -74,12 +70,6 @@ def removeRepeated(listWithRepeatedItems):
     # print new_l
     return new_l  # list(set(candidateTags))
 
-# As pointed out in http://stackoverflow.com/questions/9983664/making-difflibs-sequencematcher-ignore-junk-characters
-# isjunk function of SequenceMatcher
-# txtsimil=difflib.SequenceMatcher(lambda x: x in "-_ \t", getName(url), tusername).ratio()
-# it not used for comparison but finding longest contiguous matching subsequence.
-# This translate function one only work for unicode input, for str type see here http://stackoverflow.com/a/1324274/1706351
-
 
 def cleanJunk(username):
     excludedChars = u'-_ \t'
@@ -111,7 +101,6 @@ def getAbsoluteUrl(targetUrl, curPageUrl):
     if isRelativeUrl(fixedUrl):
         if isUrlFromRoot(fixedUrl):
             domainUrl = getDomain(curPageUrl)
-            # domainUrl=re.sub(r'/$',r'',domainUrl)
             fixedUrl = domainUrl+fixedUrl
         else:
             prefixUrl = re.sub(r'(https?://[^?]+)\?', r'\1', curPageUrl)
@@ -124,7 +113,6 @@ def getAbsoluteUrl(targetUrl, curPageUrl):
 # Return domain without trailing slash /
 def getDomain(url):
     domain = re.sub(r'(https?://[^/]+)/?.*$', r'\1', url)
-    # print "GetDomain",domain
     return domain
 
 
@@ -171,7 +159,6 @@ def getFacebookPages(url, debug=False):
     for facebookUrl in facebookUrls:
         facebookPages.append({'username': facebookUsername(facebookUrl), 'url': facebookUrl})
         print "facebookurl="+facebookUrl.encode('utf-8')
-    # print facebookPages
     return facebookPages
 
 
@@ -366,13 +353,10 @@ def checkIfUrlsAreFeeds(urls):
     commonUrlsList = []
     # Need because of "bug" http://bugs.python.org/issue8426 workarounded in http://stackoverflow.com/a/11855207/1706351
     import time
-    from math import sqrt
     n = 1
     while any([proc.is_alive() for proc in processes]):
         n += 1
         time.sleep(5)  # Wait a fixed time of 5 seconds to read from the queue
-        # time.sleep(5+sqrt(n)) # Wait a while before next update. Slow down updates for really long runs.
-        # reportStatus()#jobs)
         emptyQueues(feedUrlsQueue, feedUrlsList, commonUrlsQueue, commonUrlsList)  # jobs,queues,gotQueues)
 
     pnumber = 1
@@ -445,10 +429,8 @@ def getFeeds(url, enableMetaTagSearch=True, seenUrls=[], deepLevel=0, debug=Fals
                         feedUrls = feedUrls + otherFeedUrls
 
     if enableMetaTagSearch:
-        # feedLinkTags = soup.findAll('link', attrs={"rel" : "alternate", "type": "application/rss+xml" })
         feedLinkTags = soup.findAll('link', attrs={"rel": "alternate", "type": re.compile(r'application/(atom|rss)\+xml|text/xml')})
         # if debug: print "Feeds found in",len(feedLinkTags),"by meta:",finalUrl
-        # facebookUrlsFromWidget = soup.findAll(['fb:like-box'])#, attrs={"href" : re.compile(r'https?://(www\.)?twitter\.com/(\#\!/)?[^/]/?')})
         for feedLinkTag in feedLinkTags:
             fixedUrl = getAbsoluteUrl(feedLinkTag['href'], finalUrl)
             if debug:
@@ -481,23 +463,8 @@ def getFeeds(url, enableMetaTagSearch=True, seenUrls=[], deepLevel=0, debug=Fals
 
     # for commonUrl in commonUrls:
         # print "Going to crawl url", commonUrl
-    for commonUrl in commonUrls:
-        # print "found ..."
-        # fixedUrl = getAbsoluteUrl(feedAnchorTag['href'], finalUrl)
 
-        # if debug: print "Is url a feed?:", fixedUrl
-        # feedParserSuccess=True
-        # try:
-        #	feedFile = feedparser.parse(fixedUrl)
-        # except Exception as e:
-        #	feedParserSuccess=False
-        # if feedParserSuccess and hasattr(feedFile, 'version') and feedFile.version != '':
-        #	if debug: print "...Yes!"
-        #	if debug: print "feedUrl:", fixedUrl, feedFile.feed.get("title","Sem titulo").encode('utf-8'), "href "+feedFile.version
-        #	#feedUrls.append(fixedUrl)
-        #	feedUrls.append({"url" : fixedUrl, "title": feedFile.feed.get("title","Sem titulo") , "kind" : "href "+feedFile.version})
-        # else:
-            # if debug: print "...No!"
+    for commonUrl in commonUrls:
 
         # if has .xml or .rss extesion it's not a url to follow, it just a broken feed, so do nothing
         if (not re.findall(r"(\.xml|\.rss)$", commonUrl, re.IGNORECASE)):  # and not re.findall(r"Comedy", commonUrl, re.IGNORECASE)):
@@ -576,13 +543,11 @@ def getCandidateTags(url, debug=False, staticHtml=""):
     # print htmlSource
 
     soup = getSoupParser(htmlSource)
-    # soup = ICantBelieveItsBeautifulSoup(htmlSource)
 
     candidateTags = []
 
     print "image_src..."
     # Try to get image_src icons
-    # imgSrcTags = soup.head.findAll('link', attrs={"rel" : "image_src"})
     imgSrcTags = soup.findAll('link', attrs={"rel": "image_src"})
     for imgSrcTag in imgSrcTags:
         fixedUrl = re.sub(r'^//', 'http://', imgSrcTag['href'])  # 9gag crazystuff with // that becomes http://
@@ -596,7 +561,6 @@ def getCandidateTags(url, debug=False, staticHtml=""):
 
     print "Apple icons..."
     # Try to get apple style icons
-    # appleTags = soup.head.findAll('link', attrs={"rel" : ["apple-touch-icon-precomposed","apple-touch-icon"]})
     appleTags = soup.findAll('link', attrs={"rel": ["apple-touch-icon-precomposed", "apple-touch-icon"]})
     for appleTag in appleTags:
         fixedUrl = re.sub(r'^//', 'http://', appleTag['href'])  # 9gag crazystuff with // that becomes http://
@@ -612,14 +576,12 @@ def getCandidateTags(url, debug=False, staticHtml=""):
 
     print "Open graph icons..."
     # Try to get open graph (facebook) image
-    # openGraphTags = soup.head.findAll('meta', attrs={"property" : "og:image"})
     openGraphTags = soup.findAll('meta', attrs={"property": "og:image"})
 
     for openGraphTag in openGraphTags:
         fixedUrl = re.sub(r'^//', 'http://', openGraphTag['content'])  # 9gag crazystuff with // that becomes http://
         domainUrl = ""
         match = re.match("https?://", fixedUrl)
-        # if match is not None:
         if match is None:
             domainUrl = finalUrl
             fixedUrl = re.sub(r'^/', r'', fixedUrl)
@@ -650,13 +612,10 @@ def getCandidateTags(url, debug=False, staticHtml=""):
     facebookUrlsFromLinks = soup.findAll(['a', 'area', 'fb:like'], attrs={"href": re.compile(r'https?(://|%3A%2F%2F)(www\.|[^/]+\.)?facebook\.com(/|%2F)')})
     for facebookUrl in facebookUrlsFromLinks:
         facebookUrlHref = urllib.unquote(facebookUrl['href'])
-        # facebookUrlHref = re.sub(r'.*javascript:window\.open\(\'([^\']*)\'\).*',r'\1', facebookUrl['href'])
-        # facebookUrlHref = re.sub(r'.*javascript:window\.open\(\"([^"]*)\"\).*',r'\1', facebookUrlHref)
+
         facebookUrlHref = re.sub(r'facebook\.com/home\.php\?#(%21|!)?/pages/', r'facebook.com/pages/', facebookUrlHref)  # fix http://colunas.globorural.globo.com/planetabicho
         facebookUrlHref = re.sub(r'.*(https?://(www\.|[^/]+\.)?facebook\.com/(pages/[^/]+/|profile\.php\?id=|people/[^/]+/)?[A-Za-z_0-9-.]+).*', r'\1', facebookUrlHref)  # fix g1
-        # print "facebookUrlHref-->",facebookUrlHref
-        # print "facebookUsername facebookUrlHref-->",facebookUsername(facebookUrlHref)
-        # facebookaUrl = re.sub(r"javascript:window\.open",r'aaa', facebookUrl)
+
         if facebookUsername(facebookUrlHref) not in facebookUsernameExcludeList:
             facebookUrls.append(facebookUrlHref)
             print "facebookurlfromlinks:", facebookUrlHref.encode("utf-8")
@@ -666,12 +625,10 @@ def getCandidateTags(url, debug=False, staticHtml=""):
     facebookUrlsFromIframes += soup.findAll(['iframe'], attrs={"src": re.compile(r'^.*?facebook\.com/plugins/likebox.php\?.*?id=[0-9]+')})
     for facebookIframe in facebookUrlsFromIframes:
         iframeSrc = urllib.unquote(facebookIframe['src'])
-        # print "iframeSrc-->",iframeSrc
+
         iframeSrc = re.sub(r'^.*?/plugins/.*?((https?:)?//(www\.)?facebook\.com/(pages/[^/]+/)?[A-Za-z_0-9-.]+).*', r'\1', iframeSrc)
         iframeSrc = re.sub(r'^.*?facebook\.com/plugins/likebox.php\?.*?id=([0-9]+).*?$', r'\1', iframeSrc)  # get only the id
-        # print "iframeSrc-->",iframeSrc
-        # print "facebookUsername iframeSrc-->",facebookUsername(iframeSrc)
-        # facebookaUrl = re.sub(r"javascript:window\.open",r'aaa', facebookUrl)
+
         if facebookUsername(iframeSrc) not in facebookUsernameExcludeList:
             facebookUrls.append(iframeSrc)
             print "facebookurlfromiframes:", iframeSrc.encode('utf-8')
@@ -704,25 +661,16 @@ def getCandidateTags(url, debug=False, staticHtml=""):
     print "Twitter icons..."
 
     # Get all twitter links
-    # print "area"
     allLinks = soup.findAll(['a', 'area'], attrs={"href": re.compile(r'https?://(www\.)?twitter\.com/(\#\!/|intent/user\?region=following&screen_name=)?[^/]/?')})
-    # allLinks = soup.findAll(['a'], attrs={"href" : re.compile(r'https?://(www\.)?twitter\.com/(\#\!/)?[^/]/?')})
 
-    # allLinks = soup.findAll(['a','area'], attrs={"href" : re.compile(r'https?://(www\.)?twitter\.com/(\#\!/)?[^/]/?')})
-    # allLinks = soup.findAll(attrs={"href" : re.compile(r'https?://(www\.)?twitter\.com/(\#\!/)?[^/]/?')})
-    # allLinks = soup.findAll('map')
-    # allLinks = soup.findAll()})
-
-    # print str(soup)
     print "#####END SOUP #####"
 
-    # print str(soup.find(True))
     if debug:
         tests = soup.findAll(debug)
     else:
         tests = []
     for test in tests:
-        if test != None:
+        if test is not None:
             if len(test.contents) > 0:
                 if len(str(test.contents)) > 1:
                     # print str(test.contents ),str(test.name)
@@ -788,7 +736,6 @@ def getCandidateTags(url, debug=False, staticHtml=""):
     return candidateTags
 
 
-# https://api.twitter.com/1/users/profile_image?screen_name=motorclube&size=bigger
 def main(argv=None):
 
     parser = argparse.ArgumentParser(description='Get site avatar and some other data from sites.')
@@ -810,11 +757,9 @@ def main(argv=None):
 
     if argv is None:
         argv = sys.argv
-    # print argv[1]
 
     if args.images:
         candidateTags = getCandidateTags(args.targetUrl)
-        # candidateTags = getCandidateTags(sys.argv[1])
 
         print
         print ">>>>>>>>>> Candidates <<<<<<<<<<"
@@ -825,12 +770,10 @@ def main(argv=None):
 
     if args.facebookPages:
         print "######## facebook pages ########"
-        # getFacebookPages(sys.argv[1])
         getFacebookPages(args.targetUrl)
 
     if args.feeds:
         print "######## Feeds urls ########"
-        # feeds = getFeeds(sys.argv[1])
         feeds = getFeeds(args.targetUrl, debug=args.debug)
         print "Feed list"
         for feed in feeds:
@@ -844,17 +787,3 @@ def main(argv=None):
 
 if __name__ == "__main__":
     sys.exit(main())
-
-
-
-# https://api.twitter.com/1/users/profile_image?screen_name=twitterapi&size=bigger
-# motorclube
-# https://api.twitter.com/1/users/profile_image?screen_name=motorclube&size=bigger
-
-
-# re.sub(r'')
-
-# http://www.twitter.com/racionauto
-
-
-# while candidateTag
