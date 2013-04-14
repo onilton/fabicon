@@ -122,8 +122,6 @@ def getRootDomain(url):
     psl = publicsuffix.PublicSuffixList()  # http://pypi.python.org/pypi/publicsuffix/
     pubSuffix = psl.get_public_suffix(baseurl)
 
-    # baseurl=re.sub(r'.\.*[^]',r'\1',baseurl) #remove subdomains
-
     baseurl = pubSuffix
 
     return baseurl
@@ -550,28 +548,14 @@ def getCandidateTags(url, debug=False, staticHtml=""):
     # Try to get image_src icons
     imgSrcTags = soup.findAll('link', attrs={"rel": "image_src"})
     for imgSrcTag in imgSrcTags:
-        fixedUrl = re.sub(r'^//', 'http://', imgSrcTag['href'])  # 9gag crazystuff with // that becomes http://
-        domainUrl = ""
-        match = re.match("/", fixedUrl)
-        if match is not None:
-            domainUrl = finalUrl
-            domainUrl = re.sub(r'/$', r'', domainUrl)
-            fixedUrl = domainUrl+fixedUrl
+        fixedUrl = getAbsoluteUrl(imgSrcTag['href'], finalUrl)
         candidateTags.append({"url": fixedUrl, "kind": "image_src"})
 
     print "Apple icons..."
     # Try to get apple style icons
     appleTags = soup.findAll('link', attrs={"rel": ["apple-touch-icon-precomposed", "apple-touch-icon"]})
     for appleTag in appleTags:
-        fixedUrl = re.sub(r'^//', 'http://', appleTag['href'])  # 9gag crazystuff with // that becomes http://
-        domainUrl = ""
-        match = re.match("https?://", fixedUrl)
-        # if match is not None:
-        if match is None:
-            domainUrl = finalUrl
-            fixedUrl = re.sub(r'^/', r'', fixedUrl)
-            domainUrl = re.sub(r'/$', r'', domainUrl)
-            fixedUrl = domainUrl+"/"+fixedUrl
+        fixedUrl = getAbsoluteUrl(appleTag['href'], finalUrl)
         candidateTags.append({"url": fixedUrl, "kind": "apple"})
 
     print "Open graph icons..."
@@ -579,14 +563,7 @@ def getCandidateTags(url, debug=False, staticHtml=""):
     openGraphTags = soup.findAll('meta', attrs={"property": "og:image"})
 
     for openGraphTag in openGraphTags:
-        fixedUrl = re.sub(r'^//', 'http://', openGraphTag['content'])  # 9gag crazystuff with // that becomes http://
-        domainUrl = ""
-        match = re.match("https?://", fixedUrl)
-        if match is None:
-            domainUrl = finalUrl
-            fixedUrl = re.sub(r'^/', r'', fixedUrl)
-            domainUrl = re.sub(r'/$', r'', domainUrl)
-            fixedUrl = domainUrl+"/"+fixedUrl
+        fixedUrl = getAbsoluteUrl(openGraphTag['content'], finalUrl)
         candidateTags.append({"url": fixedUrl, "kind": "openGraph"})
 
     print "Facebook page..."
