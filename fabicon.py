@@ -416,7 +416,7 @@ def getFeeds(url, enableMetaTagSearch=True, seenUrls=[], deepLevel=0, debug=Fals
             print "Iframes found in ", finalUrl, ":", len(iframes)
 
         for iframe in iframes:
-            if 'src' in iframe:
+            if 'src' in dict(iframe.attrs):
                 iframeSrc = getAbsoluteUrl(iframe['src'], finalUrl)
                 if iframeSrc not in localSeenUrls:
                     if isSameRootDomain(url, iframeSrc):
