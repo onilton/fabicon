@@ -414,14 +414,19 @@ def getFeeds(url, enableMetaTagSearch=True, seenUrls=[], deepLevel=0, debug=Fals
 
         if debug:
             print "Iframes found in ", finalUrl, ":", len(iframes)
+            print "htmlSource size", len(htmlSource)
 
         for iframe in iframes:
             if 'src' in dict(iframe.attrs):
                 iframeSrc = getAbsoluteUrl(iframe['src'], finalUrl)
                 if iframeSrc not in localSeenUrls:
-                    if isSameRootDomain(url, iframeSrc):
+                    # If url is from same domain (to avoid going into another site)
+                    # We add and exception when htmlSource is too small, so, although it's from
+                    # another domain, probably it's almost like a redirect to an 
+                    # alternative domain for the original site
+                    if isSameRootDomain(url, iframeSrc) or (len(htmlSource) <= 1500):
                         if debug:
-                            print "Searching for more in iframes urls:", iframeSrc
+                            print "Searching for more in iframe url:", iframeSrc
                         otherFeedUrls = getFeeds(iframeSrc, enableMetaTagSearch=True, seenUrls=localSeenUrls, deepLevel=deepLevel, debug=debug)
                         localSeenUrls.append(iframeSrc)
                         feedUrls = feedUrls + otherFeedUrls
