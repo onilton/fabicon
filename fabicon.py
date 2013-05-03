@@ -447,6 +447,7 @@ def getFeeds(url, enableMetaTagSearch=True, seenUrls=[], deepLevel=0, debug=Fals
         # print "anchorText=",anchorText
         feedAnchorTags.append(anchorText)
 
+    feedAnchorPossibleFeedUrls = []
     urlsToCheck = []
     for feedAnchorTag in feedAnchorTags:
         if 'href' in dict(feedAnchorTag.attrs):
@@ -454,6 +455,7 @@ def getFeeds(url, enableMetaTagSearch=True, seenUrls=[], deepLevel=0, debug=Fals
             fixedUrl = getAbsoluteUrl(feedAnchorTag['href'], finalUrl)
             # print "going to check", fixedUrl
             urlsToCheck.append(fixedUrl)
+            feedAnchorPossibleFeedUrls.append(fixedUrl)
     
     # Adds common urls that gives rss 
     # In some sites you can't find the rss in meta or in links,
@@ -489,30 +491,33 @@ def getFeeds(url, enableMetaTagSearch=True, seenUrls=[], deepLevel=0, debug=Fals
         # print "Going to crawl url", commonUrl
 
     for commonUrl in commonUrls:
-
-        # if has .xml or .rss extesion it's not a url to follow, it just a broken feed, so do nothing
-        if (not re.findall(r"(\.xml|\.rss)$", commonUrl, re.IGNORECASE)):  # and not re.findall(r"Comedy", commonUrl, re.IGNORECASE)):
-        # if (not re.findall(r"(\.xml|\.rss)$", commonUrl, re.IGNORECASE) and not re.findall(r"Comedy", commonUrl, re.IGNORECASE)):
-            if commonUrl not in localSeenUrls:
-                if (isSameRootDomain(url, commonUrl) or isSameRootDomain(finalUrl, commonUrl)):
-                    if deepLevel < 2:
-                        if debug:
-                            print "Searching for more in url:", commonUrl
-                        otherFeedUrls = getFeeds(commonUrl, enableMetaTagSearch=False, seenUrls=localSeenUrls, deepLevel=deepLevel, debug=debug)
-                        localSeenUrls.append(commonUrl)
-                        feedUrls = feedUrls + otherFeedUrls[:]
+        if commonUrl not in frequentFeedUrlsSet or commonUrl in feedAnchorPossibleFeedUrls:
+            # if has .xml or .rss extesion it's not a url to follow, it just a broken feed, so do nothing
+            if (not re.findall(r"(\.xml|\.rss)$", commonUrl, re.IGNORECASE)):  # and not re.findall(r"Comedy", commonUrl, re.IGNORECASE)):
+            # if (not re.findall(r"(\.xml|\.rss)$", commonUrl, re.IGNORECASE) and not re.findall(r"Comedy", commonUrl, re.IGNORECASE)):
+                if commonUrl not in localSeenUrls:
+                    if (isSameRootDomain(url, commonUrl) or isSameRootDomain(finalUrl, commonUrl)):
+                        if deepLevel < 2:
+                            if debug:
+                                print "Searching for more in url:", commonUrl
+                            otherFeedUrls = getFeeds(commonUrl, enableMetaTagSearch=False, seenUrls=localSeenUrls, deepLevel=deepLevel, debug=debug)
+                            localSeenUrls.append(commonUrl)
+                            feedUrls = feedUrls + otherFeedUrls[:]
+                        else:
+                            if debug:
+                                print "There's no reason to crawl cause we won't do anything with the url:", commonUrl
                     else:
                         if debug:
-                            print "There's no reason to crawl cause we won't do anything with the url:", commonUrl
+                            print "Ignoring", commonUrl, "since it is not from same domain as", url
                 else:
                     if debug:
-                        print "Ignoring", commonUrl, "since it is not from same domain as", url
+                        print "Ignoring", commonUrl, "since it is in localSeenUrls"
             else:
                 if debug:
-                    print "Ignoring", commonUrl, "since it is in localSeenUrls"
+                    print "Ignoring", commonUrl, "since it's probably a broken feed"
         else:
             if debug:
-                print "Ignoring", commonUrl, "since it's probably a broken feed"
+                print "Ignoring", commonUrl, "since this url was just a bad guess from us based on common feed urls patterns. This link wasn't REALLY in the site."
 
     listWithRepeatedItems = list(feedUrls)
     seen = set()
