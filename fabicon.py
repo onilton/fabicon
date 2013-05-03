@@ -449,7 +449,7 @@ def getFeeds(url, enableMetaTagSearch=True, seenUrls=[], deepLevel=0, debug=Fals
 
     urlsToCheck = []
     for feedAnchorTag in feedAnchorTags:
-        if 'href' in feedAnchorTag:
+        if 'href' in dict(feedAnchorTag.attrs):
             # print "going to check", feedAnchorTag['href']
             fixedUrl = getAbsoluteUrl(feedAnchorTag['href'], finalUrl)
             # print "going to check", fixedUrl
