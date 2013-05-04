@@ -457,25 +457,30 @@ def getFeeds(url, enableMetaTagSearch=True, seenUrls=[], deepLevel=0, debug=Fals
             urlsToCheck.append(fixedUrl)
             feedAnchorPossibleFeedUrls.append(fixedUrl)
     
+
+    # If we are in the first level of the crawl,
     # Adds common urls that gives rss 
     # In some sites you can't find the rss in meta or in links,
     # but the CMS still exposes it through some urls patterns
     # This is our try to catch them....
-    frequentFeedUrlPatterns = ['feed',
-                            'feeds',
-                            'atom', 
-                            'rss', 
-                            'feed/rss', 
-                            'feed/atom' 
-                            ]
 
-    frequentFeedUrlsSet = set()
-    for frequentFeedUrlPattern in frequentFeedUrlPatterns:
-        frequentFeedUrlsSet.add(getAbsoluteUrl(frequentFeedUrlPattern, finalUrl))
-        frequentFeedUrlsSet.add(getAbsoluteUrl('/'+frequentFeedUrlPattern, finalUrl))
+    if deepLevel == 1:
+        frequentFeedUrlPatterns = ['feed',
+                                'feeds',
+                                'atom', 
+                                'rss', 
+                                'feed/rss', 
+                                'feed/atom',
+                                '?option=com_content&view=featured&format=feed&type=rss'
+                                ]
 
-    for frequentFeedUrl in frequentFeedUrlsSet:
-        urlsToCheck.append(frequentFeedUrl)
+        frequentFeedUrlsSet = set()
+        for frequentFeedUrlPattern in frequentFeedUrlPatterns:
+            frequentFeedUrlsSet.add(getAbsoluteUrl(frequentFeedUrlPattern, finalUrl))
+            frequentFeedUrlsSet.add(getAbsoluteUrl('/'+frequentFeedUrlPattern, finalUrl))
+
+        for frequentFeedUrl in frequentFeedUrlsSet:
+            urlsToCheck.append(frequentFeedUrl)
 
 
     print "Urls que serao verificadas para ", finalUrl, ":", len(urlsToCheck)
