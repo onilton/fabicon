@@ -294,7 +294,9 @@ def feedCheckerWorker(work_queue, feedUrlsQueue, commonUrls):
         try:
             # place result on feedUrlsQueue or in not
             if feedParserSuccess and hasattr(feedFile, 'version') and feedFile.version != '':
-                feedUrlsQueue.put({"url": url, "title": feedFile.feed.get("title", "Sem titulo"), "kind": "href "+feedFile.version})
+                # Feeds with entries <=2 probably are not working or are dead feeds
+                if len(feedFile.entries)>2:
+                    feedUrlsQueue.put({"url": url, "title": feedFile.feed.get("title", "Sem titulo"), "kind": "href "+feedFile.version})
                 # print "Feed =",url
             else:
                 # print "Not feed =",url
