@@ -295,7 +295,7 @@ def feedCheckerWorker(work_queue, feedUrlsQueue, commonUrls):
             # place result on feedUrlsQueue or in not
             if feedParserSuccess and hasattr(feedFile, 'version') and feedFile.version != '':
                 # Feeds with entries <=2 probably are not working or are dead feeds
-                if len(feedFile.entries)>2:
+                if len(feedFile.entries) > 2:
                     feedUrlsQueue.put({"url": url, "title": feedFile.feed.get("title", "Sem titulo"), "kind": "href "+feedFile.version})
                 # print "Feed =",url
             else:
@@ -400,7 +400,7 @@ def getFeeds(url, enableMetaTagSearch=True, seenUrls=[], deepLevel=0, debug=Fals
     localSeenUrls = seenUrls[:]
     localSeenUrls = list(localSeenUrls)
 
-    #If the url was already seen, do nothing, stop and return
+    # If the url was already seen, do nothing, stop and return
     if finalUrl in localSeenUrls:
         return feedUrls
 
@@ -412,9 +412,9 @@ def getFeeds(url, enableMetaTagSearch=True, seenUrls=[], deepLevel=0, debug=Fals
             print "Ending crawl for:", finalUrl
         return feedUrls
 
-    # Follow (i)frames on first page when htmlSource is too small. Even if it 
-    # points to another domain, probably it's something like a redirect. 
-    # The risk of goint to another site/domain not related to original 
+    # Follow (i)frames on first page when htmlSource is too small. Even if it
+    # points to another domain, probably it's something like a redirect.
+    # The risk of goint to another site/domain not related to original
     # one is low when the html length is small.
     if deepLevel == 1 and len(htmlSource) <= 2000:
         if debug:
@@ -461,23 +461,21 @@ def getFeeds(url, enableMetaTagSearch=True, seenUrls=[], deepLevel=0, debug=Fals
             # print "going to check", fixedUrl
             urlsToCheck.append(fixedUrl)
             feedAnchorPossibleFeedUrls.append(fixedUrl)
-    
 
     # If we are in the first level of the crawl,
-    # Adds common urls that gives rss 
+    # Adds common urls that gives rss
     # In some sites you can't find the rss in meta or in links,
     # but the CMS still exposes it through some urls patterns
     # This is our try to catch them....
-
     if deepLevel == 1:
         frequentFeedUrlPatterns = ['feed',
-                                'feeds',
-                                'atom', 
-                                'rss', 
-                                'feed/rss', 
-                                'feed/atom',
-                                '?option=com_content&view=featured&format=feed&type=rss'
-                                ]
+                                   'feeds',
+                                   'atom',
+                                   'rss',
+                                   'feed/rss',
+                                   'feed/atom',
+                                   '?option=com_content&view=featured&format=feed&type=rss'
+                                   ]
 
         frequentFeedUrlsSet = set()
         for frequentFeedUrlPattern in frequentFeedUrlPatterns:
@@ -486,7 +484,6 @@ def getFeeds(url, enableMetaTagSearch=True, seenUrls=[], deepLevel=0, debug=Fals
 
         for frequentFeedUrl in frequentFeedUrlsSet:
             urlsToCheck.append(frequentFeedUrl)
-
 
     print "Urls que serao verificadas para ", finalUrl, ":", len(urlsToCheck)
 
