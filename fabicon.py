@@ -397,6 +397,11 @@ def getFeeds(url, enableMetaTagSearch=True, seenUrls=[], deepLevel=0, debug=Fals
 
     localSeenUrls = seenUrls[:]
     localSeenUrls = list(localSeenUrls)
+
+    #If the url was already seen, do nothing, stop and return
+    if finalUrl in localSeenUrls:
+        return feedUrls
+
     localSeenUrls.append(url)
 
     deepLevel += 1
@@ -405,8 +410,11 @@ def getFeeds(url, enableMetaTagSearch=True, seenUrls=[], deepLevel=0, debug=Fals
             print "Ending crawl for:", finalUrl
         return feedUrls
 
-    # follow (i?)frames on first page and same domain
-    if deepLevel == 1:
+    # Follow (i)frames on first page when htmlSource is too small. Even if it 
+    # points to another domain, probably it's something like a redirect. 
+    # The risk of goint to another site/domain not related to original 
+    # one is low when the html length is small.
+    if deepLevel == 1 and len(htmlSource) <= 2000:
         if debug:
             print "Looking for iframes in :", finalUrl
 
@@ -420,16 +428,11 @@ def getFeeds(url, enableMetaTagSearch=True, seenUrls=[], deepLevel=0, debug=Fals
             if 'src' in dict(iframe.attrs):
                 iframeSrc = getAbsoluteUrl(iframe['src'], finalUrl)
                 if iframeSrc not in localSeenUrls:
-                    # If url is from same domain (to avoid going into another site)
-                    # We add and exception when htmlSource is too small, so, although it's from
-                    # another domain, probably it's almost like a redirect to an 
-                    # alternative domain for the original site
-                    if isSameRootDomain(url, iframeSrc) or (len(htmlSource) <= 1500):
-                        if debug:
-                            print "Searching for more in iframe url:", iframeSrc
-                        otherFeedUrls = getFeeds(iframeSrc, enableMetaTagSearch=True, seenUrls=localSeenUrls, deepLevel=deepLevel, debug=debug)
-                        localSeenUrls.append(iframeSrc)
-                        feedUrls = feedUrls + otherFeedUrls
+                    if debug:
+                        print "Searching for more in iframe url:", iframeSrc
+                    otherFeedUrls = getFeeds(iframeSrc, enableMetaTagSearch=True, seenUrls=localSeenUrls, deepLevel=(deepLevel-1), debug=debug)
+                    localSeenUrls.append(iframeSrc)
+                    feedUrls = feedUrls + otherFeedUrls
 
     if enableMetaTagSearch:
         feedLinkTags = soup.findAll('link', attrs={"rel": "alternate", "type": re.compile(r'application/(atom|rss)\+xml|text/xml')})
