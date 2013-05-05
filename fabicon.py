@@ -473,7 +473,8 @@ def getFeeds(url, enableMetaTagSearch=True, seenUrls=[], deepLevel=0, debug=Fals
                                    'rss',
                                    'feed/rss',
                                    'feed/atom',
-                                   '?option=com_content&view=featured&format=feed&type=rss'
+                                   '?option=com_content&view=featured&format=feed&type=rss',  # for joomla from
+                                   '?option=com_content&view=featured&format=feed&type=atom'  # http://stackoverflow.com/a/14806742/1706351
                                    ]
 
         frequentFeedUrlsSet = set()
