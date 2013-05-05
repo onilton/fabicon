@@ -436,15 +436,15 @@ def getFeeds(url, enableMetaTagSearch=True, seenUrls=[], deepLevel=0, debug=Fals
                     localSeenUrls.append(iframeSrc)
                     feedUrls = feedUrls + otherFeedUrls
 
+    urlsToCheck = []
     if enableMetaTagSearch:
         feedLinkTags = soup.findAll('link', attrs={"rel": "alternate", "type": re.compile(r'application/(atom|rss)\+xml|text/xml')})
         # if debug: print "Feeds found in",len(feedLinkTags),"by meta:",finalUrl
         for feedLinkTag in feedLinkTags:
             fixedUrl = getAbsoluteUrl(feedLinkTag['href'], finalUrl)
             if debug:
-                print "Mega tag feedUrl:", fixedUrl, feedLinkTag.get("title", "Sem Nome").encode('utf-8'), "link "+feedLinkTag["type"]
-            # feedUrls.append(fixedUrl)
-            feedUrls.append({"url": fixedUrl, "title": feedLinkTag.get("title", "Sem Nome"), "kind": "link "+feedLinkTag["type"]})
+                print "Going to check Mega tag feedUrl:", fixedUrl, feedLinkTag.get("title", "Sem Nome").encode('utf-8'), "link "+feedLinkTag["type"]
+            urlsToCheck.append(fixedUrl)
 
     feedAnchorTags = soup.findAll('a', attrs={"href": re.compile(r'rss|feed|xml')})
     # Now try to match from anchor content/text <a ref="">RSS</a>
@@ -453,7 +453,6 @@ def getFeeds(url, enableMetaTagSearch=True, seenUrls=[], deepLevel=0, debug=Fals
         feedAnchorTags.append(anchorText)
 
     feedAnchorPossibleFeedUrls = []
-    urlsToCheck = []
     for feedAnchorTag in feedAnchorTags:
         if 'href' in dict(feedAnchorTag.attrs):
             # print "going to check", feedAnchorTag['href']
