@@ -478,7 +478,17 @@ def getFeeds(url, enableMetaTagSearch=True, seenUrls=[], deepLevel=0, debug=Fals
                                    'rss.xml',  # Default for Drupal (and some other sites) http://drupal.org/node/111018
                                                # and http://stackoverflow.com/a/1644621/1706351
                                    '?option=com_content&view=featured&format=feed&type=rss',  # for joomla from
-                                   '?option=com_content&view=featured&format=feed&type=atom'  # http://stackoverflow.com/a/14806742/1706351
+                                   '?option=com_content&view=featured&format=feed&type=atom',  # http://stackoverflow.com/a/14806742/1706351
+                                   'index.xml',      # 50 (frequency) common patterns from a list of feeds
+                                   'rss.php',        # 23
+                                   'rss/rss.xml',    # 16
+                                   'Rss2.xml',       # 15
+                                   'rss/index.xml',  # 14
+                                   'feed.rss',       # 14
+                                   'index.rss',      # 13
+                                   'rss.asp',        # 10
+                                   'feed.xml',       # 6
+                                   'atom.xml'        # 6
                                    ]
 
         frequentFeedUrlsSet = set()
