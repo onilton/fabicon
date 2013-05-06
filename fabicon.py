@@ -473,6 +473,8 @@ def getFeeds(url, enableMetaTagSearch=True, seenUrls=[], deepLevel=0, debug=Fals
                                    'rss',
                                    'feed/rss',
                                    'feed/atom',
+                                   'feeds/posts/default',          # Default for blogger
+                                   'feeds/posts/default?alt=rss',  # http://support.google.com/blogger/bin/answer.py?hl=pt&answer=97933
                                    'rss.xml',  # Default for Drupal (and some other sites) http://drupal.org/node/111018
                                                # and http://stackoverflow.com/a/1644621/1706351
                                    '?option=com_content&view=featured&format=feed&type=rss',  # for joomla from
