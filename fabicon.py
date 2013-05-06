@@ -474,6 +474,9 @@ def getFeeds(url, enableMetaTagSearch=True, seenUrls=[], deepLevel=0, debug=Fals
                                    'rss',
                                    'feed/rss',
                                    'feed/atom',
+                                   '?feed=rss2',  # Default for wordpress
+                                   '?feed=rss',   # Info here:
+                                   '?feed=atom',  # http://codex.wordpress.org/WordPress_Feeds
                                    'feeds/posts/default',          # Default for blogger
                                    'feeds/posts/default?alt=rss',  # http://support.google.com/blogger/bin/answer.py?hl=pt&answer=97933
                                    'rss.xml',  # Default for Drupal (and some other sites) http://drupal.org/node/111018
