@@ -466,6 +466,7 @@ def getFeeds(url, enableMetaTagSearch=True, seenUrls=[], deepLevel=0, debug=Fals
     # In some sites you can't find the rss in meta or in links,
     # but the CMS still exposes it through some urls patterns
     # This is our try to catch them....
+    frequentFeedUrlsSet = set()
     if deepLevel == 1:
         frequentFeedUrlPatterns = ['feed',
                                    'feeds',
@@ -491,7 +492,6 @@ def getFeeds(url, enableMetaTagSearch=True, seenUrls=[], deepLevel=0, debug=Fals
                                    'atom.xml'        # 6
                                    ]
 
-        frequentFeedUrlsSet = set()
         for frequentFeedUrlPattern in frequentFeedUrlPatterns:
             frequentFeedUrlsSet.add(getAbsoluteUrl(frequentFeedUrlPattern, finalUrl))
             frequentFeedUrlsSet.add(getAbsoluteUrl('/'+frequentFeedUrlPattern, finalUrl))
