@@ -436,7 +436,7 @@ def getFeeds(url, enableMetaTagSearch=True, seenUrls=[], deepLevel=0, debug=Fals
                     localSeenUrls.append(iframeSrc)
                     feedUrls = feedUrls + otherFeedUrls
 
-    urlsToCheck = []
+    urlsToCheck = set()
     if enableMetaTagSearch:
         feedLinkTags = soup.findAll('link', attrs={"rel": "alternate", "type": re.compile(r'application/(atom|rss)\+xml|text/xml')})
         # if debug: print "Feeds found in",len(feedLinkTags),"by meta:",finalUrl
@@ -444,7 +444,7 @@ def getFeeds(url, enableMetaTagSearch=True, seenUrls=[], deepLevel=0, debug=Fals
             fixedUrl = getAbsoluteUrl(feedLinkTag['href'], finalUrl)
             if debug:
                 print "Going to check Mega tag feedUrl:", fixedUrl, feedLinkTag.get("title", "Sem Nome").encode('utf-8'), "link "+feedLinkTag["type"]
-            urlsToCheck.append(fixedUrl)
+            urlsToCheck.add(fixedUrl)
 
     feedAnchorTags = soup.findAll('a', attrs={"href": re.compile(r'rss|feed|xml')})
     # Now try to match from anchor content/text <a ref="">RSS</a>
@@ -452,7 +452,7 @@ def getFeeds(url, enableMetaTagSearch=True, seenUrls=[], deepLevel=0, debug=Fals
         # print "anchorText=",anchorText
         feedAnchorTags.append(anchorText)
 
-    feedAnchorPossibleFeedUrls = []
+    feedAnchorPossibleFeedUrls = set()
     
     if debug:
         print "Possible feed urls from anchors"
@@ -461,8 +461,8 @@ def getFeeds(url, enableMetaTagSearch=True, seenUrls=[], deepLevel=0, debug=Fals
             # print "going to check", feedAnchorTag['href']
             fixedUrl = getAbsoluteUrl(feedAnchorTag['href'], finalUrl)
             # print "going to check", fixedUrl
-            urlsToCheck.append(fixedUrl)
-            feedAnchorPossibleFeedUrls.append(fixedUrl)
+            urlsToCheck.add(fixedUrl)
+            feedAnchorPossibleFeedUrls.add(fixedUrl)
             if debug:
                 print ("\t"+fixedUrl) 
 
@@ -509,7 +509,7 @@ def getFeeds(url, enableMetaTagSearch=True, seenUrls=[], deepLevel=0, debug=Fals
         for frequentFeedUrl in frequentFeedUrlsSet:
             if debug:
                 print ("\t"+frequentFeedUrl) 
-            urlsToCheck.append(frequentFeedUrl)
+            urlsToCheck.add(frequentFeedUrl)
 
     print "Urls que serao verificadas para ", finalUrl, ":", len(urlsToCheck)
 
