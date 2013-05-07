@@ -454,8 +454,6 @@ def getFeeds(url, enableMetaTagSearch=True, seenUrls=[], deepLevel=0, debug=Fals
 
     feedAnchorPossibleFeedUrls = set()
     
-    if debug:
-        print "Possible feed urls from anchors"
     for feedAnchorTag in feedAnchorTags:
         if 'href' in dict(feedAnchorTag.attrs):
             # print "going to check", feedAnchorTag['href']
@@ -463,8 +461,12 @@ def getFeeds(url, enableMetaTagSearch=True, seenUrls=[], deepLevel=0, debug=Fals
             # print "going to check", fixedUrl
             urlsToCheck.add(fixedUrl)
             feedAnchorPossibleFeedUrls.add(fixedUrl)
+
+    if debug:
+        print "Possible feed urls from anchors"
+    for possibleFeedUrl in feedAnchorPossibleFeedUrls:
             if debug:
-                print ("\t"+fixedUrl) 
+                print ("\t"+possibleFeedUrl) 
 
     # If we are in the first level of the crawl,
     # Adds common urls that gives rss
