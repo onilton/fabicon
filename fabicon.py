@@ -453,6 +453,9 @@ def getFeeds(url, enableMetaTagSearch=True, seenUrls=[], deepLevel=0, debug=Fals
         feedAnchorTags.append(anchorText)
 
     feedAnchorPossibleFeedUrls = []
+    
+    if debug:
+        print "Possible feed urls from anchors"
     for feedAnchorTag in feedAnchorTags:
         if 'href' in dict(feedAnchorTag.attrs):
             # print "going to check", feedAnchorTag['href']
@@ -460,6 +463,8 @@ def getFeeds(url, enableMetaTagSearch=True, seenUrls=[], deepLevel=0, debug=Fals
             # print "going to check", fixedUrl
             urlsToCheck.append(fixedUrl)
             feedAnchorPossibleFeedUrls.append(fixedUrl)
+            if debug:
+                print ("\t"+fixedUrl) 
 
     # If we are in the first level of the crawl,
     # Adds common urls that gives rss
@@ -499,7 +504,11 @@ def getFeeds(url, enableMetaTagSearch=True, seenUrls=[], deepLevel=0, debug=Fals
             frequentFeedUrlsSet.add(getAbsoluteUrl(frequentFeedUrlPattern, finalUrl))
             frequentFeedUrlsSet.add(getAbsoluteUrl('/'+frequentFeedUrlPattern, finalUrl))
 
+        if debug:
+            print "Frequent feed urls patterns that will be checked"
         for frequentFeedUrl in frequentFeedUrlsSet:
+            if debug:
+                print ("\t"+frequentFeedUrl) 
             urlsToCheck.append(frequentFeedUrl)
 
     print "Urls que serao verificadas para ", finalUrl, ":", len(urlsToCheck)
