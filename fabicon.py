@@ -296,7 +296,7 @@ def feedCheckerWorker(work_queue, feedUrlsQueue, commonUrls):
             if feedParserSuccess and hasattr(feedFile, 'version') and feedFile.version != '':
                 # Feeds with entries <=2 probably are not working or are dead feeds
                 if len(feedFile.entries) > 2:
-                    feedUrlsQueue.put({"url": feedFile.href, "title": feedFile.feed.get("title", "Sem titulo"), "kind": "href "+feedFile.version})
+                    feedUrlsQueue.put({"url": feedFile.href, "url_original": url, "title": feedFile.feed.get("title", "Sem titulo"), "kind": "href "+feedFile.version})
                 # print "Feed =",url
             else:
                 # print "Not feed =",url
@@ -378,7 +378,7 @@ def checkIfUrlsAreFeeds(urls):
     return (feedUrlsList, commonUrlsList)
 
 
-def getFeeds(url, enableMetaTagSearch=True, seenUrls=[], deepLevel=0, debug=False, downloadDebug=False):
+def getFeeds(url, enableMetaTagSearch=True, seenUrls=[], seenFeedUrls=set(), deepLevel=0, debug=False, downloadDebug=False):
     feedUrls = []
     # Try to download page, otherwise, fail gracefully
 
@@ -399,6 +399,8 @@ def getFeeds(url, enableMetaTagSearch=True, seenUrls=[], deepLevel=0, debug=Fals
 
     localSeenUrls = seenUrls[:]
     localSeenUrls = list(localSeenUrls)
+
+    localSeenFeedUrls = seenFeedUrls.copy()
 
     # If the url was already seen, do nothing, stop and return
     if finalUrl in localSeenUrls:
@@ -432,7 +434,7 @@ def getFeeds(url, enableMetaTagSearch=True, seenUrls=[], deepLevel=0, debug=Fals
                 if iframeSrc not in localSeenUrls:
                     if debug:
                         print "Searching for more in iframe url:", iframeSrc
-                    otherFeedUrls = getFeeds(iframeSrc, enableMetaTagSearch=True, seenUrls=localSeenUrls, deepLevel=(deepLevel-1), debug=debug)
+                    otherFeedUrls = getFeeds(iframeSrc, enableMetaTagSearch=True, seenUrls=localSeenUrls, seenFeedUrls=localSeenFeedUrls, deepLevel=(deepLevel-1), debug=debug)
                     localSeenUrls.append(iframeSrc)
                     feedUrls = feedUrls + otherFeedUrls
 
@@ -444,7 +446,8 @@ def getFeeds(url, enableMetaTagSearch=True, seenUrls=[], deepLevel=0, debug=Fals
             fixedUrl = getAbsoluteUrl(feedLinkTag['href'], finalUrl)
             if debug:
                 print "Going to check Mega tag feedUrl:", fixedUrl, feedLinkTag.get("title", "Sem Nome").encode('utf-8'), "link "+feedLinkTag["type"]
-            urlsToCheck.add(fixedUrl)
+            if fixedUrl not in localSeenUrls and fixedUrl not in localSeenFeedUrls:
+                urlsToCheck.add(fixedUrl)
 
     feedAnchorTags = soup.findAll('a', attrs={"href": re.compile(r'rss|feed|xml')})
     # Now try to match from anchor content/text <a ref="">RSS</a>
@@ -459,8 +462,9 @@ def getFeeds(url, enableMetaTagSearch=True, seenUrls=[], deepLevel=0, debug=Fals
             # print "going to check", feedAnchorTag['href']
             fixedUrl = getAbsoluteUrl(feedAnchorTag['href'], finalUrl)
             # print "going to check", fixedUrl
-            urlsToCheck.add(fixedUrl)
-            feedAnchorPossibleFeedUrls.add(fixedUrl)
+            if fixedUrl not in localSeenUrls and fixedUrl not in localSeenFeedUrls:
+                urlsToCheck.add(fixedUrl)
+                feedAnchorPossibleFeedUrls.add(fixedUrl)
 
     if debug:
         print "Possible feed urls from anchors"
@@ -511,7 +515,8 @@ def getFeeds(url, enableMetaTagSearch=True, seenUrls=[], deepLevel=0, debug=Fals
         for frequentFeedUrl in frequentFeedUrlsSet:
             if debug:
                 print ("\t"+frequentFeedUrl) 
-            urlsToCheck.add(frequentFeedUrl)
+            if frequentFeedUrl not in localSeenUrls and frequentFeedUrl not in localSeenFeedUrls:
+                urlsToCheck.add(frequentFeedUrl)
 
     print "Urls que serao verificadas para ", finalUrl, ":", len(urlsToCheck)
 
@@ -521,6 +526,12 @@ def getFeeds(url, enableMetaTagSearch=True, seenUrls=[], deepLevel=0, debug=Fals
     print "Urls que não são feeds encontradas para ", finalUrl, ":", len(commonUrls)
 
     feedUrls = feedUrls[:] + checkedFeedUrls[:]
+
+    listOfFeedUrls = [ feed.get("url","") for feed in feedUrls ]
+    listOfOriginalFeedUrls = [ feed.get("url_original","") for feed in feedUrls ]
+    
+    localSeenFeedUrls = localSeenFeedUrls.copy().union(set(listOfFeedUrls))
+    localSeenFeedUrls = localSeenFeedUrls.union(set(listOfOriginalFeedUrls))
 
     # for commonUrl in commonUrls:
         # print "Going to crawl url", commonUrl
@@ -535,9 +546,15 @@ def getFeeds(url, enableMetaTagSearch=True, seenUrls=[], deepLevel=0, debug=Fals
                         if deepLevel < 2:
                             if debug:
                                 print "Searching for more in url:", commonUrl
-                            otherFeedUrls = getFeeds(commonUrl, enableMetaTagSearch=False, seenUrls=localSeenUrls, deepLevel=deepLevel, debug=debug)
+                            otherFeedUrls = getFeeds(commonUrl, enableMetaTagSearch=False, seenUrls=localSeenUrls, seenFeedUrls=localSeenFeedUrls, deepLevel=deepLevel, debug=debug)
                             localSeenUrls.append(commonUrl)
                             feedUrls = feedUrls + otherFeedUrls[:]
+
+                            listOfFeedUrls = [ feed.get("url","") for feed in feedUrls ]
+                            listOfOriginalFeedUrls = [ feed.get("url_original","") for feed in feedUrls ]
+                            
+                            localSeenFeedUrls = localSeenFeedUrls.copy().union(set(listOfFeedUrls))
+                            localSeenFeedUrls = localSeenFeedUrls.union(set(listOfOriginalFeedUrls))
                         else:
                             if debug:
                                 print "There's no reason to crawl cause we won't do anything with the url:", commonUrl
