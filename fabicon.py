@@ -380,6 +380,11 @@ def checkIfUrlsAreFeeds(urls):
 
 
 def getFeeds(url, enableMetaTagSearch=True, visitedUrls=[], checkedFeedUrls=set(), checkedNonFeedUrls=set(), deepLevel=0, debug=False, downloadDebug=False):
+    allFeedUrls, returnedVisitedUrls, returnedCheckedNonFeedUrls = getFeedsAndNonFeeds(url, enableMetaTagSearch=True, visitedUrls=visitedUrls, checkedFeedUrls=checkedFeedUrls, checkedNonFeedUrls=checkedNonFeedUrls, deepLevel=0, debug=debug, downloadDebug=downloadDebug)
+    return allFeedUrls
+
+
+def getFeedsAndNonFeeds(url, enableMetaTagSearch=True, visitedUrls=[], checkedFeedUrls=set(), checkedNonFeedUrls=set(), deepLevel=0, debug=False, downloadDebug=False):
     feedUrls = []
     # Try to download page, otherwise, fail gracefully
 
@@ -436,7 +441,7 @@ def getFeeds(url, enableMetaTagSearch=True, visitedUrls=[], checkedFeedUrls=set(
                 if iframeSrc not in localVisitedUrls:
                     if debug:
                         print "Searching for more in iframe url:", iframeSrc
-                    otherFeedUrls, returnedVisitedUrls, returnedCheckedNonFeedUrls = getFeeds(iframeSrc, enableMetaTagSearch=True, visitedUrls=localVisitedUrls, checkedFeedUrls=localCheckedFeedUrls, checkedNonFeedUrls=localCheckedNonFeedUrls, deepLevel=(deepLevel-1), debug=debug)
+                    otherFeedUrls, returnedVisitedUrls, returnedCheckedNonFeedUrls = getFeedsAndNonFeeds(iframeSrc, enableMetaTagSearch=True, visitedUrls=localVisitedUrls, checkedFeedUrls=localCheckedFeedUrls, checkedNonFeedUrls=localCheckedNonFeedUrls, deepLevel=(deepLevel-1), debug=debug)
                     localVisitedUrls.append(iframeSrc)
 
                     localCheckedNonFeedUrls = localCheckedNonFeedUrls.copy().union(returnedCheckedNonFeedUrls)
@@ -569,7 +574,7 @@ def getFeeds(url, enableMetaTagSearch=True, visitedUrls=[], checkedFeedUrls=set(
                             commonUrlsSetWithoutCurrent.remove(commonUrl)
                             urlsNotToCrawl = localVisitedUrls[:] + list(commonUrlsSetWithoutCurrent)
 
-                            otherFeedUrls, returnedVisitedUrls, returnedCheckedNonFeedUrls = getFeeds(commonUrl, enableMetaTagSearch=False, visitedUrls=urlsNotToCrawl, checkedFeedUrls=localCheckedFeedUrls, checkedNonFeedUrls=localCheckedNonFeedUrls, deepLevel=deepLevel, debug=debug)
+                            otherFeedUrls, returnedVisitedUrls, returnedCheckedNonFeedUrls = getFeedsAndNonFeeds(commonUrl, enableMetaTagSearch=False, visitedUrls=urlsNotToCrawl, checkedFeedUrls=localCheckedFeedUrls, checkedNonFeedUrls=localCheckedNonFeedUrls, deepLevel=deepLevel, debug=debug)
                             localVisitedUrls.append(commonUrl)
 
                             localCheckedNonFeedUrls = localCheckedNonFeedUrls.copy().union(returnedCheckedNonFeedUrls)
@@ -616,7 +621,7 @@ def getFeeds(url, enableMetaTagSearch=True, visitedUrls=[], checkedFeedUrls=set(
         newFeed['url'] = re.sub(r'/\./', r'/', newFeed['url'])
 
     # feedUrls = removeRepeated(feedUrls)
-    print "ENDED getFeeds for", url
+    print "ENDED getFeedsAndNonFeeds for", url
     return feedUrls, localVisitedUrls, localCheckedNonFeedUrls
 
 
@@ -860,7 +865,7 @@ def main(argv=None):
 
     if args.feeds:
         print "######## Feeds urls ########"
-        feeds, visitedUrls, checkedNonFeedUrls = getFeeds(args.targetUrl, debug=args.debug)
+        feeds = getFeeds(args.targetUrl, debug=args.debug)
         print "Feed list"
         for feed in feeds:
             print feed['url']
