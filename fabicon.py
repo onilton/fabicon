@@ -461,6 +461,7 @@ def getFeeds(url, enableMetaTagSearch=True, seenUrls=[], seenFeedUrls=set(), dee
         if 'href' in dict(feedAnchorTag.attrs):
             # print "going to check", feedAnchorTag['href']
             fixedUrl = getAbsoluteUrl(feedAnchorTag['href'], finalUrl)
+            fixedUrl = re.sub(r'^.*http://add\.my\.yahoo\.com/rss\?url=(https?)(%3A|:)//',r'\1://', fixedUrl)
             # print "going to check", fixedUrl
             if fixedUrl not in localSeenUrls and fixedUrl not in localSeenFeedUrls:
                 urlsToCheck.add(fixedUrl)
