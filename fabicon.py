@@ -467,6 +467,11 @@ def getFeedsAndNonFeeds(url, enableMetaTagSearch=True, visitedUrls=[], checkedFe
         # print "anchorText=",anchorText
         feedAnchorTags.append(anchorText)
 
+    # Trying to get anchors that are inside divs (or spans) that have a class attribute that matches "rss"
+    feedBlockTags = soup.findAll(lambda tag: tag.name in ['div','span'] and re.findall(r"rss|feed|xml", tag.get('class',''), re.IGNORECASE))
+    for feedBlockTag in feedBlockTags :
+        feedAnchorTags += feedBlockTag.findAll(lambda tag: tag.name == 'a' and not re.findall(r"^#?$", tag.get('href',''), re.IGNORECASE))
+
     feedAnchorPossibleFeedUrls = set()
     alreadyCheckedCommonUrls = set()
     
