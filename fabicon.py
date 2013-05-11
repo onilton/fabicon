@@ -44,7 +44,7 @@ class Site(Entity):
     Just a site 
     """
     using_options(tablename='sites')
-    url = Field(Unicode, required=True, unique=True)
+    url = Field(String, required=True, unique=True)
     expire_date = Field(DateTime,default=datetime.now(),required=True) #
     feeds  = ManyToMany("Feed")
     
@@ -56,8 +56,8 @@ class Feed(Entity):
     A feed belonging to a site 
     """
     using_options(tablename='feeds')
-    url = Field(Unicode, required=True, unique=True)
-    title = Field(Unicode, default=u'', required=True)
+    url = Field(String, required=True, unique=True)
+    title = Field(String, default='', required=True)
     num_entries = Field(Integer, default=0, required=True)
     sites  = ManyToMany("Site")
     
@@ -936,7 +936,7 @@ def main(argv=None):
         initDB()
 
         site_from_cache = Site.query.filter_by(url=args.targetUrl).all()
-        print "site_from_cache", site_from_cache
+        #print "site_from_cache", site_from_cache
 
         if site_from_cache:
             print "From cache. Feed list"
