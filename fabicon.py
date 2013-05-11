@@ -32,6 +32,68 @@ socket.setdefaulttimeout(60)  # 1 minuto
 from multiprocessing import Process, Queue, current_process
 import multiprocessing
 
+#from elixir import metadata, Entity, setup_all, create_all, session
+from elixir import *
+from datetime import datetime
+
+import os
+
+
+class Site(Entity):
+    """
+    Just a site 
+    """
+    using_options(tablename='sites')
+    #url = Field(Unicode,required=True, unique=True)
+    url = Field(Unicode, primary_key=True, unique=True, required=True)
+    expire_date = Field(DateTime,default=datetime.now(),required=True) #
+    feeds  = ManyToMany("Feed")
+    
+    def __repr__(self):
+        return "Site: "+self.url
+
+class Feed(Entity):
+    """
+    A feed belonging to a site 
+    """
+    using_options(tablename='feeds')
+    url = Field(Unicode, required=True, unique=True)
+    title = Field(Unicode, default="", required=True)
+    num_entries = Field(Integer, default=0, required=True)
+    sites  = ManyToMany("Site")
+    
+    def __repr__(self):
+        return "Feed: %s - %s (%d entries)" %  (self.title, self.url, self.num_entries)
+
+def initDB():
+    # Running from: (following symlinks)
+    script_full_path = os.path.realpath(__file__)
+
+    print("Using as base directory:")
+    script_dir = os.path.dirname(script_full_path)
+    print(script_dir)
+
+    dbdir=os.path.join(script_dir,".fabicon-data")
+    dbfile=os.path.join(dbdir,"fabicon_data.sqlite")
+
+    if not os.path.isdir(dbdir):
+        os.mkdir(dbdir)
+    metadata.bind = "sqlite:///%s" % dbfile
+    setup_all()
+    if not os.path.exists(dbfile):
+        create_all()
+        
+    # This is so Elixir 0.5.x and 0.6.x work
+    # Yes, it's kinda ugly, but needed for Debian 
+    # and Ubuntu and other distros.
+    
+    global saveData
+    import elixir
+    if elixir.__version__ < "0.6":
+        saveData=session.flush
+    else:
+        saveData=session.commit
+
 
 def getTwitterAvatar(twitterUsername, size):
     timagelink = urllib.urlopen("https://api.twitter.com/1/users/profile_image?screen_name="+twitterUsername+"&size="+size)
@@ -871,7 +933,16 @@ def main(argv=None):
 
     if args.feeds:
         print "######## Feeds urls ########"
+
+        initDB()
         feeds = getFeeds(args.targetUrl, debug=args.debug)
+
+        newSiteFeeds = [ Feed(url=feed['url'], title=feed['title'], num_entries=feed['entries_count']) for feed in feeds ]
+
+        newSite = Site(url=args.targetUrl, expire_date=datetime.now(), feeds=newSiteFeeds) 
+        
+        session.commit()
+
         print "Feed list"
         for feed in feeds:
             print feed['url']
