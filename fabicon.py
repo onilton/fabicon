@@ -44,8 +44,7 @@ class Site(Entity):
     Just a site 
     """
     using_options(tablename='sites')
-    #url = Field(Unicode,required=True, unique=True)
-    url = Field(Unicode, primary_key=True, unique=True, required=True)
+    url = Field(Unicode, required=True, unique=True)
     expire_date = Field(DateTime,default=datetime.now(),required=True) #
     feeds  = ManyToMany("Feed")
     
@@ -58,7 +57,7 @@ class Feed(Entity):
     """
     using_options(tablename='feeds')
     url = Field(Unicode, required=True, unique=True)
-    title = Field(Unicode, default="", required=True)
+    title = Field(Unicode, default=u'', required=True)
     num_entries = Field(Integer, default=0, required=True)
     sites  = ManyToMany("Site")
     
