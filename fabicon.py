@@ -934,17 +934,26 @@ def main(argv=None):
         print "######## Feeds urls ########"
 
         initDB()
-        feeds = getFeeds(args.targetUrl, debug=args.debug)
 
-        newSiteFeeds = [ Feed(url=feed['url'], title=feed['title'], num_entries=feed['entries_count']) for feed in feeds ]
+        site_from_cache = Site.query.filter_by(url=args.targetUrl).all()
+        print "site_from_cache", site_from_cache
 
-        newSite = Site(url=args.targetUrl, expire_date=datetime.now(), feeds=newSiteFeeds) 
-        
-        session.commit()
+        if site_from_cache:
+            print "From cache. Feed list"
+            for feed in site_from_cache[0].feeds:
+                print feed.url
+        else:
+            feeds = getFeeds(args.targetUrl, debug=args.debug)
 
-        print "Feed list"
-        for feed in feeds:
-            print feed['url']
+            newSiteFeeds = [ Feed(url=feed['url'], title=feed['title'], num_entries=feed['entries_count']) for feed in feeds ]
+
+            newSite = Site(url=args.targetUrl, expire_date=datetime.now(), feeds=newSiteFeeds) 
+            
+            session.commit()
+
+            print "Feed list"
+            for feed in feeds:
+                print feed['url']
 
     if args.feedLanguage:
         print "######## Feed language ########"
