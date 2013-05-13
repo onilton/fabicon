@@ -32,39 +32,70 @@ socket.setdefaulttimeout(60)  # 1 minuto
 from multiprocessing import Process, Queue, current_process
 import multiprocessing
 
-#from elixir import metadata, Entity, setup_all, create_all, session
-from elixir import *
 from datetime import datetime
+
+from sqlalchemy import create_engine, ForeignKey
+from sqlalchemy import Column, Date, Integer, String, DateTime
+from sqlalchemy.ext.declarative import declarative_base
+from sqlalchemy.orm import relationship, backref
+from sqlalchemy.orm import sessionmaker, scoped_session
+
+from sqlalchemy import Table, Text
+
 
 import os
 
 
-class Site(Entity):
+
+Base = declarative_base()
+
+
+# association table
+site_feeds = Table('site_feeds', Base.metadata,
+    Column('site_id', Integer, ForeignKey('sites.id'), index=True),
+    Column('feed_id', Integer, ForeignKey('feeds.id'), index=True)
+)
+
+
+class Site(Base):
     """
     Just a site 
     """
-    using_options(tablename='sites')
-    url = Field(String, required=True, unique=True, index=True)
-    expire_date = Field(DateTime,default=datetime.now(),required=True) #
-    feeds  = ManyToMany("Feed")
+    __tablename__ = 'sites'
+    id = Column(Integer, primary_key=True)
+    url = Column(String, nullable=False, unique=True, index=True)
+    expire_date = Column(DateTime,default=datetime.now(),nullable=False) #
+
+    # many to many Site<->Feed
+    feeds = relationship('Feed', secondary=site_feeds, backref='sites')
+
+    #feeds  = ManyToMany("Feed")
+    
+    #def __repr__(self):
+    #    return "<User('%s','%s', '%s')>" % (self.name, self.fullname, self.password)
     
     def __repr__(self):
         return "Site: "+self.url
 
-class Feed(Entity):
+class Feed(Base):
     """
-    A feed belonging to a site 
+    A feed belonging to a site (or two? :P)
     """
-    using_options(tablename='feeds')
-    url = Field(String, required=True, unique=True, index=True)
-    title = Field(String, default='', required=True)
-    num_entries = Field(Integer, default=0, required=True)
-    sites  = ManyToMany("Site")
+    __tablename__ = 'feeds'
+    id = Column(Integer, primary_key=True)
+    url = Column(String, nullable=True, unique=True, index=True)
+    title = Column(String, default='', nullable=False)
+    num_entries = Column(Integer, default=0, nullable=False)
+
+    #sites  = ManyToMany("Site")
     
     def __repr__(self):
         return "Feed: %s - %s (%d entries)" %  (self.title, self.url, self.num_entries)
 
-def initDB():
+
+
+
+def dbConfig():
     # Running from: (following symlinks)
     script_full_path = os.path.realpath(__file__)
 
@@ -77,21 +108,36 @@ def initDB():
 
     if not os.path.isdir(dbdir):
         os.mkdir(dbdir)
-    metadata.bind = "sqlite:///%s" % dbfile
-    setup_all()
+
+    engine = create_engine("sqlite:///%s" % dbfile, echo=False)
+    #engine = create_engine("sqlite:///%s" % dbfile )
+
     if not os.path.exists(dbfile):
-        create_all()
+        Base.metadata.create_all(engine) 
+
+    # Session is thread-local: Returns the same object in the same thread, 
+    # returns new object when used in a new thread
+    session_factory = sessionmaker(bind=engine)
+    global Session 
+    Session = scoped_session(session_factory) 
         
-    # This is so Elixir 0.5.x and 0.6.x work
-    # Yes, it's kinda ugly, but needed for Debian 
-    # and Ubuntu and other distros.
-    
-    global saveData
-    import elixir
-    if elixir.__version__ < "0.6":
-        saveData=session.flush
+
+dbConfig()
+
+# http://stackoverflow.com/questions/2546207/does-sqlalchemy-have-an-equivalent-of-djangos-get-or-create
+def get_or_create(session, model, defaults=None, **kwargs):
+    instance = session.query(model).filter_by(**kwargs).first()
+    if instance:
+        return instance #, False
     else:
-        saveData=session.commit
+        params = dict((k, v) for k, v in kwargs.iteritems() if not isinstance(v, ClauseElement))
+        params.update(defaults)
+        instance = model(**params)
+        try:
+            session.add(instance)
+        except IntegrityError: 
+            instance = session.query(model).filter_by(**kwargs).first()
+        return instance #, False
 
 
 def getTwitterAvatar(twitterUsername, size):
@@ -933,27 +979,32 @@ def main(argv=None):
     if args.feeds:
         print "######## Feeds urls ########"
 
-        initDB()
+        session = Session()
 
-        site_from_cache = Site.query.filter_by(url=args.targetUrl).all()
-        #print "site_from_cache", site_from_cache
+        site_from_cache = session.query(Site).filter_by(url=args.targetUrl).first()
+        print "site_from_cache", site_from_cache
 
         if site_from_cache:
             print "From cache. Feed list"
-            for feed in site_from_cache[0].feeds:
+            for feed in site_from_cache.feeds:
                 print feed.url
         else:
             feeds = getFeeds(args.targetUrl, debug=args.debug)
 
-            newSiteFeeds = [ Feed(url=feed['url'], title=feed['title'], num_entries=feed['entries_count']) for feed in feeds ]
+            newSiteFeeds = [ get_or_create(session, Feed, url=feed['url'], title=feed['title'], num_entries=feed['entries_count']) for feed in feeds ]
 
-            newSite = Site(url=args.targetUrl, expire_date=datetime.now(), feeds=newSiteFeeds) 
-            
-            session.commit()
+            newSite = Site(url=args.targetUrl, expire_date=datetime.now()) 
+            newSite.feeds[:] = newSiteFeeds
+        
+            session.add(newSite)    
 
             print "Feed list"
             for feed in feeds:
                 print feed['url']
+
+        session.commit()
+        
+        Session.remove()
 
     if args.feedLanguage:
         print "######## Feed language ########"
