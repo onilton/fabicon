@@ -86,6 +86,7 @@ class Feed(Base):
     url = Column(String, nullable=True, unique=True, index=True)
     title = Column(String, default='', nullable=False)
     num_entries = Column(Integer, default=0, nullable=False)
+    kind = Column(String, nullable=False)
 
     #sites  = ManyToMany("Site")
     
@@ -493,7 +494,7 @@ def getFeeds(url, enableMetaTagSearch=True, visitedUrls=[], checkedFeedUrls=set(
 
     if use_db_cache and site_from_cache:
         #print "From cache. Feed list"
-        allFeedUrls = [ {"url": feed.url, "title": feed.title, "entries_count": feed.num_entries} for feed in site_from_cache.feeds ]
+        allFeedUrls = [ {"url": feed.url, "title": feed.title, "entries_count": feed.num_entries, "kind": feed.kind } for feed in site_from_cache.feeds ]
 
         filteredAllFeedUrls = [ feed for feed in allFeedUrls if feed["entries_count"]>=min_entries ] 
 
@@ -503,7 +504,7 @@ def getFeeds(url, enableMetaTagSearch=True, visitedUrls=[], checkedFeedUrls=set(
 
 
         if use_db_cache:
-            newSiteFeeds = [ get_or_create(session, Feed, url=feed['url'], title=feed['title'], num_entries=feed['entries_count']) for feed in allFeedUrls ]
+            newSiteFeeds = [ get_or_create(session, Feed, url=feed['url'], title=feed['title'], num_entries=feed['entries_count'], kind=feed['kind']) for feed in allFeedUrls ]
 
             newSite = Site(url=url, expire_date=datetime.now()) 
             newSite.feeds[:] = newSiteFeeds
