@@ -485,9 +485,35 @@ def checkIfUrlsAreFeeds(urls):
     return (feedUrlsList, commonUrlsList)
 
 
-def getFeeds(url, enableMetaTagSearch=True, visitedUrls=[], checkedFeedUrls=set(), checkedNonFeedUrls=set(), deepLevel=0, debug=False, downloadDebug=False, min_entries=3):
-    allFeedUrls, returnedVisitedUrls, returnedCheckedNonFeedUrls = getFeedsAndNonFeeds(url, enableMetaTagSearch=True, visitedUrls=visitedUrls, checkedFeedUrls=checkedFeedUrls, checkedNonFeedUrls=checkedNonFeedUrls, deepLevel=0, debug=debug, downloadDebug=downloadDebug)
-    filteredAllFeedUrls = [ feed for feed in allFeedUrls if feed["entries_count"]>=min_entries ] 
+def getFeeds(url, enableMetaTagSearch=True, visitedUrls=[], checkedFeedUrls=set(), checkedNonFeedUrls=set(), deepLevel=0, debug=False, downloadDebug=False, min_entries=3, use_db_cache=True):
+    session = Session()
+
+    if use_db_cache:
+        site_from_cache = session.query(Site).filter_by(url=url).first()
+
+    if use_db_cache and site_from_cache:
+        #print "From cache. Feed list"
+        allFeedUrls = [ {"url": feed.url, "title": feed.title, "entries_count": feed.num_entries} for feed in site_from_cache.feeds ]
+
+        filteredAllFeedUrls = [ feed for feed in allFeedUrls if feed["entries_count"]>=min_entries ] 
+
+    else:
+        allFeedUrls, returnedVisitedUrls, returnedCheckedNonFeedUrls = getFeedsAndNonFeeds(url, enableMetaTagSearch=True, visitedUrls=visitedUrls, checkedFeedUrls=checkedFeedUrls, checkedNonFeedUrls=checkedNonFeedUrls, deepLevel=0, debug=debug, downloadDebug=downloadDebug)
+        filteredAllFeedUrls = [ feed for feed in allFeedUrls if feed["entries_count"]>=min_entries ] 
+
+
+        if use_db_cache:
+            newSiteFeeds = [ get_or_create(session, Feed, url=feed['url'], title=feed['title'], num_entries=feed['entries_count']) for feed in allFeedUrls ]
+
+            newSite = Site(url=url, expire_date=datetime.now()) 
+            newSite.feeds[:] = newSiteFeeds
+        
+            session.add(newSite)    
+
+            session.commit()
+    
+    if use_db_cache:
+        Session.remove()
     return filteredAllFeedUrls
 
 
@@ -977,32 +1003,12 @@ def main(argv=None):
     if args.feeds:
         print "######## Feeds urls ########"
 
-        session = Session()
+        feeds = getFeeds(args.targetUrl, debug=args.debug)
 
-        site_from_cache = session.query(Site).filter_by(url=args.targetUrl).first()
-        print "site_from_cache", site_from_cache
+        print "Feed list"
+        for feed in feeds:
+            print feed['url']
 
-        if site_from_cache:
-            print "From cache. Feed list"
-            for feed in site_from_cache.feeds:
-                print feed.url
-        else:
-            feeds = getFeeds(args.targetUrl, debug=args.debug)
-
-            newSiteFeeds = [ get_or_create(session, Feed, url=feed['url'], title=feed['title'], num_entries=feed['entries_count']) for feed in feeds ]
-
-            newSite = Site(url=args.targetUrl, expire_date=datetime.now()) 
-            newSite.feeds[:] = newSiteFeeds
-        
-            session.add(newSite)    
-
-            print "Feed list"
-            for feed in feeds:
-                print feed['url']
-
-        session.commit()
-        
-        Session.remove()
 
     if args.feedLanguage:
         print "######## Feed language ########"
