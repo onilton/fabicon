@@ -486,9 +486,9 @@ def checkIfUrlsAreFeeds(urls):
 
 
 def getFeeds(url, enableMetaTagSearch=True, visitedUrls=[], checkedFeedUrls=set(), checkedNonFeedUrls=set(), deepLevel=0, debug=False, downloadDebug=False, min_entries=3, use_db_cache=True):
-    session = Session()
 
     if use_db_cache:
+        session = Session()
         site_from_cache = session.query(Site).filter_by(url=url).first()
 
     if use_db_cache and site_from_cache:
