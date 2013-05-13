@@ -125,14 +125,12 @@ def dbConfig():
 dbConfig()
 
 # http://stackoverflow.com/questions/2546207/does-sqlalchemy-have-an-equivalent-of-djangos-get-or-create
-def get_or_create(session, model, defaults=None, **kwargs):
+def get_or_create(session, model, **kwargs):
     instance = session.query(model).filter_by(**kwargs).first()
     if instance:
         return instance #, False
     else:
-        params = dict((k, v) for k, v in kwargs.iteritems() if not isinstance(v, ClauseElement))
-        params.update(defaults)
-        instance = model(**params)
+        instance = model(**kwargs)
         try:
             session.add(instance)
         except IntegrityError: 
