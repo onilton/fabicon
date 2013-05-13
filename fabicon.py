@@ -273,7 +273,7 @@ def getSoupParser(htmlSource):
     # Tuple to treat really bad html (crazy comments like <!- ->) (regular expression, replacement function)
     # Examples
     #	www.zupi.com.br has <!– fim da id logo –> --> it is not - it is –
-    myMassage = [(re.compile(r'<!-?([^->])'), lambda match: '<!-- ' + match.group(1) ),
+    myMassage = [(re.compile(r'<!-([^>-])'), lambda match: '<!-- ' + match.group(1) ),
                  (re.compile(r'([^!][^-])->'), lambda match: match.group(1) + ' -->' ),
                  (re.compile(r'([^!][^-])–>'), lambda match: match.group(1) + ' -->' ),
                  (re.compile(r'(.)––>'), lambda match: match.group(1) + ' -->' )
