@@ -69,8 +69,6 @@ class Site(Base):
     # many to many Site<->Feed
     feeds = relationship('Feed', secondary=site_feeds, backref='sites')
 
-    #feeds  = ManyToMany("Feed")
-    
     #def __repr__(self):
     #    return "<User('%s','%s', '%s')>" % (self.name, self.fullname, self.password)
     
@@ -88,8 +86,6 @@ class Feed(Base):
     num_entries = Column(Integer, default=0, nullable=False)
     kind = Column(String, nullable=False)
 
-    #sites  = ManyToMany("Site")
-    
     def __repr__(self):
         return "Feed: %s - %s (%d entries)" %  (self.title, self.url, self.num_entries)
 
