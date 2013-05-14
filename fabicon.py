@@ -32,7 +32,7 @@ socket.setdefaulttimeout(60)  # 1 minuto
 from multiprocessing import Process, Queue, current_process
 import multiprocessing
 
-from datetime import datetime
+from datetime import datetime, timedelta
 
 from sqlalchemy import create_engine, ForeignKey
 from sqlalchemy import Column, Date, Integer, String, DateTime
@@ -488,29 +488,27 @@ def getFeeds(url, enableMetaTagSearch=True, visitedUrls=[], checkedFeedUrls=set(
         session = Session()
         site_from_cache = session.query(Site).filter_by(url=url).first()
 
-    if use_db_cache and site_from_cache:
-        #print "From cache. Feed list"
+    if use_db_cache and site_from_cache and site_from_cache.expire_date > datetime.now():
+        print "From cache. Feed list"
         allFeedUrls = [ {"url": feed.url, "title": feed.title, "entries_count": feed.num_entries, "kind": feed.kind } for feed in site_from_cache.feeds ]
-
         filteredAllFeedUrls = [ feed for feed in allFeedUrls if feed["entries_count"]>=min_entries ] 
-
     else:
+        print "Site not exist or cache expired"
         allFeedUrls, returnedVisitedUrls, returnedCheckedNonFeedUrls = getFeedsAndNonFeeds(url, enableMetaTagSearch=True, visitedUrls=visitedUrls, checkedFeedUrls=checkedFeedUrls, checkedNonFeedUrls=checkedNonFeedUrls, deepLevel=0, debug=debug, downloadDebug=downloadDebug)
         filteredAllFeedUrls = [ feed for feed in allFeedUrls if feed["entries_count"]>=min_entries ] 
 
-
         if use_db_cache:
-            newSiteFeeds = [ get_or_create(session, Feed, url=feed['url'], title=feed['title'], num_entries=feed['entries_count'], kind=feed['kind']) for feed in allFeedUrls ]
+            siteFeeds = [ get_or_create(session, Feed, url=feed['url'], title=feed['title'], num_entries=feed['entries_count'], kind=feed['kind']) for feed in allFeedUrls ]
 
-            newSite = Site(url=url, expire_date=datetime.now()) 
-            newSite.feeds[:] = newSiteFeeds
-        
-            session.add(newSite)    
+            site = get_or_create(session, Site, url=url)
+            site.expire_date = datetime.now() + timedelta(weeks=1) 
+            site.feeds[:] = siteFeeds
 
             session.commit()
     
     if use_db_cache:
         Session.remove()
+
     return filteredAllFeedUrls
 
 
