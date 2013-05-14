@@ -902,7 +902,7 @@ def getCandidateTags(url, debug=False, staticHtml=""):
     print "Twitter Links:", len(allLinks)
     for tlink in allLinks:
         # print tlink['href']
-        tusername = re.sub(r'https?://(www\.)?twitter\.com/(\#\!/|intent/user\?region=following&screen_name=)?([A-Za-z0-9_-]+)/?.*', r'\3', tlink['href'])
+        tusername = re.sub(r'https?://(www\.)?twitter\.com/(\#\!/|intent/user\?region=following&screen_name=)?([@A-Za-z0-9_-]+)/?.*', r'\3', tlink['href'])
         # https://twitter.com/intent/user?region=following&screen_name=Kotaku&source=followbutton&variant=1.1
         tusername = tusername.lower()
         # print tusername
