@@ -15,6 +15,11 @@ import copy
 
 import feedparser
 
+# A lof of the parsing errors we get are in places that depend
+# on BeautifulSoup, which is used to parse microformats. Disabling them improves
+# performance and reduces errors. Ex: http://www.senildomelo.blogspot.com.br
+feedparser.PARSE_MICROFORMATS = 0
+
 import publicsuffix
 
 import argparse
