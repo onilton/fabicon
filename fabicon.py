@@ -592,7 +592,7 @@ def getFeedsAndNonFeeds(url, enableMetaTagSearch=True, visitedUrls=[], checkedFe
             if fixedUrl not in localVisitedUrls and fixedUrl not in localCheckedFeedUrls:
                 urlsToCheck.add(fixedUrl)
 
-    feedAnchorTags = soup.findAll('a', attrs={"href": re.compile(r'rss|feed|xml')})
+    feedAnchorTags = soup.findAll('a', attrs={"href": re.compile(r'rss|feed|xml', re.IGNORECASE)})
     # Now try to match from anchor content/text <a ref="">RSS</a>
     for anchorText in soup.findAll(lambda tag: tag.name == 'a' and re.findall(r"rss|feed|xml", tag.text, re.IGNORECASE)):
         # print "anchorText=",anchorText
