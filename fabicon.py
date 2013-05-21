@@ -487,18 +487,18 @@ def checkIfUrlsAreFeeds(urls):
     return (feedUrlsList, commonUrlsList)
 
 
-def getFeeds(url, enableMetaTagSearch=True, visitedUrls=[], checkedFeedUrls=set(), checkedNonFeedUrls=set(), deepLevel=0, debug=False, downloadDebug=False, min_entries=3, use_db_cache=True):
+def getFeeds(url, enableMetaTagSearch=True, visitedUrls=[], checkedFeedUrls=set(), checkedNonFeedUrls=set(), deepLevel=0, debug=False, downloadDebug=False, min_entries=3, use_db_cache=True, force_cache_update=False):
 
     if use_db_cache:
         session = Session()
         site_from_cache = session.query(Site).filter_by(url=url).first()
 
-    if use_db_cache and site_from_cache and site_from_cache.expire_date > datetime.now():
+    if use_db_cache and site_from_cache and site_from_cache.expire_date > datetime.now() and not force_cache_update:
         print "From cache. Feed list"
         allFeedUrls = [ {"url": feed.url, "title": feed.title, "entries_count": feed.num_entries, "kind": feed.kind } for feed in site_from_cache.feeds ]
         filteredAllFeedUrls = [ feed for feed in allFeedUrls if feed["entries_count"]>=min_entries ] 
     else:
-        print "Site not exist or cache expired"
+        print "Site not exist, cache expired or force_cache_update"
         allFeedUrls, returnedVisitedUrls, returnedCheckedNonFeedUrls = getFeedsAndNonFeeds(url, enableMetaTagSearch=True, visitedUrls=visitedUrls, checkedFeedUrls=checkedFeedUrls, checkedNonFeedUrls=checkedNonFeedUrls, deepLevel=0, debug=debug, downloadDebug=downloadDebug)
         filteredAllFeedUrls = [ feed for feed in allFeedUrls if feed["entries_count"]>=min_entries ] 
 
@@ -980,6 +980,8 @@ def main(argv=None):
                        help='shows the language for the feed URL provided')
     parser.add_argument('--debug', '-d', dest="debug", action='store_true',
                         help='enable debugging mode')
+    parser.add_argument('--force-cache-update', '-fu', dest="forceCacheUpdate", action='store_true',
+                        help='force cache update')
 
     args = parser.parse_args()
 
@@ -1003,7 +1005,7 @@ def main(argv=None):
     if args.feeds:
         print "######## Feeds urls ########"
 
-        feeds = getFeeds(args.targetUrl, debug=args.debug)
+        feeds = getFeeds(args.targetUrl, debug=args.debug, force_cache_update=args.forceCacheUpdate)
 
         print "Feed list"
         for feed in feeds:
