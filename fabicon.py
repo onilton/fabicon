@@ -554,6 +554,38 @@ def getFeedsAndNonFeeds(url, enableMetaTagSearch=True, visitedUrls=[], checkedFe
             print """[Level=%d] Ending crawl for url %s  (FinalUrl: %s)""" % (deepLevel, url, finalUrl)
         return feedUrls, localVisitedUrls, localCheckedNonFeedUrls #localVisitedUrls 
 
+
+    # Follow javascript on first page when htmlSource is too small. Even if it
+    # points to another domain.
+    if deepLevel == 1 and len(htmlSource) <= 2000:
+        if debug:
+            print "Looking for javascript redirects in :", finalUrl
+
+        jsScripts = soup.findAll(['script'])
+
+        if debug:
+            print "Scripts found in ", finalUrl, ":", len(jsScripts)
+            print "htmlSource size", len(htmlSource)
+
+        for jsScript in jsScripts:
+            redirectFound = re.search(r'location\.href=["\']http://', unicode(jsScript), flags=re.MULTILINE|re.DOTALL)
+            rawRedirectUrl = re.sub(r'^.*location\.href=["\'](https?://.+?)["\'].*$', r'\1', unicode(jsScript), flags=re.MULTILINE|re.DOTALL)
+            rawRedirectUrl = rawRedirectUrl.strip()
+            #print unicode(jsScript)
+            #print "rawRedirectUrl", rawRedirectUrl
+
+            if redirectFound and rawRedirectUrl :
+                redirectUrl = getAbsoluteUrl(rawRedirectUrl, finalUrl)
+                if redirectUrl not in localVisitedUrls:
+                    if debug:
+                        print "Going to redirect url:", redirectUrl
+                    otherFeedUrls, returnedVisitedUrls, returnedCheckedNonFeedUrls = getFeedsAndNonFeeds(redirectUrl, enableMetaTagSearch=True, visitedUrls=localVisitedUrls, checkedFeedUrls=localCheckedFeedUrls, checkedNonFeedUrls=localCheckedNonFeedUrls, deepLevel=(deepLevel-1), debug=debug)
+                    localVisitedUrls.append(redirectUrl)
+
+                    localCheckedNonFeedUrls = localCheckedNonFeedUrls.copy().union(returnedCheckedNonFeedUrls)
+
+                    feedUrls = feedUrls + otherFeedUrls
+
     # Follow (i)frames on first page when htmlSource is too small. Even if it
     # points to another domain, probably it's something like a redirect.
     # The risk of goint to another site/domain not related to original
