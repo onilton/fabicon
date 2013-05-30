@@ -130,11 +130,15 @@ dbConfig()
 def get_or_create(session, model, unique_fields = None, **kwargs):
     if unique_fields:
         params = dict((k, v) for k, v in kwargs.iteritems() if k in unique_fields)
+        params_to_update = dict((k, v) for k, v in kwargs.iteritems() if k not in unique_fields)
     else:
         params = kwargs
+        params_to_update = dict()
 
     instance = session.query(model).filter_by(**params).first()
     if instance:
+        for k,v in params_to_update.iteritems():
+            instance.__dict__[k] = v
         return instance #, False
     else:
         instance = model(**kwargs)
