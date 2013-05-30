@@ -508,7 +508,9 @@ def getFeeds(url, enableMetaTagSearch=True, visitedUrls=[], checkedFeedUrls=set(
         filteredAllFeedUrls = [ feed for feed in allFeedUrls if feed["entries_count"]>=min_entries ] 
 
         if use_db_cache:
-            siteFeeds = [ get_or_create(session, Feed, url=feed['url'], title=feed['title'], num_entries=feed['entries_count'], kind=feed['kind']) for feed in allFeedUrls ]
+            siteFeeds = [ get_or_create(session, Feed, ['url'], url=feed['url'], title=feed['title'], num_entries=feed['entries_count'], kind=feed['kind']) for feed in allFeedUrls ]
+            
+            
 
             site = get_or_create(session, Site, url=url)
             site.expire_date = datetime.now() + timedelta(weeks=1) 
