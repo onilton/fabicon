@@ -73,9 +73,6 @@ class Site(Base):
 
     # many to many Site<->Feed
     feeds = relationship('Feed', secondary=site_feeds, backref='sites')
-
-    #def __repr__(self):
-    #    return "<User('%s','%s', '%s')>" % (self.name, self.fullname, self.password)
     
     def __repr__(self):
         return "Site: "+self.url
@@ -806,20 +803,6 @@ def getFeedsAndNonFeeds(url, enableMetaTagSearch=True, visitedUrls=[], checkedFe
 
 
 def getCandidateTags(url, debug=False, staticHtml=""):
-    # reload(sys)
-    # sys.setdefaultencoding("utf-8")
-    # print "Download url..."
-    # page = urllib.urlopen(url))
-    # if debug:
-    #	print page.headers['content-type']
-    #	#print str(page)
-    #
-    # print "Downloaded!"
-    # htmlSource=page.read()
-    # Treat gzip encoding  http://www.diveintopython.net/http_web_services/gzip_compression.html
-    ## If data came back gzip-compressed, decompress it
-    # if page.headers.get('content-encoding', '') == 'gzip':
-    #    htmlSource = gzip.GzipFile(fileobj=StringIO(htmlSource)).read()
 
     if len(staticHtml) == 0:
         hops, page, htmlSource = getHopsAndSource(url)
