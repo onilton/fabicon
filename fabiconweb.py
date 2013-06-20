@@ -12,9 +12,9 @@ SimpleTemplate.defaults["get_url"] =  bottle.default_app().get_url
 # Add "templates" folder to template search path 
 bottle.TEMPLATE_PATH.insert(0,'./templates/')
 
-@route('/<filepath:path>', name='static_root' )
+@route('/static/<filepath:path>', name='static_root' )
 def server_static(filepath):
-    return static_file(filepath, root='.')
+    return static_file(filepath, root='./static/')
 
 @route('/',method='GET', name='index')
 def fabicon_demo():
