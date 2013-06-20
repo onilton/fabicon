@@ -9,6 +9,9 @@ from bottle import SimpleTemplate
 SimpleTemplate.defaults["get_url"] =  bottle.default_app().get_url
 #SimpleTemplate.defaults["base_url"] = "/favicon" 
 
+# Add "templates" folder to template search path 
+bottle.TEMPLATE_PATH.insert(0,'./templates/')
+
 @route('/<filepath:path>', name='static_root' )
 def server_static(filepath):
     return static_file(filepath, root='.')
