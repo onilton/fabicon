@@ -1,6 +1,0 @@
-#!/bin/bash
-maxsize=$(bash -c "`identify -format '[ %w -ge %h ] && echo %w || echo %h' $1`")
-
-echo $maxsize
-convert $1 -resize ${maxsize}x$maxsize -background white -gravity center -extent ${maxsize}x$maxsize thumb_$1
-
