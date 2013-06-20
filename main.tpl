@@ -12,7 +12,7 @@
     <![endif]-->
 
     <!-- Le styles -->
-    <link href="{{ get_url('static_root', filepath = 'bootstrap.css') }}" rel="stylesheet">
+    <link href="{{ get_url('static_root', filepath = 'css/bootstrap.css') }}" rel="stylesheet">
     <style type="text/css">
       body {
         padding-top: 60px;
