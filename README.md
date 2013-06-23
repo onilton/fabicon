@@ -5,7 +5,7 @@ Forget about those small ugly .ico files.
 
 ## Dependencies
 
-* [Beautiful Soup Search](http://www.crummy.com/software/BeautifulSoup/) -- `sudo apt-get install python-beautifulsoup`
+* [Beautiful Soup](http://www.crummy.com/software/BeautifulSoup/) -- `sudo apt-get install python-beautifulsoup`
 * [nose](https://nose.readthedocs.org/en/latest/) and [rednose](https://github.com/gfxmonk/rednose) (for testing) -- `sudo pip install nose rednose`
 
 ## Usage
