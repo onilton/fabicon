@@ -155,10 +155,13 @@ def getTwitterAvatar(twitterUsername, size):
 
 
 def getTwitterRealName(twitterUsername):
-    twitterRequest = urllib.urlopen("https://api.twitter.com/1/users/show.json?screen_name="+twitterUsername)
-    jdata = json.load(twitterRequest)
-    result = jdata["name"]
-    twitterRequest.close()
+    try:
+        twitterRequest = urllib.urlopen("https://api.twitter.com/1/users/show.json?screen_name="+twitterUsername)
+        jdata = json.load(twitterRequest)
+        result = jdata["name"]
+        twitterRequest.close()
+    except Exception as e:
+        result = u""
 
     return result
 
