@@ -12,6 +12,9 @@ SimpleTemplate.defaults["get_url"] =  bottle.default_app().get_url
 # Add "templates" folder to template search path 
 bottle.TEMPLATE_PATH.insert(0,'./templates/')
 
+def str2bool(v):
+  return v.lower() in ("yes", "true", "t", "1", "y")
+
 @route('/static/<filepath:path>', name='static_root' )
 def server_static(filepath):
     return static_file(filepath, root='./static/')
@@ -60,8 +63,9 @@ def json_request():
 @route('/feedsjson',method='GET', name="feedsjson")
 def feedjson_request():
     url = request.GET.get('url', '').strip() 
+    force_cache_update = str2bool(request.GET.get('force_cache_update', '').strip())
     if url!="":
-	    feedUrls=fabicon.getFeeds(url)
+	    feedUrls=fabicon.getFeeds(url, force_cache_update=force_cache_update)
 	    output = json.dumps({ "url" : url, "feedUrls" : feedUrls}, sort_keys=True, indent=4)
 
     return output
