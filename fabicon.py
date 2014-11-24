@@ -64,7 +64,7 @@ site_feeds = Table('site_feeds', Base.metadata,
 
 class Site(Base):
     """
-    Just a site 
+    Just a site
     """
     __tablename__ = 'sites'
     id = Column(Integer, primary_key=True)
@@ -73,7 +73,7 @@ class Site(Base):
 
     # many to many Site<->Feed
     feeds = relationship('Feed', secondary=site_feeds, backref='sites')
-    
+
     def __repr__(self):
         return "Site: "+self.url
 
@@ -112,14 +112,14 @@ def dbConfig():
     #engine = create_engine("sqlite:///%s" % dbfile )
 
     if not os.path.exists(dbfile):
-        Base.metadata.create_all(engine) 
+        Base.metadata.create_all(engine)
 
-    # Session is thread-local: Returns the same object in the same thread, 
+    # Session is thread-local: Returns the same object in the same thread,
     # returns new object when used in a new thread
     session_factory = sessionmaker(bind=engine)
-    global Session 
-    Session = scoped_session(session_factory) 
-        
+    global Session
+    Session = scoped_session(session_factory)
+
 
 dbConfig()
 
@@ -141,7 +141,7 @@ def get_or_create(session, model, unique_fields = None, **kwargs):
         instance = model(**kwargs)
         try:
             session.add(instance)
-        except IntegrityError: 
+        except IntegrityError:
             instance = session.query(model).filter_by(**params).first()
         return instance #, False
 
@@ -530,23 +530,23 @@ def getFeeds(url, enableMetaTagSearch=True, visitedUrls=[], checkedFeedUrls=set(
     if use_db_cache and site_from_cache and site_from_cache.expire_date > datetime.now() and not force_cache_update:
         print "From cache. Feed list"
         allFeedUrls = [ {"url": feed.url, "title": feed.title, "entries_count": feed.num_entries, "kind": feed.kind } for feed in site_from_cache.feeds ]
-        filteredAllFeedUrls = [ feed for feed in allFeedUrls if feed["entries_count"]>=min_entries ] 
+        filteredAllFeedUrls = [ feed for feed in allFeedUrls if feed["entries_count"]>=min_entries ]
     else:
         print "Site not exist, cache expired or force_cache_update"
         allFeedUrls, returnedVisitedUrls, returnedCheckedNonFeedUrls = getFeedsAndNonFeeds(url, enableMetaTagSearch=True, visitedUrls=visitedUrls, checkedFeedUrls=checkedFeedUrls, checkedNonFeedUrls=checkedNonFeedUrls, deepLevel=0, debug=debug, downloadDebug=downloadDebug)
-        filteredAllFeedUrls = [ feed for feed in allFeedUrls if feed["entries_count"]>=min_entries ] 
+        filteredAllFeedUrls = [ feed for feed in allFeedUrls if feed["entries_count"]>=min_entries ]
 
         if use_db_cache:
             siteFeeds = [ get_or_create(session, Feed, ['url'], url=feed['url'], title=feed['title'], num_entries=feed['entries_count'], kind=feed['kind']) for feed in allFeedUrls ]
-            
-            
+
+
 
             site = get_or_create(session, Site, url=url)
-            site.expire_date = datetime.now() + timedelta(weeks=1) 
+            site.expire_date = datetime.now() + timedelta(weeks=1)
             site.feeds[:] = siteFeeds
 
             session.commit()
-    
+
     if use_db_cache:
         Session.remove()
 
@@ -588,7 +588,7 @@ def getFeedsAndNonFeeds(url, enableMetaTagSearch=True, visitedUrls=[], checkedFe
     if deepLevel > 2:
         if debug:
             print """[Level=%d] Ending crawl for url %s  (FinalUrl: %s)""" % (deepLevel, url, finalUrl)
-        return feedUrls, localVisitedUrls, localCheckedNonFeedUrls #localVisitedUrls 
+        return feedUrls, localVisitedUrls, localCheckedNonFeedUrls #localVisitedUrls
 
 
     # Follow javascript on first page when htmlSource is too small. Even if it
@@ -673,7 +673,7 @@ def getFeedsAndNonFeeds(url, enableMetaTagSearch=True, visitedUrls=[], checkedFe
 
     feedAnchorPossibleFeedUrls = set()
     alreadyCheckedCommonUrls = set()
-    
+
     for feedAnchorTag in feedAnchorTags:
         if 'href' in dict(feedAnchorTag.attrs):
             # print "going to check", feedAnchorTag['href']
@@ -690,7 +690,7 @@ def getFeedsAndNonFeeds(url, enableMetaTagSearch=True, visitedUrls=[], checkedFe
         print """[Level=%d] Possible feed urls from anchors for url %s  FinalUrl: %s""" % (deepLevel, url, finalUrl)
     for possibleFeedUrl in feedAnchorPossibleFeedUrls:
             if debug:
-                print ("\t"+possibleFeedUrl) 
+                print ("\t"+possibleFeedUrl)
 
     # If we are in the first level of the crawl,
     # Adds common urls that gives rss
@@ -734,7 +734,7 @@ def getFeedsAndNonFeeds(url, enableMetaTagSearch=True, visitedUrls=[], checkedFe
             print "Frequent feed urls patterns that will be checked"
         for frequentFeedUrl in frequentFeedUrlsSet:
             if debug:
-                print ("\t"+frequentFeedUrl) 
+                print ("\t"+frequentFeedUrl)
             if frequentFeedUrl not in localVisitedUrls and frequentFeedUrl not in localCheckedFeedUrls:
                 urlsToCheck.add(frequentFeedUrl)
 
@@ -749,7 +749,7 @@ def getFeedsAndNonFeeds(url, enableMetaTagSearch=True, visitedUrls=[], checkedFe
 
     listOfFeedUrls = [ feed.get("url","") for feed in feedUrls ]
     listOfOriginalFeedUrls = [ feed.get("url_original","") for feed in feedUrls ]
-    
+
     localCheckedFeedUrls = localCheckedFeedUrls.copy().union(set(listOfFeedUrls))
     localCheckedFeedUrls = localCheckedFeedUrls.union(set(listOfOriginalFeedUrls))
 
@@ -757,7 +757,7 @@ def getFeedsAndNonFeeds(url, enableMetaTagSearch=True, visitedUrls=[], checkedFe
     localCheckedNonFeedUrls = localCheckedNonFeedUrls.copy().union(set(commonUrls[:]))
 
     print """[Level=%d] Urls não conhecidas que não são feeds encontradas para url %s : %d""" % (deepLevel, finalUrl, len(commonUrls))
-    #Merge commonUrls with urls already checked previously 
+    #Merge commonUrls with urls already checked previously
     commonUrls = commonUrls[:] + list(alreadyCheckedCommonUrls)
     print """[Level=%d] Total urls que não são feeds encontradas para url %s : %d""" % (deepLevel, finalUrl, len(commonUrls))
 
@@ -776,7 +776,7 @@ def getFeedsAndNonFeeds(url, enableMetaTagSearch=True, visitedUrls=[], checkedFe
                         if (isSameRootDomain(url, commonUrl) or isSameRootDomain(finalUrl, commonUrl)):
                             if debug:
                                 print "Searching for more in url:", commonUrl
-                            
+
                             #No reason to crawl those since they will be already crawled in next loop iteration
                             commonUrlsSetWithoutCurrent = set(commonUrls)
                             commonUrlsSetWithoutCurrent.remove(commonUrl)
@@ -791,7 +791,7 @@ def getFeedsAndNonFeeds(url, enableMetaTagSearch=True, visitedUrls=[], checkedFe
 
                             listOfFeedUrls = [ feed.get("url","") for feed in feedUrls ]
                             listOfOriginalFeedUrls = [ feed.get("url_original","") for feed in feedUrls ]
-                            
+
                             localCheckedFeedUrls = localCheckedFeedUrls.copy().union(set(listOfFeedUrls))
                             localCheckedFeedUrls = localCheckedFeedUrls.union(set(listOfOriginalFeedUrls))
                         else:
