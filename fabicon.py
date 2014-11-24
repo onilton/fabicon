@@ -8,7 +8,7 @@ import sys
 import re
 import difflib
 import gzip
-import json
+from twython import Twython
 from StringIO import StringIO
 
 import copy
@@ -145,21 +145,46 @@ def get_or_create(session, model, unique_fields = None, **kwargs):
             instance = session.query(model).filter_by(**params).first()
         return instance #, False
 
+twitter = None
+APP_KEY = '???'
+APP_SECRET = '????'
 
-def getTwitterAvatar(twitterUsername, size):
-    timagelink = urllib.urlopen("https://api.twitter.com/1/users/profile_image?screen_name="+twitterUsername+"&size="+size)
-    result = {"url": timagelink.geturl(), "kind": "twitter"}
-    timagelink.close()
+
+def configureTwitter():
+    global twitter
+    global APP_KEY
+    global APP_SECRET
+
+    twitter = Twython(APP_KEY, APP_SECRET, oauth_version=2)
+    ACCESS_TOKEN = twitter.obtain_access_token()
+    twitter = Twython(APP_KEY, access_token=ACCESS_TOKEN)
+
+
+configureTwitter()
+
+
+def getTwitterAvatar(twitterUsername, size='bigger'):
+    user = twitter.show_user(screen_name=twitterUsername)
+
+    avatar_url = user["profile_image_url"]
+    base_avatar_url = re.sub(r'_[^_]+\.([^.]+)$', r'', avatar_url)
+    base_avatar_ext = re.sub(r'.*_[^_]+\.([^.]+)$', r'\1', avatar_url)
+
+    if (size == 'original'):
+        sufix = "." + base_avatar_ext
+    else:
+        sufix = "_" + size + "." + base_avatar_ext
+
+    final_avatar_url = base_avatar_url + sufix
+    result = {"url": final_avatar_url, "kind": "twitter"}
 
     return result
 
 
 def getTwitterRealName(twitterUsername):
     try:
-        twitterRequest = urllib.urlopen("https://api.twitter.com/1/users/show.json?screen_name="+twitterUsername)
-        jdata = json.load(twitterRequest)
-        result = jdata["name"]
-        twitterRequest.close()
+        user = twitter.show_user(screen_name=twitterUsername)
+        result = user["name"]
     except Exception as e:
         result = u""
 
@@ -963,17 +988,8 @@ def getCandidateTags(url, debug=False, staticHtml=""):
             print "Domainname:", domainName, "("+cleanDomainName+")", "TwitterRealName:", tRealName.encode("utf-8"), "("+cleanTwtRealName.encode("utf-8")+")", "Similarity:", txtsimil
 
         if (tusername != "share" and txtsimil > 0.6):
-            # timagelink = urllib.urlopen("https://api.twitter.com/1/users/profile_image?screen_name="+tusername+"&size=original")
-            # candidateTags.append({"url" : timagelink.geturl(), "kind" : "twitter"})
-            # print str(timagelink.geturl())
-            # timagelink.close()
-            candidateTags.append({"url": "https://api.twitter.com/1/users/profile_image?screen_name="+tusername+"&size=original", "kind": "twitter"})
-
-            # timagelink = urllib.urlopen("https://api.twitter.com/1/users/profile_image?screen_name="+tusername+"&size=bigger")
-            # candidateTags.append({"url" : timagelink.geturl(), "kind" : "twitter"})
-            # print str(timagelink.geturl())
-            # timagelink.close()
-            candidateTags.append({"url": "https://api.twitter.com/1/users/profile_image?screen_name="+tusername+"&size=bigger", "kind": "twitter"})
+            candidateTags.append(getTwitterAvatar(tusername, 'original'))
+            candidateTags.append(getTwitterAvatar(tusername, 'bigger'))
         print
 
     print "Twitter icons downloaded!"
