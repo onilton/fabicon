@@ -51,15 +51,13 @@ from sqlalchemy import Table, Text
 import os
 
 
-
 Base = declarative_base()
 
 
 # association table
 site_feeds = Table('site_feeds', Base.metadata,
-    Column('site_id', Integer, ForeignKey('sites.id'), index=True),
-    Column('feed_id', Integer, ForeignKey('feeds.id'), index=True)
-)
+                   Column('site_id', Integer, ForeignKey('sites.id'), index=True),
+                   Column('feed_id', Integer, ForeignKey('feeds.id'), index=True))
 
 
 class Site(Base):
@@ -69,13 +67,14 @@ class Site(Base):
     __tablename__ = 'sites'
     id = Column(Integer, primary_key=True)
     url = Column(String, nullable=False, unique=True, index=True)
-    expire_date = Column(DateTime,default=datetime.now(),nullable=False) #
+    expire_date = Column(DateTime, default=datetime.now(), nullable=False)  #
 
     # many to many Site<->Feed
     feeds = relationship('Feed', secondary=site_feeds, backref='sites')
 
     def __repr__(self):
         return "Site: "+self.url
+
 
 class Feed(Base):
     """
@@ -89,9 +88,7 @@ class Feed(Base):
     kind = Column(String, nullable=False)
 
     def __repr__(self):
-        return "Feed: %s - %s (%d entries)" %  (self.title, self.url, self.num_entries)
-
-
+        return "Feed: %s - %s (%d entries)" % (self.title, self.url, self.num_entries)
 
 
 def dbConfig():
@@ -102,8 +99,8 @@ def dbConfig():
     script_dir = os.path.dirname(script_full_path)
     print(script_dir)
 
-    dbdir=os.path.join(script_dir,".fabicon-data")
-    dbfile=os.path.join(dbdir,"fabicon_data.sqlite")
+    dbdir = os.path.join(script_dir, ".fabicon-data")
+    dbfile = os.path.join(dbdir, "fabicon_data.sqlite")
 
     if not os.path.isdir(dbdir):
         os.mkdir(dbdir)
@@ -124,7 +121,7 @@ def dbConfig():
 dbConfig()
 
 # http://stackoverflow.com/questions/2546207/does-sqlalchemy-have-an-equivalent-of-djangos-get-or-create
-def get_or_create(session, model, unique_fields = None, **kwargs):
+def get_or_create(session, model, unique_fields=None, **kwargs):
     if unique_fields:
         params = dict((k, v) for k, v in kwargs.iteritems() if k in unique_fields)
         params_to_update = dict((k, v) for k, v in kwargs.iteritems() if k not in unique_fields)
@@ -134,16 +131,16 @@ def get_or_create(session, model, unique_fields = None, **kwargs):
 
     instance = session.query(model).filter_by(**params).first()
     if instance:
-        for k,v in params_to_update.iteritems():
+        for k, v in params_to_update.iteritems():
             instance.__dict__[k] = v
-        return instance #, False
+        return instance  # , False
     else:
         instance = model(**kwargs)
         try:
             session.add(instance)
         except IntegrityError:
             instance = session.query(model).filter_by(**params).first()
-        return instance #, False
+        return instance  # , False
 
 twitter = None
 APP_KEY = '???'
@@ -217,7 +214,8 @@ def cleanJunk(username):
     translation_map = dict((ord(char), None) for char in excludedChars)
     username = username.translate(translation_map)
 
-    # remove frequent diff keywords like ['jornal','site','revista','portal'] maybe reduce precision by doing that
+    # remove frequent diff keywords like ['jornal','site','revista','portal']
+    # and maybe reduce precision by doing that
     excludedWords = ['jornal', 'site', 'revista', 'portal', 'newspaper', 'online', 'magazine']
     for excludedWord in excludedWords:
         username = username.replace(excludedWord, '')
@@ -353,10 +351,10 @@ def getSoupParser(htmlSource):
     # Tuple to treat really bad html (crazy comments like <!- ->) (regular expression, replacement function)
     # Examples
     #	www.zupi.com.br has <!– fim da id logo –> --> it is not - it is –
-    myMassage = [(re.compile(r'<!-([^>-])'), lambda match: '<!-- ' + match.group(1) ),
-                 (re.compile(r'([^!][^-])->'), lambda match: match.group(1) + ' -->' ),
-                 (re.compile(r'([^!][^-])–>'), lambda match: match.group(1) + ' -->' ),
-                 (re.compile(r'(.)––>'), lambda match: match.group(1) + ' -->' )
+    myMassage = [(re.compile(r'<!-([^>-])'), lambda match: '<!-- ' + match.group(1)),
+                 (re.compile(r'([^!][^-])->'), lambda match: match.group(1) + ' -->'),
+                 (re.compile(r'([^!][^-])–>'), lambda match: match.group(1) + ' -->'),
+                 (re.compile(r'(.)––>'), lambda match: match.group(1) + ' -->')
                  ]
 
     # Dealing with crazy html and comments as in
@@ -494,7 +492,8 @@ def checkIfUrlsAreFeeds(urls):
 
     feedUrlsList = []
     commonUrlsList = []
-    # Need because of "bug" http://bugs.python.org/issue8426 workarounded in http://stackoverflow.com/a/11855207/1706351
+    # Need because of "bug" http://bugs.python.org/issue8426
+    # workarounded in http://stackoverflow.com/a/11855207/1706351
     import time
     n = 1
     while any([proc.is_alive() for proc in processes]):
@@ -529,17 +528,15 @@ def getFeeds(url, enableMetaTagSearch=True, visitedUrls=[], checkedFeedUrls=set(
 
     if use_db_cache and site_from_cache and site_from_cache.expire_date > datetime.now() and not force_cache_update:
         print "From cache. Feed list"
-        allFeedUrls = [ {"url": feed.url, "title": feed.title, "entries_count": feed.num_entries, "kind": feed.kind } for feed in site_from_cache.feeds ]
-        filteredAllFeedUrls = [ feed for feed in allFeedUrls if feed["entries_count"]>=min_entries ]
+        allFeedUrls = [{"url": feed.url, "title": feed.title, "entries_count": feed.num_entries, "kind": feed.kind} for feed in site_from_cache.feeds]
+        filteredAllFeedUrls = [feed for feed in allFeedUrls if feed["entries_count"] >= min_entries]
     else:
         print "Site not exist, cache expired or force_cache_update"
         allFeedUrls, returnedVisitedUrls, returnedCheckedNonFeedUrls = getFeedsAndNonFeeds(url, enableMetaTagSearch=True, visitedUrls=visitedUrls, checkedFeedUrls=checkedFeedUrls, checkedNonFeedUrls=checkedNonFeedUrls, deepLevel=0, debug=debug, downloadDebug=downloadDebug)
-        filteredAllFeedUrls = [ feed for feed in allFeedUrls if feed["entries_count"]>=min_entries ]
+        filteredAllFeedUrls = [feed for feed in allFeedUrls if feed["entries_count"] >= min_entries]
 
         if use_db_cache:
-            siteFeeds = [ get_or_create(session, Feed, ['url'], url=feed['url'], title=feed['title'], num_entries=feed['entries_count'], kind=feed['kind']) for feed in allFeedUrls ]
-
-
+            siteFeeds = [get_or_create(session, Feed, ['url'], url=feed['url'], title=feed['title'], num_entries=feed['entries_count'], kind=feed['kind']) for feed in allFeedUrls]
 
             site = get_or_create(session, Site, url=url)
             site.expire_date = datetime.now() + timedelta(weeks=1)
@@ -588,8 +585,7 @@ def getFeedsAndNonFeeds(url, enableMetaTagSearch=True, visitedUrls=[], checkedFe
     if deepLevel > 2:
         if debug:
             print """[Level=%d] Ending crawl for url %s  (FinalUrl: %s)""" % (deepLevel, url, finalUrl)
-        return feedUrls, localVisitedUrls, localCheckedNonFeedUrls #localVisitedUrls
-
+        return feedUrls, localVisitedUrls, localCheckedNonFeedUrls  # localVisitedUrls
 
     # Follow javascript on first page when htmlSource is too small. Even if it
     # points to another domain.
@@ -610,7 +606,7 @@ def getFeedsAndNonFeeds(url, enableMetaTagSearch=True, visitedUrls=[], checkedFe
             #print unicode(jsScript)
             #print "rawRedirectUrl", rawRedirectUrl
 
-            if redirectFound and rawRedirectUrl :
+            if redirectFound and rawRedirectUrl:
                 redirectUrl = getAbsoluteUrl(rawRedirectUrl, finalUrl)
                 if redirectUrl not in localVisitedUrls:
                     if debug:
@@ -667,9 +663,9 @@ def getFeedsAndNonFeeds(url, enableMetaTagSearch=True, visitedUrls=[], checkedFe
         feedAnchorTags.append(anchorText)
 
     # Trying to get anchors that are inside divs (or spans) that have a class attribute that matches "rss"
-    feedBlockTags = soup.findAll(lambda tag: tag.name in ['div','span'] and re.findall(r"(^|[^\w])(rss|feeds?|xml)([^\w]|$)", tag.get('class',''), re.IGNORECASE))
-    for feedBlockTag in feedBlockTags :
-        feedAnchorTags += feedBlockTag.findAll(lambda tag: tag.name == 'a' and not re.findall(r"^#?$", tag.get('href',''), re.IGNORECASE))
+    feedBlockTags = soup.findAll(lambda tag: tag.name in ['div', 'span'] and re.findall(r"(^|[^\w])(rss|feeds?|xml)([^\w]|$)", tag.get('class', ''), re.IGNORECASE))
+    for feedBlockTag in feedBlockTags:
+        feedAnchorTags += feedBlockTag.findAll(lambda tag: tag.name == 'a' and not re.findall(r"^#?$", tag.get('href', ''), re.IGNORECASE))
 
     feedAnchorPossibleFeedUrls = set()
     alreadyCheckedCommonUrls = set()
@@ -678,12 +674,12 @@ def getFeedsAndNonFeeds(url, enableMetaTagSearch=True, visitedUrls=[], checkedFe
         if 'href' in dict(feedAnchorTag.attrs):
             # print "going to check", feedAnchorTag['href']
             fixedUrl = getAbsoluteUrl(feedAnchorTag['href'], finalUrl)
-            fixedUrl = re.sub(r'^.*http://add\.my\.yahoo\.com/rss\?url=(https?)(%3A|:)//',r'\1://', fixedUrl)
+            fixedUrl = re.sub(r'^.*http://add\.my\.yahoo\.com/rss\?url=(https?)(%3A|:)//', r'\1://', fixedUrl)
             # print "going to check candidate feed", fixedUrl
-            if fixedUrl not in localVisitedUrls and fixedUrl not in localCheckedFeedUrls and fixedUrl not in localCheckedNonFeedUrls :
+            if fixedUrl not in localVisitedUrls and fixedUrl not in localCheckedFeedUrls and fixedUrl not in localCheckedNonFeedUrls:
                 urlsToCheck.add(fixedUrl)
                 feedAnchorPossibleFeedUrls.add(fixedUrl)
-            if fixedUrl not in localVisitedUrls and fixedUrl in localCheckedNonFeedUrls :
+            if fixedUrl not in localVisitedUrls and fixedUrl in localCheckedNonFeedUrls:
                 alreadyCheckedCommonUrls.add(fixedUrl)
 
     if debug:
@@ -744,15 +740,13 @@ def getFeedsAndNonFeeds(url, enableMetaTagSearch=True, visitedUrls=[], checkedFe
 
     print """[Level=%d] Feeds encontrados para para url %s (%s) : %d""" % (deepLevel, url, finalUrl, len(checkedFeedUrls))
 
-
     feedUrls = feedUrls[:] + checkedFeedUrls[:]
 
-    listOfFeedUrls = [ feed.get("url","") for feed in feedUrls ]
-    listOfOriginalFeedUrls = [ feed.get("url_original","") for feed in feedUrls ]
+    listOfFeedUrls = [feed.get("url", "") for feed in feedUrls]
+    listOfOriginalFeedUrls = [feed.get("url_original", "") for feed in feedUrls]
 
     localCheckedFeedUrls = localCheckedFeedUrls.copy().union(set(listOfFeedUrls))
     localCheckedFeedUrls = localCheckedFeedUrls.union(set(listOfOriginalFeedUrls))
-
 
     localCheckedNonFeedUrls = localCheckedNonFeedUrls.copy().union(set(commonUrls[:]))
 
@@ -789,8 +783,8 @@ def getFeedsAndNonFeeds(url, enableMetaTagSearch=True, visitedUrls=[], checkedFe
 
                             feedUrls = feedUrls + otherFeedUrls[:]
 
-                            listOfFeedUrls = [ feed.get("url","") for feed in feedUrls ]
-                            listOfOriginalFeedUrls = [ feed.get("url_original","") for feed in feedUrls ]
+                            listOfFeedUrls = [feed.get("url", "") for feed in feedUrls]
+                            listOfOriginalFeedUrls = [feed.get("url_original", "") for feed in feedUrls]
 
                             localCheckedFeedUrls = localCheckedFeedUrls.copy().union(set(listOfFeedUrls))
                             localCheckedFeedUrls = localCheckedFeedUrls.union(set(listOfOriginalFeedUrls))
@@ -1055,7 +1049,6 @@ def main(argv=None):
         print "Feed list"
         for feed in feeds:
             print feed['url']
-
 
     if args.feedLanguage:
         print "######## Feed language ########"
