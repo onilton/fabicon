@@ -189,7 +189,7 @@ def getTwitterRealName(twitterUsername):
     try:
         user = twitter.get_user(screen_name=twitterUsername)
         result = user.name
-    except Exception as e:
+    except Exception:
         result = u""
 
     return result
