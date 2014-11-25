@@ -142,7 +142,7 @@
 	<p><button class="btn primary large" type="submit" >Get it!</button></p>
 	</form>
 	
-	<div id='loadingDiv' style='display:none'><h4 ><img style="vertical-align:middle" src='img/spinner48.gif' /> <em>Loading...</em></h4></div>
+	<div id='loadingDiv' style='display:none'><h4 ><img style="vertical-align:middle" src='{{ get_url('static_root', filepath = 'img/spinner48.gif') }}' /> <em>Loading...</em></h4></div>
 	<div id='mainp'>
 	<div class='loader' style='display:none'>Loading...<!--<img src='spin.gif'>--></div>
 	
