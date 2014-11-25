@@ -11,6 +11,7 @@ import gzip
 import tweepy
 from tweepy import AppAuthHandler
 from StringIO import StringIO
+from ConfigParser import SafeConfigParser
 
 import copy
 
@@ -121,6 +122,7 @@ def dbConfig():
 
 dbConfig()
 
+
 # http://stackoverflow.com/questions/2546207/does-sqlalchemy-have-an-equivalent-of-djangos-get-or-create
 def get_or_create(session, model, unique_fields=None, **kwargs):
     if unique_fields:
@@ -143,17 +145,22 @@ def get_or_create(session, model, unique_fields=None, **kwargs):
             instance = session.query(model).filter_by(**params).first()
         return instance  # , False
 
-twitter = None
-#APP_KEY = '???'
-#APP_SECRET = '????'
 
+def getConfig():
+    config = SafeConfigParser()
+    config.read('config.txt')
+    return dict(config.items('fabicon'))
+
+twitter = None
 
 def configureTwitter():
     global twitter
-    global APP_KEY
-    global APP_SECRET
 
-    auth = AppAuthHandler(APP_KEY, APP_SECRET)
+    config = getConfig()
+    CONSUMER_KEY = config['twitter_consumer_key']
+    CONSUMER_SECRET = config['twitter_consumer_secret']
+
+    auth = AppAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
     twitter = tweepy.API(auth)
 
 
