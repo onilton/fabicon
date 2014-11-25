@@ -6,7 +6,8 @@ Forget about those small ugly .ico files.
 ## Dependencies
 
 * [Beautiful Soup](http://www.crummy.com/software/BeautifulSoup/) -- `sudo apt-get install python-beautifulsoup`
-* [nose](https://nose.readthedocs.org/en/latest/) and [rednose](https://github.com/gfxmonk/rednose) (for testing) -- `sudo pip install nose rednose`
+* [tweepy](https://github.com/tweepy/tweepy) -- `sudo pip install tweepy`
+* [nose](https://nose.readthedocs.org/en/latest/), [rednose](https://github.com/gfxmonk/rednose) (for testing) -- `sudo pip install nose rednose`
 
 ## Usage
 ### Basic usage 
