@@ -46,7 +46,7 @@ from sqlalchemy import Column, Date, Integer, String, DateTime
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import relationship, backref
 from sqlalchemy.orm import sessionmaker, scoped_session
-
+from sqlalchemy.exc import IntegrityError
 from sqlalchemy import Table, Text
 
 
