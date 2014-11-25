@@ -1,0 +1,3 @@
+[fabicon]
+twitter_consumer_key = YOUR_CONSUMER_KEY_HERE
+twitter_consumer_secret = YOUR_CONSUMER_SECRET_HERE
