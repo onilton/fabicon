@@ -8,7 +8,8 @@ import sys
 import re
 import difflib
 import gzip
-from twython import Twython
+import tweepy
+from tweepy import AppAuthHandler
 from StringIO import StringIO
 
 import copy
@@ -143,8 +144,8 @@ def get_or_create(session, model, unique_fields=None, **kwargs):
         return instance  # , False
 
 twitter = None
-APP_KEY = '???'
-APP_SECRET = '????'
+#APP_KEY = '???'
+#APP_SECRET = '????'
 
 
 def configureTwitter():
@@ -152,18 +153,17 @@ def configureTwitter():
     global APP_KEY
     global APP_SECRET
 
-    twitter = Twython(APP_KEY, APP_SECRET, oauth_version=2)
-    ACCESS_TOKEN = twitter.obtain_access_token()
-    twitter = Twython(APP_KEY, access_token=ACCESS_TOKEN)
+    auth = AppAuthHandler(APP_KEY, APP_SECRET)
+    twitter = tweepy.API(auth)
 
 
 configureTwitter()
 
 
 def getTwitterAvatar(twitterUsername, size='bigger'):
-    user = twitter.show_user(screen_name=twitterUsername)
+    user = twitter.get_user(screen_name=twitterUsername)
 
-    avatar_url = user["profile_image_url"]
+    avatar_url = user.profile_image_url
     base_avatar_url = re.sub(r'_[^_]+\.([^.]+)$', r'', avatar_url)
     base_avatar_ext = re.sub(r'.*_[^_]+\.([^.]+)$', r'\1', avatar_url)
 
@@ -180,8 +180,8 @@ def getTwitterAvatar(twitterUsername, size='bigger'):
 
 def getTwitterRealName(twitterUsername):
     try:
-        user = twitter.show_user(screen_name=twitterUsername)
-        result = user["name"]
+        user = twitter.get_user(screen_name=twitterUsername)
+        result = user.name
     except Exception as e:
         result = u""
 
