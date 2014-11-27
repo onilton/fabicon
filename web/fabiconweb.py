@@ -5,11 +5,11 @@ from bottle import debug, response
 import fabicon
 import json
 
-from bottle import SimpleTemplate 
+from bottle import SimpleTemplate
 SimpleTemplate.defaults["get_url"] =  bottle.default_app().get_url
-#SimpleTemplate.defaults["base_url"] = "/favicon" 
+#SimpleTemplate.defaults["base_url"] = "/favicon"
 
-# Add "templates" folder to template search path 
+# Add "templates" folder to template search path
 bottle.TEMPLATE_PATH.insert(0,'./templates/')
 
 def str2bool(v):
@@ -21,7 +21,7 @@ def server_static(filepath):
 
 @route('/',method='GET', name='index')
 def fabicon_demo():
-    url = request.GET.get('url', '').strip() 
+    url = request.GET.get('url', '').strip()
 
     print "Site name",fabicon.getName(url)
 
@@ -42,27 +42,27 @@ def fabicon_demo():
 
 @route('/icons',method='GET', name="icons")
 def simple_request():
-    url = request.GET.get('url', '').strip() 
+    url = request.GET.get('url', '').strip()
     if url!="":
 	    candidateTags=fabicon.getCandidateTags(url)
 	    output = template('icons', { "candidateTags" : candidateTags, "url" : url})
-    
+
     return output
 
 
 @route('/json',method='GET', name="json")
 def json_request():
-    url = request.GET.get('url', '').strip() 
+    url = request.GET.get('url', '').strip()
     if url!="":
 	    candidateTags=fabicon.getCandidateTags(url)
 	    output = json.dumps({ "url" : url, "candidateTags" : candidateTags}, sort_keys=True, indent=4)
-    
+
     return output
 
 
 @route('/feedsjson',method='GET', name="feedsjson")
 def feedjson_request():
-    url = request.GET.get('url', '').strip() 
+    url = request.GET.get('url', '').strip()
     force_cache_update = str2bool(request.GET.get('force_cache_update', '').strip())
     if url!="":
 	    feedUrls=fabicon.getFeeds(url, force_cache_update=force_cache_update)
@@ -72,7 +72,7 @@ def feedjson_request():
 
 @route('/fbpagesjson',method='GET', name="fbpagesjson")
 def fbpagesjson_request():
-    url = request.GET.get('url', '').strip() 
+    url = request.GET.get('url', '').strip()
     if url!="":
 	    facebookPages=fabicon.getFacebookPages(url)
 	    output = json.dumps({ "url" : url, "facebookPages" : facebookPages}, sort_keys=True, indent=4)

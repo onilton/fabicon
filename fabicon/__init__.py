@@ -148,7 +148,11 @@ def get_or_create(session, model, unique_fields=None, **kwargs):
 
 def getConfig():
     config = SafeConfigParser()
-    config.read('config.txt')
+
+    script_full_path = os.path.realpath(__file__)
+    script_dir = os.path.dirname(script_full_path)
+    config.read(script_dir + '/../config.txt')
+
     return dict(config.items('fabicon'))
 
 twitter = None

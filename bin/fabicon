@@ -1,0 +1,16 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
+import os
+import sys
+
+# Add fabicon lib path to sys.path
+sys.path = [os.path.dirname(os.path.realpath(__file__)) + '/../'] + sys.path
+
+# Change working directory so relative paths work again
+os.chdir(os.path.dirname(os.path.realpath(__file__)))
+
+import fabicon
+
+if __name__ == "__main__":
+    sys.exit(fabicon.main())

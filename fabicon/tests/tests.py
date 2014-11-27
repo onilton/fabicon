@@ -4,6 +4,7 @@
 import unittest
 from nose.tools import ok_, nottest
 from fabicon import getCandidateTags
+import os
 
 
 def genResEntry(kind, url):
@@ -75,7 +76,10 @@ class TestKnownWebsites():
         for url, htmlFile, expectedResult in self.knownResults:
 
             resultsAreEqual.description = 'getCandidateTags give expected results for %s' % url
-            f = open("resources/statichtml/"+htmlFile, 'r')
+
+            script_full_path = os.path.realpath(__file__)
+            script_dir = os.path.dirname(script_full_path)
+            f = open(script_dir + "/resources/statichtml/"+htmlFile, 'r')
             staticHtml = f.read()
 
             candidateTags = getCandidateTags(url, staticHtml=staticHtml)
