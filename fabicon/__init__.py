@@ -409,7 +409,10 @@ def getSocialPagesLocations(url, debug=False):
     socialPagesWithLocations = {'facebook': facebookPagesWithLocations, 'twitter': twitterPagesWithLocations}
 
     joinedLocations = [p['joined_location'] for p in facebookPagesWithLocations] + [p['joined_location'] for p in twitterPagesWithLocations]
-    greatestJoinedLocation = max(joinedLocations)
+    if len(joinedLocations) > 0:
+        greatestJoinedLocation = max(joinedLocations)
+    else:
+        greatestJoinedLocation = None
 
     result = {'pages': socialPagesWithLocations, 'greatest_joined_location': greatestJoinedLocation}
     print (result)
