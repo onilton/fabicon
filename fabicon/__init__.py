@@ -198,6 +198,10 @@ def getTwitterRealName(twitterUsername):
 
     return result
 
+def twitterUsername(twitterPageUrl):
+    tUsername = re.sub(r'^(https?:)?//(www\.|[^/]+\.)?twitter.com\.com/([A-Za-z_0-9-.]+).*', r'\3', twitterPageUrl)
+    return tUsername
+
 
 facebookUsernameExcludeList = ['media', 'permalink.php', 'YOUR_USERNAME', 'photo.php', 'groups', 'sharer.php', 'notes', 'badges', 'business']
 
@@ -308,6 +312,17 @@ def getFacebookPages(url, debug=False):
         facebookPages.append({'username': facebookUsername(facebookUrl), 'url': facebookUrl})
         print "facebookurl="+facebookUrl.encode('utf-8')
     return facebookPages
+
+def getTwitterPages(url, debug=False):
+    # global facebookUrls we do not need to change this
+    candidateTags = getCandidateTags(url)
+    twitterPages = []
+    print "Twitter LINKS!!! "
+
+    for twitterUrl in twitterUrls:
+        twitterPages.append({'username': twitterUsername(twitterUrl), 'url': twitterUrl})
+        print "twitterurl="+twitterUrl.encode('utf-8')
+    return twitterPages
 
 
 # Change urllib user-agent
@@ -878,8 +893,10 @@ def getCandidateTags(url, debug=False, staticHtml=""):
 
     print "Facebook page..."
     global facebookUrls
+    global twitterUrls
 
     facebookUrls = []
+    twitterUrls = []
 
     # Widget, but is not a page, it's a regular user
     facebookUrlsFromWidget = soup.findAll(['fb:fan'], attrs={"profile_id": True})
@@ -993,6 +1010,7 @@ def getCandidateTags(url, debug=False, staticHtml=""):
             print "Domainname:", domainName, "("+cleanDomainName+")", "TwitterRealName:", tRealName.encode("utf-8"), "("+cleanTwtRealName.encode("utf-8")+")", "Similarity:", txtsimil
 
         if (tusername != "share" and txtsimil > 0.6):
+            twitterUrls.append('https://twitter.com/'+tusername)
             candidateTags.append(getTwitterAvatar(tusername, 'original'))
             candidateTags.append(getTwitterAvatar(tusername, 'bigger'))
         print
@@ -1024,6 +1042,8 @@ def main(argv=None):
                        help='shows the list of images/avatar for this url or domain')
     group.add_argument('--facebook-pages', '-fb', dest="facebookPages", action='store_true',
                        help='shows the list of facebook pages/profiles associated with this url or domain')
+    group.add_argument('--twitter-pages', '-ft', dest="twitterPages", action='store_true',
+                       help='shows the list of twiter pages/profiles associated with this url or domain')
     group.add_argument('--feeds', dest="feeds", action='store_true',
                        help='shows the list of feeds that can be found in the url or domain')
     group.add_argument('--feed-language', dest="feedLanguage", action='store_true',
@@ -1051,6 +1071,10 @@ def main(argv=None):
     if args.facebookPages:
         print "######## facebook pages ########"
         getFacebookPages(args.targetUrl)
+
+    if args.twitterPages:
+        print "######## twitter pages ########"
+        getTwitterPages(args.targetUrl)
 
     if args.feeds:
         print "######## Feeds urls ########"
