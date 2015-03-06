@@ -203,7 +203,7 @@ def twitterUsername(twitterPageUrl):
     return tUsername
 
 
-facebookUsernameExcludeList = ['media', 'permalink.php', 'YOUR_USERNAME', 'photo.php', 'groups', 'sharer.php', 'notes', 'badges', 'business']
+facebookUsernameExcludeList = ['media', 'permalink.php', 'YOUR_USERNAME', 'photo.php', 'groups', 'sharer.php', 'notes', 'badges', 'business', 'share.php']
 
 
 def facebookUsername(facebookPageUrl):
