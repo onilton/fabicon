@@ -300,6 +300,7 @@ def getName(url):
     return unicode(baseurl.lower())
 
 facebookUrls = []
+twitterUrls = []
 
 
 def _getFacebookPages(facebookUrls, debug=False):
