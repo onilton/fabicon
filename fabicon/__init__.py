@@ -199,7 +199,7 @@ def getTwitterRealName(twitterUsername):
     return result
 
 def twitterUsername(twitterPageUrl):
-    tUsername = re.sub(r'^(https?:)?//(www\.|[^/]+\.)?twitter.com\.com/([A-Za-z_0-9-.]+).*', r'\3', twitterPageUrl)
+    tUsername = re.sub(r'^(https?:)?//(www\.|[^/]+\.)?twitter\.com/([A-Za-z_0-9-.]+).*', r'\3', twitterPageUrl)
     return tUsername
 
 
