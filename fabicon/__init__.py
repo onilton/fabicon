@@ -147,6 +147,8 @@ def get_or_create(session, model, unique_fields=None, **kwargs):
         return instance  # , False
 
 
+twitterUsernameExcludeList = ['home']
+
 def getConfig():
     config = SafeConfigParser()
 
@@ -1046,6 +1048,10 @@ def getCandidateTags(url, debug=False, staticHtml=""):
         # https://twitter.com/intent/user?region=following&screen_name=Kotaku&source=followbutton&variant=1.1
         tusername = tusername.lower()
         # print tusername
+
+        # Jump this, if username is in twitter username blacklist
+        if tusername in twitterUsernameExcludeList:
+            continue
 
         # if we don't have a explicit link to twitter profile but have a share we get it also ;) Ex: omelete.uol.com.br
         if tusername == "share":
