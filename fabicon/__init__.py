@@ -381,6 +381,31 @@ def getSocialPagesLocations(url, debug=False):
     facebookPagesWithLocations = [dict(fp.items() + {'location': getFacebookPageLocation(fp['username'])}.items()) for fp in facebookPages]
     twitterPagesWithLocations = [dict(tp.items() + {'location': getTwitterLocation(tp['username'])}.items()) for tp in twitterPages]
 
+    # http://stackoverflow.com/q/27062583/1706351
+    # join all location types for facebook
+    for i, page in enumerate(facebookPagesWithLocations):
+        pLocation = page.get('location', None)
+        if pLocation is not None:
+            street = pLocation.get('street', None)
+            city = pLocation.get('city', None)
+            state = pLocation.get('state', None)
+            zipCode = pLocation.get('zip', None)
+            country = pLocation.get('country', None)
+
+            # assemble location data
+            locationData = [street, city, state, zipCode, country]
+
+            # filter None entries
+            locationData = [d for d in locationData if d is not None]
+
+            facebookPagesWithLocations[i]['joined_location'] = ', '.join(locationData)
+        else:
+            facebookPagesWithLocations[i]['joined_location'] = None
+
+
+    # Adds joined_location to twitter
+    twitterPagesWithLocations = [dict(tp.items() + {'joined_location': tp['location']}.items()) for tp in twitterPagesWithLocations ]
+
     socialPagesWithLocations = {'facebook': facebookPagesWithLocations, 'twitter': twitterPagesWithLocations}
     print (socialPagesWithLocations)
     return socialPagesWithLocations
