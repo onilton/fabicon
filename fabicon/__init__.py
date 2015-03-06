@@ -404,11 +404,20 @@ def getSocialPagesLocations(url, debug=False):
 
 
     # Adds joined_location to twitter
-    twitterPagesWithLocations = [dict(tp.items() + {'joined_location': tp['location']}.items()) for tp in twitterPagesWithLocations ]
+    twitterPagesWithLocations = [dict(tp.items() + {'joined_location': tp['location']}.items()) for tp in twitterPagesWithLocations]
 
     socialPagesWithLocations = {'facebook': facebookPagesWithLocations, 'twitter': twitterPagesWithLocations}
-    print (socialPagesWithLocations)
-    return socialPagesWithLocations
+
+    joinedLocations = [p['joined_location'] for p in facebookPagesWithLocations] + [p['joined_location'] for p in twitterPagesWithLocations]
+    greatestJoinedLocation = max(joinedLocations)
+
+    result = {'pages': socialPagesWithLocations, 'greatest_joined_location': greatestJoinedLocation}
+    print (result)
+    if greatestJoinedLocation is not None:
+        print "greatestJoinedLocation=" + greatestJoinedLocation.encode('utf-8')
+    else:
+        print "greatestJoinedLocation=null"
+    return result
 
 
 # Change urllib user-agent
