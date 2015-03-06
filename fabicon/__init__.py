@@ -252,7 +252,11 @@ def removeRepeated(listWithRepeatedItems):
 def cleanJunk(username):
     excludedChars = u'-_ \t'
     translation_map = dict((ord(char), None) for char in excludedChars)
+    # Decode username to use unicode version of translate
+    username = username.decode('utf-8')
     username = username.translate(translation_map)
+    # Encode back to utf-8
+    username = username.encode('utf-8')
 
     # remove frequent diff keywords like ['jornal','site','revista','portal']
     # and maybe reduce precision by doing that
