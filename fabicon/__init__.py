@@ -302,9 +302,8 @@ def getName(url):
 facebookUrls = []
 
 
-def getFacebookPages(url, debug=False):
+def _getFacebookPages(facebookUrls, debug=False):
     # global facebookUrls we do not need to change this
-    candidateTags = getCandidateTags(url)
     facebookPages = []
     print "FACEBOOK LINKS!!! "
 
@@ -313,9 +312,13 @@ def getFacebookPages(url, debug=False):
         print "facebookurl="+facebookUrl.encode('utf-8')
     return facebookPages
 
-def getTwitterPages(url, debug=False):
+def getFacebookPages(url, debug=False):
     # global facebookUrls we do not need to change this
     candidateTags = getCandidateTags(url)
+    return _getFacebookPages(facebookUrls)
+
+def _getTwitterPages(twitterUrls, debug=False):
+    # global twitterUrls we do not need to change this
     twitterPages = []
     print "Twitter LINKS!!! "
 
@@ -323,6 +326,17 @@ def getTwitterPages(url, debug=False):
         twitterPages.append({'username': twitterUsername(twitterUrl), 'url': twitterUrl})
         print "twitterurl="+twitterUrl.encode('utf-8')
     return twitterPages
+
+def getTwitterPages(url, debug=False):
+    # global twitterUrls we do not need to change this
+    candidateTags = getCandidateTags(url)
+    return _getTwitterPages(twitterUrls)
+
+def getSocialPages(url, debug=False):
+    # global facebookUrls we do not need to change this
+    candidateTags = getCandidateTags(url)
+    socialPages = {'facebook': _getFacebookPages(facebookUrls), 'twitter': _getTwitterPages(twitterUrls)}
+    return socialPages
 
 
 # Change urllib user-agent
@@ -1043,7 +1057,9 @@ def main(argv=None):
     group.add_argument('--facebook-pages', '-fb', dest="facebookPages", action='store_true',
                        help='shows the list of facebook pages/profiles associated with this url or domain')
     group.add_argument('--twitter-pages', '-ft', dest="twitterPages", action='store_true',
-                       help='shows the list of twiter pages/profiles associated with this url or domain')
+                       help='shows the list of twitter pages/profiles associated with this url or domain')
+    group.add_argument('--social-pages', '-sp', dest="socialPages", action='store_true',
+                       help='shows the list of twitter and facebook pages/profiles associated with this url or domain')
     group.add_argument('--feeds', dest="feeds", action='store_true',
                        help='shows the list of feeds that can be found in the url or domain')
     group.add_argument('--feed-language', dest="feedLanguage", action='store_true',
@@ -1075,6 +1091,10 @@ def main(argv=None):
     if args.twitterPages:
         print "######## twitter pages ########"
         getTwitterPages(args.targetUrl)
+
+    if args.socialPages:
+        print "######## social pages ########"
+        socialPages = getSocialPages(args.targetUrl)
 
     if args.feeds:
         print "######## Feeds urls ########"
