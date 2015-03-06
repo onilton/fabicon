@@ -189,6 +189,13 @@ def getTwitterAvatar(twitterUsername, size='bigger'):
     return result
 
 
+def getTwitterLocation(twitterUsername):
+    user = twitter.get_user(screen_name=twitterUsername)
+
+    user_location = user.location
+    return user_location
+
+
 def getTwitterRealName(twitterUsername):
     try:
         user = twitter.get_user(screen_name=twitterUsername)
@@ -333,11 +340,24 @@ def getTwitterPages(url, debug=False):
     candidateTags = getCandidateTags(url)
     return _getTwitterPages(twitterUrls)
 
-def getSocialPages(url, debug=False):
-    # global facebookUrls we do not need to change this
-    candidateTags = getCandidateTags(url)
+def _getSocialPages(facebookUrls, twitterUrls, debug=False):
     socialPages = {'facebook': _getFacebookPages(facebookUrls), 'twitter': _getTwitterPages(twitterUrls)}
     return socialPages
+
+def getSocialPages(url, debug=False):
+    candidateTags = getCandidateTags(url)
+    return _getSocialPages(facebookUrls, twitterUrls)
+
+def getSocialPagesLocations(url, debug=False):
+    candidateTags = getCandidateTags(url)
+    socialPages = _getSocialPages(facebookUrls, twitterUrls)
+    facebookPages = socialPages.get('facebook', [])
+    twitterPages = socialPages.get('twitter', [])
+
+    #facebookPagesWithLocations = [dict(tp.items() + {'location': getTwitterLocation(tp['username'])}.items()) for tp in facebookPages]
+    twitterPagesWithLocations = [dict(tp.items() + {'location': getTwitterLocation(tp['username'])}.items()) for tp in twitterPages]
+    print (twitterPagesWithLocations)
+    return twitterPagesWithLocations
 
 
 # Change urllib user-agent
@@ -1061,6 +1081,8 @@ def main(argv=None):
                        help='shows the list of twitter pages/profiles associated with this url or domain')
     group.add_argument('--social-pages', '-sp', dest="socialPages", action='store_true',
                        help='shows the list of twitter and facebook pages/profiles associated with this url or domain')
+    group.add_argument('--social-pages-locations', dest="socialPagesLocations", action='store_true',
+                       help='shows the list of locations from social pages/profiles associated with this url or domain')
     group.add_argument('--feeds', dest="feeds", action='store_true',
                        help='shows the list of feeds that can be found in the url or domain')
     group.add_argument('--feed-language', dest="feedLanguage", action='store_true',
@@ -1096,6 +1118,10 @@ def main(argv=None):
     if args.socialPages:
         print "######## social pages ########"
         socialPages = getSocialPages(args.targetUrl)
+
+    if args.socialPagesLocations:
+        print "######## social pages locations ########"
+        socialPagesLocations = getSocialPagesLocations(args.targetUrl)
 
     if args.feeds:
         print "######## Feeds urls ########"
