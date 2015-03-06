@@ -9,6 +9,7 @@ import re
 import difflib
 import gzip
 import tweepy
+import json
 from tweepy import AppAuthHandler
 from StringIO import StringIO
 from ConfigParser import SafeConfigParser
@@ -210,6 +211,23 @@ def twitterUsername(twitterPageUrl):
     return tUsername
 
 
+def getFacebookPageInfo(facebookUsername):
+    facebookPageOpenGraphUrl = "https://graph.facebook.com/" + facebookUsername
+    try:
+        hops, page, pageSource = getHopsAndSource(facebookPageOpenGraphUrl)
+    except Exception:
+        print "Exception for:", facebookUsername
+        return None
+
+    json_data = json.loads(pageSource)
+    return json_data
+
+
+def getFacebookPageLocation(facebookUsername):
+    facebookPageInfo = getFacebookPageInfo(facebookUsername)
+    return facebookPageInfo.get('location', None)
+
+
 facebookUsernameExcludeList = ['media', 'permalink.php', 'YOUR_USERNAME', 'photo.php', 'groups', 'sharer.php', 'notes', 'badges', 'business', 'share.php']
 
 
@@ -354,10 +372,12 @@ def getSocialPagesLocations(url, debug=False):
     facebookPages = socialPages.get('facebook', [])
     twitterPages = socialPages.get('twitter', [])
 
-    #facebookPagesWithLocations = [dict(tp.items() + {'location': getTwitterLocation(tp['username'])}.items()) for tp in facebookPages]
+    facebookPagesWithLocations = [dict(fp.items() + {'location': getFacebookPageLocation(fp['username'])}.items()) for fp in facebookPages]
     twitterPagesWithLocations = [dict(tp.items() + {'location': getTwitterLocation(tp['username'])}.items()) for tp in twitterPages]
-    print (twitterPagesWithLocations)
-    return twitterPagesWithLocations
+
+    socialPagesWithLocations = {'facebook': facebookPagesWithLocations, 'twitter': twitterPagesWithLocations}
+    print (socialPagesWithLocations)
+    return socialPagesWithLocations
 
 
 # Change urllib user-agent
