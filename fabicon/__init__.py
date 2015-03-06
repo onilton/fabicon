@@ -1050,6 +1050,8 @@ def getCandidateTags(url, debug=False, staticHtml=""):
             candidateTags.append(getTwitterAvatar(tusername, 'bigger'))
         print
 
+    twitterUrls = removeRepeated(twitterUrls)
+
     print "Twitter icons downloaded!"
 
     seen = set()
