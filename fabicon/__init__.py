@@ -1078,6 +1078,7 @@ def getCandidateTags(url, debug=False, staticHtml=""):
                     # print str(test.contents ),str(test.name)
                     print str(test.name), str(test.attrs), str(test.values)
 
+    verifiedTwitterUsernames = set()
     print "Twitter Links:", len(allLinks)
     for tlink in allLinks:
         # print tlink['href']
@@ -1094,6 +1095,12 @@ def getCandidateTags(url, debug=False, staticHtml=""):
         if tusername == "share":
             if tlink.get('data-via', '') != '':
                 tusername = tlink['data-via']
+
+        # If tusername was already verified
+        if tusername in verifiedTwitterUsernames:
+            continue
+        else:
+            verifiedTwitterUsernames.add(tusername)
 
         # TODO in urls permutate and remove to try to get the exact thing: blogs.ne10.uol = ne10.uol and blogs.ne10 or ne10 or uol ne10
         # TODO use twitter profile name to match also instead of just username
