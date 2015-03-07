@@ -1128,6 +1128,9 @@ def getCandidateTags(url, debug=False, staticHtml=""):
 
     print "Twitter icons downloaded!"
 
+    # Clean None candidateTags
+    candidateTags = [c for c in candidateTags if c is not None]
+
     seen = set()
     new_l = []
     for d in candidateTags:
