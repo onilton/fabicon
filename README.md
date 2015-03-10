@@ -40,9 +40,11 @@ Forget about those small ugly .ico files.
 	  --feed-language       shows the language for the feed URL provided
 	  --debug, -d           enable debugging mode
 
-### Inside code 
+### Take it for a spin (in a browser without a webserver)
 	
-	import fabicon
+    python web/demo.py
+    
+And go to [http://localhost:8080/](http://localhost:8080/)
 
 
 ## Tests
