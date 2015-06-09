@@ -834,6 +834,8 @@ def getFeedsAndNonFeeds(url, enableMetaTagSearch=True, visitedUrls=[], checkedFe
                                                # and http://stackoverflow.com/a/1644621/1706351
                                    '?option=com_content&view=featured&format=feed&type=rss',  # for joomla from
                                    '?option=com_content&view=featured&format=feed&type=atom',  # http://stackoverflow.com/a/14806742/1706351
+                                   '?view=featured&format=feed&type=rss', # other joomla possibilities for rss
+                                   '?view=featured&format=feed&type=atom', # atom
                                    'index.xml',      # 50 (frequency) common patterns from a list of feeds
                                    'rss.php',        # 23
                                    'rss/rss.xml',    # 16
