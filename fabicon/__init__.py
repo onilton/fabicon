@@ -663,7 +663,7 @@ def getFeeds(url, enableMetaTagSearch=True, visitedUrls=[], checkedFeedUrls=set(
             siteFeeds = [get_or_create(session, Feed, ['url'], url=feed['url'], title=feed['title'], num_entries=feed['entries_count'], kind=feed['kind']) for feed in allFeedUrls]
 
             site = get_or_create(session, Site, url=url)
-            site.expire_date = datetime.now() + timedelta(weeks=1)
+            site.expire_date = datetime.now() + timedelta(days=1)
             site.feeds[:] = siteFeeds
 
             session.commit()
